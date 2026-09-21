@@ -1,0 +1,8 @@
+Final delivered drill files
+PTH T1: 0.400 mm x 32
+PTH T2: 0.600 mm x 92
+Total unique PTH: 124
+NPTH: 3.200 mm x 4
+Total unique drilled holes: 128
+Three identical duplicate PTH commands removed. See gerber_readback_audit.json.
+Original KiCad drill_report.txt describes the unnormalized 127-PTH-object export.

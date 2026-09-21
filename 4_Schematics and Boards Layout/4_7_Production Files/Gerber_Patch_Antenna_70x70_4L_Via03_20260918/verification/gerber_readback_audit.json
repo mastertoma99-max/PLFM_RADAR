@@ -1,0 +1,254 @@
+{
+  "reader": "gerbonara 1.6.3",
+  "units": "mm",
+  "shape_comparison": {
+    "F_Cu": {
+      "all_changes_within_0.65mm_of_16_modified_vias": true,
+      "changed_copper_area_mm2": 2.1834210668825462,
+      "unexplained_change_area_mm2": 0.0
+    },
+    "In1_Cu": {
+      "all_changes_within_0.65mm_of_16_modified_vias": true,
+      "changed_copper_area_mm2": 7.0680797274011065,
+      "unexplained_change_area_mm2": 0.0
+    },
+    "In2_Cu": {
+      "all_changes_within_0.65mm_of_16_modified_vias": true,
+      "changed_copper_area_mm2": 7.0680797274011065,
+      "unexplained_change_area_mm2": 0.0
+    },
+    "B_Cu": {
+      "all_changes_within_0.65mm_of_16_modified_vias": true,
+      "changed_copper_area_mm2": 2.1779633550895534,
+      "unexplained_change_area_mm2": 0.0
+    },
+    "F_Mask": {
+      "unchanged_from_Via02": true
+    },
+    "B_Mask": {
+      "unchanged_from_Via02": true
+    },
+    "F_Silkscreen": {
+      "unchanged_from_Via02": true
+    },
+    "B_Silkscreen": {
+      "unchanged_from_Via02": true
+    },
+    "Edge_Cuts": {
+      "unchanged_from_Via02": true
+    }
+  },
+  "manufacturing_parameters": "material, board thickness, copper weights, finish TBD",
+  "physical_connectivity": {
+    "all_17_nets_connected": true,
+    "shorts_between_nets": 0,
+    "tested_pads": 80,
+    "tested_vias": 28,
+    "method": "Gerber polygon union + plated-via graph; 0.1um arc approximation, 2um point tolerance"
+  },
+  "enlarged_via_clearance": {
+    "required_mm": 0.1,
+    "minimum_measured_mm": 0.2004999999999981,
+    "all_16_vias": [
+      {
+        "net": "N$1",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 7.71621719590506,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.8691012864933536
+        }
+      },
+      {
+        "net": "N$2",
+        "minimum_copper_clearance_mm": 0.2004999999999981,
+        "by_layer": {
+          "F_Cu": 8.103323382428984,
+          "In1_Cu": 0.2004999999999981,
+          "In2_Cu": 0.2004999999999981,
+          "B_Cu": 1.9428999570327699
+        }
+      },
+      {
+        "net": "N$3",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 7.881490079963241,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.860418010066058
+        }
+      },
+      {
+        "net": "N$4",
+        "minimum_copper_clearance_mm": 0.2004999999999981,
+        "by_layer": {
+          "F_Cu": 7.964696018926215,
+          "In1_Cu": 0.2004999999999981,
+          "In2_Cu": 0.2004999999999981,
+          "B_Cu": 1.860418010066058
+        }
+      },
+      {
+        "net": "N$5",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 4.681999999999994,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.9231959102592378
+        }
+      },
+      {
+        "net": "N$6",
+        "minimum_copper_clearance_mm": 0.2004999999999981,
+        "by_layer": {
+          "F_Cu": 4.681999999999995,
+          "In1_Cu": 0.2004999999999981,
+          "In2_Cu": 0.2004999999999981,
+          "B_Cu": 1.906400313156664
+        }
+      },
+      {
+        "net": "N$7",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 4.681999999999995,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.9147243742243194
+        }
+      },
+      {
+        "net": "N$8",
+        "minimum_copper_clearance_mm": 0.2004999999999981,
+        "by_layer": {
+          "F_Cu": 4.681999999999995,
+          "In1_Cu": 0.2004999999999981,
+          "In2_Cu": 0.2004999999999981,
+          "B_Cu": 1.9147243742243194
+        }
+      },
+      {
+        "net": "N$9",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 4.642000000000003,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.887098880834099
+        }
+      },
+      {
+        "net": "N$10",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 4.642000000000003,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.8700244297483646
+        }
+      },
+      {
+        "net": "N$11",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 4.742000000000004,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.9453954479129374
+        }
+      },
+      {
+        "net": "N$12",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 4.642000000000003,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.8784858033517244
+        }
+      },
+      {
+        "net": "N$13",
+        "minimum_copper_clearance_mm": 0.2004999999999981,
+        "by_layer": {
+          "F_Cu": 4.602000000000004,
+          "In1_Cu": 0.2004999999999981,
+          "In2_Cu": 0.2004999999999981,
+          "B_Cu": 1.8511405579137168
+        }
+      },
+      {
+        "net": "N$14",
+        "minimum_copper_clearance_mm": 0.2004999999999981,
+        "by_layer": {
+          "F_Cu": 4.702000000000006,
+          "In1_Cu": 0.2004999999999981,
+          "In2_Cu": 0.2004999999999981,
+          "B_Cu": 1.9246354672040553
+        }
+      },
+      {
+        "net": "N$15",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 4.702000000000005,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.9328905044159272
+        }
+      },
+      {
+        "net": "N$16",
+        "minimum_copper_clearance_mm": 0.20049999999999812,
+        "by_layer": {
+          "F_Cu": 4.602000000000003,
+          "In1_Cu": 0.20049999999999812,
+          "In2_Cu": 0.20049999999999812,
+          "B_Cu": 1.8170262187556578
+        }
+      }
+    ]
+  },
+  "physical_solder_mask_check": {
+    "F_Mask": {
+      "openings": 20,
+      "openings_exposing_multiple_nets": 0
+    },
+    "B_Mask": {
+      "openings": 36,
+      "openings_exposing_multiple_nets": 0
+    }
+  },
+  "drill_readback": {
+    "total_holes": 32,
+    "PTH_0.2mm": 0,
+    "PTH_0.3mm": 28,
+    "NPTH_3.2mm": 4,
+    "all_positions_match_source": true
+  },
+  "outline": {
+    "closed": true,
+    "centerline_size_mm": [
+      70,
+      70
+    ]
+  },
+  "job_manifest": "Removed unconfirmed default material, thickness, finish and design-rule claims; outline size is centerline size.",
+  "drc_Via03": {
+    "violations_by_type": {
+      "solder_mask_bridge": 64
+    },
+    "unconnected_reports": 24
+  },
+  "drc_Via02_reference": {
+    "violations_by_type": {
+      "drill_out_of_range": 16,
+      "solder_mask_bridge": 60
+    },
+    "unconnected_reports": 24
+  },
+  "drc_interpretation": "The 16 drill-size violations are eliminated. No copper short, copper clearance, or annular-ring violations. Imported connector mask/ground-graphic reports remain; physical Gerber connectivity and mask checks above independently verified. No RF-performance equivalence is asserted."
+}

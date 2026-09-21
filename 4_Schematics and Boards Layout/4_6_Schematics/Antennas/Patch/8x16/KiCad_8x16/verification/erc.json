@@ -1,0 +1,292 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-20T18:47:18",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/11855c0f-4b80-499e-9736-5a740d1f01d7",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J4 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.635
+                            },
+                            "uuid": "71a9e2c6-aa6c-46b9-adcb-b10e37ea2c74"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J17 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.889
+                            },
+                            "uuid": "25bc6061-442d-40b6-9921-fd9fbc4ebc84"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J5 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.635
+                            },
+                            "uuid": "9f8f2c32-73cf-4439-8ac7-fc771aee0c80"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J12 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 1.1176
+                            },
+                            "uuid": "71d0a3c8-58a2-4fca-99ec-e4567a5b3473"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J1 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.889
+                            },
+                            "uuid": "70aaf28d-3b5b-4508-97d4-ee1b8eab9292"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #GND1 引脚 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.9906
+                            },
+                            "uuid": "5a625365-3460-49a5-88ff-d89416d39947"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J8 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 1.3716
+                            },
+                            "uuid": "1726c9ea-a94f-4104-a555-4e85a1b8f899"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J13 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 1.1176
+                            },
+                            "uuid": "b69adf25-d723-46c2-bac1-9d0b16f18a1e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J6 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.635
+                            },
+                            "uuid": "7b55e15e-d222-4aba-a4cf-b4e0031ec9ae"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J2 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 0.889
+                            },
+                            "uuid": "b03caf4e-245f-4016-948d-4e3cd6e70210"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J9 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 1.3716
+                            },
+                            "uuid": "8b842eba-042d-4767-aa5a-908047aa3b2a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J14 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 1.1176
+                            },
+                            "uuid": "21d3a6f3-e5f8-4b4c-8e33-867073b1a613"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J7 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.635
+                            },
+                            "uuid": "b7887b2d-ba24-47d3-a05b-31ed78658044"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J3 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.889
+                            },
+                            "uuid": "7f6d390e-d9e4-48c9-a17d-d1a0f97ceadf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J10 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.4732,
+                                "y": 1.3716
+                            },
+                            "uuid": "4783127f-0177-46c7-b8b2-6d3372d6e75f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J15 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 1.1176
+                            },
+                            "uuid": "82244f0d-b5bd-42a4-ad25-b0f821595a9d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J11 引脚 1 [1, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 1.3716
+                            },
+                            "uuid": "de0d60fa-f3f4-4384-94b3-6124e93a8b80"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                }
+            ]
+        }
+    ],
+    "source": "Patch_Anetnna_16_8.kicad_sch"
+}

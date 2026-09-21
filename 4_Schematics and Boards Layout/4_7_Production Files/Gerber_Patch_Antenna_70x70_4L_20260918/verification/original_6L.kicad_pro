@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "filename": "original_6L.kicad_pro",
+    "version": 1
+  },
+  "board": {
+    "design_settings": {
+      "rules": {
+        "min_clearance": 0.1,
+        "min_track_width": 0.1,
+        "min_through_hole_diameter": 0.3,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.4,
+        "min_copper_edge_clearance": 0.3,
+        "solder_mask_clearance": 0.0508
+      }
+    }
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.1,
+        "track_width": 0.1,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      }
+    ],
+    "version": 4
+  }
+}

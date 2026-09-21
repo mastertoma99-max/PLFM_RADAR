@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "PLFM_RF") (type "KiCad") (uri "${KIPRJMOD}/PLFM_RF.kicad_sym") (options "") (descr "Project RF symbols")))

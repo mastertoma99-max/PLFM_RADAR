@@ -1,0 +1,21 @@
+{
+  "before_sha256": "8dda7978ec3eb3fe2aaf9f7dac06dc2af21d4b849d08607b6748bbcd31717d35",
+  "after_sha256": "146fcb3d8ca3033c4d48bd3b182f5a673d1ef5a04cca4e7f6148e2b701c0f70f",
+  "pcb_change": "Only general board thickness 1.6 -> 1.0 mm; copper geometry unchanged",
+  "user_parameters": {
+    "material": "FR4",
+    "finished_board_thickness_mm": 1.0,
+    "outer_copper_oz": 1.0,
+    "inner_copper_oz": 0.5,
+    "finish": "OSP",
+    "copper_order": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "individual_dielectric_thickness_mm": null,
+    "manufacturer_stackup_confirmation_required": true,
+    "user_specification": "FR4 1mm板厚 外层铜厚1盎司，内层0.5盎司，表面osp，叠层按照文件叠层顺序"
+  }
+}

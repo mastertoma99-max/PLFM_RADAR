@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\2_Works\4_Procedures\PLFM_RADAR\4_Schematics and Boards Layout\4_6_Schematics\Antennas\Patch\8x16\KiCad_8x16\Patch_Anetnna_16_8.kicad_sch</source>
+    <date>2026-09-20T18:47:12</date>
+    <tool>Eeschema 10.0.0</tool>
+    <textvar name="IMPORT_NOTE">EAGLE 8x16 import; fabrication stackup unconfirmed</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Patch_Anetnna_16_8.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>657fa529-646d-424e-a3de-961fc016235b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b4c3c91-0679-4143-8472-d4fb417d2921</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9919073-f1c8-4f0b-834e-439ddfc94537</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db8fc76b-23dd-4d1d-89b0-1a7c55d60d29</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77e6f4ff-1c25-4b3e-ad46-6965e33d3b84</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9a415d3-ad6b-477c-b052-8d91e63a3edb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f61e4ad-c44e-4874-979d-7c7f30208d22</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a498c0bc-d3c0-4548-9dae-3f61c07146a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b02409f-e210-47eb-bed6-fc66c632197b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>230f3a88-f5d3-4914-8916-48d6bb304cd5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bff9377-670b-45d1-868a-75d55cb7a87c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e357409d-38ae-4998-94b4-cbd85192f541</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10f1d970-3852-4d7c-bfae-3348f8fd3848</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J14">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2907887-38f2-4b2a-9129-d0b024d83ea9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J15">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fe0eb76-8b66-40b6-bd33-cf4a350f8afd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J17">
+      <value>142-0731-211</value>
+      <footprint>Patch_Anetnna_16_8:1420731211</footprint>
+      <fields>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8f719db-a2f2-47af-bba0-a51d01a41630</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Patch_Anetnna_16_8-eagle-import" part="142-0731-211">
+      <description>SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder
+
+Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">Patch_Anetnna_16_8:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder
+
+Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Patch_Anetnna_16_8-eagle-import">
+      <uri>${KIPRJMOD}/Patch_Anetnna_16_8-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J10" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J10" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J10" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J10" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J11" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J11" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J11" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J11" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J12" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J12" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J12" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J12" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J13" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J13" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J13" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J13" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J14" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J14" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J14" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J14" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J15" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J15" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J15" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J15" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J17" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J17" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J17" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J17" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J2" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J2" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J3" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J3" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J4" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J4" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J5" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J5" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J6" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J6" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J6" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J7" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J7" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J7" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J8" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J8" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J8" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J8" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J9" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J9" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J9" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J9" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="unconnected-(J1-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="unconnected-(J2-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="unconnected-(J3-Pad1)" class="Default">
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="unconnected-(J4-Pad1)" class="Default">
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="unconnected-(J5-Pad1)" class="Default">
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="unconnected-(J6-Pad1)" class="Default">
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="unconnected-(J7-Pad1)" class="Default">
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="unconnected-(J8-Pad1)" class="Default">
+      <node ref="J8" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="unconnected-(J9-Pad1)" class="Default">
+      <node ref="J9" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="unconnected-(J10-Pad1)" class="Default">
+      <node ref="J10" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="unconnected-(J11-Pad1)" class="Default">
+      <node ref="J11" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="unconnected-(J12-Pad1)" class="Default">
+      <node ref="J12" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="unconnected-(J13-Pad1)" class="Default">
+      <node ref="J13" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="unconnected-(J14-Pad1)" class="Default">
+      <node ref="J14" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="unconnected-(J15-Pad1)" class="Default">
+      <node ref="J15" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="unconnected-(J17-Pad1)" class="Default">
+      <node ref="J17" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

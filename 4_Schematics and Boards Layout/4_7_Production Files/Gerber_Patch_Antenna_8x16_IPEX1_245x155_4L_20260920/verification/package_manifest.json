@@ -1,0 +1,29 @@
+{
+  "archive": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_7_Production Files\\Gerber_Patch_Antenna_8x16_IPEX1_245x155_4L_20260920\\Patch_Antenna_8x16_IPEX1_245x155_4L_Gerber_20260920.zip",
+  "bytes": 25562,
+  "sha256": "c17f06b028880ab90258964d5a0dd6337e4cd7fcdf50aedf30b0a8fdee0502ab",
+  "files": {
+    "Patch_Anetnna_16_8_IPEX1-B_Cu.gbl": "d28401cc1b749955f65af84477131e66a7f11e77a2b533190024de9f337466a3",
+    "Patch_Anetnna_16_8_IPEX1-B_Mask.gbs": "e239704e8ca03fd5e2c3c05cea97778c70a82dc93ff833966aa22ccfff98bf01",
+    "Patch_Anetnna_16_8_IPEX1-B_Silkscreen.gbo": "efaba663f2d42debae7e3dcca8798581403562f7c343c05217f7c82a23dee2dc",
+    "Patch_Anetnna_16_8_IPEX1-Edge_Cuts.gm1": "0704affc066008ac5fdf725971b206c34cc207188ff19d84bb161b03edec9673",
+    "Patch_Anetnna_16_8_IPEX1-F_Cu.gtl": "68728813e658c0adcc8476d1bd3c0012594a9bf5901269dc4873999546e44f2e",
+    "Patch_Anetnna_16_8_IPEX1-F_Mask.gts": "ac6565d28d71a1dbaf359ab4f638f28095242dc9e98c4b3df1e2a8690387d2e7",
+    "Patch_Anetnna_16_8_IPEX1-F_Silkscreen.gto": "789239ccd15bcea3dc3adfa4d5a7d0cb3b65789758aa383cd0d8b621b560018e",
+    "Patch_Anetnna_16_8_IPEX1-In1_Cu.g1": "cf32816a002ae9c0732a4a86d45ac74ff7d84975bd653808c70f6011c39934b7",
+    "Patch_Anetnna_16_8_IPEX1-In2_Cu.g2": "0fc780a5aa4be1eafbf9484ada572d88563c66a14b2808c92232311cd0243180",
+    "Patch_Anetnna_16_8_IPEX1-job.gbrjob": "d361bc31184c3365f798520858321627b06c908021d6a25fb594843b775a70c9",
+    "Patch_Anetnna_16_8_IPEX1-NPTH.drl": "3d7275329f1a4ab358189a9b27676f9aedf37fe1fd733616ea62c7038b5627eb",
+    "Patch_Anetnna_16_8_IPEX1-PTH.drl": "1a191cd39c73163a151ab45d8731f6b615889fda8f1492b3dadf469785ad9352",
+    "Patch_Anetnna_16_8_IPEX1.d356": "08b3541880886edd3cec78d390758d1f8cfe417b045433bb7385111f9c2d1006",
+    "README_制造说明.txt": "61aaef5edad953adb6a8799188f8daa820579b5e1e043147c25a2c2c28a78bda",
+    "fabrication_requirements.json": "eafbbc9004bfaf01f3d2e43b3f3f55f04e36a1c9a0f77dea0d0a02781812b527",
+    "SHA256SUMS.txt": "49f8cc757406bb44617d4f01ccbe594052608fe7cac9dc5a952f027c7716c182"
+  },
+  "zip_crc_and_all_file_hashes_verified": true,
+  "extracted_gerber_drill_and_ipc_files_parse_successfully": true,
+  "source_board_sha256": "502da280373f53815508cf2a5a1c42b42f2741adf6751354aa3668b69cfc643a",
+  "exported_board_sha256": "5f82627f6c76733ae5a258ccc8563b5bf3ee1fb04882a92bf518dbbea3531d94",
+  "physical_geometry_unchanged": true,
+  "manufacturing_parameters_pending": true
+}

@@ -1,0 +1,5319 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "5def3a2d-b525-55ae-be39-6355cbb88680")
+	(paper "A3")
+	(title_block
+		(title "4 x 4 Phased Array - IPEX I Generation")
+		(date "2026-09-20")
+		(rev "IPEX1-A")
+		(comment 1 "ECT 818000368 / SPEC E / YC.DZ.SS00008")
+		(comment 2 "4L Via03 / Connector rated DC-6GHz / RF validation required")
+	)
+	(lib_symbols
+		(symbol "PLFM_RF:ECT_818000368"
+			(pin_names
+				(offset 0.4)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "818000368"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "ECT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "818000368"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MaterialCode" "YC.DZ.SS00008"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ECT_818000368_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.2) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.2) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ECT_818000368_1_1"
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "SIG"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PLFM_RF:Patch_10p5GHz"
+			(pin_names
+				(offset 0.4)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10.5GHZ_ANT"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Original 10.5GHz printed antenna element, copper dimensions unchanged"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Patch_10p5GHz_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Patch_10p5GHz_1_1"
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "FEED"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0.9 0.9)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Array 3_4"
+		(exclude_from_sim no)
+		(at 313.69 138.43 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "117809ba-df24-52de-8c96-989a12f2f907")
+	)
+	(text "Array 3_1"
+		(exclude_from_sim no)
+		(at 31.75 138.43 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "1af6d785-a4a3-5e02-8b9c-10e2abaf9dfa")
+	)
+	(text "Array 1_4"
+		(exclude_from_sim no)
+		(at 313.69 26.67 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "21153651-dbc6-50f0-ae1f-fe98f55c68d4")
+	)
+	(text "Array 4_1"
+		(exclude_from_sim no)
+		(at 31.75 194.31 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "2e0591ab-9b66-5b45-88dc-2c538165102e")
+	)
+	(text "Array 4_4"
+		(exclude_from_sim no)
+		(at 313.69 194.31 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "2e664955-e403-53c6-993c-d42fe6dc6f3c")
+	)
+	(text "Array 3_3"
+		(exclude_from_sim no)
+		(at 219.71 138.43 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "305b5f08-fb99-52c8-bf60-0631f373f5eb")
+	)
+	(text "Array 1_1"
+		(exclude_from_sim no)
+		(at 31.75 26.67 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "42f6f1b4-f800-5585-9c4a-cc0d00ea41fc")
+	)
+	(text "Array 1_3"
+		(exclude_from_sim no)
+		(at 219.71 26.67 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "43fd2e93-a184-5a97-a223-4eb75b6ce0fc")
+	)
+	(text "Array 2_3"
+		(exclude_from_sim no)
+		(at 219.71 82.55 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "50e632e2-bb98-5ff6-8df7-a8f80189a5bb")
+	)
+	(text "Array 2_1"
+		(exclude_from_sim no)
+		(at 31.75 82.55 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "5c281798-0b51-5b2b-9868-337c3672ea0c")
+	)
+	(text "Array 4_3"
+		(exclude_from_sim no)
+		(at 219.71 194.31 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "6890a660-c8ef-5fcf-8fb2-427a6e774fd2")
+	)
+	(text "Array 1_2"
+		(exclude_from_sim no)
+		(at 125.73 26.67 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "6ca85ee6-5b1f-5e6b-9961-f6ce7bff8c12")
+	)
+	(text "Array 2_2"
+		(exclude_from_sim no)
+		(at 125.73 82.55 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "a4a84627-e7f7-5314-8c94-8df605b78f5e")
+	)
+	(text "Array 3_2"
+		(exclude_from_sim no)
+		(at 125.73 138.43 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "a9220fb0-a783-554e-b3e8-92c19df4ccd2")
+	)
+	(text "Array 2_4"
+		(exclude_from_sim no)
+		(at 313.69 82.55 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "aaf0f2b8-3962-5d9e-970a-21c84da2b281")
+	)
+	(text "Array 4_2"
+		(exclude_from_sim no)
+		(at 125.73 194.31 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left)
+		)
+		(uuid "c427b13d-16af-52f8-9e35-5f8a191d7639")
+	)
+	(text "Pin convention: 1 = SIG, 2 / 3 = GND (both shell terminals).\nConnector: ECT 818000368, I generation, H 1.25 mm, rated DC - 6 GHz.\nOriginal patch copper and N$1 - N$16 connectivity retained. 10.5 GHz RF performance requires validation."
+		(exclude_from_sim no)
+		(at 25.4 254 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5898ad2-81cf-505b-8276-2f84285125dc")
+	)
+	(junction
+		(at 240.03 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e7a0c5f-6ae5-5ccb-b4f4-f0e6f8f15b20")
+	)
+	(junction
+		(at 334.01 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21578a84-af1f-5dd9-a442-6c4b8b087e33")
+	)
+	(junction
+		(at 240.03 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c321ba1-a749-55aa-b07a-1a023494f68d")
+	)
+	(junction
+		(at 240.03 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d86e9b6-48e9-5f52-8bd7-e0a6c4913b55")
+	)
+	(junction
+		(at 52.07 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6411a864-ae73-55cf-97c9-3b0c2240fb3d")
+	)
+	(junction
+		(at 146.05 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66a318e8-e77c-5329-9ae7-aa06d59939e0")
+	)
+	(junction
+		(at 146.05 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75f0094c-c4ab-5e67-9862-5e13f9124608")
+	)
+	(junction
+		(at 146.05 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c3e36d1-d528-5476-8d81-7cf86020e39f")
+	)
+	(junction
+		(at 146.05 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9aca60e0-fc8d-57ed-b091-953eebfc87d7")
+	)
+	(junction
+		(at 334.01 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9ae6d5a-5ab6-5a7b-b717-ab7548c984c7")
+	)
+	(junction
+		(at 334.01 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b679081f-6657-542e-9bf0-612b592232a8")
+	)
+	(junction
+		(at 334.01 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb91b0e2-2736-52b7-9853-b50b04e6f59a")
+	)
+	(junction
+		(at 52.07 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5cb43ed-3c2c-5c59-9b51-9498d803ecfd")
+	)
+	(junction
+		(at 52.07 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb402418-10dd-5579-8cd5-544e6cac3731")
+	)
+	(junction
+		(at 240.03 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cedfc1ab-8129-570d-a275-caa0e01ef36f")
+	)
+	(junction
+		(at 52.07 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de8926e7-320f-5b43-b57e-1133836c1046")
+	)
+	(wire
+		(pts
+			(xy 52.07 40.64) (xy 52.07 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "033d1230-adcc-5706-95b8-b11fc8ff8d88")
+	)
+	(wire
+		(pts
+			(xy 240.03 96.52) (xy 240.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087587eb-4d0a-5890-9ab5-57a6e38c353e")
+	)
+	(wire
+		(pts
+			(xy 124.46 160.02) (xy 124.46 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089ce11d-e082-5a78-8970-1b120b853f85")
+	)
+	(wire
+		(pts
+			(xy 312.42 215.9) (xy 312.42 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2fca31-e2d3-5e9c-883f-6bfc789b1668")
+	)
+	(wire
+		(pts
+			(xy 321.31 208.28) (xy 351.79 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3bcb6b-ef67-561f-9370-2d85df9b9305")
+	)
+	(wire
+		(pts
+			(xy 321.31 152.4) (xy 351.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b5a110d-22fd-59b9-807a-8ef3298e7b9a")
+	)
+	(wire
+		(pts
+			(xy 227.33 152.4) (xy 257.81 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143974e8-3c3a-5cde-9fda-52eed618279b")
+	)
+	(wire
+		(pts
+			(xy 312.42 104.14) (xy 312.42 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a03989a-5144-519c-bf19-cc81f39277e2")
+	)
+	(wire
+		(pts
+			(xy 220.98 160.02) (xy 220.98 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b22e78c-325d-507a-ac71-e4af8b7e5600")
+	)
+	(wire
+		(pts
+			(xy 127 48.26) (xy 127 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc8e468-7911-5643-93de-a0adf0bebba6")
+	)
+	(wire
+		(pts
+			(xy 220.98 104.14) (xy 220.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c9e61e-0a0e-5cff-87e1-68544198392b")
+	)
+	(wire
+		(pts
+			(xy 30.48 48.26) (xy 30.48 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2462b705-2414-5201-bcfd-a695c7dd8856")
+	)
+	(wire
+		(pts
+			(xy 124.46 52.07) (xy 127 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a0a1ffe-8f2f-5a72-9bd1-e467d1fc214c")
+	)
+	(wire
+		(pts
+			(xy 39.37 208.28) (xy 69.85 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e92c342-b964-56d2-a699-657d418cc13a")
+	)
+	(wire
+		(pts
+			(xy 218.44 104.14) (xy 218.44 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30762a39-9394-5449-b496-23b8a9b67179")
+	)
+	(wire
+		(pts
+			(xy 30.48 163.83) (xy 33.02 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30d89f61-5ff6-52eb-a69f-1bd6e4747dcf")
+	)
+	(wire
+		(pts
+			(xy 30.48 219.71) (xy 33.02 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a66ec7c-5da1-5ee6-b3d5-1ecded19a459")
+	)
+	(wire
+		(pts
+			(xy 218.44 48.26) (xy 218.44 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bd31611-5ed3-56b9-bcdb-6bf2776da895")
+	)
+	(wire
+		(pts
+			(xy 30.48 160.02) (xy 30.48 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e9faf87-f270-5e27-850e-72e430bd0ac1")
+	)
+	(wire
+		(pts
+			(xy 33.02 215.9) (xy 33.02 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5e2763-ba69-5307-8549-e0d64160db7b")
+	)
+	(wire
+		(pts
+			(xy 124.46 219.71) (xy 127 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42e41e52-5ff5-5c4e-a360-8fef166275b5")
+	)
+	(wire
+		(pts
+			(xy 227.33 40.64) (xy 257.81 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434bc1d0-40ba-5557-857f-ec96dab338cd")
+	)
+	(wire
+		(pts
+			(xy 218.44 107.95) (xy 220.98 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47805a54-f8f0-5a09-b623-3c090c1e42fc")
+	)
+	(wire
+		(pts
+			(xy 146.05 96.52) (xy 146.05 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "498d1cd7-e2d6-58ef-a11c-7edd0e4018be")
+	)
+	(wire
+		(pts
+			(xy 321.31 96.52) (xy 351.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9393d1-c787-5229-867a-0428d64df5d9")
+	)
+	(wire
+		(pts
+			(xy 30.48 107.95) (xy 33.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ddf3ff5-6ee5-5e07-9d97-7b801b6cc37d")
+	)
+	(wire
+		(pts
+			(xy 52.07 208.28) (xy 52.07 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ef0f46-aa5e-5f32-9279-34384cdc1557")
+	)
+	(wire
+		(pts
+			(xy 314.96 160.02) (xy 314.96 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571ef09f-d54b-5677-9b13-9b3fd8496b13")
+	)
+	(wire
+		(pts
+			(xy 334.01 40.64) (xy 334.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "582aacc3-1f7d-5bcb-9c1f-f2053b4ac340")
+	)
+	(wire
+		(pts
+			(xy 146.05 152.4) (xy 146.05 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d50a643-8db0-5b57-9bd1-5e3cb06a1436")
+	)
+	(wire
+		(pts
+			(xy 124.46 215.9) (xy 124.46 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f0bc545-b021-5147-9c26-683ffe250fc2")
+	)
+	(wire
+		(pts
+			(xy 127 160.02) (xy 127 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63080dab-fe24-5378-b4c0-d80381341c9d")
+	)
+	(wire
+		(pts
+			(xy 33.02 104.14) (xy 33.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69052f91-c8c6-5357-9960-061c89185c77")
+	)
+	(wire
+		(pts
+			(xy 312.42 163.83) (xy 314.96 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8903ec-e7f5-51b4-95b2-3e05c1ff60eb")
+	)
+	(wire
+		(pts
+			(xy 240.03 208.28) (xy 240.03 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6db8514b-b8b0-5e5e-bc9f-739e9df81a34")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f69542b-7d6e-5da1-8aa7-9079427d776e")
+	)
+	(wire
+		(pts
+			(xy 124.46 48.26) (xy 124.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "708f936f-9440-5e7a-bbd8-b6f985794633")
+	)
+	(wire
+		(pts
+			(xy 124.46 104.14) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720758c3-bd24-55e2-97d2-a0b24910c993")
+	)
+	(wire
+		(pts
+			(xy 314.96 48.26) (xy 314.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7217d8cd-eebc-584c-a9c7-18cbe544c896")
+	)
+	(wire
+		(pts
+			(xy 124.46 107.95) (xy 127 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5d568c-117f-599f-be5a-51fed822b66f")
+	)
+	(wire
+		(pts
+			(xy 52.07 152.4) (xy 52.07 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88012391-e26d-5f5a-b826-36a647c22c82")
+	)
+	(wire
+		(pts
+			(xy 133.35 152.4) (xy 163.83 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c82b36-6d11-57fa-a1f5-96b96a3a0547")
+	)
+	(wire
+		(pts
+			(xy 240.03 40.64) (xy 240.03 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d379bbc-0d60-5ad5-bee3-a0905d419e61")
+	)
+	(wire
+		(pts
+			(xy 321.31 40.64) (xy 351.79 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fff8268-1e47-5307-88b5-de79a792a3ba")
+	)
+	(wire
+		(pts
+			(xy 33.02 48.26) (xy 33.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92c4dec4-01a8-5ed3-9b83-872b53a1b2db")
+	)
+	(wire
+		(pts
+			(xy 218.44 163.83) (xy 220.98 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94a54c3b-1fd4-5bcf-bed9-08940a11c6cb")
+	)
+	(wire
+		(pts
+			(xy 146.05 40.64) (xy 146.05 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965a6286-96f9-50ad-b539-6ca94665a626")
+	)
+	(wire
+		(pts
+			(xy 314.96 104.14) (xy 314.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99965138-cb90-5403-a39a-7cbb4ed6452d")
+	)
+	(wire
+		(pts
+			(xy 218.44 219.71) (xy 220.98 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee97cbc-afee-54ae-8b9c-ba679b60cfa3")
+	)
+	(wire
+		(pts
+			(xy 30.48 104.14) (xy 30.48 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8eabdb7-8d25-5e0c-bf2f-73b24dbdaa97")
+	)
+	(wire
+		(pts
+			(xy 218.44 160.02) (xy 218.44 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a949db28-92fe-566f-9688-b1b7ca6ae9d5")
+	)
+	(wire
+		(pts
+			(xy 127 215.9) (xy 127 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abdb1e72-a266-522a-9639-2fc4cdef70a0")
+	)
+	(wire
+		(pts
+			(xy 39.37 40.64) (xy 69.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0db638b-6503-5d6a-87e9-4e3e1d4c9cb2")
+	)
+	(wire
+		(pts
+			(xy 33.02 160.02) (xy 33.02 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1dd17e3-51db-5057-9f3e-ba580e97e86c")
+	)
+	(wire
+		(pts
+			(xy 314.96 215.9) (xy 314.96 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64d5038-a358-5808-ab24-676f10580b88")
+	)
+	(wire
+		(pts
+			(xy 312.42 160.02) (xy 312.42 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b661f957-93c9-5164-81e5-318205a8cde3")
+	)
+	(wire
+		(pts
+			(xy 334.01 96.52) (xy 334.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b772c5c1-9aac-5b44-b869-e1f438122893")
+	)
+	(wire
+		(pts
+			(xy 30.48 52.07) (xy 33.02 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b893e55e-2108-5175-835a-9c1611032bcf")
+	)
+	(wire
+		(pts
+			(xy 312.42 52.07) (xy 314.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0556182-8068-5401-bfa1-4e22323c737f")
+	)
+	(wire
+		(pts
+			(xy 312.42 107.95) (xy 314.96 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30a84fc-5809-5539-bf1f-b5b14038a81d")
+	)
+	(wire
+		(pts
+			(xy 218.44 215.9) (xy 218.44 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c757a5cf-6305-59d0-ae63-0d856f39d8c3")
+	)
+	(wire
+		(pts
+			(xy 52.07 96.52) (xy 52.07 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d7533f-685a-5c2b-b3d8-3623e07d6d4b")
+	)
+	(wire
+		(pts
+			(xy 146.05 208.28) (xy 146.05 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5bfd02-918e-5ff0-bcc0-2ee74eb45cc0")
+	)
+	(wire
+		(pts
+			(xy 312.42 219.71) (xy 314.96 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8fde0e-ee2c-56a1-b21e-ed11a349b698")
+	)
+	(wire
+		(pts
+			(xy 39.37 96.52) (xy 69.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce7b92c1-306a-54f2-a105-2d198e89ea05")
+	)
+	(wire
+		(pts
+			(xy 218.44 52.07) (xy 220.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d387ddc7-c471-5398-b0a5-23d4bc5dc04d")
+	)
+	(wire
+		(pts
+			(xy 227.33 96.52) (xy 257.81 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d479af31-237b-53c7-af30-b4aa66f00282")
+	)
+	(wire
+		(pts
+			(xy 227.33 208.28) (xy 257.81 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5976722-4cf0-5098-aafe-1ad73ccc3eb6")
+	)
+	(wire
+		(pts
+			(xy 312.42 48.26) (xy 312.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d79ce4be-3337-55a1-860c-5b04322c3dfe")
+	)
+	(wire
+		(pts
+			(xy 39.37 152.4) (xy 69.85 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae86e0d-53dd-5562-8b80-75366977abf4")
+	)
+	(wire
+		(pts
+			(xy 124.46 163.83) (xy 127 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbce3f27-71ce-5daf-b76e-45e2711ddaaa")
+	)
+	(wire
+		(pts
+			(xy 30.48 215.9) (xy 30.48 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de4e8e41-7072-55f4-869f-afcf06db00a3")
+	)
+	(wire
+		(pts
+			(xy 133.35 208.28) (xy 163.83 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e9da99-397e-568f-a20c-0f5e9af37f2e")
+	)
+	(wire
+		(pts
+			(xy 240.03 152.4) (xy 240.03 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6163b82-89b8-5e72-bde3-e9d9426dbbfb")
+	)
+	(wire
+		(pts
+			(xy 133.35 96.52) (xy 163.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3bb525-f68b-5875-a3d6-372dcdc7839e")
+	)
+	(wire
+		(pts
+			(xy 133.35 40.64) (xy 163.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edda93ef-630c-5893-92d2-237c11e745c9")
+	)
+	(wire
+		(pts
+			(xy 334.01 152.4) (xy 334.01 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f188842a-4003-5bc1-aa8a-e1ad2eb52a96")
+	)
+	(wire
+		(pts
+			(xy 334.01 208.28) (xy 334.01 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3578607-69cd-5f76-a0ef-7147fe284262")
+	)
+	(wire
+		(pts
+			(xy 220.98 48.26) (xy 220.98 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f809ddc3-33cd-528d-b19c-de8e17f1b2a5")
+	)
+	(wire
+		(pts
+			(xy 220.98 215.9) (xy 220.98 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa75d515-23d6-589d-b142-d284932cd5a7")
+	)
+	(global_label "N$3"
+		(shape input)
+		(at 240.03 204.47 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "0917fccd-f719-513f-a8e8-deeec646d5bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$6"
+		(shape input)
+		(at 146.05 148.59 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "0c260ee5-6ae4-5c25-87a4-dbb53b9ca5b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$1"
+		(shape input)
+		(at 52.07 204.47 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "0dc84afb-b67e-51fb-8a75-dedeeac9ebfd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$13"
+		(shape input)
+		(at 52.07 36.83 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "0f0e376e-0877-53c4-b400-4b37b947946f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$14"
+		(shape input)
+		(at 146.05 36.83 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "17bbe9fd-f83b-5394-a75d-80d871408ef5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$12"
+		(shape input)
+		(at 334.01 92.71 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "1c4d276c-cc92-5844-b281-35867f13fba1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 220.98 163.83 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "20962472-7f53-55f1-8dcb-9bbb2b82931c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127 107.95 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "2382cffc-2048-59a8-8b21-f5096c27355c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 314.96 107.95 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "25e8bad8-34a7-5dbc-8af2-580c1731ffbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 33.02 107.95 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "36600f0e-b01c-541e-81e1-f43681f2f586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$5"
+		(shape input)
+		(at 52.07 148.59 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "38bfcd44-a69b-5516-80ef-3b9693e1d328")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127 219.71 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "5014a9e0-4e79-5fb5-84af-2d936e2a6e4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 314.96 52.07 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "51d46854-292d-54b1-8b1f-fb25d6dbff6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 314.96 219.71 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "51f2c166-8e11-5436-a476-30400d587773")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 33.02 52.07 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "547bd9e4-a703-5e5a-bf09-c1d832b59431")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 314.96 163.83 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "69ba301b-2b7f-58d1-aa05-aa9effaa31fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 314.96 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$10"
+		(shape input)
+		(at 146.05 92.71 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "7770338e-6e7b-5ba9-b229-1d45dfc55d03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$4"
+		(shape input)
+		(at 334.01 204.47 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "80ae9445-108d-5048-a12f-4492555d6254")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.01 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127 52.07 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "86a564de-4ac9-5d69-995f-661b24fecde0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$2"
+		(shape input)
+		(at 146.05 204.47 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "89c6e045-5419-57a4-9030-c91b19974835")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 146.05 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$16"
+		(shape input)
+		(at 334.01 36.83 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "8a2a12b5-1b67-5e3e-824f-b57a9e4f1d14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.01 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 33.02 163.83 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "8c19e282-f1b7-5efa-9b28-5366f8624608")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$15"
+		(shape input)
+		(at 240.03 36.83 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "9fa2f20f-133c-5fed-8963-6320850f49ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$11"
+		(shape input)
+		(at 240.03 92.71 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "9febd12f-2f3d-5900-8732-cd550e90456b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 33.02 219.71 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "a5670dd4-ae58-599e-a1f7-c75386ca1224")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.02 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 220.98 219.71 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "ac30cc0b-9b90-5068-872f-560247d16922")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$8"
+		(shape input)
+		(at 334.01 148.59 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "ae68df1b-fb38-5f8a-8dc5-0a178eb67782")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.01 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$7"
+		(shape input)
+		(at 240.03 148.59 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "bc3f42ac-647c-5027-b172-a7c929d84f85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.03 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 127 163.83 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "c131851e-85dd-543d-9c43-99a96b68475e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 220.98 52.07 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "dd1a6011-ff74-5548-874c-53750f7a9536")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "N$9"
+		(shape input)
+		(at 52.07 92.71 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "eea4f7b5-50b5-5c39-b7bb-8e5331ee1cf6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.07 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 220.98 107.95 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left)
+		)
+		(uuid "f6aaeb70-47e7-5bf3-8bc9-b311f136c3ab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 125.73 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0165bf4f-0023-5103-8ef5-9a63ace049fe")
+		(property "Reference" "J2"
+			(at 125.73 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 125.73 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "4_2"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c2ff81ee-0e4f-46ef-b248-3ae71005ffc6")
+		)
+		(pin "3"
+			(uuid "41194b25-e1e6-4ec4-8caf-020304c28ab7")
+		)
+		(pin "1"
+			(uuid "67d9f461-eb8b-4e06-b786-e63e5b761fd6")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 267.97 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03c515fb-6a43-5afe-bf05-431dda04f48a")
+		(property "Reference" "U$15"
+			(at 267.97 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 267.97 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "5c2cf7d7-a621-4488-a16c-ef1abfa98ee3")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 173.99 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05af6515-a99f-5788-88f6-54c9f91c93e0")
+		(property "Reference" "U$14"
+			(at 173.99 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 173.99 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "7261e8f6-bd6a-4c2e-b6b8-77a411e24e2e")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 31.75 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0ed25145-f220-5c65-bd28-72480b237c7b")
+		(property "Reference" "J13"
+			(at 31.75 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 31.75 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "1_1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3a841579-67b7-4bb4-b11e-ce790980a74d")
+		)
+		(pin "1"
+			(uuid "b9ecdf46-b605-452d-b962-294179e88aee")
+		)
+		(pin "2"
+			(uuid "90e3cbb6-36dc-4004-8fb1-600cec24bd61")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 173.99 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "136f0ade-d89d-50ab-8920-36818cb80b3d")
+		(property "Reference" "U$2"
+			(at 173.99 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 173.99 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "fed844c3-e0ae-41fa-8936-2ae82ba8b985")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 313.69 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1938c01e-490e-5872-86ef-0ea58d9a91a5")
+		(property "Reference" "J8"
+			(at 313.69 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 313.69 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "3_4"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0078fb1d-9720-4dfc-aaa9-6ba086c3733b")
+		)
+		(pin "2"
+			(uuid "1c170f07-58e1-4a61-b13d-e57d5c652961")
+		)
+		(pin "3"
+			(uuid "2dbe5585-396a-490c-a1e9-50eb3892caf1")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 125.73 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "288f9de2-36bf-5356-a1bc-c58ad022e7fd")
+		(property "Reference" "J6"
+			(at 125.73 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 125.73 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "3_2"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfbca36e-9111-4222-91a4-d3b1f272a60f")
+		)
+		(pin "2"
+			(uuid "2f4fee9a-c041-494b-bd84-e17e95d30fd1")
+		)
+		(pin "3"
+			(uuid "fc738a64-0c5a-4bc8-b215-c9ad7076a375")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 31.75 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3d3affcc-217b-5505-a7b2-df69b0bc92eb")
+		(property "Reference" "J1"
+			(at 31.75 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 31.75 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "4_1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "4d778c38-cfc4-4c84-a048-9f464a5937f0")
+		)
+		(pin "2"
+			(uuid "0db22adc-e02d-4b70-ad48-e99b70f096fe")
+		)
+		(pin "1"
+			(uuid "0e7936f9-2de8-4f0e-a7ef-f4322743977e")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 80.01 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4cc496b5-3cbd-597d-b6fd-257f01524b4a")
+		(property "Reference" "U$1"
+			(at 80.01 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 80.01 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "febc9eb1-d948-463e-8873-f49af02fcc35")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 361.95 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5588417d-b503-5bdc-b23a-3d7281b6c06a")
+		(property "Reference" "U$8"
+			(at 361.95 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 361.95 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "d5b6c5f3-ab8c-4006-8436-ac90b5ce778f")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 125.73 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e7f18c5-b1e7-5395-8fcd-ffd24ad6439d")
+		(property "Reference" "J14"
+			(at 125.73 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 125.73 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "1_2"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "078f4dad-2308-42bd-8b8f-d123a7d203de")
+		)
+		(pin "1"
+			(uuid "c3cb1596-b087-494b-b586-d88212a8a935")
+		)
+		(pin "3"
+			(uuid "60335f91-4608-49ff-a852-2dcd6747a2b4")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 219.71 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "72851c70-ec4b-5469-a369-5d6790bc8977")
+		(property "Reference" "J15"
+			(at 219.71 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 219.71 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "1_3"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afe06c21-934d-4bfd-b139-8355821efb72")
+		)
+		(pin "2"
+			(uuid "5c1913e4-559e-44ce-92fa-7c1867412b94")
+		)
+		(pin "3"
+			(uuid "56a2d9a4-54d8-46aa-ac87-84a6a8f1e897")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 80.01 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73f4d210-b5be-5142-a844-494583ebe8c9")
+		(property "Reference" "U$13"
+			(at 80.01 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 80.01 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "829b1c6e-2b3a-434e-85f3-da7aa604a9a7")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 219.71 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e3cdd5f-7962-5d12-802f-6614cd56df65")
+		(property "Reference" "J3"
+			(at 219.71 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 219.71 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "4_3"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c58f77cb-d0d1-42bd-a976-1482bc53683e")
+		)
+		(pin "1"
+			(uuid "1dd51fbe-f8be-40c8-8184-9452f9d43d1b")
+		)
+		(pin "3"
+			(uuid "f7cede7b-b1b5-43e1-85ae-e7ba3262721d")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 267.97 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "934940b1-71e2-5179-a0c2-5e5fa026fcad")
+		(property "Reference" "U$3"
+			(at 267.97 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 267.97 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "10324d15-6a59-47a1-99d8-b1a19982efe1")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 313.69 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9648d10c-a28d-58ad-84d2-ff516a5b822f")
+		(property "Reference" "J12"
+			(at 313.69 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 313.69 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "2_4"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "7a64c546-adb3-468c-a5a7-821a9908b181")
+		)
+		(pin "2"
+			(uuid "570e7551-3f90-4a55-9eab-528650dde656")
+		)
+		(pin "1"
+			(uuid "8e87bd8a-fcd1-400e-882f-cb3d6a8ae0ed")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 80.01 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "98125a14-fb3a-5e42-990d-63234c6db765")
+		(property "Reference" "U$9"
+			(at 80.01 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 80.01 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "8810adf7-51ae-41bc-871b-df9e68745741")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 125.73 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "997cbcc0-f883-513f-a0eb-5bf5b8c58088")
+		(property "Reference" "J10"
+			(at 125.73 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 125.73 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "2_2"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccf49e9b-4647-4a05-b9d2-f4fba07db2b3")
+		)
+		(pin "3"
+			(uuid "abee6bb2-0486-4d5f-b636-c45302f5f6fc")
+		)
+		(pin "2"
+			(uuid "ba8e6b91-67e4-4a1f-a2e7-de00dc89f678")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 267.97 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9e3b0f4-784b-5f39-96a5-8d6b9c2e6f85")
+		(property "Reference" "U$7"
+			(at 267.97 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 267.97 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "1fe28048-4468-44c9-9ae5-1f3fa7a75e33")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 31.75 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b1941c41-de76-5317-bf43-4de4752b59ce")
+		(property "Reference" "J9"
+			(at 31.75 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 31.75 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "2_1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f2f817a-0047-40df-9530-41c6a0007063")
+		)
+		(pin "2"
+			(uuid "f9727c80-e703-4228-8d73-8139cdbaba68")
+		)
+		(pin "3"
+			(uuid "290eb23a-c406-4f2d-b5d5-be36d0b967b4")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 313.69 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8b3f763-f76b-54de-9129-cc23b9c75687")
+		(property "Reference" "J4"
+			(at 313.69 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 313.69 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "4_4"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bf0adece-b72d-493c-aa18-3b7c75d11fd6")
+		)
+		(pin "1"
+			(uuid "28d63fdf-6629-4391-baa5-babb58e2b99d")
+		)
+		(pin "2"
+			(uuid "76c70471-0aa8-400b-baac-9305eb821d79")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 80.01 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c90dab35-78bd-586f-a843-71ec4456bb99")
+		(property "Reference" "U$5"
+			(at 80.01 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 80.01 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 80.01 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "23a6d5fb-5a16-4aed-8843-6b8c67a21cbc")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 361.95 208.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d7c189c2-bcca-5608-be11-7d3615b2d6b6")
+		(property "Reference" "U$4"
+			(at 361.95 201.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 361.95 226.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 208.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "595020d9-3f65-44e1-b750-98f94bd526f3")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 31.75 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d89da9c9-792b-5698-96e6-93e6ddb60093")
+		(property "Reference" "J5"
+			(at 31.75 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 31.75 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 31.75 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "3_1"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4d33fbe-046f-4fb1-a9ec-c476d6266756")
+		)
+		(pin "2"
+			(uuid "4c1e1552-b7e7-4751-9a72-20d9e8ca4855")
+		)
+		(pin "3"
+			(uuid "676ca4c2-71b8-47b4-bc12-5cbee6ff853a")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 173.99 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee4594f4-1137-58ea-a9e3-5ab08846ba1e")
+		(property "Reference" "U$10"
+			(at 173.99 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 173.99 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "c66b6d39-44e2-47b2-ba60-0ed72dffcf12")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 313.69 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f04332c8-d45d-5638-b6c9-b759ad5b42a5")
+		(property "Reference" "J16"
+			(at 313.69 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 313.69 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 313.69 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "1_4"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ec7d46e-c444-44a9-bf99-14a2fd35d58b")
+		)
+		(pin "2"
+			(uuid "aff609c6-8856-4451-bed8-eb91e5825021")
+		)
+		(pin "3"
+			(uuid "f86a2427-f060-436a-b215-01d5d7262423")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 267.97 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5f0e591-755c-5273-a153-a23e453476a6")
+		(property "Reference" "U$11"
+			(at 267.97 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 267.97 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "9f26b8b4-6145-4849-80bd-27e4d32b11d2")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 361.95 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f7691de2-94df-59db-b4fc-d8b34469279f")
+		(property "Reference" "U$16"
+			(at 361.95 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 361.95 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "8e35df61-0aab-4892-be9b-39079916ed52")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 361.95 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f965bee8-991c-5be9-a525-6e11f37dd572")
+		(property "Reference" "U$12"
+			(at 361.95 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 361.95 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 361.95 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "b7117ab3-7f82-4572-99ab-2920c230be88")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 219.71 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "faf0c3ae-dc3d-56f6-a376-a1e74075ceda")
+		(property "Reference" "J11"
+			(at 219.71 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 219.71 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "2_3"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f647a22-f908-482f-a342-30bdfc48a08d")
+		)
+		(pin "2"
+			(uuid "d9301650-9bec-4f4d-a7b0-fa2a07b250cd")
+		)
+		(pin "3"
+			(uuid "1a5509bc-367b-4560-aa5b-39ad37f7ad33")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:ECT_818000368")
+		(at 219.71 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcc9e9b7-adb8-5a4f-80f2-0cd4de8cfef7")
+		(property "Reference" "J7"
+			(at 219.71 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "818000368"
+			(at 219.71 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:ECT_818000368_IPEX1_1.25mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ArrayPosition" "3_3"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "ECT"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "818000368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MaterialCode" "YC.DZ.SS00008"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81b985b5-719d-4006-8bf3-0361848e68f3")
+		)
+		(pin "2"
+			(uuid "0b4f5927-58d8-4b43-8cd0-b427a9d4f955")
+		)
+		(pin "3"
+			(uuid "7dab4cfb-c1cd-49d0-900c-61d339cb7027")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PLFM_RF:Patch_10p5GHz")
+		(at 173.99 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe61ee1a-2e7c-5721-afa9-acc2f286572e")
+		(property "Reference" "U$6"
+			(at 173.99 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 173.99 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PLFM_RF:Patch_10p5GHz_9.538x7.636mm"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "4736a6c5-17f3-4dbf-84fe-0dc70d0a7e72")
+		)
+		(instances
+			(project "Phased_Array_Ant_IPEX1"
+				(path "/5def3a2d-b525-55ae-be39-6355cbb88680"
+					(reference "U$6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

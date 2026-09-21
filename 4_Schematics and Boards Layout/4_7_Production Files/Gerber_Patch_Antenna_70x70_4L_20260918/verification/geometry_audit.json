@@ -1,0 +1,42 @@
+{
+  "source": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_6_Schematics\\Antennas\\Patch\\4x4\\Phased_Array_Ant.brd",
+  "source_sha256": "6d23e7cc4e6d95c0f24957db893b5fbe539984da62e5cb00274a3205890b6aa1",
+  "modified_eagle_sha256": "fc9a29380b08a1a9ed376a762c0fbfe60b1eff554aee1337ecfa70086730002f",
+  "tool": "10.0.0",
+  "original_copper_layers": 6,
+  "new_copper_layers": 4,
+  "removed_eagle_layers": [
+    3,
+    14
+  ],
+  "remaining_eagle_layers": [
+    1,
+    2,
+    15,
+    16
+  ],
+  "exact_eagle_geometry_and_net_sections_unchanged": true,
+  "six_vs_four_import_geometry_and_net_identity": true,
+  "material_and_finished_thickness": "TBD by user/fabricator; not specified for fabrication",
+  "inherited_eagle_mtIsolate_not_fabrication_spec": "0.11mm 0.6mm 0.11mm 0.36mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.6mm 0.11mm",
+  "inherited_eagle_mtCopper_not_fabrication_spec": "0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm",
+  "counts": {
+    "footprints_including_4_mounting_holes": 36,
+    "pads_including_npth": 84,
+    "tracks_and_vias": 129,
+    "zones": 2
+  },
+  "eagle_vs_kicad_all_101_wires_exact": true,
+  "eagle_vs_kicad_all_28_vias_exact": true,
+  "zone_layers_verified": [
+    "In1.Cu",
+    "In2.Cu"
+  ],
+  "restored_imported_connector_ground_polygon_nets": 16,
+  "drill_counts": {
+    "PTH_0.2mm": 16,
+    "PTH_0.3mm": 12,
+    "NPTH_3.2mm": 4
+  },
+  "note": "KiCad board thickness defaults to 1.6 mm for visualization only. It is not a fabrication instruction. Do not infer laminate from importer defaults."
+}

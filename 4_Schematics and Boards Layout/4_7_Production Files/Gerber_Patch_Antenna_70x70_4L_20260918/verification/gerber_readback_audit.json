@@ -1,0 +1,78 @@
+{
+  "reader": "gerbonara 1.6.3",
+  "units": "mm",
+  "shape_comparison": {
+    "F_Cu": {
+      "identical_primitives_to_six_layer_baseline": true,
+      "gerber_objects": 72
+    },
+    "In1_Cu": {
+      "identical_primitives_to_six_layer_baseline": true,
+      "gerber_objects": 29
+    },
+    "In2_Cu": {
+      "identical_primitives_to_six_layer_baseline": true,
+      "gerber_objects": 29
+    },
+    "B_Cu": {
+      "identical_primitives_to_six_layer_baseline": true,
+      "gerber_objects": 181
+    },
+    "F_Mask": {
+      "identical_primitives_to_six_layer_baseline": true,
+      "gerber_objects": 20
+    },
+    "B_Mask": {
+      "identical_primitives_to_six_layer_baseline": true,
+      "gerber_objects": 36
+    }
+  },
+  "manufacturing_parameters": "material, board thickness, copper weights, finish TBD",
+  "physical_connectivity": {
+    "all_17_nets_connected": true,
+    "shorts_between_nets": 0,
+    "tested_pads": 80,
+    "tested_vias": 28,
+    "method": "Gerber polygon union + plated-via graph; 0.1um arc approximation, 2um point tolerance"
+  },
+  "physical_solder_mask_check": {
+    "F_Mask": {
+      "openings": 20,
+      "openings_exposing_multiple_nets": 0
+    },
+    "B_Mask": {
+      "openings": 36,
+      "openings_exposing_multiple_nets": 0
+    }
+  },
+  "drill_readback": {
+    "total_holes": 32,
+    "PTH_0.2mm": 16,
+    "PTH_0.3mm": 12,
+    "NPTH_3.2mm": 4,
+    "all_positions_match_source": true
+  },
+  "outline": {
+    "closed": true,
+    "centerline_size_mm": [
+      70,
+      70
+    ]
+  },
+  "job_manifest": "Removed unconfirmed default material, thickness, finish and design-rule claims; outline size is centerline size.",
+  "drc_4L": {
+    "violations_by_type": {
+      "drill_out_of_range": 16,
+      "solder_mask_bridge": 60
+    },
+    "unconnected_reports": 24
+  },
+  "drc_6L": {
+    "violations_by_type": {
+      "drill_out_of_range": 16,
+      "solder_mask_bridge": 60
+    },
+    "unconnected_reports": 24
+  },
+  "drc_interpretation": "Identical reports before/after layer removal: 16 source 0.2mm drill holes below inherited 0.3mm rule; 60 mask-graphic reports and 24 connectivity reports from imported connector graphics. Physical Gerber graph independently verifies all 17 nets connected with no net-to-net shorts. Not a claim of clean native EAGLE DRC or RF performance validation."
+}

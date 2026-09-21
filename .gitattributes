@@ -1,0 +1,11 @@
+# Preserve archived CAD/CAM bytes and their recorded checksums across platforms.
+"4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant/**" -text
+"4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant_IPEX1/**" -text
+"4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16/**" -text
+"4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16_IPEX1/**" -text
+"4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16_IPEX1_198x155/**" -text
+"4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_70x70_4L_20260918/**" -text
+"4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_70x70_4L_Via03_20260918/**" -text
+"4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_8x16_IPEX1_245x155_4L_20260920/**" -text
+"4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920/**" -text
+"4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920_R2/**" -text

@@ -1,0 +1,1770 @@
+{
+  "source_project": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_6_Schematics\\Antennas\\Patch\\8x16\\KiCad_8x16_IPEX1",
+  "source_hashes": {
+    "Patch_Anetnna_16_8_IPEX1.kicad_pcb": "502da280373f53815508cf2a5a1c42b42f2741adf6751354aa3668b69cfc643a",
+    "Patch_Anetnna_16_8_IPEX1.kicad_sch": "eacd3d92d4432b13b8799e873fd3b4648dd993be88dd9fad758ca900570068f1",
+    "Patch_Anetnna_16_8_IPEX1.kicad_pro": "6db0dd0b1aa9991776536475d09a3bd0c5797e2728c79a7877246e412f4835f2",
+    "Patch_Anetnna_16_8_IPEX1.kicad_dru": "7d26c90af126d96870bb398b1ebb9b4794a676f3d12924c3dccdce8b3135b116",
+    "sym-lib-table": "906fb385dda1eb884e863601556e000a91a818f1f0ff1f633f89f4c33050ac2e",
+    "fp-lib-table": "e11907d2e5ce8febda4bb5443ec2413f642ed84578f17ec9b5c2ac8ae8a057d1",
+    "PLFM_RF.kicad_sym": "6cabe7f82fdf81ae72ef8a7f76b66f07377f5ad83efb33a5f4c9e860217ecddf"
+  },
+  "source_unchanged": true,
+  "board_size_mm": [
+    198,
+    155
+  ],
+  "column_pitch_mm": 12,
+  "patch_count": 128,
+  "connector_count": 16,
+  "left_and_right_patch_margin_mm": 5.07,
+  "individual_patch_dimensions_and_vertical_positions_unchanged": true,
+  "feed_segment_lengths_widths_and_relative_shapes_unchanged": true,
+  "via_drills_diameters_and_Y_unchanged": true,
+  "copper_layers": 4,
+  "connector_moves": [
+    {
+      "ref": "J17",
+      "column": 1,
+      "net": "N$17",
+      "old_center_mm": [
+        15.0,
+        18.0
+      ],
+      "new_center_mm": [
+        9.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J1",
+      "column": 2,
+      "net": "N$19",
+      "old_center_mm": [
+        29.34,
+        18.0
+      ],
+      "new_center_mm": [
+        21.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J2",
+      "column": 3,
+      "net": "N$21",
+      "old_center_mm": [
+        43.68,
+        18.0
+      ],
+      "new_center_mm": [
+        33.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J3",
+      "column": 4,
+      "net": "N$23",
+      "old_center_mm": [
+        58.02,
+        18.0
+      ],
+      "new_center_mm": [
+        45.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J5",
+      "column": 5,
+      "net": "N$25",
+      "old_center_mm": [
+        72.36,
+        18.0
+      ],
+      "new_center_mm": [
+        57.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J6",
+      "column": 6,
+      "net": "N$28",
+      "old_center_mm": [
+        86.7,
+        18.0
+      ],
+      "new_center_mm": [
+        69.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J7",
+      "column": 7,
+      "net": "N$30",
+      "old_center_mm": [
+        101.04,
+        18.0
+      ],
+      "new_center_mm": [
+        81.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J8",
+      "column": 8,
+      "net": "N$32",
+      "old_center_mm": [
+        115.38,
+        18.0
+      ],
+      "new_center_mm": [
+        93.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J10",
+      "column": 9,
+      "net": "N$34",
+      "old_center_mm": [
+        129.72,
+        18.0
+      ],
+      "new_center_mm": [
+        105.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J12",
+      "column": 10,
+      "net": "N$36",
+      "old_center_mm": [
+        144.06,
+        18.0
+      ],
+      "new_center_mm": [
+        117.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J14",
+      "column": 11,
+      "net": "N$38",
+      "old_center_mm": [
+        158.4,
+        18.0
+      ],
+      "new_center_mm": [
+        129.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "J9",
+      "column": 12,
+      "net": "N$40",
+      "old_center_mm": [
+        172.82,
+        18.0
+      ],
+      "new_center_mm": [
+        141.08,
+        18.0
+      ]
+    },
+    {
+      "ref": "J11",
+      "column": 13,
+      "net": "N$41",
+      "old_center_mm": [
+        187.16,
+        18.0
+      ],
+      "new_center_mm": [
+        153.08,
+        18.0
+      ]
+    },
+    {
+      "ref": "J13",
+      "column": 14,
+      "net": "N$43",
+      "old_center_mm": [
+        201.5,
+        18.0
+      ],
+      "new_center_mm": [
+        165.08,
+        18.0
+      ]
+    },
+    {
+      "ref": "J15",
+      "column": 15,
+      "net": "N$45",
+      "old_center_mm": [
+        215.84,
+        18.0
+      ],
+      "new_center_mm": [
+        177.08,
+        18.0
+      ]
+    },
+    {
+      "ref": "J4",
+      "column": 16,
+      "net": "N$47",
+      "old_center_mm": [
+        230.1,
+        18.0
+      ],
+      "new_center_mm": [
+        189.0,
+        18.0
+      ]
+    }
+  ],
+  "via_moves": [
+    {
+      "uuid": "02a29314-2b25-4545-96cd-4bccf7dec20e",
+      "old_xy": [
+        129.0,
+        9.0
+      ],
+      "new_xy": [
+        104.39749,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "03f4b10c-2e5d-4a1c-9de1-15f7623338ba",
+      "old_xy": [
+        92.0,
+        9.0
+      ],
+      "new_xy": [
+        73.435146,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "04227189-aed9-4403-a908-31f52c8221b7",
+      "old_xy": [
+        182.0,
+        9.0
+      ],
+      "new_xy": [
+        148.748954,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "04481512-3602-40c2-8e99-f530fa8538ae",
+      "old_xy": [
+        179.145296,
+        16.549043
+      ],
+      "new_xy": [
+        146.36008,
+        16.549043
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "0485c5c2-ff10-43e0-a797-1a6caafd8209",
+      "old_xy": [
+        218.64,
+        18.0
+      ],
+      "new_xy": [
+        179.88,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "077a1eb0-3658-4d2e-8ba4-9574ad89db0c",
+      "old_xy": [
+        201.0,
+        9.0
+      ],
+      "new_xy": [
+        164.648536,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "086373c4-2be2-4092-afd0-be9a679b96e6",
+      "old_xy": [
+        204.3,
+        18.0
+      ],
+      "new_xy": [
+        167.88,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "0bec86e8-8a49-41bc-b164-817e4ad067a4",
+      "old_xy": [
+        32.14,
+        18.0
+      ],
+      "new_xy": [
+        23.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "1001ab00-c940-4798-b4a7-bbbc581b0ac7",
+      "old_xy": [
+        124.0,
+        9.0
+      ],
+      "new_xy": [
+        100.213389,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "13ee646d-60fe-4f4e-9f3d-7ae75678cc4d",
+      "old_xy": [
+        81.0,
+        9.0
+      ],
+      "new_xy": [
+        64.230126,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "1e003af5-7008-4256-b8e1-ae0d2954ec45",
+      "old_xy": [
+        227.3,
+        18.0
+      ],
+      "new_xy": [
+        186.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "21c98414-5a5c-48f2-8ffe-d7003db183db",
+      "old_xy": [
+        192.66,
+        16.0
+      ],
+      "new_xy": [
+        157.669456,
+        16.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "2309dd61-7488-4939-8680-299c8c501f40",
+      "old_xy": [
+        92.822406,
+        12.450956
+      ],
+      "new_xy": [
+        74.123352,
+        12.450956
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "297baf2c-f177-45be-8488-0cde400829f4",
+      "old_xy": [
+        145.0,
+        9.0
+      ],
+      "new_xy": [
+        117.786611,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "2cff8356-f21c-4dbd-b754-678194e9cbca",
+      "old_xy": [
+        192.66,
+        13.0
+      ],
+      "new_xy": [
+        157.669456,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "2d638e94-f8ff-49e6-b4c3-b1e38065d1fe",
+      "old_xy": [
+        18.0,
+        6.0
+      ],
+      "new_xy": [
+        11.51046,
+        6.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "2db34e1a-8ca1-4907-ac4e-dc86171de81e",
+      "old_xy": [
+        81.66,
+        16.0
+      ],
+      "new_xy": [
+        64.782427,
+        16.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "302cc94e-6a21-4ae2-bf51-d0dc4f6c4843",
+      "old_xy": [
+        208.431328,
+        15.887881
+      ],
+      "new_xy": [
+        170.86722,
+        15.887881
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "309da078-18b3-4236-ab43-cb77a6e4973b",
+      "old_xy": [
+        40.88,
+        18.0
+      ],
+      "new_xy": [
+        30.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "31571584-e709-44ef-9105-82c6995c11f1",
+      "old_xy": [
+        109.66,
+        13.0
+      ],
+      "new_xy": [
+        88.213389,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "31c20c53-1ee6-4844-8d16-37b1c5cb3fe6",
+      "old_xy": [
+        135.66,
+        13.0
+      ],
+      "new_xy": [
+        109.970711,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "32eaab8f-126d-4ab3-962f-68ae25514f91",
+      "old_xy": [
+        95.66,
+        13.0
+      ],
+      "new_xy": [
+        76.497908,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "331e6f6f-6d15-468a-aecd-2063e96549ce",
+      "old_xy": [
+        55.22,
+        18.0
+      ],
+      "new_xy": [
+        42.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "3472c094-4591-469c-ad53-61c15d56061c",
+      "old_xy": [
+        149.66,
+        16.0
+      ],
+      "new_xy": [
+        121.686192,
+        16.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "3d051ad3-8d05-4658-bef0-ccde5388bd58",
+      "old_xy": [
+        213.04,
+        18.0
+      ],
+      "new_xy": [
+        174.28,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "3e397e25-f7ad-4930-9183-08245686303f",
+      "old_xy": [
+        65.1253,
+        11.395328
+      ],
+      "new_xy": [
+        50.945858,
+        11.395328
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "3e5bf253-95b3-4e21-ac5d-69eee443295b",
+      "old_xy": [
+        216.0,
+        9.0
+      ],
+      "new_xy": [
+        177.200837,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "41bdc156-1d53-41c2-b1cc-dd662b4db463",
+      "old_xy": [
+        159.0,
+        9.0
+      ],
+      "new_xy": [
+        129.502092,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "46c1deaa-cfd4-4d94-bb60-3110b6046328",
+      "old_xy": [
+        49.891315,
+        14.883725
+      ],
+      "new_xy": [
+        38.197753,
+        14.883725
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "4a9e5575-6807-440c-abe2-8aa024388bae",
+      "old_xy": [
+        35.0,
+        14.0
+      ],
+      "new_xy": [
+        25.736402,
+        14.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "5080644a-7f41-4248-bd04-62f3d239c775",
+      "old_xy": [
+        232.9,
+        18.0
+      ],
+      "new_xy": [
+        191.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "5283c7f8-840a-46b4-9e86-cb802b6422a4",
+      "old_xy": [
+        189.96,
+        18.0
+      ],
+      "new_xy": [
+        155.88,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "5523c0f3-cc7d-4c38-a516-e0a33b9076c4",
+      "old_xy": [
+        26.54,
+        18.0
+      ],
+      "new_xy": [
+        18.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "55e81502-19c6-4318-952a-f2569cbda775",
+      "old_xy": [
+        66.209396,
+        14.093021
+      ],
+      "new_xy": [
+        51.853051,
+        14.093021
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "5757b3a0-11dd-446b-a30d-6570a7639273",
+      "old_xy": [
+        37.0,
+        18.0
+      ],
+      "new_xy": [
+        27.410042,
+        18.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "591a3cdd-38c5-4169-9b51-fddcd51349c3",
+      "old_xy": [
+        78.071031,
+        18.074118
+      ],
+      "new_xy": [
+        61.779105,
+        18.074118
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "5a1f59db-faf3-45d4-91a7-031e0a8fa39f",
+      "old_xy": [
+        66.0,
+        18.0
+      ],
+      "new_xy": [
+        51.677824,
+        18.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "5a207327-db22-4741-b522-46a4138b2362",
+      "old_xy": [
+        192.66,
+        16.0
+      ],
+      "new_xy": [
+        157.669456,
+        16.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "5ada5821-9982-488e-8697-9f1f7ddac58b",
+      "old_xy": [
+        53.0,
+        9.0
+      ],
+      "new_xy": [
+        40.799163,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "5af5ca73-e040-4a66-9fd0-d062ca34671b",
+      "old_xy": [
+        138.0,
+        9.0
+      ],
+      "new_xy": [
+        111.92887,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "5de40c37-4ac6-467e-ae72-b652af723b85",
+      "old_xy": [
+        115.0,
+        9.0
+      ],
+      "new_xy": [
+        92.682008,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "5fa579a4-78f8-42b8-a028-293723e5aa7b",
+      "old_xy": [
+        161.2,
+        18.0
+      ],
+      "new_xy": [
+        131.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "60a331be-6803-438c-b1ea-dd4d04bc8952",
+      "old_xy": [
+        173.0,
+        9.0
+      ],
+      "new_xy": [
+        141.217573,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "628bd371-505b-470f-b158-c943e82d4a2c",
+      "old_xy": [
+        221.66,
+        13.0
+      ],
+      "new_xy": [
+        181.937238,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "684eaf16-245c-4280-898e-3a5c20f687a3",
+      "old_xy": [
+        29.0,
+        9.0
+      ],
+      "new_xy": [
+        20.715481,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "68f8242c-d6ae-42eb-9e51-bc1970371b2c",
+      "old_xy": [
+        146.86,
+        18.0
+      ],
+      "new_xy": [
+        119.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "69e02947-4648-44ee-949f-d7ae711d626e",
+      "old_xy": [
+        83.9,
+        18.0
+      ],
+      "new_xy": [
+        66.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "6c12d5cd-dd3f-46cb-b3f1-d8490a0fd811",
+      "old_xy": [
+        103.84,
+        18.0
+      ],
+      "new_xy": [
+        83.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "6cbd2e9e-503f-4313-9834-cd014cbad481",
+      "old_xy": [
+        221.0,
+        9.0
+      ],
+      "new_xy": [
+        181.384937,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "6d2349c9-d670-45f8-a8da-9bc92ab1aab6",
+      "old_xy": [
+        166.594459,
+        14.194978
+      ],
+      "new_xy": [
+        135.857288,
+        14.194978
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "6dc3e5ff-5b04-4656-b268-c00b7ee5f948",
+      "old_xy": [
+        121.278356,
+        11.995243
+      ],
+      "new_xy": [
+        97.935863,
+        11.995243
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "6f81d64c-0552-4efb-be83-199e270d184b",
+      "old_xy": [
+        78.0,
+        13.0
+      ],
+      "new_xy": [
+        61.719665,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "707c5c49-4e0e-46be-afe4-29f1755e581b",
+      "old_xy": [
+        53.0,
+        9.0
+      ],
+      "new_xy": [
+        40.799163,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "747dc98c-a3b0-4dda-b6bb-5c83cfe14e31",
+      "old_xy": [
+        154.0,
+        9.0
+      ],
+      "new_xy": [
+        125.317992,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "76ce6d6a-1b9a-456b-84aa-df7e9edfbeb2",
+      "old_xy": [
+        112.58,
+        18.0
+      ],
+      "new_xy": [
+        90.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "792cf721-d2af-4bc5-9171-7379123934b4",
+      "old_xy": [
+        175.62,
+        18.0
+      ],
+      "new_xy": [
+        143.88,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "799fe784-aca5-4b52-b999-2ff4abaf3dbe",
+      "old_xy": [
+        78.0,
+        9.0
+      ],
+      "new_xy": [
+        61.719665,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "79ea02af-dcc9-4974-a2e0-87f92bc687da",
+      "old_xy": [
+        184.36,
+        18.0
+      ],
+      "new_xy": [
+        150.28,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "7c00d280-e05f-4557-86ed-cfdef7921525",
+      "old_xy": [
+        60.82,
+        18.0
+      ],
+      "new_xy": [
+        47.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "7c6e2d9c-3a99-400b-b7e9-c85d02b906ce",
+      "old_xy": [
+        46.48,
+        18.0
+      ],
+      "new_xy": [
+        35.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "7f5bcd86-412a-478c-a423-742ccb0dab34",
+      "old_xy": [
+        152.454393,
+        11.459206
+      ],
+      "new_xy": [
+        124.024597,
+        11.459206
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "80362274-161f-45db-a2fd-62a39c1e084b",
+      "old_xy": [
+        210.0,
+        9.0
+      ],
+      "new_xy": [
+        172.179916,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "83c37154-f465-471f-9d7b-7d92cc5fef05",
+      "old_xy": [
+        89.5,
+        18.0
+      ],
+      "new_xy": [
+        71.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "85af76a1-0c60-4f06-9d26-68befc027cc5",
+      "old_xy": [
+        126.92,
+        18.0
+      ],
+      "new_xy": [
+        102.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "86b32c71-7926-47c8-ba09-31b3684032eb",
+      "old_xy": [
+        225.0,
+        9.0
+      ],
+      "new_xy": [
+        184.732218,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "8bf1d9c9-7864-4c4e-a852-77380ee7573a",
+      "old_xy": [
+        30.0,
+        6.0
+      ],
+      "new_xy": [
+        21.552301,
+        6.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "8d8b649e-47f6-4479-87be-0abf4938600b",
+      "old_xy": [
+        120.0,
+        9.0
+      ],
+      "new_xy": [
+        96.866109,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "90c28fbe-4e7f-4330-b835-cf29c28c7395",
+      "old_xy": [
+        17.8,
+        18.0
+      ],
+      "new_xy": [
+        11.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "90f22d6d-3e8f-4c7e-a92f-2713e0863e2c",
+      "old_xy": [
+        178.0,
+        9.0
+      ],
+      "new_xy": [
+        145.401674,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "924be203-c156-410e-b165-24d2fb2b2fd0",
+      "old_xy": [
+        81.66,
+        13.0
+      ],
+      "new_xy": [
+        64.782427,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "9290c63d-067b-4739-bd1c-851b9e0cc912",
+      "old_xy": [
+        155.6,
+        18.0
+      ],
+      "new_xy": [
+        126.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "945689ca-f34d-4426-8c87-5130b1a98b6a",
+      "old_xy": [
+        22.0,
+        19.0
+      ],
+      "new_xy": [
+        14.857741,
+        19.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "95e82231-4e97-4393-a268-4324b1a4ec5c",
+      "old_xy": [
+        198.7,
+        18.0
+      ],
+      "new_xy": [
+        162.28,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "9808018a-9384-4ac5-9bd1-10ecc1607d96",
+      "old_xy": [
+        168.0,
+        9.0
+      ],
+      "new_xy": [
+        137.033473,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "9f677490-fcae-4a6d-a309-3cbbc8c56555",
+      "old_xy": [
+        132.52,
+        18.0
+      ],
+      "new_xy": [
+        107.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "a104f75d-7cf2-47f2-aab2-63c7ec62fe84",
+      "old_xy": [
+        39.0,
+        9.0
+      ],
+      "new_xy": [
+        29.083682,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "a308972f-5144-4ae5-a1e6-82cc603e265d",
+      "old_xy": [
+        49.0,
+        9.0
+      ],
+      "new_xy": [
+        37.451883,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "a30ba9d0-63a1-4998-8d3a-829453e6203c",
+      "old_xy": [
+        12.2,
+        18.0
+      ],
+      "new_xy": [
+        6.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "a5529678-cfe5-4a0d-b37f-ea916ef215b2",
+      "old_xy": [
+        110.0,
+        9.0
+      ],
+      "new_xy": [
+        88.497908,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "aa1b4ed3-34f1-4933-ae17-55ec232a84dc",
+      "old_xy": [
+        195.66,
+        13.0
+      ],
+      "new_xy": [
+        160.179916,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "acd1bc33-8a50-4b46-84f1-ce7301e5052a",
+      "old_xy": [
+        178.854693,
+        12.61244
+      ],
+      "new_xy": [
+        146.116898,
+        12.61244
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "adbf688c-ff07-4011-af5f-7d79f8076590",
+      "old_xy": [
+        163.66,
+        16.0
+      ],
+      "new_xy": [
+        133.401674,
+        16.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "ade64449-5538-41ec-ac69-204b93939ef9",
+      "old_xy": [
+        134.0,
+        9.0
+      ],
+      "new_xy": [
+        108.58159,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "b0fed199-209b-4ac9-89af-096cae4b2eb5",
+      "old_xy": [
+        192.0,
+        9.0
+      ],
+      "new_xy": [
+        157.117155,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "b15c2a4d-7588-4be8-897e-5ae40f7f6ac5",
+      "old_xy": [
+        135.66,
+        16.0
+      ],
+      "new_xy": [
+        109.970711,
+        16.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "b268a82f-c6ae-4f97-975a-cd3be2a8b6b2",
+      "old_xy": [
+        64.0,
+        15.0
+      ],
+      "new_xy": [
+        50.004184,
+        15.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "b2b34a9a-efd4-4d0e-9369-8977c9bd4645",
+      "old_xy": [
+        181.66,
+        13.0
+      ],
+      "new_xy": [
+        148.464435,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "b2fbd73d-712f-44f9-933d-710e3d6f3b29",
+      "old_xy": [
+        96.0,
+        9.0
+      ],
+      "new_xy": [
+        76.782427,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "b37de302-51ac-43db-b532-fac5b99f95cc",
+      "old_xy": [
+        101.0,
+        9.0
+      ],
+      "new_xy": [
+        80.966527,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "b76103ea-6720-4f6f-96b3-89f3c0e3bb7c",
+      "old_xy": [
+        221.66,
+        16.0
+      ],
+      "new_xy": [
+        181.937238,
+        16.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "bd3fa393-f58c-4b3e-85be-c0dec4545264",
+      "old_xy": [
+        98.24,
+        18.0
+      ],
+      "new_xy": [
+        78.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "bf7adf6c-3913-4033-869d-81bdaddcc271",
+      "old_xy": [
+        87.0,
+        9.0
+      ],
+      "new_xy": [
+        69.251046,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "c8215272-9c6d-4d00-8607-3962e04e4552",
+      "old_xy": [
+        22.214228,
+        15.0
+      ],
+      "new_xy": [
+        15.037011,
+        15.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "c8923982-a512-4904-a9fb-b3811b274c09",
+      "old_xy": [
+        75.16,
+        18.0
+      ],
+      "new_xy": [
+        59.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "cd65346f-5d24-4e11-b0c2-c86164a12909",
+      "old_xy": [
+        43.0,
+        9.0
+      ],
+      "new_xy": [
+        32.430962,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "ce5923cf-f28c-494d-ad52-ac46c5e01e12",
+      "old_xy": [
+        79.177046,
+        16.345375
+      ],
+      "new_xy": [
+        62.704641,
+        16.345375
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "cebb73fa-f650-4fa2-a1f1-9df49a61b705",
+      "old_xy": [
+        34.0,
+        9.0
+      ],
+      "new_xy": [
+        24.899582,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "cf081141-044e-4eae-bada-28ae3d1cd123",
+      "old_xy": [
+        67.0,
+        9.0
+      ],
+      "new_xy": [
+        52.514644,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "d056d74b-cbe7-4719-8c64-14286a78a250",
+      "old_xy": [
+        137.818421,
+        11.660325
+      ],
+      "new_xy": [
+        111.776921,
+        11.660325
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "d13a4126-2363-4ab4-81f1-2d52c413ffe1",
+      "old_xy": [
+        210.66,
+        13.0
+      ],
+      "new_xy": [
+        172.732218,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "d2c76d85-aa35-4b59-b1bf-79dbe709487f",
+      "old_xy": [
+        58.0,
+        9.0
+      ],
+      "new_xy": [
+        44.983264,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "d383a1e4-ee60-45ff-91c8-d1f295fb118c",
+      "old_xy": [
+        141.26,
+        18.0
+      ],
+      "new_xy": [
+        114.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "d3ae8c9c-c617-4b77-a20c-7a210f9f998c",
+      "old_xy": [
+        95.66,
+        16.0
+      ],
+      "new_xy": [
+        76.497908,
+        16.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "d886c2ac-e4fc-484f-9ba4-a9cdcb388809",
+      "old_xy": [
+        118.18,
+        18.0
+      ],
+      "new_xy": [
+        95.8,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "d8fa3456-c3ca-4614-a7bd-ab2449f80f83",
+      "old_xy": [
+        164.0,
+        9.0
+      ],
+      "new_xy": [
+        133.686192,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "dbece747-c33b-490e-aa30-997deb8c03dd",
+      "old_xy": [
+        207.870781,
+        12.349721
+      ],
+      "new_xy": [
+        170.398143,
+        12.349721
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "deb60da7-c4ba-49c6-9100-9819732ebe24",
+      "old_xy": [
+        64.0,
+        9.0
+      ],
+      "new_xy": [
+        50.004184,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "e06627d8-dcee-4bc2-bcad-34e4a4cd735b",
+      "old_xy": [
+        105.66,
+        13.0
+      ],
+      "new_xy": [
+        84.866109,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "e2c118ac-0254-4dd8-a875-c86403e53b82",
+      "old_xy": [
+        196.0,
+        9.0
+      ],
+      "new_xy": [
+        160.464435,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "e324b2a2-b3c8-4a13-97d1-2df408e7ec26",
+      "old_xy": [
+        69.56,
+        18.0
+      ],
+      "new_xy": [
+        54.2,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "e33cf067-49ca-4690-8d98-c166c6e22f72",
+      "old_xy": [
+        72.0,
+        9.0
+      ],
+      "new_xy": [
+        56.698745,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "e3f869eb-cb9c-44ab-825f-9913466f550f",
+      "old_xy": [
+        20.0,
+        9.0
+      ],
+      "new_xy": [
+        13.1841,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "e61cfac4-a081-41cd-90bd-88b085d41355",
+      "old_xy": [
+        50.326059,
+        18.503868
+      ],
+      "new_xy": [
+        38.561556,
+        18.503868
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "e87a5810-dfff-44e3-91f5-de823a23e5f7",
+      "old_xy": [
+        164.530715,
+        11.727171
+      ],
+      "new_xy": [
+        134.130305,
+        11.727171
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "ee95758f-b40b-45e8-9873-307efdc46db1",
+      "old_xy": [
+        123.66,
+        13.0
+      ],
+      "new_xy": [
+        99.92887,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "f2643c28-9191-47c8-85bb-e86543b3c4ee",
+      "old_xy": [
+        149.66,
+        13.0
+      ],
+      "new_xy": [
+        121.686192,
+        13.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "f2ac3e2d-b31c-462f-9adf-e1aeab9bdc66",
+      "old_xy": [
+        43.0,
+        9.0
+      ],
+      "new_xy": [
+        32.430962,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "f43b4781-8a15-4b32-8e2a-1bd0b3820595",
+      "old_xy": [
+        170.02,
+        18.0
+      ],
+      "new_xy": [
+        138.28,
+        18.0
+      ],
+      "method": "rigid connector-column translation"
+    },
+    {
+      "uuid": "f4729d5c-c1fe-423b-9e7b-4d8527c6c0a1",
+      "old_xy": [
+        106.0,
+        9.0
+      ],
+      "new_xy": [
+        85.150628,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "f4d5c4ab-1aa3-4535-a9cd-a486991845b4",
+      "old_xy": [
+        236.0,
+        9.0
+      ],
+      "new_xy": [
+        193.937238,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "f51e5268-fc86-4fca-97de-b6ea08cb0345",
+      "old_xy": [
+        150.0,
+        9.0
+      ],
+      "new_xy": [
+        121.970711,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "f5a07906-511e-41c0-b1a3-603a75a4cf21",
+      "old_xy": [
+        24.0,
+        10.0
+      ],
+      "new_xy": [
+        16.531381,
+        10.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "f97e1b55-de40-4e50-b570-d0422bc170f5",
+      "old_xy": [
+        207.0,
+        9.0
+      ],
+      "new_xy": [
+        169.669456,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "fa474a48-ee82-4158-b97d-c22dddcfc08c",
+      "old_xy": [
+        230.0,
+        9.0
+      ],
+      "new_xy": [
+        188.916318,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "fc9c06e1-e1ce-4abe-8cee-dc71cb535164",
+      "old_xy": [
+        73.942034,
+        12.495484
+      ],
+      "new_xy": [
+        58.323878,
+        12.495484
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "fe1ccda9-5119-487c-b43a-2e340f82b75c",
+      "old_xy": [
+        187.0,
+        9.0
+      ],
+      "new_xy": [
+        152.933054,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    },
+    {
+      "uuid": "ff4b2a99-d28b-4d87-a7c7-8c5a8bdb3e8c",
+      "old_xy": [
+        15.0,
+        9.0
+      ],
+      "new_xy": [
+        9.0,
+        9.0
+      ],
+      "method": "original ground-via X redistribution; diameter unchanged"
+    }
+  ],
+  "DRC_counts": {
+    "warning:via_dangling": 89,
+    "warning:missing_courtyard": 4,
+    "warning:holes_co_located": 3,
+    "warning:silk_over_copper": 64
+  },
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "RF_status": "Layout candidate; ideal array-factor estimate only; full-wave RF validation not performed."
+}

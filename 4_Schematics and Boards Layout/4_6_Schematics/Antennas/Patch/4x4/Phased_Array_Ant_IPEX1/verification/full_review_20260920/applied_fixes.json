@@ -1,0 +1,45 @@
+{
+  "revision": "IPEX1-A2",
+  "changes": [
+    "Removed paste from 16 printed antenna pads and their library footprint",
+    "Added CAD courtyard bounds for 16 antenna features and 4 NPTH features",
+    "Added reusable local NPTH footprint",
+    "Named both GND zones and explicitly selected solid connection",
+    "Persisted production plot layers, auxiliary origin, X2, no mirror/frame/drill marks and mask subtraction",
+    "Recorded confirmed fabrication requirements in project text variables and board title block",
+    "Enabled all previously ignored PCB DRC rules"
+  ],
+  "newly_enabled_DRC_rules": [
+    "footprint_filters_mismatch",
+    "footprint_type_mismatch",
+    "missing_courtyard",
+    "track_not_centered_on_via",
+    "tuning_profile_track_geometries"
+  ],
+  "courtyard_note": "Antenna: copper extent + 0.25 mm. Hole: radius 1.85 mm = hole radius + 0.25 mm, both sides. These are CAD overlap bounds, not RF spacing or screw-head clearance specifications.",
+  "before_file_hashes": {
+    "Phased_Array_Ant_IPEX1.kicad_pcb": "146fcb3d8ca3033c4d48bd3b182f5a673d1ef5a04cca4e7f6148e2b701c0f70f",
+    "Phased_Array_Ant_IPEX1.kicad_pro": "81fac6ba5d2240b9d9706d25d05a34e986ff3480867fadd63d11c1108c12fa45",
+    "PLFM_RF.pretty\\Patch_10p5GHz_9.538x7.636mm.kicad_mod": "afdfda9d18bcecf257c85e565f9cb921f0e6f91ec9e8e92ad138246153e4eb41"
+  },
+  "after_file_hashes": {
+    "Phased_Array_Ant_IPEX1.kicad_pcb": "7cf71cdeaa4cd4cdb824998b78e3e6276cc294ace7f34fb22524be14acdbafc0",
+    "Phased_Array_Ant_IPEX1.kicad_pro": "88ec750512364738b000ff649ff7c0a45d3ff3c171172e97a73544aae6f114fb",
+    "PLFM_RF.pretty\\Patch_10p5GHz_9.538x7.636mm.kicad_mod": "968f180466d9691c5e7283cc11b05c279addd59c884d002d72ee5a89c0176a5b"
+  },
+  "final_source_hashes": {
+    "Phased_Array_Ant_IPEX1.kicad_pcb": "fb2b537e79377d3670c6af48510d35e417e0e35f0d26da7dc0e8cd988e89dab5",
+    "Phased_Array_Ant_IPEX1.kicad_sch": "b4fada655932bb8901dab2b194a2493be88714f163cb7a279576a4ba33216145",
+    "Phased_Array_Ant_IPEX1.kicad_pro": "dc48f63d8b4f5af54ebdd1d233eb60d25180610e12a016b12287b2c73f70347e",
+    "PLFM_RF.kicad_sym": "6cabe7f82fdf81ae72ef8a7f76b66f07377f5ad83efb33a5f4c9e860217ecddf",
+    "sym-lib-table": "5f6caa32a40ddd1cd036c23cc7300a1910f479ab06ccdf9490566d1c7c82b6c2",
+    "fp-lib-table": "21c16d971e8e329a33d73c0d4b307aad15faa2a7338f36b002c3106a1bf96a47",
+    "README_\u4fee\u6539\u8bf4\u660e.md": "ccdef113d09dcbf312166568745dae74f1a16aa6d5562c368e44330c9fc8bd0a",
+    "REVIEW_A2_\u590d\u6838\u8bf4\u660e.md": "fb85beeccf9e3a327b1a0bae5fc6eac37c4e13563e23988119f46f4d86391023",
+    "fabrication_requirements.json": "0dde9fc4edc0c65f397b5294ff6ebee5341b0ef0dec86656224923f409c56483",
+    "PLFM_RF.pretty\\ECT_818000368_IPEX1_1.25mm.kicad_mod": "d8d94acb836bf127873f88e672e97d5f36f9ad25e9b38c44a2b2ce17129c43e5",
+    "PLFM_RF.pretty\\MountingHole_NPTH_3.2mm.kicad_mod": "ae43da15e02cb439a026ca97c0d678b7cae54381940b83bba7f05a28599acab3",
+    "PLFM_RF.pretty\\Patch_10p5GHz_9.538x7.636mm.kicad_mod": "968f180466d9691c5e7283cc11b05c279addd59c884d002d72ee5a89c0176a5b",
+    "datasheets\\ECT_818000368_SPEC_E.pdf": "ab21f82f1df7c73468de2352afb095ed12681e2b29e973777a8ccedd45c8d376"
+  }
+}

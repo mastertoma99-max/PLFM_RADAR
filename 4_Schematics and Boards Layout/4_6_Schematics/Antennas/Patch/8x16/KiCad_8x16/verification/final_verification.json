@@ -1,0 +1,19 @@
+{
+  "source_hashes_unchanged": true,
+  "track_via_pad_footprint_geometry_unchanged_from_native_import": true,
+  "128_exact_rectangles_16_nets_8_patches_each": true,
+  "source_ground_contacts_match_schematic": true,
+  "drc_errors": 0,
+  "drc_unconnected": 0,
+  "drc_warnings": {
+    "via_dangling": 89,
+    "holes_co_located": 3,
+    "silk_overlap": 7,
+    "silk_over_copper": 160
+  },
+  "output_sha256": {
+    "Patch_Anetnna_16_8.kicad_pcb": "03c775bdcb4bd92ece77b985b03019403e8ee8887bc2eb1f65e23bad9613f1f6",
+    "Patch_Anetnna_16_8.kicad_pro": "b1594dbe05737ae1ec4f89dd510f8a0582f0378b8a5494410a63775c233e2f11",
+    "Patch_Anetnna_16_8.kicad_sch": "26df2db85e0e207c4f45d13a3bfeab59c4ed6dac6e1e044b73c7016741ea19fe"
+  }
+}

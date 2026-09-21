@@ -1,0 +1,29 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.0*%
+%TF.CreationDate,2026-09-20T19:23:55+08:00*%
+%TF.ProjectId,Patch_Anetnna_16_8_IPEX1,50617463-685f-4416-9e65-746e6e615f31,IPEX1-A1*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Bot*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.0) date 2026-09-20 19:23:55*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,3.200000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,UNK_HOLE_3*%
+X4000000Y151000000D03*
+%TD*%
+%TO.C,UNK_HOLE_0*%
+X4000000Y4000000D03*
+%TD*%
+%TO.C,UNK_HOLE_2*%
+X241000000Y151000000D03*
+%TD*%
+%TO.C,UNK_HOLE_1*%
+X241000000Y4000000D03*
+%TD*%
+M02*

@@ -1,0 +1,277 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-20T19:04:53",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/dd0c9825-4b6f-5f59-bc2c-cc2b5187858b",
+            "violations": [
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$17'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.4572
+                            },
+                            "uuid": "6378442a-0a2b-5a4c-870d-78b87ff3ab7e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$25'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 0.9906
+                            },
+                            "uuid": "d6b16166-05dd-5528-8eb4-1f164c771f00"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$34'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 1.524
+                            },
+                            "uuid": "b8e00e6d-7e7d-54b8-bbfa-e3cf0095c33a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$19'",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 0.4572
+                            },
+                            "uuid": "dea0542b-8e78-5d54-9c93-3b7e29f42aeb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$28'",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 0.9906
+                            },
+                            "uuid": "ebc4011f-392e-596c-ab7c-9c32bb43f9b6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$41'",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 2.0574
+                            },
+                            "uuid": "c47403d0-912e-59e0-98aa-e5d176a111db"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$36'",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 1.524
+                            },
+                            "uuid": "4cf25206-93a7-51b2-ab88-b9a90da60bb2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$21'",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.4572
+                            },
+                            "uuid": "9ac20593-f3c4-59d4-8f2f-b9ad3b86fc3d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$43'",
+                            "pos": {
+                                "x": 1.6002,
+                                "y": 2.0574
+                            },
+                            "uuid": "cf38235e-9228-55d9-a48f-ef2a238484cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$30'",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 0.9906
+                            },
+                            "uuid": "9fa2fbb3-2f21-5241-88dd-30af88662763"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$38'",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 1.524
+                            },
+                            "uuid": "f0e444ec-66ec-5e26-a40b-e9efda34a31d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$45'",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 2.0574
+                            },
+                            "uuid": "658114ee-8b6f-527d-8031-c0cb39f4a90e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$23'",
+                            "pos": {
+                                "x": 3.4798,
+                                "y": 0.4572
+                            },
+                            "uuid": "bf93adf4-907e-52ba-ac34-dee9bd25168e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$32'",
+                            "pos": {
+                                "x": 3.4798,
+                                "y": 0.9906
+                            },
+                            "uuid": "d81abe8c-c985-5baa-917b-4b36a693af28"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$40'",
+                            "pos": {
+                                "x": 3.4798,
+                                "y": 1.524
+                            },
+                            "uuid": "8b486f26-c3f6-5578-a698-0e69fe341468"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "全局标签 'N$47'",
+                            "pos": {
+                                "x": 3.4798,
+                                "y": 2.0574
+                            },
+                            "uuid": "415fb577-f694-5db5-ab0b-41ca10df53bb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                }
+            ]
+        }
+    ],
+    "source": "Patch_Anetnna_16_8_IPEX1.kicad_sch"
+}

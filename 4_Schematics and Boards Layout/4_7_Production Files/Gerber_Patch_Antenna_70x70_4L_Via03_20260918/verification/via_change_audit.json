@@ -1,0 +1,177 @@
+{
+  "baseline_eagle": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_7_Production Files\\Gerber_Patch_Antenna_70x70_4L_20260918\\source\\Phased_Array_Ant_70x70_4L.brd",
+  "baseline_eagle_sha256": "fc9a29380b08a1a9ed376a762c0fbfe60b1eff554aee1337ecfa70086730002f",
+  "baseline_kicad_sha256": "2f84d773054d5b172d513d4d029ee7d8d5105618074e04b82fb4a4b8c80c73d6",
+  "baseline_zip_sha256": "5578b5f0e56d0b0365d1d8d166a99c45e8dfd25ed91c8a52844280a0ac7a1c15",
+  "modified_eagle_sha256": "b9d20427db5f6b54175010da4575e3f2e50021679d25431d2e1b32e3d6430556",
+  "modified_vias": [
+    {
+      "net": "N$1",
+      "x": 14.2,
+      "y": 12.7,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$2",
+      "x": 28.3,
+      "y": 12.8,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$3",
+      "x": 42.5,
+      "y": 12.7,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$4",
+      "x": 56.6,
+      "y": 12.7,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$5",
+      "x": 14.2,
+      "y": 26.9,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$6",
+      "x": 28.3,
+      "y": 26.9,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$7",
+      "x": 42.5,
+      "y": 26.9,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$8",
+      "x": 56.6,
+      "y": 26.9,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$9",
+      "x": 14.2,
+      "y": 41.0,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$10",
+      "x": 28.3,
+      "y": 41.0,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$11",
+      "x": 42.4,
+      "y": 41.1,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$12",
+      "x": 56.6,
+      "y": 41.0,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$13",
+      "x": 14.2,
+      "y": 55.1,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$14",
+      "x": 28.3,
+      "y": 55.2,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$15",
+      "x": 42.5,
+      "y": 55.2,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    },
+    {
+      "net": "N$16",
+      "x": 56.7,
+      "y": 55.1,
+      "old_drill_mm": 0.2,
+      "new_drill_mm": 0.3,
+      "old_pad_mm": 0.4,
+      "new_pad_mm": 0.6,
+      "new_nominal_radial_annulus_mm": 0.15
+    }
+  ],
+  "eagle_only_16_via_hole_and_pad_sizes_changed": true,
+  "modified_eagle_vs_kicad_all_tracks_and_vias_match": true,
+  "layers": 4,
+  "via_extent": "through all four copper layers",
+  "PTH_holes_0.3mm": 28,
+  "NPTH_holes_3.2mm": 4,
+  "ground_vias_unchanged": "12 x 0.3 mm hole / 0.5 mm pad",
+  "material_and_thickness": "TBD; no RF equivalence or simulation asserted"
+}

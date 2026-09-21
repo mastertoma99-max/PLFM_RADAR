@@ -1,0 +1,147 @@
+{
+  "reader": "Gerbonara 1.6.3 + Shapely 2.1.2",
+  "units": "mm",
+  "layer_order": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "physical_connectivity": {
+    "all_17_nets_connected": true,
+    "shorts_between_nets": 0,
+    "tested_connector_pads": 48,
+    "tested_via_objects": 127,
+    "tested_antenna_patches": 128,
+    "unassigned_copper_islands": 0,
+    "method": "Gerber polygon union plus plated-via graph, 0.1 um arc approximation and 2 um point tolerance"
+  },
+  "minimum_different_net_copper_clearance_mm": {
+    "F_Cu": 0.44999999999998863,
+    "In1_Cu": null,
+    "In2_Cu": null,
+    "B_Cu": null
+  },
+  "ground_plane": {
+    "In1_Cu_continuous_plane_area_mm2": 37648.143674685205,
+    "ground_via_objects_directly_touching_In1": 127,
+    "In2_and_B_Cu_have_no_plane": true,
+    "layer_copper_areas_mm2": {
+      "F_Cu": 8665.644852816917,
+      "In1_Cu": 37648.143674685205,
+      "In2_Cu": 74.60721593040607,
+      "B_Cu": 74.60721593040607
+    }
+  },
+  "ipex_lands": {
+    "mounting_side": "top",
+    "connectors": 16,
+    "rectangular_pads_verified": 48
+  },
+  "solder_mask": {
+    "F_Mask": {
+      "opening_count": 1,
+      "opening_area_mm2": 37974.93208736554,
+      "openings_exposing_multiple_nets": 1
+    },
+    "B_Mask": {
+      "opening_count": 4,
+      "opening_area_mm2": 32.16923860586495,
+      "openings_exposing_multiple_nets": 0
+    },
+    "top_nearly_entire_board_open_inherited_from_source": true,
+    "comment": "Full-board mask opening with small rounded corners, spanning different nets by original design; no solder-mask dams between top nets. Copper connectivity was checked separately."
+  },
+  "silkscreen": {
+    "F": {
+      "plotted_primitives": 405,
+      "effective_printed_area_mm2": 0.0,
+      "overlap_with_mask_openings_mm2": 0
+    },
+    "B": {
+      "plotted_primitives": 4,
+      "effective_printed_area_mm2": 0.0,
+      "overlap_with_mask_openings_mm2": 0
+    }
+  },
+  "drill_readback": {
+    "PTH_0.4mm": 32,
+    "PTH_0.6mm": 92,
+    "NPTH_3.2mm": 4,
+    "total_unique_PTH": 124,
+    "all_positions_and_diameters_match_source_within_0.0005mm": true,
+    "max_coordinate_quantization_error_mm": 0.000484000000000151,
+    "duplicate_commands_removed": [
+      {
+        "tool": "T2",
+        "command": "X43.0Y9.0"
+      },
+      {
+        "tool": "T2",
+        "command": "X53.0Y9.0"
+      },
+      {
+        "tool": "T2",
+        "command": "X192.66Y16.0"
+      }
+    ],
+    "source_via_objects_preserved": 127,
+    "minimum_nominal_annular_ring_mm": 0.15000000000000002
+  },
+  "outline": {
+    "closed": true,
+    "centerline_size_mm": [
+      245,
+      155
+    ],
+    "origin": "lower left (0,0)",
+    "all_layers_unmirrored_top_view": true,
+    "drawing_sheet_not_exported": true
+  },
+  "ipc356_readback": {
+    "electrical_nodes": 172,
+    "mechanical_holes": 4,
+    "net_pin_layer_and_coordinate_match": true,
+    "max_coordinate_quantization_error_mm": 0.0012660000000010996,
+    "format_normalized_records": 179,
+    "duplicate_via_records_removed": 3,
+    "raw_export_archived": true,
+    "normalization": "Reserved column 72 restored and mask code derived from actual artwork; first 71 columns unchanged."
+  },
+  "job_manifest": "Unconfirmed material, thickness, copper weight, finish and stackup defaults removed; layer count and order retained.",
+  "kicad_checks": {
+    "DRC_errors": 0,
+    "unconnected": 0,
+    "schematic_parity": 0,
+    "DRC_warning_counts": {
+      "via_dangling": 89,
+      "missing_courtyard": 4,
+      "holes_co_located": 3,
+      "silk_over_copper": 64
+    },
+    "DRC_ignored_checks": [],
+    "ERC_errors": 0,
+    "ERC_warning_counts": {
+      "isolated_pin_label": 16
+    },
+    "ERC_ignored_checks": [
+      {
+        "description": "Global label only appears once in the schematic",
+        "key": "single_global_label"
+      },
+      {
+        "description": "Four connection points are joined together",
+        "key": "four_way_junction"
+      },
+      {
+        "description": "SPICE model issue",
+        "key": "simulation_model_issue"
+      },
+      {
+        "description": "Assigned footprint doesn't match footprint filters",
+        "key": "footprint_filter"
+      }
+    ]
+  },
+  "source_hashes_still_match": true
+}

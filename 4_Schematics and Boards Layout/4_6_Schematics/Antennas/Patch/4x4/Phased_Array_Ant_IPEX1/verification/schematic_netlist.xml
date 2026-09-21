@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\2_Works\4_Procedures\PLFM_RADAR\4_Schematics and Boards Layout\4_7_Production Files\Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920_R2\source\Phased_Array_Ant_IPEX1.kicad_sch</source>
+    <date>2026-09-20T16:56:33</date>
+    <tool>Eeschema 10.0.0</tool>
+    <textvar name="FAB_DIELECTRIC_THICKNESS">TBD - fabricator to propose</textvar>
+    <textvar name="FAB_FINISH">OSP</textvar>
+    <textvar name="FAB_FINISHED_THICKNESS_MM">1.0</textvar>
+    <textvar name="FAB_INNER_COPPER_OZ">0.5</textvar>
+    <textvar name="FAB_LAYER_ORDER">F.Cu / In1.Cu GND / In2.Cu GND / B.Cu</textvar>
+    <textvar name="FAB_MATERIAL">FR4</textvar>
+    <textvar name="FAB_OUTER_COPPER_OZ">1</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>4 x 4 Phased Array - IPEX I Generation</title>
+        <company/>
+        <rev>IPEX1-A2</rev>
+        <date>2026-09-20</date>
+        <source>Phased_Array_Ant_IPEX1.kicad_sch</source>
+        <comment number="1" value="ECT 818000368 / SPEC E / YC.DZ.SS00008"/>
+        <comment number="2" value="4L Via03 / Connector rated DC-6GHz / RF validation required"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">4_1</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="4_1"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3d3affcc-217b-5505-a7b2-df69b0bc92eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">4_2</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="4_2"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0165bf4f-0023-5103-8ef5-9a63ace049fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">4_3</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="4_3"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e3cdd5f-7962-5d12-802f-6614cd56df65</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">4_4</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="4_4"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8b3f763-f76b-54de-9129-cc23b9c75687</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">3_1</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="3_1"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d89da9c9-792b-5698-96e6-93e6ddb60093</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">3_2</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="3_2"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>288f9de2-36bf-5356-a1bc-c58ad022e7fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">3_3</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="3_3"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcc9e9b7-adb8-5a4f-80f2-0cd4de8cfef7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">3_4</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="3_4"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1938c01e-490e-5872-86ef-0ea58d9a91a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">2_1</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="2_1"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1941c41-de76-5317-bf43-4de4752b59ce</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">2_2</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="2_2"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>997cbcc0-f883-513f-a0eb-5bf5b8c58088</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">2_3</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="2_3"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>faf0c3ae-dc3d-56f6-a376-a1e74075ceda</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">2_4</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="2_4"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9648d10c-a28d-58ad-84d2-ff516a5b822f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">1_1</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="1_1"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ed25145-f220-5c65-bd28-72480b237c7b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J14">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">1_2</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="1_2"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e7f18c5-b1e7-5395-8fcd-ffd24ad6439d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J15">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">1_3</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="1_3"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72851c70-ec4b-5469-a369-5d6790bc8977</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J16">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="ArrayPosition">1_4</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="ArrayPosition" value="1_4"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f04332c8-d45d-5638-b6c9-b759ad5b42a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$1">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cc496b5-3cbd-597d-b6fd-257f01524b4a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$2">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>136f0ade-d89d-50ab-8920-36818cb80b3d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$3">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>934940b1-71e2-5179-a0c2-5e5fa026fcad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$4">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7c189c2-bcca-5608-be11-7d3615b2d6b6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$5">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c90dab35-78bd-586f-a843-71ec4456bb99</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$6">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe61ee1a-2e7c-5721-afa9-acc2f286572e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$7">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9e3b0f4-784b-5f39-96a5-8d6b9c2e6f85</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$8">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5588417d-b503-5bdc-b23a-3d7281b6c06a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$9">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98125a14-fb3a-5e42-990d-63234c6db765</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$10">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee4594f4-1137-58ea-a9e3-5ab08846ba1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$11">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f5f0e591-755c-5273-a153-a23e453476a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$12">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f965bee8-991c-5be9-a525-6e11f37dd572</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$13">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73f4d210-b5be-5142-a844-494583ebe8c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$14">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05af6515-a99f-5788-88f6-54c9f91c93e0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$15">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>03c515fb-6a43-5afe-bf05-431dda04f48a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$16">
+      <value>10.5GHZ_ANT</value>
+      <footprint>PLFM_RF:Patch_10p5GHz_9.538x7.636mm</footprint>
+      <fields>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="Patch_10p5GHz" description="Original 10.5GHz printed antenna element, copper dimensions unchanged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant_IPEX1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7691de2-94df-59db-b4fc-d8b34469279f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PLFM_RF" part="ECT_818000368">
+      <description>ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz</description>
+      <docs>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">818000368</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description">ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PLFM_RF" part="Patch_10p5GHz">
+      <description>Original 10.5GHz printed antenna element, copper dimensions unchanged</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10.5GHZ_ANT</field>
+        <field name="Footprint">PLFM_RF:Patch_10p5GHz_9.538x7.636mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Original 10.5GHz printed antenna element, copper dimensions unchanged</field>
+      </fields>
+      <pins>
+        <pin num="P$1" name="FEED" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PLFM_RF">
+      <uri>${KIPRJMOD}/PLFM_RF.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J16" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="GND_3" pintype="passive"/>
+    </net>
+    <net code="2" name="N$1" class="Default">
+      <node ref="J1" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$1" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="3" name="N$2" class="Default">
+      <node ref="J2" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$2" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="4" name="N$3" class="Default">
+      <node ref="J3" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$3" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="5" name="N$4" class="Default">
+      <node ref="J4" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$4" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="6" name="N$5" class="Default">
+      <node ref="J5" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$5" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="7" name="N$6" class="Default">
+      <node ref="J6" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$6" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="8" name="N$7" class="Default">
+      <node ref="J7" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$7" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="9" name="N$8" class="Default">
+      <node ref="J8" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$8" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="10" name="N$9" class="Default">
+      <node ref="J9" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$9" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="11" name="N$10" class="Default">
+      <node ref="J10" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$10" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="12" name="N$11" class="Default">
+      <node ref="J11" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$11" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="13" name="N$12" class="Default">
+      <node ref="J12" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$12" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="14" name="N$13" class="Default">
+      <node ref="J13" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$13" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="15" name="N$14" class="Default">
+      <node ref="J14" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$14" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="16" name="N$15" class="Default">
+      <node ref="J15" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$15" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+    <net code="17" name="N$16" class="Default">
+      <node ref="J16" pin="1" pinfunction="SIG_1" pintype="passive"/>
+      <node ref="U$16" pin="P$1" pinfunction="FEED_P$1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

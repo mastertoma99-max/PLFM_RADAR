@@ -1,0 +1,5 @@
+最新生产包：IPEX1-A2 / R2
+D:\2_Works\4_Procedures\PLFM_RADAR\4_Schematics and Boards Layout\4_7_Production Files\Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920_R2\Phased_Array_Ant_IPEX1_70x70_4L_Gerber_20260920_R2.zip
+
+44 个地孔在 L2、L3 均直接连接 GND；16 个信号孔均隔离。
+具体介质叠层及射频性能的验证边界见 REVIEW_A2_复核说明.md。

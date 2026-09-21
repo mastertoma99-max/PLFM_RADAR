@@ -1,0 +1,124 @@
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+after library export <class 'pcbnew.VECTOR2I'>
+after FindNet <class 'pcbnew.VECTOR2I'>
+removed ground tracks 45
+Processing U$14
+Processing UNK_HOLE_3
+Processing U$15
+Processing U$11
+Processing U$13
+Processing U$7
+Processing U$2
+Processing UNK_HOLE_2
+Processing U$3
+Processing UNK_HOLE_0
+Processing U$1
+Processing U$4
+Processing U$6
+Processing UNK_HOLE_1
+Processing U$8
+Processing U$12
+Processing U$5
+Processing U$10
+Processing U$16
+Processing U$9
+Processing J8
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J14
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J7
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J6
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J16
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J15
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J9
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J1
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J13
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J3
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J11
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J10
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J5
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J12
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J2
+ loaded
+ flipped
+ signal routed
+ replaced
+Processing J4
+ loaded
+ flipped
+ signal routed
+ replaced
+{
+  "output": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_6_Schematics\\Antennas\\Patch\\4x4\\Phased_Array_Ant_IPEX1",
+  "connectors": 16,
+  "removed_ground_tracks": 45,
+  "new_ground_vias": 32,
+  "pads": 68,
+  "tracks_and_vias": 148
+}

@@ -1,0 +1,131 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.0"
+    },
+    "CreationDate": "2026-09-20T15:56:58+08:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Phased_Array_Ant_IPEX1",
+      "GUID": "50686173-6564-45f4-9172-7261795f416e",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 70.0,
+      "Y": 70.0
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.0,
+    "Finish": "OSP"
+  },
+  "FilesAttributes": [
+    {
+      "Path": "Phased_Array_Ant_IPEX1-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_IPEX1-In1_Cu.g1",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_IPEX1-In2_Cu.g2",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_IPEX1-B_Cu.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_IPEX1-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_IPEX1-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_IPEX1-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Phased_Array_Ant_IPEX1-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Phased_Array_Ant_IPEX1-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderMask",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "F.Cu",
+      "Notes": "Nominal 1 oz outer / 0.5 oz inner. Copper weight is the controlling requirement."
+    },
+    {
+      "Type": "Dielectric",
+      "Material": "FR4",
+      "Name": "F.Cu/In1.Cu",
+      "Notes": "FR4; individual dielectric thickness and grade to be proposed by fabricator for 1.0 mm finished board."
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0175,
+      "Name": "In1.Cu",
+      "Notes": "Nominal 1 oz outer / 0.5 oz inner. Copper weight is the controlling requirement."
+    },
+    {
+      "Type": "Dielectric",
+      "Material": "FR4",
+      "Name": "In1.Cu/In2.Cu",
+      "Notes": "FR4; individual dielectric thickness and grade to be proposed by fabricator for 1.0 mm finished board."
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0175,
+      "Name": "In2.Cu",
+      "Notes": "Nominal 1 oz outer / 0.5 oz inner. Copper weight is the controlling requirement."
+    },
+    {
+      "Type": "Dielectric",
+      "Material": "FR4",
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "FR4; individual dielectric thickness and grade to be proposed by fabricator for 1.0 mm finished board."
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "B.Cu",
+      "Notes": "Nominal 1 oz outer / 0.5 oz inner. Copper weight is the controlling requirement."
+    },
+    {
+      "Type": "SolderMask",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

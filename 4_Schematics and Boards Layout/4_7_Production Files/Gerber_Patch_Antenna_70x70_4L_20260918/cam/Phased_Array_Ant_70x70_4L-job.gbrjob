@@ -1,0 +1,69 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "10.0.0"
+    },
+    "CreationDate": "2026-09-18T17:15:04+08:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "Phased_Array_Ant_70x70_4L",
+      "GUID": "50686173-6564-45f4-9172-7261795f416e",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 70.0,
+      "Y": 70.0
+    },
+    "LayerNumber": 4
+  },
+  "FilesAttributes": [
+    {
+      "Path": "Phased_Array_Ant_70x70_4L-F_Cu.gtl",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_70x70_4L-In1_Cu.g1",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_70x70_4L-In2_Cu.g2",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_70x70_4L-B_Cu.gbl",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_70x70_4L-F_Silkscreen.gto",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_70x70_4L-B_Silkscreen.gbo",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "Phased_Array_Ant_70x70_4L-F_Mask.gts",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Phased_Array_Ant_70x70_4L-B_Mask.gbs",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "Phased_Array_Ant_70x70_4L-Edge_Cuts.gm1",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ]
+}

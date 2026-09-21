@@ -1,0 +1,317 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-20T16:45:46",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "Phased_Array_Ant_IPEX1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$14",
+                    "pos": {
+                        "x": 141.84,
+                        "y": 74.48
+                    },
+                    "uuid": "0b562bf5-c83f-4da3-bebd-20b453b1c339"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 UNK_HOLE_3",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 67.0
+                    },
+                    "uuid": "193e7ba2-3ef3-46d6-87f6-c962df86e993"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$15",
+                    "pos": {
+                        "x": 155.98,
+                        "y": 74.48
+                    },
+                    "uuid": "2666bc28-b809-475d-abfe-af772b58ec5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$11",
+                    "pos": {
+                        "x": 155.98,
+                        "y": 88.62
+                    },
+                    "uuid": "2cb2af18-5549-4d9b-807c-d640f68cc803"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$13",
+                    "pos": {
+                        "x": 127.7,
+                        "y": 74.48
+                    },
+                    "uuid": "324d3dc7-cd35-40e7-aa4b-ff4ebe398292"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$7",
+                    "pos": {
+                        "x": 155.98,
+                        "y": 102.76
+                    },
+                    "uuid": "3f70f118-76b4-4f35-95c0-9a45c41c3bb8"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$2",
+                    "pos": {
+                        "x": 141.84,
+                        "y": 116.9
+                    },
+                    "uuid": "48dff3f8-1599-4df0-85c4-d93c79dfcc28"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 UNK_HOLE_2",
+                    "pos": {
+                        "x": 181.5,
+                        "y": 67.0
+                    },
+                    "uuid": "50eb0c7c-6d34-45f9-8904-6e23ca8682a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$3",
+                    "pos": {
+                        "x": 155.98,
+                        "y": 116.9
+                    },
+                    "uuid": "60ce107e-e8d9-44bc-afbf-3e19dd5cde90"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 UNK_HOLE_0",
+                    "pos": {
+                        "x": 115.5,
+                        "y": 133.0
+                    },
+                    "uuid": "68e9b555-5c35-40a2-adf9-4de2e42d8ca4"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$1",
+                    "pos": {
+                        "x": 127.7,
+                        "y": 116.9
+                    },
+                    "uuid": "7ab210b0-122b-4fb6-8239-4d44efb6d07c"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$4",
+                    "pos": {
+                        "x": 170.12,
+                        "y": 116.9
+                    },
+                    "uuid": "7b33e3e2-2c76-4664-8b76-8f65b42e00d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$6",
+                    "pos": {
+                        "x": 141.84,
+                        "y": 102.76
+                    },
+                    "uuid": "8214a47e-d7ad-49e8-8229-17388f3d1a94"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 UNK_HOLE_1",
+                    "pos": {
+                        "x": 181.5,
+                        "y": 133.0
+                    },
+                    "uuid": "8b3144b7-38ca-45fd-8252-53031ed0972c"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$8",
+                    "pos": {
+                        "x": 170.12,
+                        "y": 102.76
+                    },
+                    "uuid": "9d8b8b99-a421-4049-a8b9-2fb7269a4221"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$12",
+                    "pos": {
+                        "x": 170.12,
+                        "y": 88.62
+                    },
+                    "uuid": "acf5aa4a-7592-4163-9b34-2e1dcded43f3"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$5",
+                    "pos": {
+                        "x": 127.7,
+                        "y": 102.76
+                    },
+                    "uuid": "af2f2c62-0a70-4f43-a57d-6cd26043ef81"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$10",
+                    "pos": {
+                        "x": 141.84,
+                        "y": 88.62
+                    },
+                    "uuid": "c3bfe64d-542f-4d21-8a45-011794107abf"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$16",
+                    "pos": {
+                        "x": 170.12,
+                        "y": 74.48
+                    },
+                    "uuid": "e93ce81a-9c37-49f9-8b5b-d72d77c0b32c"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 U$9",
+                    "pos": {
+                        "x": 127.7,
+                        "y": 88.62
+                    },
+                    "uuid": "fe74dbed-f19c-45c3-b615-6a316096ad32"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        }
+    ]
+}

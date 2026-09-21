@@ -1,0 +1,3 @@
+最新版为同级目录：Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920_R2
+生产包：Phased_Array_Ant_IPEX1_70x70_4L_Gerber_20260920_R2.zip
+旧版保留供追溯；R2 已同步工程修正和全面复核记录。

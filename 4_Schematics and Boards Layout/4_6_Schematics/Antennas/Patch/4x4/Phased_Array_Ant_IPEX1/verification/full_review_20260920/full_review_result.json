@@ -1,0 +1,22 @@
+{
+  "revision": "IPEX1-A2",
+  "copper_layers": 4,
+  "positions_orientations_and_sides_unchanged": true,
+  "all_copper_pad_geometry_nets_mask_margin_and_holes_unchanged": true,
+  "all_tracks_and_vias_unchanged": true,
+  "antenna_paste_removed_in_board_and_library": true,
+  "all_36_footprints_have_courtyards": true,
+  "44_ground_vias_connect_both_inner_planes": true,
+  "each_IPEX_has_two_nearby_ground_vias": true,
+  "all_16_signal_vias_isolated_from_inner_ground_planes": true,
+  "saved_plot_options_match_production_flow": true,
+  "confirmed_fabrication_parameters_saved": true,
+  "all_PCB_DRC_rules_enabled": true,
+  "PCB_DRC_exclusions": 0,
+  "production_review": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_7_Production Files\\Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920_R2\\verification\\gerber_readback_audit.json",
+  "not_verified": [
+    "RF performance at 10.5 GHz",
+    "Final individual dielectric thickness / FR4 grade",
+    "Screw-head and enclosure mechanical clearance"
+  ]
+}

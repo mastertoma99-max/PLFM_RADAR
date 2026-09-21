@@ -1,0 +1,83 @@
+{
+  "revision": "IPEX1-A1-CAM-20260920",
+  "status": "CAM geometry exported and checked; manufacturing parameters pending confirmation before fabrication",
+  "board_size_mm": [
+    245,
+    155
+  ],
+  "copper_layers": 4,
+  "layer_order": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "layer_use": {
+    "F.Cu": "128 antenna patches, feeds, 16 top-side IPEX connectors",
+    "In1.Cu": "GND plane",
+    "In2.Cu": "plated-via annuli only; no plane",
+    "B.Cu": "plated-via annuli only; no plane"
+  },
+  "material": null,
+  "material_grade": null,
+  "finished_board_thickness_mm": null,
+  "outer_copper_oz": null,
+  "inner_copper_oz": null,
+  "surface_finish": null,
+  "dielectric_thicknesses_mm": null,
+  "dielectric_properties": null,
+  "soldermask_color": null,
+  "impedance_requirement": null,
+  "fabrication_tolerances": null,
+  "null_means": "TBD; never infer from CAD defaults or the separate 70x70 mm antenna project",
+  "origin": "board lower-left (0,0); unmirrored top-view coordinates for every layer",
+  "pth": [
+    {
+      "drill_mm": 0.4,
+      "count": 32
+    },
+    {
+      "drill_mm": 0.6,
+      "count": 92
+    }
+  ],
+  "npth": [
+    {
+      "drill_mm": 3.2,
+      "count": 4,
+      "centers_mm": [
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          151
+        ],
+        [
+          241,
+          4
+        ],
+        [
+          241,
+          151
+        ]
+      ]
+    }
+  ],
+  "exact_duplicate_drill_commands_removed": 3,
+  "source_via_objects": 127,
+  "unique_plated_holes": 124,
+  "minimum_nominal_annular_ring_mm": 0.15,
+  "minimum_track_width_mm": 0.4,
+  "measured_minimum_different_net_copper_clearance_mm": 0.45,
+  "mask": "Original near-full-board top opening retained; bottom via annuli tented according to Gerbers",
+  "silkscreen": "Both sides have zero effective printed area after soldermask subtraction",
+  "ipc356": {
+    "electrical_nodes": 172,
+    "nets": 17,
+    "mechanical_hole_records": 4
+  },
+  "scope": "Bare PCB only; assembly BOM, paste stencil and pick/place data not included",
+  "RF_validation": "Not performed. Connector specification DC-6GHz does not qualify operation at 10.5GHz."
+}

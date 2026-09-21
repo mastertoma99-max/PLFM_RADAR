@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "PLFM_RF")(type "KiCad")(uri "${KIPRJMOD}/PLFM_RF.pretty")(options "")(descr "Local RF footprints")))

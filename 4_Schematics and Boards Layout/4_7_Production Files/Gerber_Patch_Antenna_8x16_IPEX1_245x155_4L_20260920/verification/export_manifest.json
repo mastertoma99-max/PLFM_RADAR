@@ -1,0 +1,73 @@
+{
+  "source_project": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_6_Schematics\\Antennas\\Patch\\8x16\\KiCad_8x16_IPEX1",
+  "source_hashes": {
+    "Patch_Anetnna_16_8_IPEX1.kicad_pcb": "502da280373f53815508cf2a5a1c42b42f2741adf6751354aa3668b69cfc643a",
+    "Patch_Anetnna_16_8_IPEX1.kicad_sch": "eacd3d92d4432b13b8799e873fd3b4648dd993be88dd9fad758ca900570068f1",
+    "Patch_Anetnna_16_8_IPEX1.kicad_pro": "6db0dd0b1aa9991776536475d09a3bd0c5797e2728c79a7877246e412f4835f2",
+    "Patch_Anetnna_16_8_IPEX1.kicad_dru": "7d26c90af126d96870bb398b1ebb9b4794a676f3d12924c3dccdce8b3135b116",
+    "PLFM_RF.kicad_sym": "6cabe7f82fdf81ae72ef8a7f76b66f07377f5ad83efb33a5f4c9e860217ecddf",
+    "sym-lib-table": "906fb385dda1eb884e863601556e000a91a818f1f0ff1f633f89f4c33050ac2e",
+    "fp-lib-table": "e11907d2e5ce8febda4bb5443ec2413f642ed84578f17ec9b5c2ac8ae8a057d1",
+    "README_修改说明.md": "72ba658529f90920b954cbac0e854010b3138b953c48074fc4a22ecef48acc1b",
+    "PLFM_RF.pretty\\ECT_818000368_IPEX1_1.25mm.kicad_mod": "d8d94acb836bf127873f88e672e97d5f36f9ad25e9b38c44a2b2ce17129c43e5",
+    "datasheets\\ECT_818000368_SPEC_E.pdf": "ab21f82f1df7c73468de2352afb095ed12681e2b29e973777a8ccedd45c8d376"
+  },
+  "source_files_unchanged": true,
+  "physical_geometry_unchanged": true,
+  "kicad_version": "10.0.0",
+  "exported_board_sha256": "5f82627f6c76733ae5a258ccc8563b5bf3ee1fb04882a92bf518dbbea3531d94",
+  "copper_layers": 4,
+  "board_size_mm": [
+    245,
+    155
+  ],
+  "origin": "lower left (0,0), unmirrored top view",
+  "trace_widths_mm_counts": {
+    "1.08": 32,
+    "1.0": 16,
+    "0.4": 32
+  },
+  "via_object_count": 127,
+  "via_drill_counts": {
+    "0.6": 95,
+    "0.4": 32
+  },
+  "unique_via_positions": 124,
+  "npth": [
+    {
+      "x": 4.0,
+      "y": 151.0,
+      "drill": 3.2
+    },
+    {
+      "x": 4.0,
+      "y": 4.0,
+      "drill": 3.2
+    },
+    {
+      "x": 241.0,
+      "y": 151.0,
+      "drill": 3.2
+    },
+    {
+      "x": 241.0,
+      "y": 4.0,
+      "drill": 3.2
+    }
+  ],
+  "originally_ignored_DRC_checks_enabled_as_warnings": {
+    "footprint_filters_mismatch": "ignore",
+    "footprint_type_mismatch": "ignore",
+    "missing_courtyard": "ignore",
+    "track_not_centered_on_via": "ignore",
+    "tuning_profile_track_geometries": "ignore"
+  },
+  "drc_warning_counts": {
+    "via_dangling": 89,
+    "missing_courtyard": 4,
+    "holes_co_located": 3,
+    "silk_over_copper": 64
+  },
+  "unconfirmed_CAD_board_thickness_mm": 1.6,
+  "manufacturing_parameters": "material, thickness, copper weights, finish, dielectric thicknesses and impedance requirements TBD"
+}

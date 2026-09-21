@@ -1,0 +1,33 @@
+{
+  "offset_mm": [
+    113.5,
+    135.0
+  ],
+  "board_outline_centerline_before_mm": [
+    0,
+    -70,
+    70,
+    0
+  ],
+  "board_outline_centerline_after_mm": [
+    113.5,
+    65,
+    183.5,
+    135
+  ],
+  "page_mm": [
+    297,
+    210
+  ],
+  "uniform_translation_all_items_verified": true,
+  "relative_geometry_nets_pad_sizes_layers_and_uuids_unchanged": true,
+  "verified_objects": 594,
+  "backup": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_6_Schematics\\Antennas\\Patch\\4x4\\Phased_Array_Ant_IPEX1\\verification\\before_page_centering\\Phased_Array_Ant_IPEX1.kicad_pcb",
+  "before_sha256": "a62b19b21a3e4dbdd6ea3cedf79b1dbb954139a269f54c4770d62d9ada769d38",
+  "after_sha256": "22635f6ba4719c12f9926e4366ca73876b3bd21f6ee9e3576395d6d1b355c9ad",
+  "auxiliary_and_grid_origins_shifted_by_same_offset": true,
+  "final_board_sha256": "8dda7978ec3eb3fe2aaf9f7dac06dc2af21d4b849d08607b6748bbcd31717d35",
+  "drc_violations_after_refill": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0
+}

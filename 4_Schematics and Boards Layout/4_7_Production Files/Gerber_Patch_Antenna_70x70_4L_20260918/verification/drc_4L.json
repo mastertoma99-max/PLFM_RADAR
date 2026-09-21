@@ -1,0 +1,2210 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-18T17:14:47",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "Phased_Array_Ant_70x70_4L.kicad_pcb",
+    "unconnected_items": [
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J13 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 11.75,
+                        "y": -50.42
+                    },
+                    "uuid": "c667cd53-95d9-4756-80bc-8134cf4d4fa6"
+                },
+                {
+                    "description": "B.Cu 上 J13 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -48.07
+                    },
+                    "uuid": "69d04080-3da2-4b70-941e-483b6c22dc55"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J9 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 11.75,
+                        "y": -36.28
+                    },
+                    "uuid": "c88e589e-c9f6-4696-bdbf-242a23bc809e"
+                },
+                {
+                    "description": "B.Cu 上 J9 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -33.93
+                    },
+                    "uuid": "18b89c90-9c9f-4e70-b209-9f20ffe480b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 11.75,
+                        "y": -8.0
+                    },
+                    "uuid": "b4389531-335c-4742-bdae-4fa882d66da2"
+                },
+                {
+                    "description": "B.Cu 上 J1 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -5.65
+                    },
+                    "uuid": "179fb294-8141-47a0-96e1-748c67bf35e1"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J13 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -48.07
+                    },
+                    "uuid": "69d04080-3da2-4b70-941e-483b6c22dc55"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.1800 mm",
+                    "pos": {
+                        "x": 16.65,
+                        "y": -50.32
+                    },
+                    "uuid": "57f16bb9-2875-4970-bc14-c089a776d94d"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J5 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -19.79
+                    },
+                    "uuid": "c114f0e2-6c26-4275-a4b5-aadbbe430f34"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.3500 mm",
+                    "pos": {
+                        "x": 21.0,
+                        "y": -22.04
+                    },
+                    "uuid": "48eb2e8e-46d6-4dff-b556-38338f3d7052"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J5 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -19.79
+                    },
+                    "uuid": "c114f0e2-6c26-4275-a4b5-aadbbe430f34"
+                },
+                {
+                    "description": "B.Cu 上 J5 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 11.75,
+                        "y": -22.14
+                    },
+                    "uuid": "555b91e5-9308-4215-88b5-1921f042bee9"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J1 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -5.65
+                    },
+                    "uuid": "179fb294-8141-47a0-96e1-748c67bf35e1"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.1000 mm",
+                    "pos": {
+                        "x": 16.65,
+                        "y": -7.9
+                    },
+                    "uuid": "4bd85fba-f75c-4c9b-b9ac-ef3aae7ac197"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.3200 mm",
+                    "pos": {
+                        "x": 16.65,
+                        "y": -36.18
+                    },
+                    "uuid": "18f1d055-8f21-4170-bc93-61b82cff9591"
+                },
+                {
+                    "description": "B.Cu 上 J9 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -33.93
+                    },
+                    "uuid": "18b89c90-9c9f-4e70-b209-9f20ffe480b4"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J14 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 28.34,
+                        "y": -48.07
+                    },
+                    "uuid": "89fdbbba-8d9a-4c49-8094-c79ea00460c7"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.1800 mm",
+                    "pos": {
+                        "x": 30.79,
+                        "y": -50.32
+                    },
+                    "uuid": "18eed819-791c-4b7c-84a6-8386b58a4849"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J6 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 28.34,
+                        "y": -19.79
+                    },
+                    "uuid": "d00892df-935e-4208-bf59-ced5a0b1814c"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.8900 mm",
+                    "pos": {
+                        "x": 21.0,
+                        "y": -22.0
+                    },
+                    "uuid": "bbedadd6-3746-4817-930a-d5d12f87f1c0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 28.34,
+                        "y": -5.65
+                    },
+                    "uuid": "8cbece79-beff-499d-9436-75955998f343"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.7100 mm",
+                    "pos": {
+                        "x": 30.79,
+                        "y": -7.9
+                    },
+                    "uuid": "e9f76f3d-a93a-4dd8-b5a0-2cdeb1a174a2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.3200 mm",
+                    "pos": {
+                        "x": 30.79,
+                        "y": -36.18
+                    },
+                    "uuid": "6bb086cc-4e49-4f1d-9f71-c4f8c0dfa71a"
+                },
+                {
+                    "description": "B.Cu 上 J10 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 28.34,
+                        "y": -33.93
+                    },
+                    "uuid": "12684150-8334-4a76-81f6-c5c608f43080"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J7 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 42.48,
+                        "y": -19.79
+                    },
+                    "uuid": "effab92a-eede-4e66-a724-2ee679cb0454"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.5700 mm",
+                    "pos": {
+                        "x": 49.5,
+                        "y": -22.0
+                    },
+                    "uuid": "ab73daa0-0628-4737-825f-bb3c02fac368"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J3 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 42.48,
+                        "y": -5.65
+                    },
+                    "uuid": "d7e7d02d-692c-47ed-bc7d-87469c55e659"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.5700 mm",
+                    "pos": {
+                        "x": 44.93,
+                        "y": -7.9
+                    },
+                    "uuid": "4423f25a-dc3b-4013-94d1-1151911f3dc8"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.1800 mm",
+                    "pos": {
+                        "x": 44.93,
+                        "y": -50.5
+                    },
+                    "uuid": "27e3c831-9ed8-4513-94eb-9e6e2dbf4ae7"
+                },
+                {
+                    "description": "B.Cu 上 J15 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 42.48,
+                        "y": -48.07
+                    },
+                    "uuid": "fa2f31b8-6c00-4241-9224-a046a62b9723"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.5700 mm",
+                    "pos": {
+                        "x": 44.93,
+                        "y": -36.18
+                    },
+                    "uuid": "40bc8d95-1db4-4319-9d8e-774baee10d61"
+                },
+                {
+                    "description": "B.Cu 上 J11 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 42.48,
+                        "y": -33.93
+                    },
+                    "uuid": "28564522-7246-4899-9f69-124c08ba2478"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.6700 mm",
+                    "pos": {
+                        "x": 49.5,
+                        "y": -50.42
+                    },
+                    "uuid": "75e1053c-e083-4174-afdf-c00b797bec7d"
+                },
+                {
+                    "description": "B.Cu 上 J16 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -48.07
+                    },
+                    "uuid": "bca7e713-e5b6-43e2-a16b-dbfc7aca63bb"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.6700 mm",
+                    "pos": {
+                        "x": 54.17,
+                        "y": -22.0
+                    },
+                    "uuid": "870e606a-af9a-41b1-aabb-0d37836cf08b"
+                },
+                {
+                    "description": "B.Cu 上 J8 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -19.79
+                    },
+                    "uuid": "0ca04375-fb68-4d32-bd2e-5db966279613"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J16 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -48.07
+                    },
+                    "uuid": "bca7e713-e5b6-43e2-a16b-dbfc7aca63bb"
+                },
+                {
+                    "description": "B.Cu 上 J16 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 59.07,
+                        "y": -50.32
+                    },
+                    "uuid": "17c3b88f-5aba-4957-9b76-f3955e4b245f"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J12 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -33.93
+                    },
+                    "uuid": "bbd2e1b1-6234-4852-9675-25a2c001aef2"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.6700 mm",
+                    "pos": {
+                        "x": 49.5,
+                        "y": -36.28
+                    },
+                    "uuid": "80503647-e6a1-4501-90ef-d198d732fa9e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J4 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -5.65
+                    },
+                    "uuid": "dfc1ee20-476d-42c2-9834-766c967ce4cb"
+                },
+                {
+                    "description": "B.Cu 上 J4 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 59.07,
+                        "y": -7.9
+                    },
+                    "uuid": "11fd2fd8-2da7-4f5b-aa77-31a30cb03ab0"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J4 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -5.65
+                    },
+                    "uuid": "dfc1ee20-476d-42c2-9834-766c967ce4cb"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.6700 mm",
+                    "pos": {
+                        "x": 49.5,
+                        "y": -8.0
+                    },
+                    "uuid": "ba789d5d-d07a-4273-9f41-74674822f84e"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J12 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 59.07,
+                        "y": -36.18
+                    },
+                    "uuid": "08d98ea6-7057-4b4d-ad52-f747f5aa1826"
+                },
+                {
+                    "description": "B.Cu 上 J12 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -33.93
+                    },
+                    "uuid": "bbd2e1b1-6234-4852-9675-25a2c001aef2"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        },
+        {
+            "description": "Missing connection between items",
+            "items": [
+                {
+                    "description": "B.Cu 上 J8 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 59.07,
+                        "y": -22.04
+                    },
+                    "uuid": "d9387088-d6ad-42ed-be87-fc884939ab69"
+                },
+                {
+                    "description": "B.Cu 上 J8 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -19.79
+                    },
+                    "uuid": "0ca04375-fb68-4d32-bd2e-5db966279613"
+                }
+            ],
+            "severity": "error",
+            "type": "unconnected_items"
+        }
+    ],
+    "violations": [
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$1] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -12.7
+                    },
+                    "uuid": "beb70323-3cdc-4b16-9015-00d2da8079e7"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$2] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 28.3,
+                        "y": -12.8
+                    },
+                    "uuid": "1a302082-2730-4b79-b48c-d8e5d3fdd6a9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$3] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 42.5,
+                        "y": -12.7
+                    },
+                    "uuid": "3574ec46-f60f-431b-88a0-263b5db478b8"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$4] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 56.6,
+                        "y": -12.7
+                    },
+                    "uuid": "26a97f48-5129-497d-ad2a-bdef7ffe859d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$5] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -26.9
+                    },
+                    "uuid": "90871e19-c664-48c2-b1e7-bcb05e474aae"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$6] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 28.3,
+                        "y": -26.9
+                    },
+                    "uuid": "2fb3cb0e-4679-49ac-8b31-1b70f3e06287"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$7] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 42.5,
+                        "y": -26.9
+                    },
+                    "uuid": "870e84e5-be2e-41ba-b6ef-999d5ee32b7d"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$8] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 56.6,
+                        "y": -26.9
+                    },
+                    "uuid": "1e3405ef-4b48-4d87-9a0d-3489fa24364c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$9] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -41.0
+                    },
+                    "uuid": "40ce4abe-ea69-4231-a0ef-10c49b72e454"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$10] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 28.3,
+                        "y": -41.0
+                    },
+                    "uuid": "490e69b1-c524-48e3-9773-f3566c0725bf"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$11] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 42.4,
+                        "y": -41.1
+                    },
+                    "uuid": "b9faa864-6d54-4da7-aff0-eff7e37e9079"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$12] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 56.6,
+                        "y": -41.0
+                    },
+                    "uuid": "0a9629e3-28a0-4247-bc9d-1f3e9a18a86c"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$13] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -55.1
+                    },
+                    "uuid": "6ad94f36-e14a-4669-af4d-259848469179"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$14] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 28.3,
+                        "y": -55.2
+                    },
+                    "uuid": "168570b3-c606-43a0-bcc7-bc95b4ad0f8a"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$15] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 42.5,
+                        "y": -55.2
+                    },
+                    "uuid": "c6ceb583-a8a5-4291-924a-279bbddd1852"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "孔径超出范围 (电路板配置约束 最小孔径 0.3000 mm; 实际 0.2000 mm)",
+            "items": [
+                {
+                    "description": "过孔 [N$16] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 56.7,
+                        "y": -55.1
+                    },
+                    "uuid": "78381cd5-0f80-473a-a33b-b23167a7ace9"
+                }
+            ],
+            "severity": "error",
+            "type": "drill_out_of_range"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J6 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -24.99
+                    },
+                    "uuid": "6612ea3d-634d-40bd-b861-714c518c204c"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.7100 mm",
+                    "pos": {
+                        "x": 35.5,
+                        "y": -22.04
+                    },
+                    "uuid": "d0ceef6f-0bdb-4dd7-8598-2c9eef544147"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J6 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -24.99
+                    },
+                    "uuid": "6612ea3d-634d-40bd-b861-714c518c204c"
+                },
+                {
+                    "description": "B.Cu 上 J6 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 30.79,
+                        "y": -22.04
+                    },
+                    "uuid": "be02453f-c2d6-42c6-b5c5-944982cb5437"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J6 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -24.99
+                    },
+                    "uuid": "6612ea3d-634d-40bd-b861-714c518c204c"
+                },
+                {
+                    "description": "B.Cu 上 J6 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 25.89,
+                        "y": -22.14
+                    },
+                    "uuid": "a20b1430-5ac0-4d65-9c39-8b7daeba0d52"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J6 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -24.99
+                    },
+                    "uuid": "6612ea3d-634d-40bd-b861-714c518c204c"
+                },
+                {
+                    "description": "B.Cu 上 J6 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 28.34,
+                        "y": -19.79
+                    },
+                    "uuid": "d00892df-935e-4208-bf59-ced5a0b1814c"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J12 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -39.13
+                    },
+                    "uuid": "c04278cb-e3ac-4d7e-ab4f-4e1a548d77f3"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.6700 mm",
+                    "pos": {
+                        "x": 49.5,
+                        "y": -36.28
+                    },
+                    "uuid": "80503647-e6a1-4501-90ef-d198d732fa9e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J12 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -39.13
+                    },
+                    "uuid": "c04278cb-e3ac-4d7e-ab4f-4e1a548d77f3"
+                },
+                {
+                    "description": "B.Cu 上 J12 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 59.07,
+                        "y": -36.18
+                    },
+                    "uuid": "08d98ea6-7057-4b4d-ad52-f747f5aa1826"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J12 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -39.13
+                    },
+                    "uuid": "c04278cb-e3ac-4d7e-ab4f-4e1a548d77f3"
+                },
+                {
+                    "description": "B.Cu 上 J12 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 54.17,
+                        "y": -36.28
+                    },
+                    "uuid": "e6a96829-4392-4df0-8edd-b347eb3b6a82"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J12 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -39.13
+                    },
+                    "uuid": "c04278cb-e3ac-4d7e-ab4f-4e1a548d77f3"
+                },
+                {
+                    "description": "B.Cu 上 J12 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -33.93
+                    },
+                    "uuid": "bbd2e1b1-6234-4852-9675-25a2c001aef2"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J9 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -39.13
+                    },
+                    "uuid": "c44f50ea-90c4-4985-8182-70c6e091cb65"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.3500 mm",
+                    "pos": {
+                        "x": 16.65,
+                        "y": -36.5
+                    },
+                    "uuid": "7ded592e-8559-4124-b3fc-924b8c977448"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J9 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -39.13
+                    },
+                    "uuid": "c44f50ea-90c4-4985-8182-70c6e091cb65"
+                },
+                {
+                    "description": "B.Cu 上 J9 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 11.75,
+                        "y": -36.28
+                    },
+                    "uuid": "c88e589e-c9f6-4696-bdbf-242a23bc809e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J9 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -39.13
+                    },
+                    "uuid": "c44f50ea-90c4-4985-8182-70c6e091cb65"
+                },
+                {
+                    "description": "B.Cu 上 J9 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -33.93
+                    },
+                    "uuid": "18b89c90-9c9f-4e70-b209-9f20ffe480b4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J9 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -39.13
+                    },
+                    "uuid": "c44f50ea-90c4-4985-8182-70c6e091cb65"
+                },
+                {
+                    "description": "B.Cu 上 J9 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 16.65,
+                        "y": -36.18
+                    },
+                    "uuid": "147bd472-a8cc-4610-88a0-b5a37fa727a1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J13 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -53.27
+                    },
+                    "uuid": "26f93e5a-a376-4fd9-bc99-c29a8910de07"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.3500 mm",
+                    "pos": {
+                        "x": 16.65,
+                        "y": -50.5
+                    },
+                    "uuid": "fc38a6e8-d52d-487e-8900-890e66d14c80"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J13 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -53.27
+                    },
+                    "uuid": "26f93e5a-a376-4fd9-bc99-c29a8910de07"
+                },
+                {
+                    "description": "B.Cu 上 J13 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 16.65,
+                        "y": -50.32
+                    },
+                    "uuid": "fec4d793-e8fa-4d5c-85db-36c4a06429fd"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J13 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -53.27
+                    },
+                    "uuid": "26f93e5a-a376-4fd9-bc99-c29a8910de07"
+                },
+                {
+                    "description": "B.Cu 上 J13 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 11.75,
+                        "y": -50.42
+                    },
+                    "uuid": "c667cd53-95d9-4756-80bc-8134cf4d4fa6"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J13 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -53.27
+                    },
+                    "uuid": "26f93e5a-a376-4fd9-bc99-c29a8910de07"
+                },
+                {
+                    "description": "B.Cu 上 J13 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -48.07
+                    },
+                    "uuid": "69d04080-3da2-4b70-941e-483b6c22dc55"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J16 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -53.27
+                    },
+                    "uuid": "94c62c87-efbc-4945-abf0-8b0636b279ec"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.6700 mm",
+                    "pos": {
+                        "x": 49.5,
+                        "y": -50.42
+                    },
+                    "uuid": "75e1053c-e083-4174-afdf-c00b797bec7d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J16 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -53.27
+                    },
+                    "uuid": "94c62c87-efbc-4945-abf0-8b0636b279ec"
+                },
+                {
+                    "description": "B.Cu 上 J16 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 54.17,
+                        "y": -50.42
+                    },
+                    "uuid": "d37bf151-618a-44f5-a3c8-1ce753830381"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J16 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -53.27
+                    },
+                    "uuid": "94c62c87-efbc-4945-abf0-8b0636b279ec"
+                },
+                {
+                    "description": "B.Cu 上 J16 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -48.07
+                    },
+                    "uuid": "bca7e713-e5b6-43e2-a16b-dbfc7aca63bb"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J16 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -53.27
+                    },
+                    "uuid": "94c62c87-efbc-4945-abf0-8b0636b279ec"
+                },
+                {
+                    "description": "B.Cu 上 J16 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 59.07,
+                        "y": -50.32
+                    },
+                    "uuid": "17c3b88f-5aba-4957-9b76-f3955e4b245f"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J14 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -53.27
+                    },
+                    "uuid": "95c9e824-c69e-4b93-9a20-23f7508b2c7f"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.7100 mm",
+                    "pos": {
+                        "x": 30.79,
+                        "y": -50.5
+                    },
+                    "uuid": "00d8c215-b4fc-4481-af5a-f321395611f8"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J14 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -53.27
+                    },
+                    "uuid": "95c9e824-c69e-4b93-9a20-23f7508b2c7f"
+                },
+                {
+                    "description": "B.Cu 上 J14 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 25.89,
+                        "y": -50.42
+                    },
+                    "uuid": "3a55ca02-e5f9-4f82-907d-9afa61437ede"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J14 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -53.27
+                    },
+                    "uuid": "95c9e824-c69e-4b93-9a20-23f7508b2c7f"
+                },
+                {
+                    "description": "B.Cu 上 J14 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 28.34,
+                        "y": -48.07
+                    },
+                    "uuid": "89fdbbba-8d9a-4c49-8094-c79ea00460c7"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J14 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -53.27
+                    },
+                    "uuid": "95c9e824-c69e-4b93-9a20-23f7508b2c7f"
+                },
+                {
+                    "description": "B.Cu 上 J14 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 30.79,
+                        "y": -50.32
+                    },
+                    "uuid": "92fe4ca5-d094-41ba-bb73-b4089cc32ea4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J8 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -24.99
+                    },
+                    "uuid": "62dcd579-0f82-484f-bddb-bd94b17f4572"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.1400 mm",
+                    "pos": {
+                        "x": 54.17,
+                        "y": -22.14
+                    },
+                    "uuid": "11a8547e-d351-4d65-9537-31a173e9d25d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J8 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -24.99
+                    },
+                    "uuid": "62dcd579-0f82-484f-bddb-bd94b17f4572"
+                },
+                {
+                    "description": "B.Cu 上 J8 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 54.17,
+                        "y": -22.14
+                    },
+                    "uuid": "3af16a2e-ffa8-4e5e-a71d-f0c2638f0e5d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J8 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -24.99
+                    },
+                    "uuid": "62dcd579-0f82-484f-bddb-bd94b17f4572"
+                },
+                {
+                    "description": "B.Cu 上 J8 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -19.79
+                    },
+                    "uuid": "0ca04375-fb68-4d32-bd2e-5db966279613"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J8 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -24.99
+                    },
+                    "uuid": "62dcd579-0f82-484f-bddb-bd94b17f4572"
+                },
+                {
+                    "description": "B.Cu 上 J8 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 59.07,
+                        "y": -22.04
+                    },
+                    "uuid": "d9387088-d6ad-42ed-be87-fc884939ab69"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J1 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -10.85
+                    },
+                    "uuid": "21f54d54-e590-42ba-b86d-408a47412cb3"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.3500 mm",
+                    "pos": {
+                        "x": 16.65,
+                        "y": -8.0
+                    },
+                    "uuid": "b09d06d6-6602-4200-874f-1b50c85d81ed"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J1 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -10.85
+                    },
+                    "uuid": "21f54d54-e590-42ba-b86d-408a47412cb3"
+                },
+                {
+                    "description": "B.Cu 上 J1 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 11.75,
+                        "y": -8.0
+                    },
+                    "uuid": "b4389531-335c-4742-bdae-4fa882d66da2"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J1 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -10.85
+                    },
+                    "uuid": "21f54d54-e590-42ba-b86d-408a47412cb3"
+                },
+                {
+                    "description": "B.Cu 上 J1 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 14.2,
+                        "y": -5.65
+                    },
+                    "uuid": "179fb294-8141-47a0-96e1-748c67bf35e1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J1 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 16.95,
+                        "y": -10.85
+                    },
+                    "uuid": "21f54d54-e590-42ba-b86d-408a47412cb3"
+                },
+                {
+                    "description": "B.Cu 上 J1 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 16.65,
+                        "y": -7.9
+                    },
+                    "uuid": "c20fd745-6ff6-4095-8e6a-09237b9adb16"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J10 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -39.13
+                    },
+                    "uuid": "0d895696-c5f0-4ad4-a6d9-95a480a012f2"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 0.3200 mm",
+                    "pos": {
+                        "x": 30.79,
+                        "y": -36.18
+                    },
+                    "uuid": "6bb086cc-4e49-4f1d-9f71-c4f8c0dfa71a"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J10 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -39.13
+                    },
+                    "uuid": "0d895696-c5f0-4ad4-a6d9-95a480a012f2"
+                },
+                {
+                    "description": "B.Cu 上 J10 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 25.89,
+                        "y": -36.28
+                    },
+                    "uuid": "be0961bf-6312-4c0a-93fc-28515729db52"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J10 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -39.13
+                    },
+                    "uuid": "0d895696-c5f0-4ad4-a6d9-95a480a012f2"
+                },
+                {
+                    "description": "B.Cu 上 J10 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 28.34,
+                        "y": -33.93
+                    },
+                    "uuid": "12684150-8334-4a76-81f6-c5c608f43080"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J10 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -39.13
+                    },
+                    "uuid": "0d895696-c5f0-4ad4-a6d9-95a480a012f2"
+                },
+                {
+                    "description": "B.Cu 上 J10 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 30.79,
+                        "y": -36.18
+                    },
+                    "uuid": "c32b314d-bc7e-4545-993f-c4c688528771"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J15 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -53.27
+                    },
+                    "uuid": "a2c937be-1838-48ee-907c-51d6356cb039"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.5700 mm",
+                    "pos": {
+                        "x": 49.5,
+                        "y": -50.5
+                    },
+                    "uuid": "1d173b4e-cabd-427f-b3cb-818c78af1f7b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J15 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -53.27
+                    },
+                    "uuid": "a2c937be-1838-48ee-907c-51d6356cb039"
+                },
+                {
+                    "description": "B.Cu 上 J15 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 40.03,
+                        "y": -50.42
+                    },
+                    "uuid": "c62c4153-433f-477f-a67e-9502ba0e0d0a"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J15 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -53.27
+                    },
+                    "uuid": "a2c937be-1838-48ee-907c-51d6356cb039"
+                },
+                {
+                    "description": "B.Cu 上 J15 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 42.48,
+                        "y": -48.07
+                    },
+                    "uuid": "fa2f31b8-6c00-4241-9224-a046a62b9723"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J15 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -53.27
+                    },
+                    "uuid": "a2c937be-1838-48ee-907c-51d6356cb039"
+                },
+                {
+                    "description": "B.Cu 上 J15 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 44.93,
+                        "y": -50.32
+                    },
+                    "uuid": "c6c042da-b0cc-4450-83dd-09e91b95b632"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J7 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -24.99
+                    },
+                    "uuid": "46094545-25e4-46d5-b5c1-3c070d121b8e"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.5300 mm",
+                    "pos": {
+                        "x": 40.03,
+                        "y": -22.0
+                    },
+                    "uuid": "187d8ac2-45cd-409f-aa28-a0aaac18edbe"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J7 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -24.99
+                    },
+                    "uuid": "46094545-25e4-46d5-b5c1-3c070d121b8e"
+                },
+                {
+                    "description": "B.Cu 上 J7 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 40.03,
+                        "y": -22.14
+                    },
+                    "uuid": "223aff3a-e21b-4556-8dc3-4db72db4f903"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J7 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -24.99
+                    },
+                    "uuid": "46094545-25e4-46d5-b5c1-3c070d121b8e"
+                },
+                {
+                    "description": "B.Cu 上 J7 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 42.48,
+                        "y": -19.79
+                    },
+                    "uuid": "effab92a-eede-4e66-a724-2ee679cb0454"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J7 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -24.99
+                    },
+                    "uuid": "46094545-25e4-46d5-b5c1-3c070d121b8e"
+                },
+                {
+                    "description": "B.Cu 上 J7 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 44.93,
+                        "y": -22.04
+                    },
+                    "uuid": "f1467e7a-264d-4681-ae8e-30860e2c017b"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -10.85
+                    },
+                    "uuid": "99514378-55fb-4790-89c0-b15b2e15ae29"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.8900 mm",
+                    "pos": {
+                        "x": 21.0,
+                        "y": -8.0
+                    },
+                    "uuid": "cc99ad33-c6a2-4499-b8f8-c295e3f4ac9f"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -10.85
+                    },
+                    "uuid": "99514378-55fb-4790-89c0-b15b2e15ae29"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 25.89,
+                        "y": -8.0
+                    },
+                    "uuid": "31b2d3e6-e36c-4de2-b627-32487663a2f8"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -10.85
+                    },
+                    "uuid": "99514378-55fb-4790-89c0-b15b2e15ae29"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 28.34,
+                        "y": -5.65
+                    },
+                    "uuid": "8cbece79-beff-499d-9436-75955998f343"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J2 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 31.09,
+                        "y": -10.85
+                    },
+                    "uuid": "99514378-55fb-4790-89c0-b15b2e15ae29"
+                },
+                {
+                    "description": "B.Cu 上 J2 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 30.79,
+                        "y": -7.9
+                    },
+                    "uuid": "497f0017-d499-49b6-a2eb-a31387775036"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J3 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -10.85
+                    },
+                    "uuid": "f1b9d8f9-2f59-4cdc-b664-d28c6e849783"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.5300 mm",
+                    "pos": {
+                        "x": 35.5,
+                        "y": -8.0
+                    },
+                    "uuid": "81d9b163-793c-4dde-a823-9a5262a13f69"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J3 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -10.85
+                    },
+                    "uuid": "f1b9d8f9-2f59-4cdc-b664-d28c6e849783"
+                },
+                {
+                    "description": "B.Cu 上 J3 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 40.03,
+                        "y": -8.0
+                    },
+                    "uuid": "4ae94287-6e4b-4904-bbf6-27edaed947dd"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J3 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -10.85
+                    },
+                    "uuid": "f1b9d8f9-2f59-4cdc-b664-d28c6e849783"
+                },
+                {
+                    "description": "B.Cu 上 J3 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 42.48,
+                        "y": -5.65
+                    },
+                    "uuid": "d7e7d02d-692c-47ed-bc7d-87469c55e659"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J3 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -10.85
+                    },
+                    "uuid": "f1b9d8f9-2f59-4cdc-b664-d28c6e849783"
+                },
+                {
+                    "description": "B.Cu 上 J3 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 44.93,
+                        "y": -7.9
+                    },
+                    "uuid": "e8155ac6-52b8-40ce-9e5f-4fe3ba800312"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J4 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -10.85
+                    },
+                    "uuid": "036abc3a-cdf6-4918-b23f-684fd2efb39e"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.6700 mm",
+                    "pos": {
+                        "x": 49.5,
+                        "y": -8.0
+                    },
+                    "uuid": "ba789d5d-d07a-4273-9f41-74674822f84e"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J4 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -10.85
+                    },
+                    "uuid": "036abc3a-cdf6-4918-b23f-684fd2efb39e"
+                },
+                {
+                    "description": "B.Cu 上 J4 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 54.17,
+                        "y": -8.0
+                    },
+                    "uuid": "3b4f477d-30cc-4f5e-963d-14e669a23390"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J4 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -10.85
+                    },
+                    "uuid": "036abc3a-cdf6-4918-b23f-684fd2efb39e"
+                },
+                {
+                    "description": "B.Cu 上 J4 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 56.62,
+                        "y": -5.65
+                    },
+                    "uuid": "dfc1ee20-476d-42c2-9834-766c967ce4cb"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J4 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 59.37,
+                        "y": -10.85
+                    },
+                    "uuid": "036abc3a-cdf6-4918-b23f-684fd2efb39e"
+                },
+                {
+                    "description": "B.Cu 上 J4 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 59.07,
+                        "y": -7.9
+                    },
+                    "uuid": "11fd2fd8-2da7-4f5b-aa77-31a30cb03ab0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J11 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -39.13
+                    },
+                    "uuid": "a88529d1-e0e7-4b69-af33-d7afe6a45920"
+                },
+                {
+                    "description": "走线 [GND] (B.Cu), 长度: 4.5300 mm",
+                    "pos": {
+                        "x": 35.5,
+                        "y": -36.28
+                    },
+                    "uuid": "f87116f6-bcd0-4d8c-9827-235f230ac700"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J11 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -39.13
+                    },
+                    "uuid": "a88529d1-e0e7-4b69-af33-d7afe6a45920"
+                },
+                {
+                    "description": "B.Cu 上 J11 的焊盘 2 [GND]",
+                    "pos": {
+                        "x": 40.03,
+                        "y": -36.28
+                    },
+                    "uuid": "15846d0b-4c94-4c69-8e1b-e7dd327d06a1"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J11 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -39.13
+                    },
+                    "uuid": "a88529d1-e0e7-4b69-af33-d7afe6a45920"
+                },
+                {
+                    "description": "B.Cu 上 J11 的焊盘 3 [GND]",
+                    "pos": {
+                        "x": 42.48,
+                        "y": -33.93
+                    },
+                    "uuid": "28564522-7246-4899-9f69-124c08ba2478"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "底层阻焊开窗区域与不同网络的项目相连",
+            "items": [
+                {
+                    "description": "J11 的 多边形, 位于 B.Mask",
+                    "pos": {
+                        "x": 45.23,
+                        "y": -39.13
+                    },
+                    "uuid": "a88529d1-e0e7-4b69-af33-d7afe6a45920"
+                },
+                {
+                    "description": "B.Cu 上 J11 的焊盘 4 [GND]",
+                    "pos": {
+                        "x": 44.93,
+                        "y": -36.18
+                    },
+                    "uuid": "6853f25c-adaa-46e8-8c41-4da34175eb73"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        }
+    ]
+}

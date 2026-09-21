@@ -1,0 +1,107 @@
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+Adding duplicate image handler for 'PNG file'
+Adding duplicate image handler for 'JPEG file'
+Adding duplicate image handler for 'TIFF file'
+Adding duplicate image handler for 'GIF file'
+Adding duplicate image handler for 'PNM file'
+Adding duplicate image handler for 'PCX file'
+Adding duplicate image handler for 'IFF file'
+Adding duplicate image handler for 'Windows icon file'
+Adding duplicate image handler for 'Windows cursor file'
+Adding duplicate image handler for 'Windows animated cursor file'
+Adding duplicate image handler for 'TGA file'
+Adding duplicate image handler for 'XPM file'
+Adding duplicate image handler for 'WebP file'
+{
+  "tool": "10.0.0",
+  "source_hashes": {
+    ".brd": "fda43223fe70de5b4fdaae8e6ea79b190ac373e4e30497d17b3b76003637b51b",
+    ".sch": "c0e18e696e838f73e447065faabcb90f9193c79d3c02060893300edeb418204d"
+  },
+  "dimensions_mm": [
+    245,
+    155
+  ],
+  "copper_layers": 4,
+  "layer_mapping": {
+    "1": "F.Cu",
+    "2": "In1.Cu",
+    "3": "In2.Cu",
+    "16": "B.Cu"
+  },
+  "counts": {
+    "patches": 128,
+    "connectors": 16,
+    "tracks": 32,
+    "vias": 95,
+    "npth_holes": 4,
+    "zones": 2
+  },
+  "exact_source_geometry_checks": {
+    "tracks": true,
+    "via_drills": true,
+    "patch_rectangles": true,
+    "connector_positions": true,
+    "outline_centerlines": true,
+    "npth_centers_and_drills": true
+  },
+  "via_center_max_import_rounding_nm": 1,
+  "coordinate_transform_nm": {
+    "x_offset": 26001100,
+    "y_offset": 182503600,
+    "y_inverted": true
+  },
+  "native_import_merged_touching_wire_nets": {
+    "N$17": "N$17",
+    "N$18": "N$17",
+    "N$19": "N$19",
+    "N$20": "N$19",
+    "N$21": "N$21",
+    "N$22": "N$21",
+    "N$23": "N$23",
+    "N$24": "N$23",
+    "N$25": "N$25",
+    "N$26": "N$25",
+    "N$27": "N$28",
+    "N$28": "N$28",
+    "N$29": "N$30",
+    "N$30": "N$30",
+    "N$31": "N$32",
+    "N$32": "N$32",
+    "N$33": "N$34",
+    "N$34": "N$34",
+    "N$35": "N$36",
+    "N$36": "N$36",
+    "N$37": "N$38",
+    "N$38": "N$38",
+    "N$39": "N$40",
+    "N$40": "N$40",
+    "N$41": "N$41",
+    "N$42": "N$41",
+    "N$43": "N$43",
+    "N$44": "N$43",
+    "N$45": "N$45",
+    "N$46": "N$45",
+    "N$47": "N$47",
+    "N$48": "N$47"
+  },
+  "restored_patch_copper_rectangles_and_nets": 128,
+  "restored_feed_pad_nets": 16,
+  "patch_representation_note": "Native unassigned zones replaced by net-assigned filled copper rectangles matching EAGLE exactly; avoids corner rounding by KiCad zone minimum thickness.",
+  "electrical_note": "Original schematic contains connector ground wiring only; antenna feed and patch geometry exists in PCB. Do not run Update PCB from Schematic without reconciling RF nets.",
+  "stackup_note": "Four copper layers retained. Original In2.Cu is empty. The imported 1.6 mm board thickness is not a confirmed fabrication specification.",
+  "source_mtIsolate": "20mil 0.102mm 0.8mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm",
+  "source_mtCopper": "0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"
+}

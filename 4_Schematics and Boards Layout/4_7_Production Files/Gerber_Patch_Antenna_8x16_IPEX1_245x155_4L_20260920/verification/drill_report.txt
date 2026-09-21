@@ -1,0 +1,26 @@
+Drill report for Patch_Anetnna_16_8_IPEX1.kicad_pcb
+Created on 2026-09-20T19:23:55
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'Patch_Anetnna_16_8_IPEX1-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (32 holes))
+    T2  0.600mm  0.0236"  (95 holes))
+
+    Total plated holes count 127
+
+
+Drill file 'Patch_Anetnna_16_8_IPEX1-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.200mm  0.1260"  (4 holes))
+
+    Total unplated holes count 4

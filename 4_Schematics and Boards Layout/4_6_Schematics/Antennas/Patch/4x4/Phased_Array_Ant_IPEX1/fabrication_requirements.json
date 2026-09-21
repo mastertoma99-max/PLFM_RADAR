@@ -1,0 +1,16 @@
+{
+  "material": "FR4",
+  "finished_board_thickness_mm": 1.0,
+  "outer_copper_oz": 1.0,
+  "inner_copper_oz": 0.5,
+  "finish": "OSP",
+  "copper_order": [
+    "F.Cu",
+    "In1.Cu",
+    "In2.Cu",
+    "B.Cu"
+  ],
+  "individual_dielectric_thickness_mm": null,
+  "manufacturer_stackup_confirmation_required": true,
+  "user_specification": "FR4 1mm板厚 外层铜厚1盎司，内层0.5盎司，表面osp，叠层按照文件叠层顺序"
+}

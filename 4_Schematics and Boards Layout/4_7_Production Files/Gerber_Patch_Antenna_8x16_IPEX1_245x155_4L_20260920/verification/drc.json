@@ -1,0 +1,2953 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-20T19:23:51",
+    "ignored_checks": [],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.0",
+    "schematic_parity": [],
+    "source": "Patch_Anetnna_16_8_IPEX1.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 155.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "02a29314-2b25-4545-96cd-4bccf7dec20e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 118.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "03f4b10c-2e5d-4a1c-9de1-15f7623338ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 208.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "04227189-aed9-4403-a908-31f52c8221b7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 205.146396,
+                        "y": 165.954557
+                    },
+                    "uuid": "04481512-3602-40c2-8e99-f530fa8538ae"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 227.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "077a1eb0-3658-4d2e-8ba4-9574ad89db0c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 150.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "1001ab00-c940-4798-b4a7-bbbc581b0ac7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 107.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "13ee646d-60fe-4f4e-9f3d-7ae75678cc4d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 118.823506,
+                        "y": 170.052644
+                    },
+                    "uuid": "2309dd61-7488-4939-8680-299c8c501f40"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 171.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "297baf2c-f177-45be-8488-0cde400829f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 218.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "2cff8356-f21c-4dbd-b754-678194e9cbca"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 44.0011,
+                        "y": 176.5036
+                    },
+                    "uuid": "2d638e94-f8ff-49e6-b4c3-b1e38065d1fe"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 107.6611,
+                        "y": 166.5036
+                    },
+                    "uuid": "2db34e1a-8ca1-4907-ac4e-dc86171de81e"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 234.432428,
+                        "y": 166.615719
+                    },
+                    "uuid": "302cc94e-6a21-4ae2-bf51-d0dc4f6c4843"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 135.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "31571584-e709-44ef-9105-82c6995c11f1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 161.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "31c20c53-1ee6-4844-8d16-37b1c5cb3fe6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 121.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "32eaab8f-126d-4ab3-962f-68ae25514f91"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 175.6611,
+                        "y": 166.5036
+                    },
+                    "uuid": "3472c094-4591-469c-ad53-61c15d56061c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 91.1264,
+                        "y": 171.108272
+                    },
+                    "uuid": "3e397e25-f7ad-4930-9183-08245686303f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 242.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "3e5bf253-95b3-4e21-ac5d-69eee443295b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 185.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "41bdc156-1d53-41c2-b1cc-dd662b4db463"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 75.892415,
+                        "y": 167.619875
+                    },
+                    "uuid": "46c1deaa-cfd4-4d94-bb60-3110b6046328"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 61.0011,
+                        "y": 168.5036
+                    },
+                    "uuid": "4a9e5575-6807-440c-abe2-8aa024388bae"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 92.210496,
+                        "y": 168.410579
+                    },
+                    "uuid": "55e81502-19c6-4318-952a-f2569cbda775"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 63.0011,
+                        "y": 164.5036
+                    },
+                    "uuid": "5757b3a0-11dd-446b-a30d-6570a7639273"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 104.072131,
+                        "y": 164.429482
+                    },
+                    "uuid": "591a3cdd-38c5-4169-9b51-fddcd51349c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 92.0011,
+                        "y": 164.5036
+                    },
+                    "uuid": "5a1f59db-faf3-45d4-91a7-031e0a8fa39f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 164.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "5af5ca73-e040-4a66-9fd0-d062ca34671b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 141.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "5de40c37-4ac6-467e-ae72-b652af723b85"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 199.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "60a331be-6803-438c-b1ea-dd4d04bc8952"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 247.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "628bd371-505b-470f-b158-c943e82d4a2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 55.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "684eaf16-245c-4280-898e-3a5c20f687a3"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 247.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "6cbd2e9e-503f-4313-9834-cd014cbad481"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 192.595559,
+                        "y": 168.308622
+                    },
+                    "uuid": "6d2349c9-d670-45f8-a8da-9bc92ab1aab6"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 147.279456,
+                        "y": 170.508357
+                    },
+                    "uuid": "6dc3e5ff-5b04-4656-b268-c00b7ee5f948"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 104.0011,
+                        "y": 169.5036
+                    },
+                    "uuid": "6f81d64c-0552-4efb-be83-199e270d184b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 180.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "747dc98c-a3b0-4dda-b6bb-5c83cfe14e31"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 104.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "799fe784-aca5-4b52-b999-2ff4abaf3dbe"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 178.455493,
+                        "y": 171.044394
+                    },
+                    "uuid": "7f5bcd86-412a-478c-a423-742ccb0dab34"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 236.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "80362274-161f-45db-a2fd-62a39c1e084b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 251.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "86b32c71-7926-47c8-ba09-31b3684032eb"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 56.0011,
+                        "y": 176.5036
+                    },
+                    "uuid": "8bf1d9c9-7864-4c4e-a852-77380ee7573a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 146.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "8d8b649e-47f6-4479-87be-0abf4938600b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 204.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "90f22d6d-3e8f-4c7e-a92f-2713e0863e2c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 107.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "924be203-c156-410e-b165-24d2fb2b2fd0"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 48.0011,
+                        "y": 163.5036
+                    },
+                    "uuid": "945689ca-f34d-4426-8c87-5130b1a98b6a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 194.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "9808018a-9384-4ac5-9bd1-10ecc1607d96"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 65.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "a104f75d-7cf2-47f2-aab2-63c7ec62fe84"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 75.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "a308972f-5144-4ae5-a1e6-82cc603e265d"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 136.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "a5529678-cfe5-4a0d-b37f-ea916ef215b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 221.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "aa1b4ed3-34f1-4933-ae17-55ec232a84dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 204.855793,
+                        "y": 169.89116
+                    },
+                    "uuid": "acd1bc33-8a50-4b46-84f1-ce7301e5052a"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 189.6611,
+                        "y": 166.5036
+                    },
+                    "uuid": "adbf688c-ff07-4011-af5f-7d79f8076590"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 160.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "ade64449-5538-41ec-ac69-204b93939ef9"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 218.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "b0fed199-209b-4ac9-89af-096cae4b2eb5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 161.6611,
+                        "y": 166.5036
+                    },
+                    "uuid": "b15c2a4d-7588-4be8-897e-5ae40f7f6ac5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 90.0011,
+                        "y": 167.5036
+                    },
+                    "uuid": "b268a82f-c6ae-4f97-975a-cd3be2a8b6b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 207.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "b2b34a9a-efd4-4d0e-9369-8977c9bd4645"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 122.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "b2fbd73d-712f-44f9-933d-710e3d6f3b29"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 127.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "b37de302-51ac-43db-b532-fac5b99f95cc"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 247.6611,
+                        "y": 166.5036
+                    },
+                    "uuid": "b76103ea-6720-4f6f-96b3-89f3c0e3bb7c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 113.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "bf7adf6c-3913-4033-869d-81bdaddcc271"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 48.215328,
+                        "y": 167.5036
+                    },
+                    "uuid": "c8215272-9c6d-4d00-8607-3962e04e4552"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 105.178146,
+                        "y": 166.158225
+                    },
+                    "uuid": "ce5923cf-f28c-494d-ad52-ac46c5e01e12"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 60.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "cebb73fa-f650-4fa2-a1f1-9df49a61b705"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 93.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "cf081141-044e-4eae-bada-28ae3d1cd123"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 163.819521,
+                        "y": 170.843275
+                    },
+                    "uuid": "d056d74b-cbe7-4719-8c64-14286a78a250"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 236.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "d13a4126-2363-4ab4-81f1-2d52c413ffe1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 84.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "d2c76d85-aa35-4b59-b1bf-79dbe709487f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 121.6611,
+                        "y": 166.5036
+                    },
+                    "uuid": "d3ae8c9c-c617-4b77-a20c-7a210f9f998c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 190.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "d8fa3456-c3ca-4614-a7bd-ab2449f80f83"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 233.871881,
+                        "y": 170.153879
+                    },
+                    "uuid": "dbece747-c33b-490e-aa30-997deb8c03dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 90.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "deb60da7-c4ba-49c6-9100-9819732ebe24"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 131.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "e06627d8-dcee-4bc2-bcad-34e4a4cd735b"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 222.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "e2c118ac-0254-4dd8-a875-c86403e53b82"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 98.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "e33cf067-49ca-4690-8d98-c166c6e22f72"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 46.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "e3f869eb-cb9c-44ab-825f-9913466f550f"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 76.327159,
+                        "y": 163.999732
+                    },
+                    "uuid": "e61cfac4-a081-41cd-90bd-88b085d41355"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 190.531815,
+                        "y": 170.776429
+                    },
+                    "uuid": "e87a5810-dfff-44e3-91f5-de823a23e5f7"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 149.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "ee95758f-b40b-45e8-9873-307efdc46db1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 175.6611,
+                        "y": 169.5036
+                    },
+                    "uuid": "f2643c28-9191-47c8-85bb-e86543b3c4ee"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 132.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "f4729d5c-c1fe-423b-9e7b-4d8527c6c0a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 262.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "f4d5c4ab-1aa3-4535-a9cd-a486991845b4"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 176.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "f51e5268-fc86-4fca-97de-b6ea08cb0345"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 50.0011,
+                        "y": 172.5036
+                    },
+                    "uuid": "f5a07906-511e-41c0-b1a3-603a75a4cf21"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 233.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "f97e1b55-de40-4e50-b570-d0422bc170f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 256.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "fa474a48-ee82-4158-b97d-c22dddcfc08c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 99.943134,
+                        "y": 170.008116
+                    },
+                    "uuid": "fc9c06e1-e1ce-4abe-8cee-dc71cb535164"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 213.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "fe1ccda9-5119-487c-b43a-2e340f82b75c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Via is not connected or connected on only one layer",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 41.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "ff4b2a99-d28b-4d87-a7c7-8c5a8bdb3e8c"
+                }
+            ],
+            "severity": "warning",
+            "type": "via_dangling"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 UNK_HOLE_3",
+                    "pos": {
+                        "x": 30.0011,
+                        "y": 31.5036
+                    },
+                    "uuid": "7bddd098-568f-4c9f-b033-a55bdf0c40f5"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 UNK_HOLE_0",
+                    "pos": {
+                        "x": 30.0011,
+                        "y": 178.5036
+                    },
+                    "uuid": "a172c0a4-3745-48f0-89ce-93db3bd66fbf"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 UNK_HOLE_2",
+                    "pos": {
+                        "x": 267.0011,
+                        "y": 31.5036
+                    },
+                    "uuid": "e113773d-6fd9-4d1f-b9cc-eafb29d7ddc8"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Footprint has no courtyard defined",
+            "items": [
+                {
+                    "description": "封装 UNK_HOLE_1",
+                    "pos": {
+                        "x": 267.0011,
+                        "y": 178.5036
+                    },
+                    "uuid": "e72c4925-7b23-4e7d-8d13-caf5963cc960"
+                }
+            ],
+            "severity": "warning",
+            "type": "missing_courtyard"
+        },
+        {
+            "description": "Drilled holes co-located",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 218.6611,
+                        "y": 166.5036
+                    },
+                    "uuid": "21c98414-5a5c-48f2-8ffe-d7003db183db"
+                },
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 218.6611,
+                        "y": 166.5036
+                    },
+                    "uuid": "5a207327-db22-4741-b522-46a4138b2362"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Drilled holes co-located",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 79.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "5ada5821-9982-488e-8697-9f1f7ddac58b"
+                },
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 79.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "707c5c49-4e0e-46be-afe4-29f1755e581b"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Drilled holes co-located",
+            "items": [
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 69.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "cd65346f-5d24-4e11-b0c2-c86164a12909"
+                },
+                {
+                    "description": "过孔 [GND] (F.Cu - B.Cu)",
+                    "pos": {
+                        "x": 69.0011,
+                        "y": 173.5036
+                    },
+                    "uuid": "f2ac3e2d-b31c-462f-9adf-e1aeab9bdc66"
+                }
+            ],
+            "severity": "warning",
+            "type": "holes_co_located"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J15 的参考字段",
+                    "pos": {
+                        "x": 241.8411,
+                        "y": 167.5036
+                    },
+                    "uuid": "5ab6d090-5e8c-4279-9bf6-e7ca10f1ee90"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J15 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 241.0911,
+                        "y": 163.0536
+                    },
+                    "uuid": "331e0ec7-0ec9-48c0-823c-c74d6fe6430e"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J15 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 242.5911,
+                        "y": 163.0536
+                    },
+                    "uuid": "14e76a97-a2d3-49ee-8ac4-0627763b0ccf"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J15 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 242.5911,
+                        "y": 165.9536
+                    },
+                    "uuid": "3a906027-8e9d-49b1-afe9-39092dd98331"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J4 的参考字段",
+                    "pos": {
+                        "x": 256.1011,
+                        "y": 167.5036
+                    },
+                    "uuid": "4dbbcb03-e1e8-44b1-991d-d6908103f6e6"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J4 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 255.3511,
+                        "y": 163.0536
+                    },
+                    "uuid": "eb3262bf-0f3c-49e2-b3ea-2066bc2299cf"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J4 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 256.8511,
+                        "y": 163.0536
+                    },
+                    "uuid": "119c56c6-910b-419e-be3e-8b013bfc7aa6"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J4 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 256.8511,
+                        "y": 165.9536
+                    },
+                    "uuid": "7ece3b49-909e-4040-9eaa-ae572ce30343"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J13 的参考字段",
+                    "pos": {
+                        "x": 227.5011,
+                        "y": 167.5036
+                    },
+                    "uuid": "54495f79-e46e-4ec2-8511-9e5432e24c2d"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J11 的参考字段",
+                    "pos": {
+                        "x": 213.1611,
+                        "y": 167.5036
+                    },
+                    "uuid": "bf53818c-f48a-4a80-b484-92b6e36748de"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J11 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 212.4111,
+                        "y": 163.0536
+                    },
+                    "uuid": "5b3058cd-3973-44a8-85de-6816f0bf4f79"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J11 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 213.9111,
+                        "y": 163.0536
+                    },
+                    "uuid": "9fb4f5c4-6088-46d1-94fb-a5cce72c655d"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J11 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 213.9111,
+                        "y": 165.9536
+                    },
+                    "uuid": "35a3ba72-98f4-4ca1-8b97-a1c081b37628"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J13 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 226.7511,
+                        "y": 163.0536
+                    },
+                    "uuid": "9f9a4e37-9832-4efd-8ee9-a2543dec0ae1"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J13 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 228.2511,
+                        "y": 163.0536
+                    },
+                    "uuid": "5f1c1fb0-3872-4ce4-b93b-4c625240929a"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J13 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 228.2511,
+                        "y": 165.9536
+                    },
+                    "uuid": "e7271fe6-77da-4292-a94b-1b37911360ff"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J9 的参考字段",
+                    "pos": {
+                        "x": 198.8211,
+                        "y": 167.5036
+                    },
+                    "uuid": "3d0c7a6f-7661-4402-ad95-a7e8877f1bd4"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J9 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 198.0711,
+                        "y": 163.0536
+                    },
+                    "uuid": "d8f886b1-4e23-4fc0-9f92-acf7e7906dde"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J14 的参考字段",
+                    "pos": {
+                        "x": 184.4011,
+                        "y": 167.5036
+                    },
+                    "uuid": "cdb00243-0889-49e3-9185-613f9294462a"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J14 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 185.1511,
+                        "y": 163.0536
+                    },
+                    "uuid": "1ee62ffb-99e4-4b3c-82cc-72c7ff11e111"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J14 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 185.1511,
+                        "y": 165.9536
+                    },
+                    "uuid": "63aa4910-c27c-4e2d-a385-b379e72cba6c"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J14 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 183.6511,
+                        "y": 163.0536
+                    },
+                    "uuid": "5ca1a30f-5433-43f4-8216-0885701a665b"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J10 的参考字段",
+                    "pos": {
+                        "x": 155.7211,
+                        "y": 167.5036
+                    },
+                    "uuid": "5e09c161-f56e-49bb-842d-7a2c19f9ceb2"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J12 的参考字段",
+                    "pos": {
+                        "x": 170.0611,
+                        "y": 167.5036
+                    },
+                    "uuid": "f9a29dca-11cc-4c54-b32f-7096294b7e66"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J12 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 169.3111,
+                        "y": 163.0536
+                    },
+                    "uuid": "1f2cc059-4bfc-4026-b2c2-c8e5c12e6718"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J12 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 170.8111,
+                        "y": 163.0536
+                    },
+                    "uuid": "04179d53-4e64-4e09-8db7-96ff1350da63"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J12 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 170.8111,
+                        "y": 165.9536
+                    },
+                    "uuid": "df4a25a9-91fe-4a70-8de5-5f42f1feef77"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J9 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 199.5711,
+                        "y": 163.0536
+                    },
+                    "uuid": "68e0a11c-52c3-46f8-b040-017fbe0e4574"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J9 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 199.5711,
+                        "y": 165.9536
+                    },
+                    "uuid": "1e867e11-7823-4346-a375-75c92a52ef40"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J8 的参考字段",
+                    "pos": {
+                        "x": 141.3811,
+                        "y": 167.5036
+                    },
+                    "uuid": "72f7bb62-8e9b-48eb-a63e-cefbcf570713"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J8 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 142.1311,
+                        "y": 163.0536
+                    },
+                    "uuid": "2f0ba32e-2cc0-43a9-98cb-4323c95e894c"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J10 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 154.9711,
+                        "y": 163.0536
+                    },
+                    "uuid": "89dd0d81-f923-41a3-86ed-be73b0f2f276"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J10 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 156.4711,
+                        "y": 163.0536
+                    },
+                    "uuid": "acd3ccdc-4cbf-4917-a3d8-3a0ab02fe5cb"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J10 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 156.4711,
+                        "y": 165.9536
+                    },
+                    "uuid": "45e99193-6c0e-412a-acb7-f27288e3a408"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J3 的参考字段",
+                    "pos": {
+                        "x": 84.0211,
+                        "y": 167.5036
+                    },
+                    "uuid": "9c5bff80-069d-4c52-a5e7-5c079c854b41"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J3 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 83.2711,
+                        "y": 163.0536
+                    },
+                    "uuid": "d25ad990-830a-4697-95fd-fd9f44288ef7"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J3 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 84.7711,
+                        "y": 163.0536
+                    },
+                    "uuid": "dbd3c49a-a599-42db-8851-61aff1ca623e"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J3 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 84.7711,
+                        "y": 165.9536
+                    },
+                    "uuid": "9b8831dd-64b0-4c39-9d53-a653da6b4e3b"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J2 的参考字段",
+                    "pos": {
+                        "x": 69.6811,
+                        "y": 167.5036
+                    },
+                    "uuid": "18985bc9-3dac-48d7-9626-19070eb7ca9c"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J2 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 68.9311,
+                        "y": 163.0536
+                    },
+                    "uuid": "67237be5-6ed4-4449-8560-1d9991c23a40"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J2 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 70.4311,
+                        "y": 163.0536
+                    },
+                    "uuid": "c88d125e-0afb-4abc-8416-3b78718f6af9"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J2 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 70.4311,
+                        "y": 165.9536
+                    },
+                    "uuid": "bfaae936-6bf6-4b07-acf3-270137d7e429"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J5 的参考字段",
+                    "pos": {
+                        "x": 98.3611,
+                        "y": 167.5036
+                    },
+                    "uuid": "fb15cad7-628e-4f63-9ced-3b595be211a5"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J7 的参考字段",
+                    "pos": {
+                        "x": 127.0411,
+                        "y": 167.5036
+                    },
+                    "uuid": "470f5f27-c7f7-4b67-983e-428d548c0255"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J7 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 127.7911,
+                        "y": 165.9536
+                    },
+                    "uuid": "1492e5d9-e0d2-44c1-a6ae-1e6a4354797a"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J7 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 127.7911,
+                        "y": 163.0536
+                    },
+                    "uuid": "e44507c7-4c32-4dc7-8112-a1c1e9584837"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J8 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 140.6311,
+                        "y": 163.0536
+                    },
+                    "uuid": "a4f2aefb-05f1-496c-865b-53ca0e280b42"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J7 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 126.2911,
+                        "y": 163.0536
+                    },
+                    "uuid": "c3ab1e4f-9b42-4e75-95c8-9eedd75d9139"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J6 的参考字段",
+                    "pos": {
+                        "x": 112.7011,
+                        "y": 167.5036
+                    },
+                    "uuid": "9ef9aeb3-d80f-4185-b02a-d75cde6453ae"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J6 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 113.4511,
+                        "y": 163.0536
+                    },
+                    "uuid": "d3af37bb-6c4e-4523-9b6e-37e26cc6471f"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J8 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 142.1311,
+                        "y": 165.9536
+                    },
+                    "uuid": "8948cf88-0c7e-4a2e-a98e-cb4138f25d18"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J17 的参考字段",
+                    "pos": {
+                        "x": 41.0011,
+                        "y": 167.5036
+                    },
+                    "uuid": "409a9be8-eb69-4246-81a6-3b53aaeec067"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J17 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 40.2511,
+                        "y": 163.0536
+                    },
+                    "uuid": "b927f6dd-39f2-43a8-9a11-e4377fdef129"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J17 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 41.7511,
+                        "y": 163.0536
+                    },
+                    "uuid": "857138c0-a54f-4a6e-a746-8c1420f07ca1"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J17 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 41.7511,
+                        "y": 165.9536
+                    },
+                    "uuid": "e1343b93-0704-4e68-a502-1943d137afa7"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J1 的参考字段",
+                    "pos": {
+                        "x": 55.3411,
+                        "y": 167.5036
+                    },
+                    "uuid": "7474c1a2-e0aa-478d-941c-9c1996de9243"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J1 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 54.5911,
+                        "y": 163.0536
+                    },
+                    "uuid": "be7eeada-2e90-4b7a-87f5-717731f80e18"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J1 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 56.0911,
+                        "y": 163.0536
+                    },
+                    "uuid": "e1f45dd1-f948-4e8a-a414-c949de7c985d"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J1 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 56.0911,
+                        "y": 165.9536
+                    },
+                    "uuid": "adddaf50-a1bb-4f27-a53c-fbd179af9348"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J6 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 111.9511,
+                        "y": 163.0536
+                    },
+                    "uuid": "822cd7e2-4a44-4f07-9209-d423f1fad76d"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J6 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 113.4511,
+                        "y": 165.9536
+                    },
+                    "uuid": "84de7052-3829-4dcc-8f93-9d60440f8601"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J5 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 97.6111,
+                        "y": 163.0536
+                    },
+                    "uuid": "90034f2d-8765-46c7-9db5-68c02b7d1e39"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J5 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 99.1111,
+                        "y": 163.0536
+                    },
+                    "uuid": "6129c00a-edc5-4b04-a2af-a75d32fd1f1b"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        },
+        {
+            "description": "Silkscreen clipped by solder mask",
+            "items": [
+                {
+                    "description": "J5 的 线段, 位于 F.Silkscreen",
+                    "pos": {
+                        "x": 99.1111,
+                        "y": 165.9536
+                    },
+                    "uuid": "e9616d44-7e67-4f87-aa64-b812a5a63c73"
+                },
+                {
+                    "description": "填充区[<no net>]在 F.Mask 上, 优先级 6",
+                    "pos": {
+                        "x": 271.5411,
+                        "y": 183.0436
+                    },
+                    "uuid": "f0986de8-1859-40b0-ac6b-707ff24c4e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_over_copper"
+        }
+    ]
+}

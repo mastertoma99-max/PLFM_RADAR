@@ -1,0 +1,27 @@
+{
+  "archive": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_7_Production Files\\Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920\\Phased_Array_Ant_IPEX1_70x70_4L_Gerber_20260920.zip",
+  "bytes": 27907,
+  "sha256": "bfecc061f8bf6a05b3d2986a4c06908b88fe77bf3eef7b8ea131d475497f3c4f",
+  "files": {
+    "Phased_Array_Ant_IPEX1-B_Cu.gbl": "2a23a98096c64b88df0e6412ba3289a337a6cfb4ef9987067e65493a7379e59e",
+    "Phased_Array_Ant_IPEX1-B_Mask.gbs": "5046017f1871f9f959c509c89d5e789efc7a146ad8829c9b61c5dfb316d9ffcb",
+    "Phased_Array_Ant_IPEX1-B_Silkscreen.gbo": "d67a17232e771303975604e198194bef687d435eab6b2d4137e15ab63263178a",
+    "Phased_Array_Ant_IPEX1-Edge_Cuts.gm1": "b08779fc7c41cbdc66c434a510dbb8580deaa8f8be3d3bd020d90fd21a94bda4",
+    "Phased_Array_Ant_IPEX1-F_Cu.gtl": "631369c53d99f6854af244a52eca93a419ed181fe94b6a1894b2f8fdec763f93",
+    "Phased_Array_Ant_IPEX1-F_Mask.gts": "d80f8976ac2d355340465dea62b652ace5e13513b0592a6b69bd3407db3db668",
+    "Phased_Array_Ant_IPEX1-F_Silkscreen.gto": "657908029603a51e8e629216ff30d2365aa4904dac84be308f7eb3547dccda80",
+    "Phased_Array_Ant_IPEX1-In1_Cu.g1": "8b31226eaf7a0a2afcf1deafbcdb25fd1dc5066f0686b75ec672e516c21d5643",
+    "Phased_Array_Ant_IPEX1-In2_Cu.g2": "ab4003cc14724a682fe767ef41939d1ea314c7428b1e3342c43854a19fe60ab5",
+    "Phased_Array_Ant_IPEX1-job.gbrjob": "9177172d8e9f0427019bf69af358f45a9ffdc6e2354c49e0b9dcefc83fbb66e6",
+    "Phased_Array_Ant_IPEX1-NPTH.drl": "0e091459dae862d6e2ae71732c90213e291ee520af03631ff10f94ee76d1dda8",
+    "Phased_Array_Ant_IPEX1-PTH.drl": "b3e52a17da4295f4029fec79bedfb7855cdec1974fb93af3134b840aa8bf8f84",
+    "Phased_Array_Ant_IPEX1.d356": "ef1504844c17086cefc26711e9c6cd869affdb49aaa138ff19a7de3d35a9427f",
+    "README_制造说明.txt": "d19a3b741944dc86fb470d71944793f6f2e73b7b8e3b29c0b2e7408a25f8339c",
+    "fabrication_requirements.json": "0dde9fc4edc0c65f397b5294ff6ebee5341b0ef0dec86656224923f409c56483",
+    "SHA256SUMS.txt": "593734836df6598d1171d211b9f7ad65171dce8eab75c5aee286ef8177379e75"
+  },
+  "zip_crc_and_all_file_hashes_verified": true,
+  "source_pcb_sha256": "146fcb3d8ca3033c4d48bd3b182f5a673d1ef5a04cca4e7f6148e2b701c0f70f",
+  "refilled_export_pcb_sha256": "7a50b697981fd50216120bd652c9afafa987a3c2e5c3f7564ae09b13fd083cd6",
+  "scope": "Bare PCB fabrication; RF performance not validated; dielectric thickness proposal required from board fabricator."
+}

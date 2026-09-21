@@ -1,0 +1,758 @@
+PAGE 1
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 1/10 
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+1. Application（应用）： 
+This SMT type Micro coaxial RF Rec.products are designed for Mobile phones, Wireless 
+LAN, Mini-PCI, Bluetooth, PDA, GPS, electronic measuring instruments, etc 
+该系列产品设计用于移动电话, 无线LAN, Mini-PCI, 蓝牙,PDA, GPS, 电子测量仪器等等. 
+ 
+2.Scope(范围):  
+This specification covers the requirements for product performance, test methods and 
+quality assurance provisions of USS RF Receptalce(ⅠGeneration )Connectors. 
+本规范内容包括 USS RF 母座(第一代)射频同轴连接器的产品性能、测试方法及品质保证方
+面的要求。 
+ 
+3. Technology Parameters（技术参数） 
+3.1 Voltage Rating（额定电压）                     6 0 V A C  ( R . M . S） 
+3.2 Frequency Range（频率范围）                  D C ~ 6 G  H z  
+3.3 Nominal Characteristic Impedance（特征阻抗）     5 0 ±5 Ohm 
+3.4 Operating Temperature Range（工作温度范围）     - 4 0 ℃～+90℃ 
+3.5 Operating Humidity（工作湿度）                   9 5 %  R . H . M A X  
+ 
+4. Ratings（额定性能要求） 
+      4.1 Initial Insulation Resistance（绝缘电阻）            500 M Ohm 　　 
+4.2 Contact Resistance（接触电阻） 
+         4.2.1 Inner Contact （内导体）               20 milliohm Max. (Inial 初始值) 
+                                                   25 milliohm Max. (After tested 试验后) 
+        4.2.2 Outer Contact （外导体）             10 milliohm Max. (Inial初始值) 
+                                                  15 milliohm Max. (After tested 试验后) 
+4.3 Withstand Voltage（耐电压）                 200V AC 1 Min. 
+4.4 V .S .W. R*（电压驻波比）                   1 . 3 M a x . ( 0 ~ 6 G H z )  
+ 
+5. Electrical Performance(电性性能) 
+No Items 
+（项目） 
+Test Condition 
+(测试条件) 
+Specifications 
+(规格) 
+5.1 
+Contact 
+Resistance
+（接触电阻）
+( IEC512-2-1(2a) ) 
+Solder the receptacle connector to the test 
+board and mate the plug connector together， 
+then measure the contact resistance as 
+shown in figure 1 by the four terminal 
+method。 
+将母座焊接在测试板上,并且将公头插合在
+焊好的母座上,采用四种端接方式(如下图 1)依
+次测量电阻值. 
+Open circuit voltage/放电压：  20mV MAX 
+Circuit current/电流：         1 0 m A  M A X  
+Inner contact(中心导
+体)： 
+Initial：20mΩ MAX 
+After：25mΩ MAX 
+Ground contact(外导
+体) 
+Initial：10mΩ MAX 
+After：15mΩ MAX 
+ 
+PAGE 2
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 2/10 
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+  
+Inner Contact/中心导体
+A - B
+Ground Contact/外导体
+D - C
+ 
+Figure 1 
+5.2 
+Insulation 
+Resistance
+（绝缘电阻）
+Mate the plug and receptacle connector 
+together，and then， apply DC 200 V Voltage 
+between the inner contact and the ground 
+contact in accordance with IEC 512-4-1(3a)  
+ 
+  按照 IEC 512-4-1(3a),将公母头配合在一起,
+然后在内导体和拉地端之间施加 200V DC的
+电压，然后，进行相关的测试。 
+ 
+ 
+500 MΩ Min. 
+ 
+5.3 
+Dielectric 
+withstanding 
+voltage 
+（耐电压） 
+Mate the plug and receptacle connector 
+together，and then apply AC 200 V between 
+the inner contact and the ground contact in 
+accordance with IEC 512-4-1(4a) 
+按照 IEC 512-4-1(4a)标准,将公母头配合在一
+起,然后在内导体和接地外导体之间施加 200V 
+AC的电压，并进行相关测试。 
+ 
+ 
+No flashover, 
+No sparkover, 
+No excess leakage,
+No breakdown 
+无瞬断、熔闪、漏电、
+击穿。 
+ 
+5.4 
+V.S.W.R 
+（电压驻波
+比） 
+Measure the V.S.W.R as shown in figure 2 
+by the network analyzer 
+Frequency：DC~6GHz 
+通过网络分析仪测试 V.S.W.R，频率范围为
+DC~6GHz.如图 1所示。 
+ 
+1.2 Max. 
+（DC~3GHz); 
+ 
+1.3 Max. 
+(3~6GHz); 
+ 
+Figure 2 
+NA
+TEST CABLE
+ 
+ 
+ 
+PAGE 3
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 3/10 
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+6. Mechanical Performance(机械性能) 
+ 
+No Items 
+（项目） 
+Test Condition 
+(测试条件) 
+Specifications 
+(规格) 
+   
+6.1 
+Un-mating 
+Force 
+(拔出力) 
+IEC 512-15-4(15d) 
+Solder the receptacle connector to the test 
+board and mate the plug connector， then 
+measure the un-mating force at speed 25±
+3mm/minutes along by the push-push machine 
+ 
+将公母座完全配合到位后,将公母座分离到完
+全分开位置并测试要求的拔出力， 
+速率：每分钟 25±3 毫米。 
+ 
+ 
+ 
+1.Initial(初值)： 
+4N (0.4Kgf) Min. 
+ 
+2.After 100 Cycle 
+(100次插拔后)：
+2N(0.2Kgf) Min. 
+6.2 Durability 
+(机械寿命) 
+Mate and un-mate the receptacle 
+connector(soldered to the test board) and plug 
+connector 100 cycles at the speed of 25±  
+3mm/minutes along the mating direction by the 
+push-push machine 
+ 
+将母座焊接在测试板上，然后，通过插拔力测
+试仪沿配合方向以每分钟 25±3 毫米的速度插拔
+公母头 100个循环，然后测试参数。 
+Appearance: No 
+abnormality 
+Contact 
+Resistance: 
+   Shall meet 5.1 
+外观：无损伤 
+接触电阻： 
+满足节 5.5.1 要求 
+ 
+ 
+6.3 
+Vibration 
+(振动) 
+ 
+ 
+IEC 512-6-4(6d) 
+Apply the following vibration to the mating 
+connector. 
+During the testing,run 100mA DC to check 
+electrical discontinuity. 
+Frequency:10Hz→ 100Hz→ 10Hz/approx 
+20minutes. 
+Half amplitude,Peak value of acceleration: 
+1.5mm or 59m/s²(6G) 
+Directions,cycle:3 mutually perpendicular 
+direction, 
+3 cycles about each direction 
+将公母头配合在一起，并施加如下振动条件测试。 
+在测试期间,施加 100mA DC电压,并检验电
+不连续性。 
+频率：10Hz→ 100Hz→ 10Hz/约 20minutes. 
+半振幅、加速度：1.5mm、59 m/s²(6G) 
+方向和循环次数： 
+每个互相垂直方向上进行 3次测量。 
+ 
+Appearance: No 
+abnormality 
+Contact 
+Resistance: 
+   S h a l l  m e e t  
+5.5.1 
+No discontinuities 
+of 1μs or longer 
+duration 
+外观：无损伤 
+接触电阻：满足节
+5.5.1 的要求， 
+电不连续性不超过
+1μs。 
+ 
+PAGE 4
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 4/10 
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+6.4 Shock 
+(机械冲击) 
+IEC 512-6-3(6c)  
+The object of this test procedure is to detail a 
+standard method to assess the ability of a 
+connector to withstand specified severity of 
+mechanical shock. 
+此测试程序的目的是要作一详细标准以评估连接
+器能承受特定严格机械冲击的能力。 
+Peak value of acceleration:735m/s²(75G) 
+D u r a t i o n         : 1 1 m s  
+Wave form      : half sinusoidal 
+Directions,cycle  : 6 mutually perpendicula 
+direction, 3cycles about each 
+direction 
+振幅峰值，:735m/s²(75G) 
+持续时间：11毫秒 
+波型：半正弦波 
+方向和循环次数：每 6个相互垂直方向上各进次 3
+次。 
+Appearance: No 
+abnormality 
+Contact 
+Resistance: 
+   S h a l l  m e e t  
+5.5.1 
+No discontinuities 
+of 1μs or longer 
+duration 
+外观：无损伤 
+接触电阻： 
+满足节 5.5.1 要求 
+电不连续性不超过
+1μs 
+ 
+ 
+ 
+7. Environmental  Performance( 环境性能) 
+ 
+No Items 
+（项目） 
+Test Condition 
+(测试条件) 
+Specifications 
+(规格) 
+7.1 Humidity 
+(湿度试验) 
+Apply the following environment to the 
+mating connector in accordance with IEC 
+512-11-3(11c) 
+ Temperature :    25~65 ℃ 
+Humidity :       90~95%R.H 
+Duration:        96 hours 
+ 
+根据 IEC 512-11-3(11c)试验方法,对已配合的
+连接器施加下列条件测试. 
+温度: 25~65℃ 
+湿度: 90~95%R.H 
+持续时间: 96 小时 
+Appearance: No 
+abnormality 
+Contact Resistance: 
+   Shall meet 5.5.1 
+Insulation 
+Resistance: 
+Shall meet 5.5.2 
+Dielectric withstanding 
+voltage 
+Shall meet 5.5.3 
+外观：无损伤 
+接触电阻：满足 5.5.1
+绝缘电阻：满足 5.5.2
+耐电压：满足 5.5.3 
+PAGE 5
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 5/10 
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+7.2 
+Thermal 
+Shock 
+(冷热冲击) 
+ 
+Apply the following environment to the 
+mating connector in accordance with 
+ IEC 512-11-4(11d) 
+Temperature :    -55~85 ℃ 
+Transition time: :   5min. MAX 
+C y c l e s :            5  C y c l e s  
+ 
+根据 IEC 512-11-4(11d)方法,对已配合的连接
+器施加下列条件测试. 
+温度: -55~85℃ 
+转换时间: 5 min Max. 
+循环次数: 5 次数 
+Appearance: No 
+abnormality 
+Contact Resistance: 
+   Shall meet 5.5.1 
+Insulation 
+Resistance: 
+Shall meet 5.5.2 
+Dielectric withstanding 
+voltage 
+Shall meet 5.5.3 
+外观：无损伤 
+接触电阻：满足节
+5.5.1 中的要求 
+绝缘电阻：满足节
+5.5.2 中的要求 
+耐电压：满足节 5.5.3
+中的要求 
+ 
+7.3 
+Resistance 
+to soldering 
+heat 
+（耐焊接热 
+试验） 
+ 
+According to 8.8.1,Apply reflow soldering 
+condition. 
+Measurement after 24h+/-2h. 
+ 
+按 8.8.1 中曲线条件进行回流焊接,并在 24小
+时后进行相关测试. 
+ 
+Appearance: No 
+abnormality 
+Contact Resistance: 
+   Shall meet 5.5.1 
+Insulation 
+Resistance: 
+Shall meet 5.5.2 
+Dielectric withstanding 
+voltage 
+Shall meet 5.5.3 
+ 
+外观：无损伤 
+接触电阻：满足节
+5.5.1 中的要求 
+绝缘电阻：满足节
+5.5.2 中的要求 
+耐电压：满足节 5.5.3
+中的要求 
+PAGE 6
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 6/10 
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+7.4 Salt Spray 
+(盐雾测试) 
+IEC 512-11-6(11f) 
+Apply the following environment to the 
+mating connector 
+Temperature :       35 ±2℃ 
+Relative Humidity :   90~98%R.H 
+Salt water density:    5 ±1% 
+Duration        :    48 hours 
+根据 IEC 512-11-6(11f)试验条件中的要求,
+对已配合的连接器施加下列条件测试. 
+温度: 35±2℃ 
+相对湿度: 90~98%R.H 
+盐水浓度: 5±1% 
+持续时间: 48 hours 
+Appearance: No 
+abnormality 
+Contact Resistance: 
+   Shall meet 5.5.1 
+外观：无损伤 
+接触电阻： 
+满足节 5.5.1中的要求
+ 
+7.5 
+ 
+solderability
+(可焊试验) 
+ 
+ 
+Apply the following environment to the 
+mating connector 
+Temperature :    245 ±2℃ 
+Duration    : 3~5 second 
+Test sample should be observed by the 
+magnification of 10times after the test. 
+ 
+按下列条件对已配合的连接器进行测试. 
+温度: 245+/-2℃ 
+持续时间:3~5 秒钟. 
+观测：10倍放大镜 
+At least 95% covered 
+by a continuous new 
+solder coating. 
+吃锡面积大于 95%以
+上。 
+8、SMT Temperature Curve （SMT温度曲线图） 
+8.1 Recommanded Tem.&time relative curve of Re-flow.   8.2 Extremed Tem.&time curve of Re-flow 
+  建议回流焊温度与时间条件            回流焊极限温度与时间条件  
+ 
+时间(
+温度
+温度
+时间(
+PAGE 7
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 7/10 
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+9. Profile Dimensions(外形规格)   
+ 
+ 
+10.Recommanded PCB LAYOUT(推荐的 PCB安装焊盘规格) 
+ 
+ 
+ 
+PAGE 8
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 8/10 
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+11.Packaging (包装) 
+                  11.1 上带的剥离力度：300mm/min 的速度进行剥离，力度最大应该是 1.3N  
+Peeling off Force of Cover Tape：When cover tape is peeled off as in right figure by a 
+speed of 300mm/minute.The peeling off force  should be 1.3N maximum. 
+           
+       11.2  包装方式：载带包装，5000Pcs/卷（Ф330mm） 
+  The way of package ：Tape packing，5000Pcs/Reel（Ф330mm） 
+ 
+EMPTY CARRIER EMPTY CARRIER
+COVER TAPE
+COMPONENTS
+USAGE DIRECTION GND
+SIG
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PAGE 9
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 9/10 
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+12. Usage Precaution（使用禁忌或注意事项） 
+No Items 
+（项目） 
+Test Condition 
+(测试条件) 
+Specifications 
+(规格) 
+12.1  
+(1) 
+Connection/ 
+disconnection 
+of connectors 
+连接器的连接
+和断开 
+1).To disconnect connectors, insert the end 
+portion of ECT Extraction jig under the 
+connector flanges and pull off vertically, in 
+the direction of the connector mating axis 
+1） 将 ECT自制的去配工具的末端部分插
+入到连接器法兰端面下，并沿垂直于连
+接器匹配的轴向方向施加拉力，将公母
+头连接器分开。 
+2).To mate the connectors, the mating axis 
+of both connectors must be aligned and the 
+connectors can be mated. The "click" will 
+confirm fully mated connection. Do not 
+attempt to insert on an extreme angle. 
+2）公母头连接器进行配合前，务必确保两者
+对齐，当听到“卡嗒声”声后，表示两者已完
+全配合在一起。不要以极偏的角度插配连接
+器。 
+ 
+ 
+Figure 6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+12.2 
+Stockpile 
+condition 
+（存储条件） 
+ 
+Use this product within 6 months after 
+receipt 
+Temperature(温度)：-10 ～ +40 ℃       
+Relative Humidity(湿度)：15 ～ 85 % RH 
+ 
+ 
+ 
+ 
+ 
+
+PAGE 10
+ 
+Product 
+Specification 
+DOC. No.: 651-368-01 Rev.:   E Page: 10/10
+P/ N： 
+818000368 
+Approved/Date Check/Date Design/date 
+SAN 
+08/01-12` ~ 
+ 
+Kenny 
+08/01-12’ 
+ 
+ 
+ECT 
+Shenzhen Electric Connector 
+Technology Co.,Ltd 
+ 
+深圳市电连精密技术有限公司 
+13. Test Sequence and Sample Quantity(测试顺序及样品数量)  
+  
+Test Item 
+（测试项目） 
+Group（测试分组） 
+A B C D E F G H I  J K L 
+Examination of product 
+(外观检测) 1, 1,
+6 
+1,
+5 1,5 1,6 1,6 1,6 1,4 1,3    
+Contact Resistance 
+（接触电阻）  
+ 
+2,
+7 
+2,
+4 2, 4 2,7 2,7 2,7 2,5     
+Insulation Resistance 
+（绝缘电阻）     3,8 3,8 3,8      
+ Dielectric 
+Withstanding Voltage 
+（耐电压） 
+    4,9 4,9 4,9      
+V. S . W. R  
+（电压驻波比） 2 ,             
+Un-mating Force 
+(拔出力)  3,
+5           
+Durability 
+(机械寿命)  4 ,            
+Vibration 
+(振动)   3 ,          
+Shock 
+(冲击)    3 ,          
+Humidity 
+(湿度试验)     5 ,         
+Thermal Shock 
+(冷热冲击)      5,       
+High Temperature Life 
+(耐焊性测试)       5,      
+Salt Spray 
+(盐雾测试)        3,     
+solderability 
+(可焊试验)         2 ,     
+Sample QTY(PCS) 
+样品数量 5 5  5 5 5 5 5 5 5    
+The number of group is test sequence 测试分组中的序号为试验顺序。 
+ 

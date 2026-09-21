@@ -1,0 +1,31 @@
+{
+  "board_offset_mm": [
+    113.5,
+    135.0
+  ],
+  "geometry_comparison_frame": "source translated by board_offset_mm",
+  "source_hashes_unchanged": true,
+  "datasheet_copy_identical": true,
+  "antenna_pad_geometry_layers_and_nets_identical": true,
+  "board_outline_and_drawings_identical": true,
+  "mounting_holes_identical": true,
+  "copper_layers": 4,
+  "source_signal_vias_and_top_signal_tracks_unchanged": true,
+  "signals": 16,
+  "all_nets": 17,
+  "replaced_connectors": 16,
+  "connector_pad_dimensions_and_bottom_mirroring_verified": true,
+  "schematic_to_pcb_all_net_nodes_exact_match": true,
+  "schematic_uuids_linked_to_board": true,
+  "pth_count": 60,
+  "all_pth_drills_mm": 0.3,
+  "new_ground_vias": 32,
+  "changed_bottom_signal_tracks": 16,
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "drc_disabled_checks": [],
+  "antenna_paste_removed_intentionally": true,
+  "rf_validation": "Not performed; connector datasheet rated DC-6GHz while patch is labelled 10.5GHz"
+}

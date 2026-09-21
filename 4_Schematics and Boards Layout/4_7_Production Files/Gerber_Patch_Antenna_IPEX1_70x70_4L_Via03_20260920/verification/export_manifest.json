@@ -1,0 +1,49 @@
+{
+  "source_project": "D:\\2_Works\\4_Procedures\\PLFM_RADAR\\4_Schematics and Boards Layout\\4_6_Schematics\\Antennas\\Patch\\4x4\\Phased_Array_Ant_IPEX1",
+  "source_hashes": {
+    "Phased_Array_Ant_IPEX1.kicad_pcb": "146fcb3d8ca3033c4d48bd3b182f5a673d1ef5a04cca4e7f6148e2b701c0f70f",
+    "Phased_Array_Ant_IPEX1.kicad_sch": "96b754359176faf7acdc37fb5c198ed46408df326331f8af7a004f601f826502",
+    "Phased_Array_Ant_IPEX1.kicad_pro": "81fac6ba5d2240b9d9706d25d05a34e986ff3480867fadd63d11c1108c12fa45",
+    "PLFM_RF.kicad_sym": "6cabe7f82fdf81ae72ef8a7f76b66f07377f5ad83efb33a5f4c9e860217ecddf",
+    "sym-lib-table": "5f6caa32a40ddd1cd036c23cc7300a1910f479ab06ccdf9490566d1c7c82b6c2",
+    "fp-lib-table": "21c16d971e8e329a33d73c0d4b307aad15faa2a7338f36b002c3106a1bf96a47",
+    "README_\u4fee\u6539\u8bf4\u660e.md": "a68cc0a01fbdf89f97d13a578d549d50ec2eb0d44f735c1bca45f61c72fa4c73",
+    "PLFM_RF.pretty\\ECT_818000368_IPEX1_1.25mm.kicad_mod": "d8d94acb836bf127873f88e672e97d5f36f9ad25e9b38c44a2b2ce17129c43e5",
+    "PLFM_RF.pretty\\Patch_10p5GHz_9.538x7.636mm.kicad_mod": "afdfda9d18bcecf257c85e565f9cb921f0e6f91ec9e8e92ad138246153e4eb41",
+    "datasheets\\ECT_818000368_SPEC_E.pdf": "ab21f82f1df7c73468de2352afb095ed12681e2b29e973777a8ccedd45c8d376"
+  },
+  "source_files_unchanged": true,
+  "kicad_version": "10.0.0",
+  "exported_board_sha256": "7a50b697981fd50216120bd652c9afafa987a3c2e5c3f7564ae09b13fd083cd6",
+  "copper_layers": 4,
+  "board_size_mm": [
+    70,
+    70
+  ],
+  "gerber_drill_origin": "Auxiliary origin; board lower-left = (0,0), unmirrored top-view coordinates",
+  "trace_widths_mm_counts": {
+    "0.2": 56,
+    "0.3": 32
+  },
+  "via_diameters_mm_counts": {
+    "0.6": 48,
+    "0.5": 12
+  },
+  "pth_count": 60,
+  "npth_count": 4,
+  "drill_mm": 0.3,
+  "manufacturing_parameters": {
+    "material": "FR4",
+    "finished_board_thickness_mm": 1.0,
+    "outer_copper_oz": 1.0,
+    "inner_copper_oz": 0.5,
+    "finish": "OSP",
+    "layer_order": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "individual_dielectric_thickness": "fabricator to propose; not specified"
+  }
+}

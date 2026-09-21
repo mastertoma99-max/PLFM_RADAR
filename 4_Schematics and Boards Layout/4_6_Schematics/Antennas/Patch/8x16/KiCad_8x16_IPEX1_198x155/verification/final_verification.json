@@ -1,0 +1,42 @@
+{
+  "board_size_mm": [
+    198,
+    155
+  ],
+  "layer_count": 4,
+  "patches": 128,
+  "connector_pads": 48,
+  "nets": 17,
+  "all_nets_connected": true,
+  "shorts_between_nets": 0,
+  "unassigned_copper_islands": 0,
+  "all_ground_vias_touch_In1_plane": true,
+  "min_different_net_clearance_mm": {
+    "F_Cu": 0.44999999999998863,
+    "In1_Cu": null,
+    "In2_Cu": null,
+    "B_Cu": null
+  },
+  "DRC_errors": 0,
+  "unconnected": 0,
+  "schematic_parity": 0,
+  "DRC_warning_counts": {
+    "via_dangling": 89,
+    "missing_courtyard": 4,
+    "holes_co_located": 3,
+    "silk_over_copper": 64
+  },
+  "ERC_errors": 0,
+  "schematic_pcb_17_nets_48_pad_nodes_match": true,
+  "ideal_array_factor": {
+    "frequency_GHz": 10.5,
+    "columns": 16,
+    "old_pitch_mm": 14.34,
+    "new_pitch_mm": 12,
+    "old_horizontal_HPBW_deg": 6.33024269396115,
+    "new_horizontal_HPBW_deg": 7.566289806374185,
+    "beamwidth_increase_percent": 19.526061987989564,
+    "assumptions": "Uniform amplitude, in-phase broadside excitation, uncoupled identical column elements; excludes element pattern, dielectric/ground-edge effects, losses, matching and mutual coupling. Not full-wave RF validation."
+  },
+  "source_hashes_still_match": true
+}

@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\2_Works\4_Procedures\PLFM_RADAR\4_Schematics and Boards Layout\4_6_Schematics\Antennas\Patch\8x16\KiCad_8x16_IPEX1_198x155\Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch</source>
+    <date>2026-09-21T11:28:42</date>
+    <tool>Eeschema 10.0.0</tool>
+    <textvar name="CONNECTOR_MPN">818000368</textvar>
+    <textvar name="FAB_STACKUP">TBD - inherited importer thickness is not a fabrication specification</textvar>
+    <textvar name="LAYOUT_REVISION">198x155, 12 mm column pitch; RF validation pending</textvar>
+    <textvar name="MATERIAL_CODE">YC.DZ.SS00008</textvar>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>8 x 16 Patch Antenna - IPEX1</title>
+        <company/>
+        <rev>IPEX1-A1</rev>
+        <date>2026-09-20</date>
+        <source>Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch</source>
+        <comment number="1" value="ECT 818000368 / YC.DZ.SS00008 / 16 channels, 8 patches per channel"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">2</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>43b525c2-c02c-5493-86d8-da18524b7606</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">3</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5e6646b-009d-559d-8e18-273d2d6f9cb4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">4</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="4"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>028b4ad6-5c1e-5e81-9b82-d89723dcb3d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">16</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="16"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b0dc877e-8a64-5ea4-9fb5-a7721b7140c1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">5</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84079ccf-530b-59cb-90fc-a771f67bf08a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">6</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="6"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>154c4a8e-382d-548a-b79f-b38d292bdcb1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">7</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="7"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3a86ee45-a83a-5e38-8d0d-7cb0c6a4a923</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">8</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e3591ee-7f4c-5f8e-b2bf-f2c0bf55a8ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">12</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="12"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83a47083-0a90-5f64-8f90-cf1dbfc8ef01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">9</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="9"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5533735a-8922-50bb-8126-c2c2e5a75243</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">13</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="13"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>343b2d9a-f3d1-58d7-8417-0eb63df23154</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">10</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="10"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a09e9b27-7c85-5c00-b712-34d125d04118</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">14</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a1e4f2e4-4910-5b42-aadb-25d4da0d891a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J14">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">11</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="11"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00e6cbcf-7125-5c24-af8e-2d89c4b59192</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J15">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">15</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="15"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>634ce4d6-bc90-5cce-8a1d-b633ecdf2d47</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J17">
+      <value>818000368</value>
+      <footprint>PLFM_RF:ECT_818000368_IPEX1_1.25mm</footprint>
+      <datasheet>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+        <field name="ArrayColumn">1</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PLFM_RF" part="ECT_818000368" description="ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz"/>
+      <property name="Manufacturer" value="ECT"/>
+      <property name="MPN" value="818000368"/>
+      <property name="MaterialCode" value="YC.DZ.SS00008"/>
+      <property name="ArrayColumn" value="1"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e35b461-5be9-5f5a-a0a2-8fc878cf8d1c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="PLFM_RF" part="ECT_818000368">
+      <description>ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz</description>
+      <docs>${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">818000368</field>
+        <field name="Footprint">PLFM_RF:ECT_818000368_IPEX1_1.25mm</field>
+        <field name="Datasheet">${KIPRJMOD}/datasheets/ECT_818000368_SPEC_E.pdf</field>
+        <field name="Description">ECT USS RF I generation, 3 solder pads, 1.25mm high, 50 ohm, DC-6GHz</field>
+        <field name="Manufacturer">ECT</field>
+        <field name="MPN">818000368</field>
+        <field name="MaterialCode">YC.DZ.SS00008</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SIG" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="PLFM_RF">
+      <uri>${KIPRJMOD}/PLFM_RF.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J17" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="GND_3" pintype="passive"/>
+    </net>
+    <net code="2" name="N$17" class="Default">
+      <node ref="J17" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="3" name="N$19" class="Default">
+      <node ref="J1" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="4" name="N$21" class="Default">
+      <node ref="J2" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="5" name="N$23" class="Default">
+      <node ref="J3" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="6" name="N$25" class="Default">
+      <node ref="J5" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="7" name="N$28" class="Default">
+      <node ref="J6" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="8" name="N$30" class="Default">
+      <node ref="J7" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="9" name="N$32" class="Default">
+      <node ref="J8" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="10" name="N$34" class="Default">
+      <node ref="J10" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="11" name="N$36" class="Default">
+      <node ref="J12" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="12" name="N$38" class="Default">
+      <node ref="J14" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="13" name="N$40" class="Default">
+      <node ref="J9" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="14" name="N$41" class="Default">
+      <node ref="J11" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="15" name="N$43" class="Default">
+      <node ref="J13" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="16" name="N$45" class="Default">
+      <node ref="J15" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+    <net code="17" name="N$47" class="Default">
+      <node ref="J4" pin="1" pinfunction="SIG_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
