@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\2_Works\4_Procedures\PLFM_RADAR\KiCad_All_20260928\Simulations\IF_BPF\IF_BPF.kicad_sch</source>
+    <date>2026-09-28T15:33:00</date>
+    <tool>Eeschema 10.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>IF_BPF.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>40.6pF</value>
+      <fields>
+        <field name="Qucs_Type">C</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">C C1 1 670 250 -8 46 1 "40.6pF"1"0"0""0"neutral"0"SMD0603"0</field>
+        <field name="Qucs_Param_01">40.6pF</field>
+        <field name="Qucs_Param_02">0</field>
+        <field name="Qucs_Param_03"/>
+        <field name="Qucs_Param_04">neutral</field>
+        <field name="Qucs_Param_05">SMD0603</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="C_1" description=""/>
+      <property name="Qucs_Type" value="C"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="C C1 1 670 250 -8 46 1 &quot;40.6pF&quot;1&quot;0&quot;0&quot;&quot;0&quot;neutral&quot;0&quot;SMD0603&quot;0"/>
+      <property name="Qucs_Param_01" value="40.6pF"/>
+      <property name="Qucs_Param_02" value="0"/>
+      <property name="Qucs_Param_03" value=""/>
+      <property name="Qucs_Param_04" value="neutral"/>
+      <property name="Qucs_Param_05" value="SMD0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c91793a-1da1-4865-b454-7e32a63ec64f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>4.785pF</value>
+      <fields>
+        <field name="Qucs_Type">C</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">C C2 1 750 170 -26 10 0 "4.785pF"1"0"0""0"neutral"0"SMD0603"0</field>
+        <field name="Qucs_Param_01">4.785pF</field>
+        <field name="Qucs_Param_02">0</field>
+        <field name="Qucs_Param_03"/>
+        <field name="Qucs_Param_04">neutral</field>
+        <field name="Qucs_Param_05">SMD0603</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="C_0" description=""/>
+      <property name="Qucs_Type" value="C"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="C C2 1 750 170 -26 10 0 &quot;4.785pF&quot;1&quot;0&quot;0&quot;&quot;0&quot;neutral&quot;0&quot;SMD0603&quot;0"/>
+      <property name="Qucs_Param_01" value="4.785pF"/>
+      <property name="Qucs_Param_02" value="0"/>
+      <property name="Qucs_Param_03" value=""/>
+      <property name="Qucs_Param_04" value="neutral"/>
+      <property name="Qucs_Param_05" value="SMD0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4c9cdbc-069a-465c-9e3a-c33974ca63ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>98.03pF</value>
+      <fields>
+        <field name="Qucs_Type">C</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">C C3 1 810 250 -8 46 1 "98.03pF"1"0"0""0"neutral"0"SMD0603"0</field>
+        <field name="Qucs_Param_01">98.03pF</field>
+        <field name="Qucs_Param_02">0</field>
+        <field name="Qucs_Param_03"/>
+        <field name="Qucs_Param_04">neutral</field>
+        <field name="Qucs_Param_05">SMD0603</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="C_1" description=""/>
+      <property name="Qucs_Type" value="C"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="C C3 1 810 250 -8 46 1 &quot;98.03pF&quot;1&quot;0&quot;0&quot;&quot;0&quot;neutral&quot;0&quot;SMD0603&quot;0"/>
+      <property name="Qucs_Param_01" value="98.03pF"/>
+      <property name="Qucs_Param_02" value="0"/>
+      <property name="Qucs_Param_03" value=""/>
+      <property name="Qucs_Param_04" value="neutral"/>
+      <property name="Qucs_Param_05" value="SMD0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bf758a2-7f54-4295-9804-002de4e30e30</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>11.55pF</value>
+      <fields>
+        <field name="Qucs_Type">C</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">C C4 1 890 170 -26 10 0 "11.55pF"1"0"0""0"neutral"0"SMD0603"0</field>
+        <field name="Qucs_Param_01">11.55pF</field>
+        <field name="Qucs_Param_02">0</field>
+        <field name="Qucs_Param_03"/>
+        <field name="Qucs_Param_04">neutral</field>
+        <field name="Qucs_Param_05">SMD0603</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="C_0" description=""/>
+      <property name="Qucs_Type" value="C"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="C C4 1 890 170 -26 10 0 &quot;11.55pF&quot;1&quot;0&quot;0&quot;&quot;0&quot;neutral&quot;0&quot;SMD0603&quot;0"/>
+      <property name="Qucs_Param_01" value="11.55pF"/>
+      <property name="Qucs_Param_02" value="0"/>
+      <property name="Qucs_Param_03" value=""/>
+      <property name="Qucs_Param_04" value="neutral"/>
+      <property name="Qucs_Param_05" value="SMD0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3adb4b3-84c9-4f79-948c-2d49b2d0ad48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L1">
+      <value>28.88nH</value>
+      <fields>
+        <field name="Qucs_Type">L</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">L L1 1 700 250 8 -26 1 "28.88nH"1"0"0""0"inductor_1mH"0</field>
+        <field name="Qucs_Param_01">28.88nH</field>
+        <field name="Qucs_Param_02">0</field>
+        <field name="Qucs_Param_03"/>
+        <field name="Qucs_Param_04">inductor_1mH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="L_1" description=""/>
+      <property name="Qucs_Type" value="L"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="L L1 1 700 250 8 -26 1 &quot;28.88nH&quot;1&quot;0&quot;0&quot;&quot;0&quot;inductor_1mH&quot;0"/>
+      <property name="Qucs_Param_01" value="28.88nH"/>
+      <property name="Qucs_Param_02" value="0"/>
+      <property name="Qucs_Param_03" value=""/>
+      <property name="Qucs_Param_04" value="inductor_1mH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>237c31f3-fbc6-4b9a-a7cd-dd53ae8eb228</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L2">
+      <value>245.1nH</value>
+      <fields>
+        <field name="Qucs_Type">L</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">L L2 1 810 170 -26 -44 0 "245.1nH"1"0"0""0"inductor_1mH"0</field>
+        <field name="Qucs_Param_01">245.1nH</field>
+        <field name="Qucs_Param_02">0</field>
+        <field name="Qucs_Param_03"/>
+        <field name="Qucs_Param_04">inductor_1mH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="L_0" description=""/>
+      <property name="Qucs_Type" value="L"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="L L2 1 810 170 -26 -44 0 &quot;245.1nH&quot;1&quot;0&quot;0&quot;&quot;0&quot;inductor_1mH&quot;0"/>
+      <property name="Qucs_Param_01" value="245.1nH"/>
+      <property name="Qucs_Param_02" value="0"/>
+      <property name="Qucs_Param_03" value=""/>
+      <property name="Qucs_Param_04" value="inductor_1mH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84aad156-31b2-4dde-8ec1-1f1bcc06256f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L3">
+      <value>11.96nH</value>
+      <fields>
+        <field name="Qucs_Type">L</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">L L3 1 840 250 8 -26 1 "11.96nH"1"0"0""0"inductor_1mH"0</field>
+        <field name="Qucs_Param_01">11.96nH</field>
+        <field name="Qucs_Param_02">0</field>
+        <field name="Qucs_Param_03"/>
+        <field name="Qucs_Param_04">inductor_1mH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="L_1" description=""/>
+      <property name="Qucs_Type" value="L"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="L L3 1 840 250 8 -26 1 &quot;11.96nH&quot;1&quot;0&quot;0&quot;&quot;0&quot;inductor_1mH&quot;0"/>
+      <property name="Qucs_Param_01" value="11.96nH"/>
+      <property name="Qucs_Param_02" value="0"/>
+      <property name="Qucs_Param_03" value=""/>
+      <property name="Qucs_Param_04" value="inductor_1mH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9345fa95-ae36-48ab-8a64-62acf47434ad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L4">
+      <value>101.5nH</value>
+      <fields>
+        <field name="Qucs_Type">L</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">L L4 1 950 170 -26 -44 0 "101.5nH"1"0"0""0"inductor_1mH"0</field>
+        <field name="Qucs_Param_01">101.5nH</field>
+        <field name="Qucs_Param_02">0</field>
+        <field name="Qucs_Param_03"/>
+        <field name="Qucs_Param_04">inductor_1mH</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="L_0" description=""/>
+      <property name="Qucs_Type" value="L"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="L L4 1 950 170 -26 -44 0 &quot;101.5nH&quot;1&quot;0&quot;0&quot;&quot;0&quot;inductor_1mH&quot;0"/>
+      <property name="Qucs_Param_01" value="101.5nH"/>
+      <property name="Qucs_Param_02" value="0"/>
+      <property name="Qucs_Param_03" value=""/>
+      <property name="Qucs_Param_04" value="inductor_1mH"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc1ca5f9-9bf4-42ee-900e-96abb7d0f505</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P1">
+      <value>Z=50</value>
+      <fields>
+        <field name="Qucs_Type">Pac</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">Pac P1 1 570 250 18 -26 0 "1"1"50"1"0 dBm"0"1 GHz"0"26.85"0"con_2"0</field>
+        <field name="Qucs_Param_01">1</field>
+        <field name="Qucs_Param_02">50</field>
+        <field name="Qucs_Param_03">0 dBm</field>
+        <field name="Qucs_Param_04">1 GHz</field>
+        <field name="Qucs_Param_05">26.85</field>
+        <field name="Qucs_Param_06">con_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="Pac_0" description=""/>
+      <property name="Qucs_Type" value="Pac"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="Pac P1 1 570 250 18 -26 0 &quot;1&quot;1&quot;50&quot;1&quot;0 dBm&quot;0&quot;1 GHz&quot;0&quot;26.85&quot;0&quot;con_2&quot;0"/>
+      <property name="Qucs_Param_01" value="1"/>
+      <property name="Qucs_Param_02" value="50"/>
+      <property name="Qucs_Param_03" value="0 dBm"/>
+      <property name="Qucs_Param_04" value="1 GHz"/>
+      <property name="Qucs_Param_05" value="26.85"/>
+      <property name="Qucs_Param_06" value="con_2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7349b7ca-b0bc-4bd2-8037-0935c6e00a3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P2">
+      <value>Z=50</value>
+      <fields>
+        <field name="Qucs_Type">Pac</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">Pac P2 1 980 250 18 -26 0 "2"1"50"1"0"0"1 GHz"0"26.85"0"con_2"0</field>
+        <field name="Qucs_Param_01">2</field>
+        <field name="Qucs_Param_02">50</field>
+        <field name="Qucs_Param_03">0</field>
+        <field name="Qucs_Param_04">1 GHz</field>
+        <field name="Qucs_Param_05">26.85</field>
+        <field name="Qucs_Param_06">con_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="Pac_0" description=""/>
+      <property name="Qucs_Type" value="Pac"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="Pac P2 1 980 250 18 -26 0 &quot;2&quot;1&quot;50&quot;1&quot;0&quot;0&quot;1 GHz&quot;0&quot;26.85&quot;0&quot;con_2&quot;0"/>
+      <property name="Qucs_Param_01" value="2"/>
+      <property name="Qucs_Param_02" value="50"/>
+      <property name="Qucs_Param_03" value="0"/>
+      <property name="Qucs_Param_04" value="1 GHz"/>
+      <property name="Qucs_Param_05" value="26.85"/>
+      <property name="Qucs_Param_06" value="con_2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="IF_BPF.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cd0e8bf-f855-48ad-9885-e9c3fa9a8cf0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Qucs_Imported" part="C_0">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Qucs_Imported" part="C_1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Qucs_Imported" part="L_0">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Qucs_Imported" part="L_1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Qucs_Imported" part="Pac_0">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pac</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Qucs_Imported">
+      <uri>${KIPRJMOD}/Qucs_Imported.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="P1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="P2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="P1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad2)" class="Default">
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad1)" class="Default">
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad2)" class="Default">
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="L4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(L4-Pad2)" class="Default">
+      <node ref="L4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="P2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

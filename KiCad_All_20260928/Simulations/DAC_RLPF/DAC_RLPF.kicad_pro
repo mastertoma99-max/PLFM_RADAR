@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "filename": "DAC_RLPF.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "top_level_sheets": [
+      {
+        "filename": "DAC_RLPF.kicad_sch",
+        "name": "",
+        "uuid": "0d18eb6e-b7da-4049-a37a-ac9ae5f098ac"
+      }
+    ]
+  }
+}

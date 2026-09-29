@@ -1,0 +1,398 @@
+{
+  "projects": [
+    {
+      "project": "Clocks_Freq_Synth_board",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\Clocks_Freq_Synth_board\\Clocks_Freq_Synth_board.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 817 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\Clocks_Freq_Synth_board.json\n"
+      },
+      "erc_counts_by_type": {
+        "pin_not_connected": 13,
+        "power_pin_not_driven": 10,
+        "pin_to_pin": 1,
+        "endpoint_off_grid": 787,
+        "isolated_pin_label": 4,
+        "unconnected_wire_endpoint": 2
+      },
+      "erc_counts_by_severity": {
+        "error": 24,
+        "warning": 793
+      },
+      "pcb_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\pcb_previews\\Clocks_Freq_Synth_board.svg'。\n完成。\n"
+      }
+    },
+    {
+      "project": "Patch_Anetnna_16_8",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\Patch_Anetnna_16_8\\Patch_Anetnna_16_8.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 17 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\Patch_Anetnna_16_8.json\n"
+      },
+      "erc_counts_by_type": {
+        "pin_not_connected": 16,
+        "power_pin_not_driven": 1
+      },
+      "erc_counts_by_severity": {
+        "error": 17
+      },
+      "pcb_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\pcb_previews\\Patch_Anetnna_16_8.svg'。\n完成。\n"
+      }
+    },
+    {
+      "project": "Phased_Array_Ant",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\Phased_Array_Ant\\Phased_Array_Ant.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 1 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\Phased_Array_Ant.json\n"
+      },
+      "erc_counts_by_type": {
+        "power_pin_not_driven": 1
+      },
+      "erc_counts_by_severity": {
+        "error": 1
+      },
+      "pcb_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\pcb_previews\\Phased_Array_Ant.svg'。\n完成。\n"
+      }
+    },
+    {
+      "project": "PowerBoard",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\PowerBoard\\PowerBoard.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 104 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\PowerBoard.json\n"
+      },
+      "erc_counts_by_type": {
+        "power_pin_not_driven": 50,
+        "pin_not_connected": 24,
+        "pin_to_pin": 4,
+        "pin_not_driven": 12,
+        "unconnected_wire_endpoint": 14
+      },
+      "erc_counts_by_severity": {
+        "error": 90,
+        "warning": 14
+      },
+      "pcb_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\pcb_previews\\PowerBoard.svg'。\n完成。\n"
+      }
+    },
+    {
+      "project": "RADAR_Main_Board",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\RADAR_Main_Board\\RADAR_Main_Board.svg'。\n已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\RADAR_Main_Board\\RADAR_Main_Board-POWER SUPPLIES.svg'。\n已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\RADAR_Main_Board\\RADAR_Main_Board-Digital (FPGA+microcontroller).svg'。\n已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\RADAR_Main_Board\\RADAR_Main_Board-RF.svg'。\n已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\RADAR_Main_Board\\RADAR_Main_Board-RF POWER AMPLIFIER BIAS.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 5,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 296 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\RADAR_Main_Board.json\n"
+      },
+      "erc_counts_by_type": {
+        "unconnected_wire_endpoint": 27,
+        "isolated_pin_label": 2,
+        "endpoint_off_grid": 30,
+        "pin_not_connected": 163,
+        "power_pin_not_driven": 71,
+        "pin_to_pin": 3
+      },
+      "erc_counts_by_severity": {
+        "warning": 59,
+        "error": 237
+      },
+      "pcb_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\pcb_previews\\RADAR_Main_Board.svg'。\n完成。\n"
+      }
+    },
+    {
+      "project": "RF_PA",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\RF_PA\\RF_PA.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 2 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\RF_PA.json\n"
+      },
+      "erc_counts_by_type": {
+        "power_pin_not_driven": 1,
+        "unresolved_variable": 1
+      },
+      "erc_counts_by_severity": {
+        "error": 2
+      },
+      "pcb_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\pcb_previews\\RF_PA.svg'。\n完成。\n"
+      }
+    },
+    {
+      "project": "DAC_RLPF",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\DAC_RLPF\\DAC_RLPF.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\DAC_RLPF.json\n"
+      },
+      "erc_counts_by_type": {},
+      "erc_counts_by_severity": {}
+    },
+    {
+      "project": "IF_BPF",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\IF_BPF\\IF_BPF.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\IF_BPF.json\n"
+      },
+      "erc_counts_by_type": {},
+      "erc_counts_by_severity": {}
+    },
+    {
+      "project": "IF_BPF_Balanced",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\IF_BPF_Balanced\\IF_BPF_Balanced.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\IF_BPF_Balanced.json\n"
+      },
+      "erc_counts_by_type": {},
+      "erc_counts_by_severity": {}
+    },
+    {
+      "project": "Impedance",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\Impedance\\Impedance.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\Impedance.json\n"
+      },
+      "erc_counts_by_type": {},
+      "erc_counts_by_severity": {}
+    },
+    {
+      "project": "QPA2962",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\QPA2962\\QPA2962.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\QPA2962.json\n"
+      },
+      "erc_counts_by_type": {},
+      "erc_counts_by_severity": {}
+    },
+    {
+      "project": "Sim_BPF_Te_100um",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\Sim_BPF_Te_100um\\Sim_BPF_Te_100um.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\Sim_BPF_Te_100um.json\n"
+      },
+      "erc_counts_by_type": {},
+      "erc_counts_by_severity": {}
+    },
+    {
+      "project": "Stub_BPF",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\Stub_BPF\\Stub_BPF.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\Stub_BPF.json\n"
+      },
+      "erc_counts_by_type": {},
+      "erc_counts_by_severity": {}
+    },
+    {
+      "project": "Stub_BPF_V5",
+      "schematic_svg": {
+        "returncode": 0,
+        "output": "已绘制到 'D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\previews\\Stub_BPF_V5\\Stub_BPF_V5.svg'。\n完成。\n"
+      },
+      "rendered_sheets": 1,
+      "erc_command": {
+        "returncode": 0,
+        "output": "发现 0 条违规项\n已将 ERC 报告保存到文件 D:\\2_Works\\4_Procedures\\PLFM_RADAR\\KiCad_All_20260928\\verification\\ERC\\Stub_BPF_V5.json\n"
+      },
+      "erc_counts_by_type": {},
+      "erc_counts_by_severity": {}
+    }
+  ],
+  "source_hashes": [
+    {
+      "path": "5_Simulations/QPA2962.sch",
+      "unchanged": true
+    },
+    {
+      "path": "5_Simulations/Stub_BPF_V5.sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/FrequencySynthesizerBoard/Clocks_Freq_Synth_board.sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/FrequencySynthesizerBoard/Clocks_Freq_Synth_board.brd",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/MainBoard/RADAR_Main_Board.sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/MainBoard/RADAR_Main_Board.brd",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerAmplifierBoard/RF_PA.sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerAmplifierBoard/RF_PA.brd",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerBoard/PowerBoard.sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerBoard/PowerBoard.brd",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant.sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant.brd",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/Patch_Anetnna_16_8.sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/Patch_Anetnna_16_8.brd",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant_IPEX1/Phased_Array_Ant_IPEX1.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant_IPEX1/verification/full_review_20260920/before_fixes/Phased_Array_Ant_IPEX1.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant_IPEX1/verification/full_review_20260920/strict_initial/Phased_Array_Ant_IPEX1.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16/Patch_Anetnna_16_8.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16_IPEX1/Patch_Anetnna_16_8_IPEX1.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16_IPEX1_198x155/Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16/verification/native_import/Patch_Anetnna_16_8.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16/verification/native_import/Patch_Anetnna_16_8_1.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_8x16_IPEX1_245x155_4L_20260920/source/Patch_Anetnna_16_8_IPEX1.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920/source/Phased_Array_Ant_IPEX1.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920_R2/source/Phased_Array_Ant_IPEX1.kicad_sch",
+      "unchanged": true
+    },
+    {
+      "path": "5_Simulations/DAC_ReconstructionFilter/DAC_RLPF.sch",
+      "unchanged": true
+    },
+    {
+      "path": "5_Simulations/IF_BPF/IF_BPF.sch",
+      "unchanged": true
+    },
+    {
+      "path": "5_Simulations/IF_BPF_Balanced/IF_BPF_Balanced.sch",
+      "unchanged": true
+    },
+    {
+      "path": "5_Simulations/RF switch/Impedance.sch",
+      "unchanged": true
+    },
+    {
+      "path": "5_Simulations/Sim_BPF_Te_100um/Sim_BPF_Te_100um.sch",
+      "unchanged": true
+    },
+    {
+      "path": "5_Simulations/Stub_BPF/Stub_BPF.sch",
+      "unchanged": true
+    },
+    {
+      "path": "5_Simulations/Sim_BPF_Te_100um/Gerber/Gerber.kicad_sch",
+      "unchanged": true
+    }
+  ],
+  "all_sources_unchanged": true
+}

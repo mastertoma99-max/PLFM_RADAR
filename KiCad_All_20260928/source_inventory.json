@@ -1,0 +1,194 @@
+[
+  {
+    "path": "5_Simulations/QPA2962.sch",
+    "sha256": "5780694efebe4f5a762459b097de1e0269aef854e3db7e454602ff68281cdf3f",
+    "bytes": 864,
+    "kind": "qucsstudio"
+  },
+  {
+    "path": "5_Simulations/Stub_BPF_V5.sch",
+    "sha256": "85500b45644bef3d644408ecbfc8b236efaafd5caf8ffcb5d74e940b31a1e240",
+    "bytes": 1542,
+    "kind": "qucsstudio"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/FrequencySynthesizerBoard/Clocks_Freq_Synth_board.sch",
+    "sha256": "6e4e52f35e1c3c40bb0f0430996482d173112e7a2d9f4d6bcd3578654e859cee",
+    "bytes": 1825451,
+    "kind": "eagle",
+    "sheet_count": 1,
+    "part_count": 318,
+    "board": {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/FrequencySynthesizerBoard/Clocks_Freq_Synth_board.brd",
+      "sha256": "136eaedc18ee87fe3ec39602290f62514e778b6b5c42938ed0b3f362d2f5ac08"
+    }
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/MainBoard/RADAR_Main_Board.sch",
+    "sha256": "6ed4bc6b11a9e878967a10957a32be5fc7d84ad5f366261e21db5ede99e1c510",
+    "bytes": 2758246,
+    "kind": "eagle",
+    "sheet_count": 4,
+    "part_count": 1974,
+    "board": {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/MainBoard/RADAR_Main_Board.brd",
+      "sha256": "1b26461b87a147e52e15decff0af3dd95fbca1a8bb74d3d4ee762005d6cae7b5"
+    }
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerAmplifierBoard/RF_PA.sch",
+    "sha256": "49792cb6fbd2258410a6d972f0abb4cd3905e2f5c49609ab1d65e8404f900ba9",
+    "bytes": 448836,
+    "kind": "eagle",
+    "sheet_count": 1,
+    "part_count": 43,
+    "board": {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerAmplifierBoard/RF_PA.brd",
+      "sha256": "a8f9bd581e5f0aac5b0d1f30333c194eab258a6d5e814eac11ea6fe281c8c75b"
+    }
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerBoard/PowerBoard.sch",
+    "sha256": "7c4840c6620098c098c54ef82d7137896e3d17a06ad3f4f9ecd63a7eb6eb449a",
+    "bytes": 828274,
+    "kind": "eagle",
+    "sheet_count": 1,
+    "part_count": 562,
+    "board": {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerBoard/PowerBoard.brd",
+      "sha256": "8ebf4ced1007120c93b887578f6bddd2ff30110920b8efc5e0e6f6608ec78d97"
+    }
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant.sch",
+    "sha256": "588220caf1e605f84b52703af0fc16e90daab5b5591504a2dd59a744fb282d53",
+    "bytes": 34490,
+    "kind": "eagle",
+    "sheet_count": 1,
+    "part_count": 48,
+    "board": {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant.brd",
+      "sha256": "6d23e7cc4e6d95c0f24957db893b5fbe539984da62e5cb00274a3205890b6aa1"
+    }
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/Patch_Anetnna_16_8.sch",
+    "sha256": "c0e18e696e838f73e447065faabcb90f9193c79d3c02060893300edeb418204d",
+    "bytes": 24783,
+    "kind": "eagle",
+    "sheet_count": 1,
+    "part_count": 32,
+    "board": {
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/Patch_Anetnna_16_8.brd",
+      "sha256": "fda43223fe70de5b4fdaae8e6ea79b190ac373e4e30497d17b3b76003637b51b"
+    }
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant_IPEX1/Phased_Array_Ant_IPEX1.kicad_sch",
+    "sha256": "b4fada655932bb8901dab2b194a2493be88714f163cb7a279576a4ba33216145",
+    "bytes": 93653,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant_IPEX1/verification/full_review_20260920/before_fixes/Phased_Array_Ant_IPEX1.kicad_sch",
+    "sha256": "96b754359176faf7acdc37fb5c198ed46408df326331f8af7a004f601f826502",
+    "bytes": 93652,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/4x4/Phased_Array_Ant_IPEX1/verification/full_review_20260920/strict_initial/Phased_Array_Ant_IPEX1.kicad_sch",
+    "sha256": "96b754359176faf7acdc37fb5c198ed46408df326331f8af7a004f601f826502",
+    "bytes": 93652,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16/Patch_Anetnna_16_8.kicad_sch",
+    "sha256": "26df2db85e0e207c4f45d13a3bfeab59c4ed6dac6e1e044b73c7016741ea19fe",
+    "bytes": 64585,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16_IPEX1/Patch_Anetnna_16_8_IPEX1.kicad_sch",
+    "sha256": "eacd3d92d4432b13b8799e873fd3b4648dd993be88dd9fad758ca900570068f1",
+    "bytes": 34549,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16_IPEX1_198x155/Patch_Anetnna_16_8_IPEX1_198x155.kicad_sch",
+    "sha256": "2b596b744d9216bd98792a78cee05c51d9474bba04896d9b0d5ee4ffb262c3a4",
+    "bytes": 34705,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16/verification/native_import/Patch_Anetnna_16_8.kicad_sch",
+    "sha256": "1002ccbf13d764daa127fa6b463119b89557f0a5606d6f2d1c1933697b6b2b98",
+    "bytes": 247,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_6_Schematics/Antennas/Patch/8x16/KiCad_8x16/verification/native_import/Patch_Anetnna_16_8_1.kicad_sch",
+    "sha256": "2676317b1e2bfa52af853513b9ff526cb71c7638e4d4b4e082440c5023f26787",
+    "bytes": 68407,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_8x16_IPEX1_245x155_4L_20260920/source/Patch_Anetnna_16_8_IPEX1.kicad_sch",
+    "sha256": "eacd3d92d4432b13b8799e873fd3b4648dd993be88dd9fad758ca900570068f1",
+    "bytes": 34549,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920/source/Phased_Array_Ant_IPEX1.kicad_sch",
+    "sha256": "96b754359176faf7acdc37fb5c198ed46408df326331f8af7a004f601f826502",
+    "bytes": 93652,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920_R2/source/Phased_Array_Ant_IPEX1.kicad_sch",
+    "sha256": "b4fada655932bb8901dab2b194a2493be88714f163cb7a279576a4ba33216145",
+    "bytes": 93653,
+    "kind": "existing_kicad"
+  },
+  {
+    "path": "5_Simulations/DAC_ReconstructionFilter/DAC_RLPF.sch",
+    "sha256": "9b9bceeecdc43175694e8db1f66bc54f92c3fef87193867a071364276f6fe495",
+    "bytes": 1937,
+    "kind": "qucsstudio"
+  },
+  {
+    "path": "5_Simulations/IF_BPF/IF_BPF.sch",
+    "sha256": "243a5f6394fee82e8d502eb0545986ec8f4556975e15e6634be5357a5d460a74",
+    "bytes": 1445,
+    "kind": "qucsstudio"
+  },
+  {
+    "path": "5_Simulations/IF_BPF_Balanced/IF_BPF_Balanced.sch",
+    "sha256": "cbaabacb990062823cc1cb976b6aa10eb6c5778cd10139d8c3f9a4ada8640611",
+    "bytes": 6150,
+    "kind": "qucsstudio"
+  },
+  {
+    "path": "5_Simulations/RF switch/Impedance.sch",
+    "sha256": "8a247b645f4f642b6efc777f714b2217c1047d675179dd218184a580c11d0168",
+    "bytes": 946,
+    "kind": "qucsstudio"
+  },
+  {
+    "path": "5_Simulations/Sim_BPF_Te_100um/Sim_BPF_Te_100um.sch",
+    "sha256": "cb9c39b95fe82cd16e6b7344f28757f7d7c27bd2e76c36851b2c82a9ca64e0a2",
+    "bytes": 1747,
+    "kind": "qucsstudio"
+  },
+  {
+    "path": "5_Simulations/Stub_BPF/Stub_BPF.sch",
+    "sha256": "646c240c709f313284179deea8f2f663b487bd26bd39d3931492ff8c25909ccf",
+    "bytes": 1534,
+    "kind": "qucsstudio"
+  },
+  {
+    "path": "5_Simulations/Sim_BPF_Te_100um/Gerber/Gerber.kicad_sch",
+    "sha256": "a04c41f540b4d67bbe1b98dba7d6a4c31dffbf0071731fea742e12ac5eeeffed",
+    "bytes": 229,
+    "kind": "existing_kicad"
+  }
+]

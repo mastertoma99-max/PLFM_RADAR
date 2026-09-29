@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-28T15:31:20",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/1510a796-a538-415b-a782-9dc81e1b9a9e",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #GND1 引脚 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.1811
+                            },
+                            "uuid": "ee50471b-107e-4c6c-8a15-eec3b692aa40"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Unresolved text variable",
+                    "items": [
+                        {
+                            "description": "符号 U$1 [QPA2962_B]",
+                            "pos": {
+                                "x": 1.4478,
+                                "y": 1.8415
+                            },
+                            "uuid": "c961125c-9e96-4b3a-9c4a-359616d1e076"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "unresolved_variable"
+                }
+            ]
+        }
+    ],
+    "source": "RF_PA.kicad_sch"
+}

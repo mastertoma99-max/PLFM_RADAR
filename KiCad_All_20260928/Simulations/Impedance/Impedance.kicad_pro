@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "filename": "Impedance.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "top_level_sheets": [
+      {
+        "filename": "Impedance.kicad_sch",
+        "name": "",
+        "uuid": "cf0671a7-e73e-4a14-a28d-441340604222"
+      }
+    ]
+  }
+}

@@ -63,3 +63,6 @@ logs/
 ~*.kicad_*.lck
 **/.history/
 **/*-backups/
+
+# Local scratch files and PDF inspection renders
+/tmp/

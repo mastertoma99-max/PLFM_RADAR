@@ -1,0 +1,22 @@
+{
+  "geometry_errors": [],
+  "pages": 4,
+  "vertices": 85,
+  "edges": 52,
+  "html_bytes": 118323,
+  "source_hashes_verified": true,
+  "browser_tabs_verified": 4,
+  "board_selector_verified": true,
+  "array_selector_verified": true,
+  "module_details_verified": true,
+  "text_overflow_errors_after_fix": 0,
+  "label_line_block_arrow_errors": 0,
+  "mobile_width_test": 390,
+  "mobile_zoom_widths": [
+    1130,
+    1299.5
+  ],
+  "browser_console_errors": 0,
+  "svg_download_event": "Not confirmed by in-app browser; static SVG files validated as XML",
+  "original_sources_rehashed": true
+}

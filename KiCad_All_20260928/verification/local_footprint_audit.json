@@ -1,0 +1,45 @@
+[
+  {
+    "project": "Clocks_Freq_Synth_board",
+    "local_footprints": 23,
+    "board_footprints": 188,
+    "normalized_references": {}
+  },
+  {
+    "project": "RADAR_Main_Board",
+    "local_footprints": 58,
+    "board_footprints": 797,
+    "normalized_references": {
+      "ADAR1_": "ADAR1_0",
+      "ADAR2_": "ADAR2_0",
+      "ADAR3_": "ADAR3_0",
+      "ADAR4_": "ADAR4_0"
+    }
+  },
+  {
+    "project": "RF_PA",
+    "local_footprints": 17,
+    "board_footprints": 32,
+    "normalized_references": {
+      "22V": "UNK22V0"
+    }
+  },
+  {
+    "project": "PowerBoard",
+    "local_footprints": 18,
+    "board_footprints": 319,
+    "normalized_references": {}
+  },
+  {
+    "project": "Phased_Array_Ant",
+    "local_footprints": 6,
+    "board_footprints": 36,
+    "normalized_references": {}
+  },
+  {
+    "project": "Patch_Anetnna_16_8",
+    "local_footprints": 5,
+    "board_footprints": 20,
+    "normalized_references": {}
+  }
+]

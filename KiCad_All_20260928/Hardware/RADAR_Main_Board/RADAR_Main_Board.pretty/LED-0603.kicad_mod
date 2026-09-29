@@ -1,0 +1,127 @@
+(footprint "LED-0603"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "LED 0603 SMT\n\n0603, surface mount.\n\nSpecifications:\n\n• Pin count: 2\n• Pin pitch:0.075inch\n• Area: 0.06\" x 0.03\"\n\nExample device(s):\n\n• LED - BLUE")
+	(property "Reference" "D4"
+		(at 0 -0.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1410fe22-0682-47bb-b7df-b6977c9d4206")
+		(effects
+			(font
+				(size 0.512064 0.512064)
+				(thickness 0.097536)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "Blue"
+		(at 0 0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1edc5539-1066-4fbd-b760-6919e5eaa51b")
+		(effects
+			(font
+				(size 0.512064 0.512064)
+				(thickness 0.097536)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3894419d-f45a-48df-85c1-47300bd1296f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "391877dc-69b2-4f07-ba98-a72bd2784daf")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.5875 -0.47625)
+		(end 1.5875 0.47625)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5b79a4c0-7469-42cb-8dd8-c5e2a9bb20e2")
+	)
+	(fp_line
+		(start 0.15875 -0.47625)
+		(end 0.15875 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "935d3e32-2a25-4277-947b-aff66eed3eb3")
+	)
+	(fp_line
+		(start 0.15875 0)
+		(end -0.15875 -0.3175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32e2e540-07dc-475d-b73f-b7981c299b75")
+	)
+	(fp_line
+		(start 0.15875 0)
+		(end -0.15875 0.3175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5837aa34-3c44-4eda-8333-b98a3105452b")
+	)
+	(fp_line
+		(start 0.15875 0)
+		(end 0.15875 0.47625)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31ed7921-2c53-498f-b386-2ddfb65a5422")
+	)
+	(pad "A" smd roundrect
+		(at -0.877 0 270)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "89d9ca46-28cf-424c-9fab-17e657ee01e5")
+	)
+	(pad "C" smd roundrect
+		(at 0.877 0 270)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "0de6276a-8358-42c2-a334-7ef52b84c67e")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1830 1040" role="img" aria-label="FPGA 处理" class="diagram-svg" data-graph="dsp">
+<style>text{font-family:"Segoe UI","Microsoft YaHei",sans-serif}.block{cursor:pointer}.block:focus{outline:none}.block:focus rect,.block:hover rect{stroke-width:3}.node-title{font-weight:650}.wire-label{paint-order:stroke;stroke:white;stroke-width:7;stroke-linejoin:round}.selected rect{stroke-width:4}</style>
+<rect width="1830" height="1040" fill="white"/>
+<defs>
+<marker id="dsp-data" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#245dcc"/></marker>
+<marker id="dsp-rf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087f8c"/></marker>
+<marker id="dsp-ctrl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7254b3"/></marker>
+<marker id="dsp-clock" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#aa710c"/></marker>
+<marker id="dsp-power" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#bc414d"/></marker>
+<marker id="dsp-neutral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#384858"/></marker>
+</defs>
+<path class="wire" d="M 270 225 L 333 225" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 570 225 L 633 225" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 870 225 L 933 225" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 1170 225 L 1233 225" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 1470 225 L 1533 225" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 1655 280 L 1655 473" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<text class="wire-label" x="1700" y="385" text-anchor="middle" fill="#245dcc" font-size="17">I/Q</text>
+<path class="wire" d="M 340 535 L 277 535" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 640 535 L 577 535" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 940 535 L 877 535" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 1240 535 L 1177 535" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 1540 535 L 1477 535" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<path class="wire" d="M 155 590 L 155 793" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<text class="wire-label" x="217" y="706" text-anchor="middle" fill="#245dcc" font-size="17">检测流</text>
+<path class="wire" d="M 970 865 L 1103 865" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#dsp-ctrl)"/>
+<text class="wire-label" x="1040" y="850" text-anchor="middle" fill="#7254b3" font-size="17">使能 / 时序</text>
+<path class="wire" d="M 1655 800 L 1655 597" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#dsp-data)"/>
+<text class="wire-label" x="1720" y="706" text-anchor="middle" fill="#245dcc" font-size="17">参考 I/Q</text>
+<g class="block" data-id="capture" role="button" tabindex="0" aria-label="ADC 接口，LVDS → 8 位采样，查看模块详情"><title>ADC 接口：ADC LVDS 采样经 ad9484_interface_400m 进入 DDC；DCO 经 MMCM / 缓冲建立采样域。</title><rect x="40" y="170" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M40 174 H270" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="155.0" y="203.0" text-anchor="middle" fill="#183249" font-size="22" data-template="ADC 接口">ADC 接口</text>
+<text class="node-sub" x="155.0" y="235.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="LVDS → 8 位采样">LVDS → 8 位采样</text>
+<text class="node-meta" x="155.0" y="263.0" text-anchor="middle" fill="#536374" font-size="15" data-template="400 MHz / DCO">400 MHz / DCO</text>
+</g>
+<g class="block" data-id="ddc" role="button" tabindex="0" aria-label="数字下变频，NCO × I / Q，查看模块详情"><title>数字下变频：ddc_400m 的 IF_FREQ=120000000、FS=400000000；NCO 与乘法器产生 I/Q。</title><rect x="340" y="170" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M340 174 H570" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="455.0" y="203.0" text-anchor="middle" fill="#183249" font-size="22" data-template="数字下变频">数字下变频</text>
+<text class="node-sub" x="455.0" y="235.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="NCO × I / Q">NCO × I / Q</text>
+<text class="node-meta" x="455.0" y="263.0" text-anchor="middle" fill="#536374" font-size="15" data-template="默认 IF = 120 MHz">默认 IF = 120 MHz</text>
+</g>
+<g class="block" data-id="cic" role="button" tabindex="0" aria-label="CIC 抽取，4 倍抽取，查看模块详情"><title>CIC 抽取：两路 I/Q 使用 CIC 抽取，后续跨域连接到 100 MHz 处理域。</title><rect x="640" y="170" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M640 174 H870" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="755.0" y="203.0" text-anchor="middle" fill="#183249" font-size="22" data-template="CIC 抽取">CIC 抽取</text>
+<text class="node-sub" x="755.0" y="235.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="4 倍抽取">4 倍抽取</text>
+<text class="node-meta" x="755.0" y="263.0" text-anchor="middle" fill="#536374" font-size="15" data-template="400 → 100 MS/s">400 → 100 MS/s</text>
+</g>
+<g class="block" data-id="cdc" role="button" tabindex="0" aria-label="跨时钟域，I / Q 数据同步，查看模块详情"><title>跨时钟域：真实采样域到处理域跨越在 DDC 内部的 CIC 与 FIR 之间处理。</title><rect x="940" y="170" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M940 174 H1170" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="1055.0" y="203.0" text-anchor="middle" fill="#183249" font-size="22" data-template="跨时钟域">跨时钟域</text>
+<text class="node-sub" x="1055.0" y="235.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="I / Q 数据同步">I / Q 数据同步</text>
+<text class="node-meta" x="1055.0" y="263.0" text-anchor="middle" fill="#536374" font-size="15" data-template="400 MHz → 100 MHz">400 MHz → 100 MHz</text>
+</g>
+<g class="block" data-id="fir" role="button" tabindex="0" aria-label="FIR 低通，I/Q 滤波与缩放，查看模块详情"><title>FIR 低通：FIR 低通后经 ddc_input_interface 转为接收处理链使用的数据格式。</title><rect x="1240" y="170" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M1240 174 H1470" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="1355.0" y="203.0" text-anchor="middle" fill="#183249" font-size="22" data-template="FIR 低通">FIR 低通</text>
+<text class="node-sub" x="1355.0" y="235.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="I/Q 滤波与缩放">I/Q 滤波与缩放</text>
+<text class="node-meta" x="1355.0" y="263.0" text-anchor="middle" fill="#536374" font-size="15" data-template="100 MHz 处理域">100 MHz 处理域</text>
+</g>
+<g class="block" data-id="gain" role="button" tabindex="0" aria-label="数字增益 / AGC，峰值与饱和监测，查看模块详情"><title>数字增益 / AGC：rx_gain_control 位于 DDC 输出与匹配滤波之间；可自动调节数字移位增益。</title><rect x="1540" y="170" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M1540 174 H1770" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="1655.0" y="203.0" text-anchor="middle" fill="#183249" font-size="22" data-template="数字增益 / AGC">数字增益 / AGC</text>
+<text class="node-sub" x="1655.0" y="235.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="峰值与饱和监测">峰值与饱和监测</text>
+<text class="node-meta" x="1655.0" y="263.0" text-anchor="middle" fill="#536374" font-size="15" data-template="主机可配置">主机可配置</text>
+</g>
+<g class="block" data-id="cfar" role="button" tabindex="0" aria-label="CFAR 检测，CA / GO / SO 模式，查看模块详情"><title>CFAR 检测：cfar_ca 接收经过 DC notch 的 Doppler 数据，输出检测标记、距离 / Doppler 索引与幅度；禁用时支持简单幅度门限。</title><rect x="40" y="480" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M40 484 H270" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="155.0" y="513.0" text-anchor="middle" fill="#183249" font-size="22" data-template="CFAR 检测">CFAR 检测</text>
+<text class="node-sub" x="155.0" y="545.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="CA / GO / SO 模式">CA / GO / SO 模式</text>
+<text class="node-meta" x="155.0" y="573.0" text-anchor="middle" fill="#536374" font-size="15" data-template="门限 / 保护单元可配置">门限 / 保护单元可配置</text>
+</g>
+<g class="block" data-id="notch" role="button" tabindex="0" aria-label="DC notch，抑制零多普勒附近，查看模块详情"><title>DC notch：在两段 16 点 Doppler FFT 的输出上分别处理 DC 区域，然后进入 CFAR。原始 Doppler 上传支路在该滤波之前取数。</title><rect x="340" y="480" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M340 484 H570" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="455.0" y="513.0" text-anchor="middle" fill="#183249" font-size="22" data-template="DC notch">DC notch</text>
+<text class="node-sub" x="455.0" y="545.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="抑制零多普勒附近">抑制零多普勒附近</text>
+<text class="node-meta" x="455.0" y="573.0" text-anchor="middle" fill="#536374" font-size="15" data-template="可配置宽度 / 可旁路">可配置宽度 / 可旁路</text>
+</g>
+<g class="block" data-id="doppler" role="button" tabindex="0" aria-label="Doppler FFT，32 Chirps / 帧，查看模块详情"><title>Doppler FFT：当前实例设置 DOPPLER_FFT_SIZE=16、CHIRPS_PER_FRAME=32、CHIRPS_PER_SUBFRAME=16；不是单次 32 点 Doppler FFT。</title><rect x="640" y="480" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M640 484 H870" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="755.0" y="513.0" text-anchor="middle" fill="#183249" font-size="22" data-template="Doppler FFT">Doppler FFT</text>
+<text class="node-sub" x="755.0" y="545.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="32 Chirps / 帧">32 Chirps / 帧</text>
+<text class="node-meta" x="755.0" y="573.0" text-anchor="middle" fill="#536374" font-size="15" data-template="2 个 16 点子帧 FFT">2 个 16 点子帧 FFT</text>
+</g>
+<g class="block" data-id="mti" role="button" tabindex="0" aria-label="MTI 杂波抑制，两脉冲相消，查看模块详情"><title>MTI 杂波抑制：MTI 位于距离单元抽取后、Doppler 处理前，关闭时透明传递。</title><rect x="940" y="480" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M940 484 H1170" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="1055.0" y="513.0" text-anchor="middle" fill="#183249" font-size="22" data-template="MTI 杂波抑制">MTI 杂波抑制</text>
+<text class="node-sub" x="1055.0" y="545.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="两脉冲相消">两脉冲相消</text>
+<text class="node-meta" x="1055.0" y="573.0" text-anchor="middle" fill="#536374" font-size="15" data-template="64 个距离单元">64 个距离单元</text>
+</g>
+<g class="block" data-id="range" role="button" tabindex="0" aria-label="距离单元抽取，1024 → 64，查看模块详情"><title>距离单元抽取：range_bin_decimator 输出 64 个距离单元供 MTI / Doppler。完整距离像仍通过单独 USB 支路提供。</title><rect x="1240" y="480" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M1240 484 H1470" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="1355.0" y="513.0" text-anchor="middle" fill="#183249" font-size="22" data-template="距离单元抽取">距离单元抽取</text>
+<text class="node-sub" x="1355.0" y="545.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="1024 → 64">1024 → 64</text>
+<text class="node-meta" x="1355.0" y="573.0" text-anchor="middle" fill="#536374" font-size="15" data-template="峰值模式 / 16 倍">峰值模式 / 16 倍</text>
+</g>
+<g class="block" data-id="mf" role="button" tabindex="0" aria-label="匹配滤波 / 脉压，FFT → 频域相乘 → IFFT，查看模块详情"><title>匹配滤波 / 脉压：matched_filter_multi_segment 使用长 / 短脉冲参考数据执行匹配滤波，输出复数距离像。</title><rect x="1540" y="480" width="230" height="110" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M1540 484 H1770" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="1655.0" y="513.0" text-anchor="middle" fill="#183249" font-size="22" data-template="匹配滤波 / 脉压">匹配滤波 / 脉压</text>
+<text class="node-sub" x="1655.0" y="545.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="FFT → 频域相乘 → IFFT">FFT → 频域相乘 → IFFT</text>
+<text class="node-meta" x="1655.0" y="573.0" text-anchor="middle" fill="#536374" font-size="15" data-template="长 / 短 Chirp 参考">长 / 短 Chirp 参考</text>
+</g>
+<g class="block" data-id="usb" role="button" tabindex="0" aria-label="USB 数据与命令，FT2232H · 8 位 / 60 MHz，查看模块详情"><title>USB 数据与命令：USB 数据接口汇集三类数据流，支持主机下行配置命令。图中 CFAR 箭头仅表示检测流；距离像取自匹配滤波输出，Doppler 流取自 DC notch 之前。50T 使用 8 位 / 60 MHz FT2232H，200T 使用 32 位 / 100 MHz FT601。</title><rect x="40" y="800" width="370" height="130" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M40 804 H410" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="225.0" y="843.0" text-anchor="middle" fill="#183249" font-size="22" data-template="USB 数据与命令">USB 数据与命令</text>
+<text class="node-sub" x="225.0" y="875.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="{usbLong}">FT2232H · 8 位 / 60 MHz</text>
+<text class="node-meta" x="225.0" y="903.0" text-anchor="middle" fill="#536374" font-size="15" data-template="距离像 · Doppler · 检测结果">距离像 · Doppler · 检测结果</text>
+</g>
+<g class="block" data-id="sequencer" role="button" tabindex="0" aria-label="脉冲 / 扫描时序，Chirp 控制器，查看模块详情"><title>脉冲 / 扫描时序：FPGA 时序控制逻辑协调 DAC 发射、混频器使能、波束加载和接收帧同步；MCU 负责配置与系统管理。</title><rect x="670" y="800" width="300" height="130" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M670 804 H970" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="820.0" y="843.0" text-anchor="middle" fill="#183249" font-size="22" data-template="脉冲 / 扫描时序">脉冲 / 扫描时序</text>
+<text class="node-sub" x="820.0" y="875.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="Chirp 控制器">Chirp 控制器</text>
+<text class="node-meta" x="820.0" y="903.0" text-anchor="middle" fill="#536374" font-size="15" data-template="保护间隔 · TX/RX · 帧同步">保护间隔 · TX/RX · 帧同步</text>
+</g>
+<g class="block" data-id="txlut" role="button" tabindex="0" aria-label="波形 LUT → DAC 接口，长 / 短 Chirp 数据，查看模块详情"><title>波形 LUT → DAC 接口：radar_transmitter 使用波形数据与 DAC 接口生成发射波形；120 MHz DAC 逻辑域与 100 MHz DSP 域分开。</title><rect x="1110" y="800" width="300" height="130" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M1110 804 H1410" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="1260.0" y="843.0" text-anchor="middle" fill="#183249" font-size="22" data-template="波形 LUT → DAC 接口">波形 LUT → DAC 接口</text>
+<text class="node-sub" x="1260.0" y="875.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="长 / 短 Chirp 数据">长 / 短 Chirp 数据</text>
+<text class="node-meta" x="1260.0" y="903.0" text-anchor="middle" fill="#536374" font-size="15" data-template="8 位并行 → AD9708">8 位并行 → AD9708</text>
+</g>
+<g class="block" data-id="reference" role="button" tabindex="0" aria-label="匹配参考存储，Chirp 参考 + 延时对齐，查看模块详情"><title>匹配参考存储：参考数据存储与延时对齐位于匹配滤波参考路径，不是把发射 LUT 的数据线直接接入接收输入。</title><rect x="1540" y="800" width="230" height="130" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M1540 804 H1770" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="1655.0" y="843.0" text-anchor="middle" fill="#183249" font-size="22" data-template="匹配参考存储">匹配参考存储</text>
+<text class="node-sub" x="1655.0" y="875.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="Chirp 参考 + 延时对齐">Chirp 参考 + 延时对齐</text>
+<text class="node-meta" x="1655.0" y="903.0" text-anchor="middle" fill="#536374" font-size="15" data-template="供脉压模块使用">供脉压模块使用</text>
+</g>
+<text x="40" y="56" font-size="29" fill="#152e46">FPGA 数据处理与脉冲时序</text>
+<text x="40" y="100" font-size="19" fill="#59697b">ADC → 数字下变频 → 脉压 → MTI → Doppler → DC notch → CFAR → USB</text>
+<text x="40" y="995" font-size="18" fill="#59697b">USB 还接收完整距离像与原始 Doppler 支路；为保持主链清晰，这两条上传线未在图中展开。</text>
+</svg>

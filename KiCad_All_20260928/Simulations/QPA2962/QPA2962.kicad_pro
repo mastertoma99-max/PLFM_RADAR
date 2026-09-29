@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "filename": "QPA2962.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "top_level_sheets": [
+      {
+        "filename": "QPA2962.kicad_sch",
+        "name": "",
+        "uuid": "aa7d7e8e-2f85-4bee-b94e-bda5b7cece41"
+      }
+    ]
+  }
+}

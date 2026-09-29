@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" version="26.0.0">
+  <diagram name="整机框图" id="overview">
+    <mxGraphModel page="1" pageWidth="1800" pageHeight="890" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="host" parent="1" vertex="1" value="上位机&#10;Python 雷达 GUI&#10;显示 · 参数设置 · 数据记录" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="40" y="230" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="digital" parent="1" vertex="1" value="数字处理与 USB&#10;XC7A50T · Artix-7&#10;FT2232H · USB 2.0" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="410" y="230" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="analog" parent="1" vertex="1" value="模拟收发链路&#10;AD9708 / AD9484&#10;LTC5552 ×2 · 滤波 / 驱动" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="800" y="230" width="270" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="beam" parent="1" vertex="1" value="阵列射频前端&#10;ADAR1000 ×4&#10;ADTR1107 ×16" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1190" y="230" width="240" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="antenna" parent="1" vertex="1" value="阵列天线&#10;8 × 16 贴片阵列&#10;基础阵列方案" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1550" y="230" width="210" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sensors" parent="1" vertex="1" value="定位与姿态&#10;UM982 · GY-85&#10;BMP180 气压计" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="40" y="620" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mcu" parent="1" vertex="1" value="系统管理 MCU&#10;STM32F746ZGT7&#10;配置 · 扫描 · 监测 · 时序" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="410" y="620" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="clocks" parent="1" vertex="1" value="时钟与本振板&#10;AD9523 + ADF4382A ×2&#10;ADC / DAC / FPGA 时钟 · TX/RX LO" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#aa710c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="800" y="620" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="power" parent="1" vertex="1" value="电源管理板&#10;DC/DC · LDO · 负电源&#10;MCU 控制上 / 下电顺序" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#bc414d;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1190" y="620" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=block;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="host" target="digital">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="315" as="sourcePoint" />
+            <mxPoint x="410" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=block;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="digital" target="analog">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="315" as="sourcePoint" />
+            <mxPoint x="800" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=block;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="analog" target="beam">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="315" as="sourcePoint" />
+            <mxPoint x="1190" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=block;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="beam" target="antenna">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="315" as="sourcePoint" />
+            <mxPoint x="1550" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=block;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;" source="mcu" target="digital">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="545" y="620" as="sourcePoint" />
+            <mxPoint x="545" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=block;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="sensors" target="mcu">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="695" as="sourcePoint" />
+            <mxPoint x="410" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=block;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="mcu" target="clocks">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="695" as="sourcePoint" />
+            <mxPoint x="800" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#aa710c;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;" source="clocks" target="analog">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="935" y="620" as="sourcePoint" />
+            <mxPoint x="935" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#bc414d;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;" source="power" target="beam">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="620" as="sourcePoint" />
+            <mxPoint x="1310" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#bc414d;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="power" target="clocks">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="695" as="sourcePoint" />
+            <mxPoint x="1070" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=block;exitX=0.20833333333333334;exitY=1.0;exitDx=0;exitDy=0;entryX=0.09259259259259259;entryY=0.0;entryDx=0;entryDy=0;" source="host" target="mcu">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="400" as="sourcePoint" />
+            <mxPoint x="435" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="90" y="525" />
+              <mxPoint x="435" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label0" parent="1" vertex="1" value="AERIS-10 / PLFM_RADAR 系统总览" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=29;fontColor=#152e46;">
+          <mxGeometry x="40" y="42" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label1" parent="1" vertex="1" value="10.5 GHz 项目目标 · 脉冲线性调频 · 16 路模拟波束赋形" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=19;fontColor=#59697b;">
+          <mxGeometry x="40" y="86" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label2" parent="1" vertex="1" value="点击任一模块查看型号、作用与本地资料依据。扩展功放和共享收发路径在“收发链路”中展开。" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=18;fontColor=#59697b;">
+          <mxGeometry x="40" y="822" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label3" parent="1" vertex="1" value="USB" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#245dcc;">
+          <mxGeometry x="245" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label4" parent="1" vertex="1" value="ADC / DAC" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#245dcc;">
+          <mxGeometry x="640" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label5" parent="1" vertex="1" value="公共 RF" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#087f8c;">
+          <mxGeometry x="1030" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label6" parent="1" vertex="1" value="16 通道" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#087f8c;">
+          <mxGeometry x="1390" y="280" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label7" parent="1" vertex="1" value="SPI / GPIO" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#7254b3;">
+          <mxGeometry x="515" y="490" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label8" parent="1" vertex="1" value="I²C / UART" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#7254b3;">
+          <mxGeometry x="245" y="660" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label9" parent="1" vertex="1" value="SPI" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#7254b3;">
+          <mxGeometry x="640" y="660" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label10" parent="1" vertex="1" value="时钟 / LO" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#aa710c;">
+          <mxGeometry x="900" y="495" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label11" parent="1" vertex="1" value="多路供电" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#bc414d;">
+          <mxGeometry x="1275" y="495" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label12" parent="1" vertex="1" value="电源" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#bc414d;">
+          <mxGeometry x="1030" y="660" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label13" parent="1" vertex="1" value="STM32 USB CDC 管理连接" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#7254b3;">
+          <mxGeometry x="167" y="489" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="收发链路" id="rf">
+    <mxGraphModel page="1" pageWidth="2150" pageHeight="1000" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rf_fpga" parent="1" vertex="1" value="FPGA&#10;XC7A50T · Artix-7&#10;TX / RX" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="40" y="170" width="200" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="dac" parent="1" vertex="1" value="AD9708&#10;8 位 DAC&#10;U3 · 120 MHz 设计时钟" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="330" y="170" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tx_lpf" parent="1" vertex="1" value="重建低通&#10;DAC LPF&#10;抑制采样镜像" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="620" y="170" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tx_mix" parent="1" vertex="1" value="TX 上变频&#10;LTC5552&#10;独立 TX 本振输入" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="910" y="170" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tx_bpf" parent="1" vertex="1" value="RF 带通&#10;TX BPF&#10;选取发射频段" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1200" y="170" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="switch" parent="1" vertex="1" value="收发开关&#10;M3SWA2-34DR+&#10;TX / RX 分时切换" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1510" y="320" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="splitter" parent="1" vertex="1" value="功分 / 合成&#10;EP4RKU+&#10;1 ↔ 4 公共支路" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1840" y="320" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="adc" parent="1" vertex="1" value="AD9484&#10;8 位 ADC&#10;U1 · 400 MS/s 设计值" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="330" y="490" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rx_driver" parent="1" vertex="1" value="IF 差分驱动&#10;AD8352 + 输出滤波&#10;原理图含 U4 / U8" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="620" y="490" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rx_if" parent="1" vertex="1" value="IF 滤波&#10;模拟滤波网络&#10;连接混频器与驱动级" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="910" y="490" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rx_mix" parent="1" vertex="1" value="RX 下变频&#10;RF BPF + LTC5552&#10;独立 RX 本振输入" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1200" y="490" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="adar" parent="1" vertex="1" value="ADAR1000 ×4&#10;相位 / 增益控制&#10;4 × 4 = 16 路" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1840" y="740" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="adtr" parent="1" vertex="1" value="ADTR1107 ×16&#10;每通道收发前端&#10;TX 放大 / RX 低噪放大" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1510" y="740" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="pa_route" parent="1" vertex="1" value="基础直连路径&#10;ADTR1107 ↔ 贴片阵列&#10;不配置外置 QPA2962" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1180" y="740" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rf_ant" parent="1" vertex="1" value="阵列天线&#10;8 × 16 贴片阵列&#10;16 路子阵馈电" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#087f8c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="840" y="740" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.11904761904761904;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="rf_fpga" target="dac">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="220" as="sourcePoint" />
+            <mxPoint x="330" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="dac" target="tx_lpf">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="220" as="sourcePoint" />
+            <mxPoint x="620" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="tx_lpf" target="tx_mix">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="220" as="sourcePoint" />
+            <mxPoint x="910" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="tx_mix" target="tx_bpf">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="220" as="sourcePoint" />
+            <mxPoint x="1200" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.21428571428571427;entryDx=0;entryDy=0;" source="tx_bpf" target="switch">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1400" y="220" as="sourcePoint" />
+            <mxPoint x="1510" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="220" />
+              <mxPoint x="1460" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.75;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="switch" target="rx_mix">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="425" as="sourcePoint" />
+            <mxPoint x="1400" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1460" y="425" />
+              <mxPoint x="1460" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="rx_mix" target="rx_if">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="540" as="sourcePoint" />
+            <mxPoint x="1110" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="rx_if" target="rx_driver">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="540" as="sourcePoint" />
+            <mxPoint x="820" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="rx_driver" target="adc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="540" as="sourcePoint" />
+            <mxPoint x="530" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.8809523809523809;entryDx=0;entryDy=0;" source="adc" target="rf_fpga">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="540" as="sourcePoint" />
+            <mxPoint x="240" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=block;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="switch" target="splitter">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="390" as="sourcePoint" />
+            <mxPoint x="1840" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=block;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;" source="splitter" target="adar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1960" y="460" as="sourcePoint" />
+            <mxPoint x="1960" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=block;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="adar" target="adtr">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="805" as="sourcePoint" />
+            <mxPoint x="1750" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=block;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="adtr" target="pa_route">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1510" y="805" as="sourcePoint" />
+            <mxPoint x="1420" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#087f8c;strokeWidth=2;endArrow=block;startArrow=block;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="pa_route" target="rf_ant">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="805" as="sourcePoint" />
+            <mxPoint x="1080" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label0" parent="1" vertex="1" value="收发链路与 16 通道阵列" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=29;fontColor=#152e46;">
+          <mxGeometry x="40" y="38" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label1" parent="1" vertex="1" value="TX 沿上行向右 →；RX 沿下行向左 ←；右侧为共用波束赋形链路。" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=19;fontColor=#59697b;">
+          <mxGeometry x="40" y="77" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label2" parent="1" vertex="1" value="增强方案接收路径绕过 QPA2962；双向连接表示整个收发路由组合，不表示 PA 双向放大。" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=19;fontColor=#59697b;">
+          <mxGeometry x="840" y="911" width="1290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label3" parent="1" vertex="1" value="本振与时钟连接见“时钟与控制”；射频性能及最终频率配置尚需整机确认。" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=18;fontColor=#59697b;">
+          <mxGeometry x="40" y="922" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label4" parent="1" vertex="1" value="共用 RF" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#087f8c;">
+          <mxGeometry x="1675" y="355" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label5" parent="1" vertex="1" value="4 路" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#087f8c;">
+          <mxGeometry x="1910" y="592" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="FPGA 处理" id="dsp">
+    <mxGraphModel page="1" pageWidth="1830" pageHeight="1040" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="capture" parent="1" vertex="1" value="ADC 接口&#10;LVDS → 8 位采样&#10;400 MHz / DCO" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="40" y="170" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ddc" parent="1" vertex="1" value="数字下变频&#10;NCO × I / Q&#10;默认 IF = 120 MHz" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="340" y="170" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cic" parent="1" vertex="1" value="CIC 抽取&#10;4 倍抽取&#10;400 → 100 MS/s" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="640" y="170" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cdc" parent="1" vertex="1" value="跨时钟域&#10;I / Q 数据同步&#10;400 MHz → 100 MHz" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="940" y="170" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fir" parent="1" vertex="1" value="FIR 低通&#10;I/Q 滤波与缩放&#10;100 MHz 处理域" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1240" y="170" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gain" parent="1" vertex="1" value="数字增益 / AGC&#10;峰值与饱和监测&#10;主机可配置" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1540" y="170" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cfar" parent="1" vertex="1" value="CFAR 检测&#10;CA / GO / SO 模式&#10;门限 / 保护单元可配置" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="40" y="480" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="notch" parent="1" vertex="1" value="DC notch&#10;抑制零多普勒附近&#10;可配置宽度 / 可旁路" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="340" y="480" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="doppler" parent="1" vertex="1" value="Doppler FFT&#10;32 Chirps / 帧&#10;2 个 16 点子帧 FFT" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="640" y="480" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mti" parent="1" vertex="1" value="MTI 杂波抑制&#10;两脉冲相消&#10;64 个距离单元" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="940" y="480" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="range" parent="1" vertex="1" value="距离单元抽取&#10;1024 → 64&#10;峰值模式 / 16 倍" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1240" y="480" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mf" parent="1" vertex="1" value="匹配滤波 / 脉压&#10;FFT → 频域相乘 → IFFT&#10;长 / 短 Chirp 参考" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1540" y="480" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="usb" parent="1" vertex="1" value="USB 数据与命令&#10;FT2232H · 8 位 / 60 MHz&#10;距离像 · Doppler · 检测结果" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="40" y="800" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="sequencer" parent="1" vertex="1" value="脉冲 / 扫描时序&#10;Chirp 控制器&#10;保护间隔 · TX/RX · 帧同步" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="670" y="800" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="txlut" parent="1" vertex="1" value="波形 LUT → DAC 接口&#10;长 / 短 Chirp 数据&#10;8 位并行 → AD9708" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1110" y="800" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="reference" parent="1" vertex="1" value="匹配参考存储&#10;Chirp 参考 + 延时对齐&#10;供脉压模块使用" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#245dcc;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1540" y="800" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="capture" target="ddc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="225" as="sourcePoint" />
+            <mxPoint x="340" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="ddc" target="cic">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="225" as="sourcePoint" />
+            <mxPoint x="640" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="cic" target="cdc">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="225" as="sourcePoint" />
+            <mxPoint x="940" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="cdc" target="fir">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="225" as="sourcePoint" />
+            <mxPoint x="1240" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="fir" target="gain">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470" y="225" as="sourcePoint" />
+            <mxPoint x="1540" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;" source="gain" target="mf">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1655" y="280" as="sourcePoint" />
+            <mxPoint x="1655" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="notch" target="cfar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="535" as="sourcePoint" />
+            <mxPoint x="270" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="doppler" target="notch">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="535" as="sourcePoint" />
+            <mxPoint x="570" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="mti" target="doppler">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="535" as="sourcePoint" />
+            <mxPoint x="870" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="range" target="mti">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="535" as="sourcePoint" />
+            <mxPoint x="1170" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.0;entryY=0.5;entryDx=0;entryDy=0;" source="mf" target="range">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="535" as="sourcePoint" />
+            <mxPoint x="1470" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.3108108108108108;entryY=0.0;entryDx=0;entryDy=0;" source="cfar" target="usb">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="590" as="sourcePoint" />
+            <mxPoint x="155" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="sequencer" target="txlut">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="865" as="sourcePoint" />
+            <mxPoint x="1110" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#245dcc;strokeWidth=2;endArrow=block;startArrow=none;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;entryX=0.5;entryY=1.0;entryDx=0;entryDy=0;" source="reference" target="mf">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1655" y="800" as="sourcePoint" />
+            <mxPoint x="1655" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label0" parent="1" vertex="1" value="FPGA 数据处理与脉冲时序" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=29;fontColor=#152e46;">
+          <mxGeometry x="40" y="38" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label1" parent="1" vertex="1" value="ADC → 数字下变频 → 脉压 → MTI → Doppler → DC notch → CFAR → USB" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=19;fontColor=#59697b;">
+          <mxGeometry x="40" y="82" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label2" parent="1" vertex="1" value="USB 还接收完整距离像与原始 Doppler 支路；为保持主链清晰，这两条上传线未在图中展开。" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=18;fontColor=#59697b;">
+          <mxGeometry x="40" y="977" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label3" parent="1" vertex="1" value="I/Q" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#245dcc;">
+          <mxGeometry x="1600" y="365" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label4" parent="1" vertex="1" value="检测流" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#245dcc;">
+          <mxGeometry x="117" y="686" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label5" parent="1" vertex="1" value="使能 / 时序" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#7254b3;">
+          <mxGeometry x="940" y="830" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label6" parent="1" vertex="1" value="参考 I/Q" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#245dcc;">
+          <mxGeometry x="1620" y="686" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="时钟与控制" id="control">
+    <mxGraphModel page="1" pageWidth="1810" pageHeight="1220" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="manager" parent="1" vertex="1" value="STM32F746ZGT7&#10;系统配置与运行管理&#10;USB CDC ↔ 上位机" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="45" y="510" width="275" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="clockcfg" parent="1" vertex="1" value="时钟与本振配置&#10;AD9523 · ADF4382A ×2&#10;SPI / 状态 / 同步 GPIO" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#aa710c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="600" y="130" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="clockout" parent="1" vertex="1" value="参考源 → 分配 / 合成 → 输出&#10;ADC 400M · DAC 120M · FPGA 100M&#10;独立 TX LO / RX LO" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#aa710c;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1260" y="130" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beamcfg" parent="1" vertex="1" value="波束与收发控制&#10;ADAR1000 ×4&#10;SPI 配置 + FPGA TR / LOAD" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="600" y="350" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="beamout" parent="1" vertex="1" value="ADTR1107 ×16 / RF 开关&#10;模拟波束赋形与分时收发&#10;16 路前端" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1260" y="350" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="biascfg" parent="1" vertex="1" value="扩展 PA 偏置与监测&#10;DAC5578 ×2 · OPA4703 ×4&#10;INA241A3 ×16 · ADS7830 ×2" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="600" y="570" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="biasout" parent="1" vertex="1" value="QPA2962 ×16（增强方案）&#10;Vg 设置 / Idq 回读 / Vd 继电器&#10;基础方案不装外置 PA" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1260" y="570" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sensorcfg" parent="1" vertex="1" value="定位 / 姿态 / 温度采集&#10;UM982 · GY-85 · BMP180&#10;热敏电阻 ×8 → ADS7830 ×1" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="600" y="790" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sensorout" parent="1" vertex="1" value="状态与位置数据&#10;地图定位 · 姿态修正 · 过温判断&#10;由 MCU 汇总至主机 / 控制逻辑" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#7254b3;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1260" y="790" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="powercfg" parent="1" vertex="1" value="电源 / 电机 / 冷却管理&#10;PowerBoard · 步进驱动 · 风扇&#10;GPIO / 电源使能 / 脉冲" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#bc414d;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="600" y="1010" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="powerout" parent="1" vertex="1" value="数字 / 模拟 / RF / 时钟供电&#10;1.0V · 1.8V · 3.3V · 5V 等&#10;另含负电源 / 偏置电源" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#ffffff;strokeColor=#bc414d;fontColor=#183249;fontSize=18;">
+          <mxGeometry x="1260" y="1010" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="e0" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=none;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;" source="manager">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="595" as="sourcePoint" />
+            <mxPoint x="440" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e1" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=none;startArrow=none;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=none;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" target="clockcfg">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="190" as="sourcePoint" />
+            <mxPoint x="600" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#aa710c;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="clockcfg" target="clockout">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="190" as="sourcePoint" />
+            <mxPoint x="1260" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=none;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" target="beamcfg">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="410" as="sourcePoint" />
+            <mxPoint x="600" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="beamcfg" target="beamout">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="410" as="sourcePoint" />
+            <mxPoint x="1260" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=none;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" target="biascfg">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="630" as="sourcePoint" />
+            <mxPoint x="600" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=block;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="biascfg" target="biasout">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="630" as="sourcePoint" />
+            <mxPoint x="1260" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=none;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" target="sensorcfg">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="850" as="sourcePoint" />
+            <mxPoint x="600" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="sensorcfg" target="sensorout">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="850" as="sourcePoint" />
+            <mxPoint x="1260" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#7254b3;strokeWidth=2;endArrow=block;startArrow=none;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" target="powercfg">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1070" as="sourcePoint" />
+            <mxPoint x="600" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" parent="1" edge="1" style="edgeStyle=none;rounded=0;strokeColor=#bc414d;strokeWidth=2;endArrow=block;startArrow=none;exitX=1.0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;" source="powercfg" target="powerout">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="1070" as="sourcePoint" />
+            <mxPoint x="1260" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="label0" parent="1" vertex="1" value="系统时钟、控制与辅助模块" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=29;fontColor=#152e46;">
+          <mxGeometry x="40" y="32" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label1" parent="1" vertex="1" value="原理图确认：4×ADAR1000、16×ADTR1107、2×DAC5578、4×OPA4703、16×INA241A3、3×ADS7830。" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=18;fontColor=#59697b;">
+          <mxGeometry x="40" y="1164" width="1400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label2" parent="1" vertex="1" value="配置 / 状态" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#aa710c;">
+          <mxGeometry x="1035" y="154" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label3" parent="1" vertex="1" value="配置 / 状态" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#7254b3;">
+          <mxGeometry x="1035" y="374" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label4" parent="1" vertex="1" value="控制 / 数据" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#7254b3;">
+          <mxGeometry x="1035" y="594" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label5" parent="1" vertex="1" value="控制 / 数据" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#7254b3;">
+          <mxGeometry x="1035" y="814" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="label6" parent="1" vertex="1" value="控制 / 数据" style="text;html=0;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=#ffffff;fontSize=17;fontColor=#bc414d;">
+          <mxGeometry x="1035" y="1034" width="200" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

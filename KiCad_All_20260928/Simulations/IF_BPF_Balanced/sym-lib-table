@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "Qucs_Imported") (type "KiCad") (uri "${KIPRJMOD}/Qucs_Imported.kicad_sym") (options "") (descr "Qucs diagrams only; simulation models not configured")))

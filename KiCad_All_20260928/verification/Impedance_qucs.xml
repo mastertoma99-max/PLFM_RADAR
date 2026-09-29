@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\2_Works\4_Procedures\PLFM_RADAR\KiCad_All_20260928\Simulations\Impedance\Impedance.kicad_sch</source>
+    <date>2026-09-28T15:33:01</date>
+    <tool>Eeschema 10.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Impedance.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Z=50 Ω</value>
+      <fields>
+        <field name="Qucs_Type">Pac</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">Pac P1 1 120 180 18 -26 0 "1"1"50 Ω"1"0 dBm"0"1 GHz"0"26.85"0"con_2"0</field>
+        <field name="Qucs_Param_01">1</field>
+        <field name="Qucs_Param_02">50 Ω</field>
+        <field name="Qucs_Param_03">0 dBm</field>
+        <field name="Qucs_Param_04">1 GHz</field>
+        <field name="Qucs_Param_05">26.85</field>
+        <field name="Qucs_Param_06">con_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="Pac_0" description=""/>
+      <property name="Qucs_Type" value="Pac"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="Pac P1 1 120 180 18 -26 0 &quot;1&quot;1&quot;50 Ω&quot;1&quot;0 dBm&quot;0&quot;1 GHz&quot;0&quot;26.85&quot;0&quot;con_2&quot;0"/>
+      <property name="Qucs_Param_01" value="1"/>
+      <property name="Qucs_Param_02" value="50 Ω"/>
+      <property name="Qucs_Param_03" value="0 dBm"/>
+      <property name="Qucs_Param_04" value="1 GHz"/>
+      <property name="Qucs_Param_05" value="26.85"/>
+      <property name="Qucs_Param_06" value="con_2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Impedance.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c7fbc17f-eabd-4f24-b6d8-14210d3097fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P2">
+      <value>Z=50 Ω</value>
+      <fields>
+        <field name="Qucs_Type">Pac</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">Pac P2 1 340 180 18 -26 0 "2"1"50 Ω"1"0 dBm"0"1 GHz"0"26.85"0"con_2"0</field>
+        <field name="Qucs_Param_01">2</field>
+        <field name="Qucs_Param_02">50 Ω</field>
+        <field name="Qucs_Param_03">0 dBm</field>
+        <field name="Qucs_Param_04">1 GHz</field>
+        <field name="Qucs_Param_05">26.85</field>
+        <field name="Qucs_Param_06">con_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="Pac_0" description=""/>
+      <property name="Qucs_Type" value="Pac"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="Pac P2 1 340 180 18 -26 0 &quot;2&quot;1&quot;50 Ω&quot;1&quot;0 dBm&quot;0&quot;1 GHz&quot;0&quot;26.85&quot;0&quot;con_2&quot;0"/>
+      <property name="Qucs_Param_01" value="2"/>
+      <property name="Qucs_Param_02" value="50 Ω"/>
+      <property name="Qucs_Param_03" value="0 dBm"/>
+      <property name="Qucs_Param_04" value="1 GHz"/>
+      <property name="Qucs_Param_05" value="26.85"/>
+      <property name="Qucs_Param_06" value="con_2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Impedance.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8c0e731e-28c3-4148-8191-20f229015b9a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P3">
+      <value>Z=50 Ω</value>
+      <fields>
+        <field name="Qucs_Type">Pac</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">Pac P3 1 180 260 18 -26 0 "3"1"50 Ω"1"0 dBm"0"1 GHz"0"26.85"0"con_2"0</field>
+        <field name="Qucs_Param_01">3</field>
+        <field name="Qucs_Param_02">50 Ω</field>
+        <field name="Qucs_Param_03">0 dBm</field>
+        <field name="Qucs_Param_04">1 GHz</field>
+        <field name="Qucs_Param_05">26.85</field>
+        <field name="Qucs_Param_06">con_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="Pac_0" description=""/>
+      <property name="Qucs_Type" value="Pac"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="Pac P3 1 180 260 18 -26 0 &quot;3&quot;1&quot;50 Ω&quot;1&quot;0 dBm&quot;0&quot;1 GHz&quot;0&quot;26.85&quot;0&quot;con_2&quot;0"/>
+      <property name="Qucs_Param_01" value="3"/>
+      <property name="Qucs_Param_02" value="50 Ω"/>
+      <property name="Qucs_Param_03" value="0 dBm"/>
+      <property name="Qucs_Param_04" value="1 GHz"/>
+      <property name="Qucs_Param_05" value="26.85"/>
+      <property name="Qucs_Param_06" value="con_2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Impedance.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>430b5534-b645-404d-92fa-17c6efcaa82c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X1">
+      <value>S3P</value>
+      <fields>
+        <field name="Qucs_Type">SPfile</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">SPfile X1 1 260 180 -26 -70 0 "Sparameters/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p"0"3"0"polar"0"linear"0"short"0"none"0"block"0"SOT23"0</field>
+        <field name="Qucs_Param_01">Sparameters/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p</field>
+        <field name="Qucs_Param_02">3</field>
+        <field name="Qucs_Param_03">polar</field>
+        <field name="Qucs_Param_04">linear</field>
+        <field name="Qucs_Param_05">short</field>
+        <field name="Qucs_Param_06">none</field>
+        <field name="Qucs_Param_07">block</field>
+        <field name="Qucs_Param_08">SOT23</field>
+        <field name="Local_Model">models/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="SPfile_0_3" description=""/>
+      <property name="Qucs_Type" value="SPfile"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="SPfile X1 1 260 180 -26 -70 0 &quot;Sparameters/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p&quot;0&quot;3&quot;0&quot;polar&quot;0&quot;linear&quot;0&quot;short&quot;0&quot;none&quot;0&quot;block&quot;0&quot;SOT23&quot;0"/>
+      <property name="Qucs_Param_01" value="Sparameters/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p"/>
+      <property name="Qucs_Param_02" value="3"/>
+      <property name="Qucs_Param_03" value="polar"/>
+      <property name="Qucs_Param_04" value="linear"/>
+      <property name="Qucs_Param_05" value="short"/>
+      <property name="Qucs_Param_06" value="none"/>
+      <property name="Qucs_Param_07" value="block"/>
+      <property name="Qucs_Param_08" value="SOT23"/>
+      <property name="Local_Model" value="models/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Impedance.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7205c44f-3010-4f6c-a147-15a69b110fb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Qucs_Imported" part="Pac_0">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pac</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Qucs_Imported" part="SPfile_0_3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SPfile</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RF1" type="passive"/>
+        <pin num="2" name="RF2" type="passive"/>
+        <pin num="3" name="RF3" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Qucs_Imported">
+      <uri>${KIPRJMOD}/Qucs_Imported.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="P1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="P2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="P3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="X1" pin="4" pinfunction="GND_4" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(X1-RF1)" class="Default">
+      <node ref="P1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="RF1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(X1-RF2)" class="Default">
+      <node ref="P2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="RF2_2" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(X1-RF3)" class="Default">
+      <node ref="P3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="RF3_3" pintype="passive"/>
+    </net>
+  </nets>
+</export>

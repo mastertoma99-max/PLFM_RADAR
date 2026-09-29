@@ -1,0 +1,171 @@
+(footprint "0402"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "EMIFIL (R) Chip Ferrite Bead for GHz Noise\n\nSource: http://www.murata.com/ Ferrite Bead BLM15H.pdf")
+	(property "Reference" "L5"
+		(at -0.635 -0.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "077ae5a8-5367-4299-a74a-6fb5d8e8ca55")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "BLM15HB121SN1"
+		(at -0.635 1.905 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d4f00f6-48da-4a1b-8651-717da0abb86d")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a7183d1-b27d-4d2d-8470-85c6ca9e3955")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65ebf648-389f-4e6c-9ea7-3b666c331ace")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.1999 0.4001) (xy 0.1999 0.4001) (xy 0.1999 -0.4001) (xy -0.1999 -0.4001)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Adhes")
+		(uuid "9ab3d7ae-9daf-4e3f-93a5-e6a391be1e1d")
+	)
+	(fp_line
+		(start -1.473 -0.483)
+		(end 1.473 -0.483)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5336500-e413-46a5-a63b-77f1c38eb087")
+	)
+	(fp_line
+		(start -1.473 0.483)
+		(end -1.473 -0.483)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08c68651-c34d-43fb-8689-b8fa5bf9e48d")
+	)
+	(fp_line
+		(start 1.473 -0.483)
+		(end 1.473 0.483)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d37aae2e-aad7-4bde-a89e-9014d4fee389")
+	)
+	(fp_line
+		(start 1.473 0.483)
+		(end -1.473 0.483)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47e0b015-e2f2-4e01-b73e-338778531969")
+	)
+	(fp_line
+		(start -0.245 -0.224)
+		(end 0.245 -0.224)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f6a7f52-68bc-4627-bb32-86710af6c685")
+	)
+	(fp_line
+		(start 0.245 0.224)
+		(end -0.245 0.224)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2cd236e-2782-4150-aba8-f5bbe3db5e30")
+	)
+	(fp_poly
+		(pts
+			(xy -0.554 0.3048) (xy -0.254 0.3048) (xy -0.254 -0.2951) (xy -0.554 -0.2951)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "7979cee1-6082-4036-b6ce-162b6299dbd6")
+	)
+	(fp_poly
+		(pts
+			(xy 0.2588 0.3048) (xy 0.5588 0.3048) (xy 0.5588 -0.2951) (xy 0.2588 -0.2951)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "2c298c82-ae20-4e90-b0c7-c3329067f871")
+	)
+	(pad "1" smd rect
+		(at -0.65 0)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "41b4c961-6117-45a2-88d6-5b0d78101b68")
+	)
+	(pad "2" smd rect
+		(at 0.65 0)
+		(size 0.7 0.9)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "47ab0798-3fae-425a-a351-19965465f3c0")
+	)
+	(embedded_fonts no)
+)

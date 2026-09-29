@@ -10,3 +10,6 @@
 "4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920/**" -text
 "4_Schematics and Boards Layout/4_7_Production Files/Gerber_Patch_Antenna_IPEX1_70x70_4L_Via03_20260920_R2/**" -text
 "4_Schematics and Boards Layout/4_8_3D/**" -text
+KiCad_All_20260928/** -text
+docs/system-block-diagram.html -text
+docs/system-block-diagram/** -text

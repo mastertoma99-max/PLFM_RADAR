@@ -1,0 +1,4595 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "051f65db-61af-47db-8d08-b7f17c2b079b")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Phased_Array_Ant-eagle-import:10.5GHZ_ANT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "10.5GHZ_ANT_1_0"
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "P$1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Phased_Array_Ant-eagle-import:60124102122403"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 3.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -8.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Phased_Array_Ant:60124102122403"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "WR-SMP Straight\n\nMATERIAL PROPERTIES\n\nInsulator Material LCP\nCenter Contact Material Brass\nCenter Contact Plating Gold, min. 0.127 μm over Nickel\nBody Material Brass\nBody Plating Gold, min. 0.127 μm over Nickel\n\nKIND PROPERTIES\n\nInterface MIL-STD-348\nConnector Type SMP\nGender Plug\nOrientation Type Straight\n\nGENERAL INFORMATION\n\nOperating Temperature -65 up to +165 °C\n\nELECTRICAL PROPERTIES\n\nf DC~12 GHz\n\nMECHANICAL PROPERTIES\n\nMating Cycle 500 Cycles; 1000 Cycles\n\nPACKAGING PROPERTIES\n\nPackaging Tray\n\nhttps://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg\n\nDetails see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/\n\nUpdated by Ella Wu 2020-05-29\n2020(C) Würth Elektronik"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "60124102122403_1_0"
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.2)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 0.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Phased_Array_Ant-eagle-import:GND"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 129.54 76.2) (xy 119.38 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "02c66219-2d17-4837-9cd8-7c8b88fb14e7")
+	)
+	(wire
+		(pts
+			(xy 213.36 111.76) (xy 220.98 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0a4ec5e7-acf8-4b1f-a84e-d807b12bb598")
+	)
+	(wire
+		(pts
+			(xy 213.36 132.08) (xy 220.98 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1149f659-e6b5-45c8-a61f-003554e0585b")
+	)
+	(wire
+		(pts
+			(xy 175.26 116.84) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2032e7e9-1d8c-4322-b938-3f7a746179dd")
+	)
+	(wire
+		(pts
+			(xy 165.1 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2256f83f-758d-4faa-a4eb-994bacab9c15")
+	)
+	(wire
+		(pts
+			(xy 175.26 96.52) (xy 165.1 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2406b404-ecab-4cb0-97d9-a6add233f194")
+	)
+	(wire
+		(pts
+			(xy 223.52 96.52) (xy 213.36 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "26200c16-183e-4182-86ee-1988b4a252f4")
+	)
+	(wire
+		(pts
+			(xy 129.54 96.52) (xy 119.38 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4de63c2f-56b1-4868-8aa4-0999c7793292")
+	)
+	(wire
+		(pts
+			(xy 119.38 132.08) (xy 127 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "54289f75-7048-4c12-9bce-a48548b8dc7f")
+	)
+	(wire
+		(pts
+			(xy 129.54 137.16) (xy 119.38 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5d145b11-6559-4633-bbfb-0f474cf4dec1")
+	)
+	(wire
+		(pts
+			(xy 165.1 132.08) (xy 172.72 132.08)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6b46d525-e10c-40bf-96c2-8a6376200a14")
+	)
+	(wire
+		(pts
+			(xy 223.52 116.84) (xy 213.36 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8bfa328e-fa74-40ee-bc3d-27e9f431d846")
+	)
+	(wire
+		(pts
+			(xy 165.1 111.76) (xy 172.72 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "98ce487c-fa1f-45fc-bb58-ed2c5ff4f648")
+	)
+	(wire
+		(pts
+			(xy 175.26 137.16) (xy 165.1 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9adc4ba9-805c-4127-9759-b1ae221c6cf6")
+	)
+	(wire
+		(pts
+			(xy 223.52 137.16) (xy 213.36 137.16)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9b999cb6-84e7-4828-8c66-ad677929dfb1")
+	)
+	(wire
+		(pts
+			(xy 213.36 91.44) (xy 220.98 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a6560013-3d37-4ead-b8f5-d9b13ea2107d")
+	)
+	(wire
+		(pts
+			(xy 119.38 91.44) (xy 127 91.44)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ab0ba7ec-e9d5-41e8-a0b8-b8a3fa40cc72")
+	)
+	(wire
+		(pts
+			(xy 119.38 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aeab572b-c093-429a-b6fc-66fbb7106a18")
+	)
+	(wire
+		(pts
+			(xy 223.52 76.2) (xy 213.36 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bede97d8-964b-4207-8e27-99469ff8e4d1")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.12) (xy 172.72 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc96c81c-a8c8-4d0d-bc80-1c273dd2a44d")
+	)
+	(wire
+		(pts
+			(xy 129.54 116.84) (xy 119.38 116.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e8217089-55cb-4b68-b273-705a30a3186c")
+	)
+	(wire
+		(pts
+			(xy 175.26 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fab5189e-624f-476e-bb29-f694ec75a8cf")
+	)
+	(wire
+		(pts
+			(xy 213.36 71.12) (xy 220.98 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fdcc1da5-2376-4a9f-b488-61cef545794e")
+	)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 127 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe94e27a-b110-4609-b592-f8b7965c467e")
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 81.28 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cd8f498-28dc-4a60-8270-3a3d1e85cf0d")
+		(property "Reference" "U$3"
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "9e8ecf74-17e4-495e-868c-ce89c250d6e1")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 63.5 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e4e3c4c-dcb7-4acc-8174-df36da84f05a")
+		(property "Reference" "J2"
+			(at 63.5 87.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "4_2"
+			(at 58.42 99.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 63.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "db82571b-a92f-4596-9040-6e510e670aaa")
+		)
+		(pin "4"
+			(uuid "6ca9033c-c697-486d-bc92-e997cb777908")
+		)
+		(pin "1"
+			(uuid "933e4342-4989-4768-a435-0c3555451495")
+		)
+		(pin "2"
+			(uuid "de9a3723-30df-4b6e-876d-feec30b95981")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 157.48 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "15eca681-ee2d-42d3-ae65-f84243e2a9c8")
+		(property "Reference" "J11"
+			(at 157.48 108.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "2_3"
+			(at 152.4 119.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 157.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf89960e-4c52-4792-956d-0628db6beab5")
+		)
+		(pin "2"
+			(uuid "fd557b48-0d98-4a3e-a730-59de3bb547f7")
+		)
+		(pin "4"
+			(uuid "3d4ff6d5-77e0-48bb-a739-dede26d6bb4f")
+		)
+		(pin "3"
+			(uuid "41a82aa7-9a99-4d06-9c61-1eb35c4902de")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 137.16 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "207de738-8d2b-4a5a-b4b5-472bb101b997")
+		(property "Reference" "U$8"
+			(at 137.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 137.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 137.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "4a509f91-481d-42ed-a6ee-c6ccc628d572")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 71.12 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "214e4070-514b-431f-8d64-22b3b55e80ab")
+		(property "Reference" "#GND2"
+			(at 71.12 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f36fa34-4040-482b-82af-bc2543040657")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 182.88 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2308d591-f6b8-46b7-8a11-289173b97c0e")
+		(property "Reference" "U$12"
+			(at 182.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 182.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 182.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "0fc5a45d-5c47-4b2f-a04b-fbd24839d0f9")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 157.48 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30ecf690-76d6-4414-b1df-6e0f35eca4cd")
+		(property "Reference" "J12"
+			(at 157.48 128.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "2_4"
+			(at 152.4 140.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "23781b1c-9851-4d16-aac3-bdcc86a622e9")
+		)
+		(pin "1"
+			(uuid "52666255-c93d-4f75-bc17-69e1804ed444")
+		)
+		(pin "4"
+			(uuid "3fde7347-463c-471b-8822-fe92a51e24f9")
+		)
+		(pin "2"
+			(uuid "88972498-52b6-4ac5-97d9-0cb3d2864279")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 175.26 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "37abeb7b-dea6-4798-b0d5-4cc1a1f17b4f")
+		(property "Reference" "#GND11"
+			(at 175.26 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e350e637-0a83-4498-bf74-652793d6adaf")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 71.12 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bafcaaf-9c14-4b10-b43b-271c92ae7d10")
+		(property "Reference" "#GND1"
+			(at 71.12 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2c9b1a8-6b61-49e2-87ee-8455116e4bf4")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 157.48 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3e995fb6-50af-4b1a-bdb3-5116934db501")
+		(property "Reference" "J9"
+			(at 157.48 67.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "2_1"
+			(at 152.4 79.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23dff471-221f-44f0-9d1e-1502e74c164c")
+		)
+		(pin "3"
+			(uuid "741f10dc-d324-4393-b46d-d07f3ad47ec1")
+		)
+		(pin "2"
+			(uuid "0e259bc4-d697-44bd-a4d4-2effcd1d589d")
+		)
+		(pin "4"
+			(uuid "7cf47647-97f3-41aa-af06-cd3b4869d22d")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 129.54 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "514d9a08-498c-4f79-b100-012021a654e1")
+		(property "Reference" "#GND8"
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8cf95d39-a473-4fdc-9bcf-79852fe06efa")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 175.26 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66946e79-f52a-406c-9d3b-f16f8c512ead")
+		(property "Reference" "#GND12"
+			(at 175.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d2284a3-01ac-47c3-bb18-850344665bb7")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 182.88 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "68318d75-4b2e-4287-9f5d-ac56a467e69a")
+		(property "Reference" "U$10"
+			(at 182.88 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 182.88 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 182.88 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "f4b8d231-db62-4eeb-8d90-08f43531576a")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 71.12 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6cd4984f-6c6b-48d8-a59c-b32383eff578")
+		(property "Reference" "#GND4"
+			(at 71.12 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21fc9ed6-8e8c-435b-8418-9c6304c2f42e")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 231.14 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "736f4174-89a7-461d-a6ea-aae1b8306d73")
+		(property "Reference" "U$16"
+			(at 231.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 231.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 231.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "350ce715-22c3-4449-b5eb-0b481e7ed2c3")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 223.52 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "75892956-d119-42d9-aa8e-1610bde9e2c9")
+		(property "Reference" "#GND14"
+			(at 223.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e89d6cab-1ffb-471d-9b5c-341993b2105c")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 205.74 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "779aa778-10ab-4e85-8379-20c3c26fa090")
+		(property "Reference" "J13"
+			(at 205.74 67.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "1_1"
+			(at 200.66 79.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 205.74 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bb346b4-451a-44f1-b6fc-b3805affe593")
+		)
+		(pin "4"
+			(uuid "3c400c28-de5c-43ec-980d-efac1a9b8d7f")
+		)
+		(pin "3"
+			(uuid "2775d5c3-d6b5-406e-95ae-cf0cdec39bc7")
+		)
+		(pin "2"
+			(uuid "83040311-1443-4624-b2e8-a7cb17b304e5")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 129.54 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "814f0a67-502f-4fd0-9307-ad25affadc03")
+		(property "Reference" "#GND5"
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f827cf2d-52b1-4a10-9177-8f33e32c3b8f")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 111.76 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8560d604-0292-4b25-9df1-80c7bab449e8")
+		(property "Reference" "J5"
+			(at 111.76 67.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "3_1"
+			(at 106.68 79.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 111.76 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28bdc6fc-27b2-4ae7-8d6f-0f142c8ca1ac")
+		)
+		(pin "2"
+			(uuid "468e3cb7-b34b-4c9a-a63a-dfb634cbaac8")
+		)
+		(pin "3"
+			(uuid "8b58f926-b185-4454-811d-330e8297c85a")
+		)
+		(pin "4"
+			(uuid "e20325ae-eca2-4eda-b450-eb3756431952")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 137.16 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b585e91-0ea0-4caf-a054-5224b72df5c8")
+		(property "Reference" "U$6"
+			(at 137.16 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 137.16 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 137.16 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "2657247c-8c94-4ab3-80ad-e36386b1900f")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 129.54 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f62aa9a-826d-481e-ab74-ad67fb3a2f74")
+		(property "Reference" "#GND6"
+			(at 129.54 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ca23646-ac95-4288-ad23-73cc9a1c4db9")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 137.16 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "92c2a3bd-ac9d-4340-b660-8bb1667902e3")
+		(property "Reference" "U$7"
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "3d8d036c-6188-4e4f-bfaa-6ffb293e02d9")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 81.28 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "952013fa-ea1e-4666-9aa5-241066b8d6ed")
+		(property "Reference" "U$1"
+			(at 81.28 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 81.28 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 81.28 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "9b8ae894-7edf-4ef6-8be5-aa8706e95fcc")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 182.88 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a0783833-55e1-4dfa-925d-6d5c608d63af")
+		(property "Reference" "U$9"
+			(at 182.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 182.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 182.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "65ea976e-69f9-4000-bfc0-c7d7a252a5c9")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 137.16 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a21177fa-4b5f-4a94-85df-c431c676880f")
+		(property "Reference" "U$5"
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "31b70e8b-4132-413c-8bd9-ef6dba344e05")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 129.54 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a38e755d-dd32-436a-8210-5f033a2cec60")
+		(property "Reference" "#GND7"
+			(at 129.54 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cbb674e-aea6-46da-b81c-f300050c8cd2")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 231.14 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4a5e790-2f19-4a00-b62a-da471d12e8a2")
+		(property "Reference" "U$13"
+			(at 231.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 231.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 231.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "4f9ed59b-38ad-4610-9bd1-4c80bd9f27f4")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 175.26 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a795436d-4461-4a55-82e4-b1ab800aa05d")
+		(property "Reference" "#GND10"
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcdaef55-c751-459a-8a59-eca7f24a0744")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 223.52 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8505e5f-781a-481d-a14a-026c45a1302e")
+		(property "Reference" "#GND15"
+			(at 223.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9690e9c8-9e59-4aaa-945f-21600ca3322e")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 111.76 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3824241-70d5-4f9d-a136-6c52db835647")
+		(property "Reference" "J6"
+			(at 111.76 87.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "3_2"
+			(at 106.68 99.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 111.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "870329d4-6131-498e-9c7f-ccf872161002")
+		)
+		(pin "2"
+			(uuid "a6ea9348-0eac-4bae-9314-e9134cd9d45b")
+		)
+		(pin "3"
+			(uuid "4d809367-ddf4-4184-bd96-c1e063c6e93a")
+		)
+		(pin "4"
+			(uuid "ee7f94d4-99b9-4380-af87-489bb0e799ea")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 81.28 134.62 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7397957-99e9-42d0-82fa-85aafa2ea3ec")
+		(property "Reference" "U$4"
+			(at 81.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 81.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 81.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "07b0e242-b314-410a-bf20-01cd8a87f477")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 231.14 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bbcba697-a1c4-4ca4-989e-a71e65b7ee7a")
+		(property "Reference" "U$14"
+			(at 231.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 231.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 231.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "febc8669-f49c-4925-8b72-eed73d7e0d73")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 205.74 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9d32dce-328b-434a-b69f-de64b8b0d783")
+		(property "Reference" "J16"
+			(at 205.74 128.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "1_4"
+			(at 200.66 140.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 205.74 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "fbbfea32-c4c3-430a-8e03-3e3163a7f61f")
+		)
+		(pin "1"
+			(uuid "6cfc2316-0cfe-419e-97b2-bf60c02ac2ea")
+		)
+		(pin "2"
+			(uuid "d2938baf-8d86-44b6-be8d-e90472afd5fd")
+		)
+		(pin "3"
+			(uuid "aa6360dc-bdf7-45bd-a17c-9adf8ec84b4a")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 63.5 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9fcfa62-c117-459b-9092-0b66c8f499b1")
+		(property "Reference" "J3"
+			(at 63.5 108.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "4_3"
+			(at 58.42 119.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 63.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "13d1ed8a-95ec-47eb-a5dc-b13b215331d3")
+		)
+		(pin "1"
+			(uuid "0d896a80-ce1a-4414-8293-0716636854de")
+		)
+		(pin "3"
+			(uuid "20015210-e175-42f1-8e2f-5570b9b172f9")
+		)
+		(pin "4"
+			(uuid "6be8aabb-d924-4867-a110-0ca40fa76679")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 81.28 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccf59010-cb44-4333-95a7-40ba102782e7")
+		(property "Reference" "U$2"
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "b5341a66-5555-4408-9c7e-7d5c32f09642")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 231.14 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceb7aff0-d6d8-4223-a6ad-a91befacc6ed")
+		(property "Reference" "U$15"
+			(at 231.14 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 231.14 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 231.14 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "59baa120-4c7e-4da7-a957-0acf2013b46f")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 63.5 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cf63ec99-6aff-4589-95ff-9f33c6d6aca9")
+		(property "Reference" "J1"
+			(at 63.5 67.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "4_1"
+			(at 58.42 79.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 63.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "408dda2a-1d9e-437d-bda9-d2bf1808851c")
+		)
+		(pin "3"
+			(uuid "e8e6fde6-e149-4708-9661-6457a48b2c7f")
+		)
+		(pin "4"
+			(uuid "63abb8f9-a32e-4d5e-846a-4cb266721590")
+		)
+		(pin "2"
+			(uuid "25a35186-8848-4dc8-bba1-e84ba2b62bb7")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 175.26 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d70a2096-2b6d-4db6-a1a1-495695264233")
+		(property "Reference" "#GND9"
+			(at 175.26 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d885f98a-0900-415e-96af-9b055d5bbbe2")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:10.5GHZ_ANT")
+		(at 182.88 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d776bb36-30e1-4e89-9008-4f242efe7015")
+		(property "Reference" "U$11"
+			(at 182.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10.5GHZ_ANT"
+			(at 182.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:10.5GHZ_ANT"
+			(at 182.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "P$1"
+			(uuid "78b364b8-0c82-4458-8da2-d58899ca5778")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "U$11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 223.52 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d827f8e1-ee37-48ed-b9ca-366af7a9b641")
+		(property "Reference" "#GND13"
+			(at 223.52 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6787044-3737-4be8-b360-b253c092d8a4")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 63.5 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "daa70c82-9a25-4e18-929f-11f90bdfdcea")
+		(property "Reference" "J4"
+			(at 63.5 128.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "4_4"
+			(at 58.42 140.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 63.5 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c72c5049-c628-4ad1-b9d9-1b76850d4be8")
+		)
+		(pin "4"
+			(uuid "cce33b6b-452c-4a93-9dfa-bf79fb352ca5")
+		)
+		(pin "1"
+			(uuid "07b7b441-346e-45ae-97bf-04e73ed6015a")
+		)
+		(pin "3"
+			(uuid "7fa7fad8-732e-4635-afb1-3668d4ed2d7f")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 111.76 132.08 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "db9c80f5-6d6b-4394-ac41-536f9d68c03c")
+		(property "Reference" "J8"
+			(at 111.76 128.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "3_4"
+			(at 106.68 140.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 111.76 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "811a55bf-697e-4627-9ff3-7e35acc88a27")
+		)
+		(pin "1"
+			(uuid "8e3a5f9e-f736-4bc8-8ebd-a7f48f610c7f")
+		)
+		(pin "4"
+			(uuid "a657ee0c-e7af-4ccd-91c8-a87b8dbc2d8a")
+		)
+		(pin "2"
+			(uuid "3c99983d-726d-4130-808f-a9af430dedd2")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 71.12 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8695f06-fa04-4c39-ad7e-425501cd8be9")
+		(property "Reference" "#GND3"
+			(at 71.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c65bfaa2-1687-4eb8-b094-8afe8d7917a5")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:GND")
+		(at 223.52 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ec4e37de-e5a9-454a-821c-2ab98fe1ddfb")
+		(property "Reference" "#GND16"
+			(at 223.52 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d3a9979-2a88-47f5-85bf-08b03f13dbc8")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "#GND16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 111.76 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f544a8c7-c5a7-46c1-98f2-57b18b03195f")
+		(property "Reference" "J7"
+			(at 111.76 108.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "3_3"
+			(at 106.68 119.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 111.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "27ec466c-327b-4229-9fcd-b2ec30a853cf")
+		)
+		(pin "3"
+			(uuid "0884c974-e0dc-482d-ad5d-de822be88a61")
+		)
+		(pin "4"
+			(uuid "64f958ff-fb6a-46b8-b777-8cbeeb7535bd")
+		)
+		(pin "2"
+			(uuid "127e4599-46d3-4cc6-88bc-3c3017bfa20a")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 157.48 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f85ffac7-c667-497e-8c17-bc5902549c67")
+		(property "Reference" "J10"
+			(at 157.48 87.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "2_2"
+			(at 152.4 99.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 157.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "61e185fa-3e50-4d41-95c8-dc72fc88ae4e")
+		)
+		(pin "3"
+			(uuid "c5ef5d6a-f3bc-448d-985f-2e9e7a474db9")
+		)
+		(pin "4"
+			(uuid "06b6b6fb-d4c3-4ee7-8bf1-c945c8df3ac6")
+		)
+		(pin "2"
+			(uuid "ca423c5a-c346-4afc-93ea-99cc7bdd6272")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 205.74 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fbdcf779-37f0-4546-9fa7-d8e7ef9d987b")
+		(property "Reference" "J15"
+			(at 205.74 108.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "1_3"
+			(at 200.66 119.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 205.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d91472c5-b973-47ef-a525-ddab430ac162")
+		)
+		(pin "1"
+			(uuid "73506634-d1c9-4001-95b6-c20f4b800515")
+		)
+		(pin "3"
+			(uuid "73f07283-d911-4b4f-9b82-07decc822d74")
+		)
+		(pin "4"
+			(uuid "ee10d9f3-1112-4b2e-ae1b-9e112a7a94dc")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Phased_Array_Ant-eagle-import:60124102122403")
+		(at 205.74 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff4d3181-0f8a-4ac2-ba46-9713610c3776")
+		(property "Reference" "J14"
+			(at 205.74 87.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "1_2"
+			(at 200.66 99.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Phased_Array_Ant:60124102122403"
+			(at 205.74 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af2015ec-f0a0-4af3-8479-23e26417ad88")
+		)
+		(pin "3"
+			(uuid "7d6f98b6-4236-42b4-a0db-1da0734a5da5")
+		)
+		(pin "4"
+			(uuid "3031f61b-4713-4d29-8171-d1d8365bc1fc")
+		)
+		(pin "2"
+			(uuid "d048e0cf-5767-4800-8ddd-575bc2da2738")
+		)
+		(instances
+			(project "Phased_Array_Ant"
+				(path "/051f65db-61af-47db-8d08-b7f17c2b079b"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\2_Works\4_Procedures\PLFM_RADAR\KiCad_All_20260928\Simulations\QPA2962\QPA2962.kicad_sch</source>
+    <date>2026-09-28T15:32:59</date>
+    <tool>Eeschema 10.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>QPA2962.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Z=50 Ω</value>
+      <fields>
+        <field name="Qucs_Type">Pac</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">Pac P1 1 340 240 18 -26 0 "1"1"50 Ω"1"0 dBm"0"1 GHz"0"26.85"0"con_2"0</field>
+        <field name="Qucs_Param_01">1</field>
+        <field name="Qucs_Param_02">50 Ω</field>
+        <field name="Qucs_Param_03">0 dBm</field>
+        <field name="Qucs_Param_04">1 GHz</field>
+        <field name="Qucs_Param_05">26.85</field>
+        <field name="Qucs_Param_06">con_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="Pac_0" description=""/>
+      <property name="Qucs_Type" value="Pac"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="Pac P1 1 340 240 18 -26 0 &quot;1&quot;1&quot;50 Ω&quot;1&quot;0 dBm&quot;0&quot;1 GHz&quot;0&quot;26.85&quot;0&quot;con_2&quot;0"/>
+      <property name="Qucs_Param_01" value="1"/>
+      <property name="Qucs_Param_02" value="50 Ω"/>
+      <property name="Qucs_Param_03" value="0 dBm"/>
+      <property name="Qucs_Param_04" value="1 GHz"/>
+      <property name="Qucs_Param_05" value="26.85"/>
+      <property name="Qucs_Param_06" value="con_2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="QPA2962.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3642d097-746a-40b8-be41-43d4e236cb61</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P2">
+      <value>Z=50 Ω</value>
+      <fields>
+        <field name="Qucs_Type">Pac</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">Pac P2 1 600 240 18 -26 0 "2"1"50 Ω"1"0 dBm"0"1 GHz"0"26.85"0"con_2"0</field>
+        <field name="Qucs_Param_01">2</field>
+        <field name="Qucs_Param_02">50 Ω</field>
+        <field name="Qucs_Param_03">0 dBm</field>
+        <field name="Qucs_Param_04">1 GHz</field>
+        <field name="Qucs_Param_05">26.85</field>
+        <field name="Qucs_Param_06">con_2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="Pac_0" description=""/>
+      <property name="Qucs_Type" value="Pac"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="Pac P2 1 600 240 18 -26 0 &quot;2&quot;1&quot;50 Ω&quot;1&quot;0 dBm&quot;0&quot;1 GHz&quot;0&quot;26.85&quot;0&quot;con_2&quot;0"/>
+      <property name="Qucs_Param_01" value="2"/>
+      <property name="Qucs_Param_02" value="50 Ω"/>
+      <property name="Qucs_Param_03" value="0 dBm"/>
+      <property name="Qucs_Param_04" value="1 GHz"/>
+      <property name="Qucs_Param_05" value="26.85"/>
+      <property name="Qucs_Param_06" value="con_2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="QPA2962.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bf3ed0f-fb1e-4b06-bb4a-db532d0b20f6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X1">
+      <value>S2P</value>
+      <fields>
+        <field name="Qucs_Type">SPfile</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">SPfile X1 1 470 210 -26 -40 0 "C:/Users/ASUS/Desktop/RADAR_V5/Components_New/QPA2962/QPA2962_22V1680mA_s2p/QPA2962_SN63_22v1680ma_85C.s2p"0"2"0"polar"0"linear"0"short"0"none"0"block"0"SOT23"0</field>
+        <field name="Qucs_Param_01">C:/Users/ASUS/Desktop/RADAR_V5/Components_New/QPA2962/QPA2962_22V1680mA_s2p/QPA2962_SN63_22v1680ma_85C.s2p</field>
+        <field name="Qucs_Param_02">2</field>
+        <field name="Qucs_Param_03">polar</field>
+        <field name="Qucs_Param_04">linear</field>
+        <field name="Qucs_Param_05">short</field>
+        <field name="Qucs_Param_06">none</field>
+        <field name="Qucs_Param_07">block</field>
+        <field name="Qucs_Param_08">SOT23</field>
+        <field name="Local_Model">models/QPA2962_SN63_22v1680ma_85C.s2p</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="SPfile_0_2" description=""/>
+      <property name="Qucs_Type" value="SPfile"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="SPfile X1 1 470 210 -26 -40 0 &quot;C:/Users/ASUS/Desktop/RADAR_V5/Components_New/QPA2962/QPA2962_22V1680mA_s2p/QPA2962_SN63_22v1680ma_85C.s2p&quot;0&quot;2&quot;0&quot;polar&quot;0&quot;linear&quot;0&quot;short&quot;0&quot;none&quot;0&quot;block&quot;0&quot;SOT23&quot;0"/>
+      <property name="Qucs_Param_01" value="C:/Users/ASUS/Desktop/RADAR_V5/Components_New/QPA2962/QPA2962_22V1680mA_s2p/QPA2962_SN63_22v1680ma_85C.s2p"/>
+      <property name="Qucs_Param_02" value="2"/>
+      <property name="Qucs_Param_03" value="polar"/>
+      <property name="Qucs_Param_04" value="linear"/>
+      <property name="Qucs_Param_05" value="short"/>
+      <property name="Qucs_Param_06" value="none"/>
+      <property name="Qucs_Param_07" value="block"/>
+      <property name="Qucs_Param_08" value="SOT23"/>
+      <property name="Local_Model" value="models/QPA2962_SN63_22v1680ma_85C.s2p"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="QPA2962.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>707884c8-9070-4179-821c-9b972974ead1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Qucs_Imported" part="Pac_0">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pac</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Qucs_Imported" part="SPfile_0_2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SPfile</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RF1" type="passive"/>
+        <pin num="2" name="RF2" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Qucs_Imported">
+      <uri>${KIPRJMOD}/Qucs_Imported.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="P1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="P2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="X1" pin="3" pinfunction="GND_3" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(X1-RF1)" class="Default">
+      <node ref="P1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X1" pin="1" pinfunction="RF1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(X1-RF2)" class="Default">
+      <node ref="P2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="RF2_2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

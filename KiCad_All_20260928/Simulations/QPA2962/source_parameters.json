@@ -1,0 +1,232 @@
+{
+  "source": "5_Simulations/QPA2962.sch",
+  "sha256": "5780694efebe4f5a762459b097de1e0269aef854e3db7e454602ff68281cdf3f",
+  "components": [
+    {
+      "type": "SPfile",
+      "ref": "X1",
+      "active": true,
+      "x": 470,
+      "y": 210,
+      "dx": -26,
+      "dy": -40,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "C:/Users/ASUS/Desktop/RADAR_V5/Components_New/QPA2962/QPA2962_22V1680mA_s2p/QPA2962_SN63_22v1680ma_85C.s2p",
+          "visible": false
+        },
+        {
+          "value": "2",
+          "visible": false
+        },
+        {
+          "value": "polar",
+          "visible": false
+        },
+        {
+          "value": "linear",
+          "visible": false
+        },
+        {
+          "value": "short",
+          "visible": false
+        },
+        {
+          "value": "none",
+          "visible": false
+        },
+        {
+          "value": "block",
+          "visible": false
+        },
+        {
+          "value": "SOT23",
+          "visible": false
+        }
+      ],
+      "source_line": "SPfile X1 1 470 210 -26 -40 0 \"C:/Users/ASUS/Desktop/RADAR_V5/Components_New/QPA2962/QPA2962_22V1680mA_s2p/QPA2962_SN63_22v1680ma_85C.s2p\"0\"2\"0\"polar\"0\"linear\"0\"short\"0\"none\"0\"block\"0\"SOT23\"0",
+      "local_model": "models/QPA2962_SN63_22v1680ma_85C.s2p"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 470,
+      "y": 240,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 470 240 0 0 0"
+    },
+    {
+      "type": "Pac",
+      "ref": "P2",
+      "active": true,
+      "x": 600,
+      "y": 240,
+      "dx": 18,
+      "dy": -26,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "2",
+          "visible": true
+        },
+        {
+          "value": "50 Ω",
+          "visible": true
+        },
+        {
+          "value": "0 dBm",
+          "visible": false
+        },
+        {
+          "value": "1 GHz",
+          "visible": false
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "con_2",
+          "visible": false
+        }
+      ],
+      "source_line": "Pac P2 1 600 240 18 -26 0 \"2\"1\"50 Ω\"1\"0 dBm\"0\"1 GHz\"0\"26.85\"0\"con_2\"0"
+    },
+    {
+      "type": "Pac",
+      "ref": "P1",
+      "active": true,
+      "x": 340,
+      "y": 240,
+      "dx": 18,
+      "dy": -26,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "1",
+          "visible": true
+        },
+        {
+          "value": "50 Ω",
+          "visible": true
+        },
+        {
+          "value": "0 dBm",
+          "visible": false
+        },
+        {
+          "value": "1 GHz",
+          "visible": false
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "con_2",
+          "visible": false
+        }
+      ],
+      "source_line": "Pac P1 1 340 240 18 -26 0 \"1\"1\"50 Ω\"1\"0 dBm\"0\"1 GHz\"0\"26.85\"0\"con_2\"0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 340,
+      "y": 270,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 340 270 0 0 0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 600,
+      "y": 270,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 600 270 0 0 0"
+    },
+    {
+      "type": ".SP",
+      "ref": "SP1",
+      "active": true,
+      "x": 100,
+      "y": 100,
+      "dx": 0,
+      "dy": 9,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "lin",
+          "visible": true
+        },
+        {
+          "value": "2 GHz",
+          "visible": true
+        },
+        {
+          "value": "20 GHz",
+          "visible": true
+        },
+        {
+          "value": "100",
+          "visible": true
+        },
+        {
+          "value": "no",
+          "visible": false
+        },
+        {
+          "value": "1",
+          "visible": false
+        },
+        {
+          "value": "2",
+          "visible": false
+        },
+        {
+          "value": "none",
+          "visible": false
+        }
+      ],
+      "source_line": ".SP SP1 1 100 100 0 9 0 \"lin\"1\"2 GHz\"1\"20 GHz\"1\"100\"1\"no\"0\"1\"0\"2\"0\"none\"0"
+    }
+  ],
+  "wires": [
+    "340 210 440 210",
+    "500 210 600 210"
+  ],
+  "paintings": [],
+  "properties": [
+    "View=0,0,800,800,1,0,0",
+    "Grid=10,10,1",
+    "DataSet=*.dat",
+    "DataDisplay=*.dpl",
+    "OpenDisplay=1",
+    "showFrame=0",
+    "FrameText0=Title \\n @PATH@@FILE@",
+    "FrameText1=Drawn By:",
+    "FrameText2=Date: @DATE@",
+    "FrameText3=Revision:"
+  ],
+  "dependencies": [
+    {
+      "ref": "X1",
+      "original": "C:/Users/ASUS/Desktop/RADAR_V5/Components_New/QPA2962/QPA2962_22V1680mA_s2p/QPA2962_SN63_22v1680ma_85C.s2p",
+      "local": "models/QPA2962_SN63_22v1680ma_85C.s2p",
+      "sha256": "63099ea6b15e28117f91f1dd6f59fe0e63ff2061bba38bbe97f54e701935111b"
+    }
+  ]
+}

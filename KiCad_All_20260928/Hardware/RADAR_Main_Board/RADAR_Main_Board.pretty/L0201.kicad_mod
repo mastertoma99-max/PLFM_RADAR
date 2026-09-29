@@ -1,0 +1,123 @@
+(footprint "L0201"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "NIS02 Chip Inductor\n\nSource: http://www.niccomp.com/Catalog/nis.pdf")
+	(property "Reference" "L8"
+		(at -0.635 -0.635 180)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c58748ea-e7cb-47a4-844a-855b4207ef26")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "12nH"
+		(at -0.635 1.905 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b5734d2f-c884-4479-8328-818b52c5da56")
+		(effects
+			(font
+				(size 1.176528 1.176528)
+				(thickness 0.093472)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c469833-26e5-4485-9cfa-3f42adbdf5b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41cb2640-f632-4103-b40b-e4981ca49413")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy -0.3 0.15) (xy -0.15 0.15) (xy -0.15 -0.15) (xy -0.3 -0.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "46179244-0b6c-41ed-84ea-008425709f63")
+	)
+	(fp_poly
+		(pts
+			(xy -0.15 -0.05) (xy 0.15 -0.05) (xy 0.15 -0.15) (xy -0.15 -0.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "aa4d21c6-6991-4742-bc23-6be160e783c9")
+	)
+	(fp_poly
+		(pts
+			(xy -0.15 0.15) (xy 0.15 0.15) (xy 0.15 0.05) (xy -0.15 0.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "cc483377-5947-457a-b5dd-8af668f060e6")
+	)
+	(fp_poly
+		(pts
+			(xy 0.15 0.15) (xy 0.3 0.15) (xy 0.3 -0.15) (xy 0.15 -0.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "86ac1b5e-0c41-4a3f-a1ba-961091bcb2f6")
+	)
+	(pad "1" smd rect
+		(at -0.275 0)
+		(size 0.25 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "23203d4b-61a3-493f-96be-265c13353da7")
+	)
+	(pad "2" smd rect
+		(at 0.275 0)
+		(size 0.25 0.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(solder_paste_margin 0)
+		(thermal_bridge_angle 0)
+		(uuid "58c59b59-cb5b-4d75-a142-2e787f512475")
+	)
+	(embedded_fonts no)
+)

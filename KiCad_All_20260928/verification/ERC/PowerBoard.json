@@ -1,0 +1,1629 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-28T15:31:19",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.0",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/a4e8985e-0555-4fc7-8813-351959e30b77",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 引脚 3 [VIN, Power input, Line]",
+                            "pos": {
+                                "x": 0.7366,
+                                "y": 0.9398
+                            },
+                            "uuid": "65d3493c-181e-4e07-b255-ab832de33bd9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 0.508
+                            },
+                            "uuid": "fcd0d31a-02f3-4ddc-8cb5-197b9578c408"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 0.5842
+                            },
+                            "uuid": "bad8089c-9215-4cd2-8b6c-bd916603fda7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 0.9398
+                            },
+                            "uuid": "06c7b1aa-95c4-44b1-a111-357c205d438e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 1.016
+                            },
+                            "uuid": "6fcadad6-bfb4-4368-ad71-325fe4aa6551"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 引脚 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 1.1684
+                            },
+                            "uuid": "fa8b8cbf-115f-4747-b453-8e28ccb61956"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 1.3716
+                            },
+                            "uuid": "9873fbc5-72bd-4dd2-ae8f-0158fce74c2e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 1.4478
+                            },
+                            "uuid": "0f8b40fa-3dd0-48f4-89da-915c7e942a1f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 1.8034
+                            },
+                            "uuid": "2e1bc373-9a01-48a6-9747-42ca2f567e01"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 1.8796
+                            },
+                            "uuid": "30e80e27-388e-4794-9ad9-51d7e64340bb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U12 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 2.2606
+                            },
+                            "uuid": "32c42616-384d-4780-8e09-f1a3b6ab0c59"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U12 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 2.3368
+                            },
+                            "uuid": "eed79854-1e0c-4a46-811a-0eaf5f769166"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U9 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 2.7432
+                            },
+                            "uuid": "3a38f131-3f7a-4ab0-bd5b-fc7f3520788e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U9 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 2.8194
+                            },
+                            "uuid": "a7f2b653-8e47-461c-95b1-c4d7aa580e6f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U24 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 3.2512
+                            },
+                            "uuid": "51e1162f-c9f4-4f76-8642-2570a0d33a0e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U5 引脚 1 [VREG, Power input, Line]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 2.2606
+                            },
+                            "uuid": "207a2e42-f6c5-4186-8a22-c1f15464bfb0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U24 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 3.3274
+                            },
+                            "uuid": "247bf683-922e-4c30-a628-bddaeeda4cb1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U23 引脚 1 [VREG, Power input, Line]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 2.7432
+                            },
+                            "uuid": "affdabca-8770-4835-9f02-4fa64f44e0d3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U30 引脚 1 [VREG, Power input, Line]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 3.7846
+                            },
+                            "uuid": "5d9763a3-bf1a-4f80-b747-b05b57f45255"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U25 引脚 1 [VREG, Power input, Line]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 3.2512
+                            },
+                            "uuid": "461e8047-3af0-4c63-86c9-8f566cd530d5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U26 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 4.2418
+                            },
+                            "uuid": "f1d2d0bb-4a1a-4fde-8c6d-125841bfe94d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U26 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 4.318
+                            },
+                            "uuid": "10fe7850-3ab6-43f6-a5cd-0170fec01c44"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U17 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 0.5334
+                            },
+                            "uuid": "57f878a0-029e-450b-bca8-39c6f0aaf2b8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U17 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 0.6096
+                            },
+                            "uuid": "20a3bd20-ccab-4df6-ae0e-15b3a073ade6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U11 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 1.0414
+                            },
+                            "uuid": "72f57325-632a-4262-a084-3ff18c4c524f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U11 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 1.1176
+                            },
+                            "uuid": "41b87f1e-775b-4f7d-ba47-7db834f7073f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U28 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 4.7498
+                            },
+                            "uuid": "9d1e9de0-1d4e-4526-856d-c1b0ac8e97c9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U13 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 1.6002
+                            },
+                            "uuid": "b014647a-a2d1-4257-adf2-59457d5734f3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U28 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 1.0922,
+                                "y": 4.826
+                            },
+                            "uuid": "ae150b5e-18bc-4b9b-8483-19d6a9a67843"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U13 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 1.6764
+                            },
+                            "uuid": "f572bb21-fffb-405b-bdf8-3682f781f309"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U27 引脚 1 [VREG, Power input, Line]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 4.2418
+                            },
+                            "uuid": "42399ab0-1385-4f57-af18-6509a50d404a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 2.1336
+                            },
+                            "uuid": "432faa1e-87a4-437a-ac06-4b969bef8557"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 2.2098
+                            },
+                            "uuid": "df851d36-4e33-4414-958d-c339d019a63d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U7 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 2.5908
+                            },
+                            "uuid": "56d1b655-0553-4879-b56d-7b77892355e4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U7 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 2.667
+                            },
+                            "uuid": "9f32a4b6-c46d-4240-a9d6-9f6b31925a62"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U29 引脚 1 [VREG, Power input, Line]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 4.7498
+                            },
+                            "uuid": "c4ed3fd2-446a-4c15-b962-219956858925"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U31 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 3.1242
+                            },
+                            "uuid": "663c1891-ab0b-4d0c-aa28-8f105f55f0cc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U31 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 3.2004
+                            },
+                            "uuid": "868eb88f-eb74-4b8c-a576-cfb10d5f44aa"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U22 引脚 1 [FC, Passive, Line]",
+                            "pos": {
+                                "x": 5.7912,
+                                "y": 0.5842
+                            },
+                            "uuid": "5eb7227f-d9e5-448d-b372-c845d978f56a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U19 引脚 1 [FC, Passive, Line]",
+                            "pos": {
+                                "x": 5.8166,
+                                "y": 1.0668
+                            },
+                            "uuid": "23f489ed-a00a-4e73-aba8-57521953eaae"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U10 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 3.6322
+                            },
+                            "uuid": "79b3ee21-aaf5-49eb-a1fd-64de57e93814"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U10 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 3.7084
+                            },
+                            "uuid": "841e2608-6d9f-4c11-9fc3-474db046289d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U20 引脚 1 [FC, Passive, Line]",
+                            "pos": {
+                                "x": 5.9182,
+                                "y": 1.4478
+                            },
+                            "uuid": "bc52a99f-b371-4872-a6c3-5ace70583bcc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U21 引脚 1 [FC, Passive, Line]",
+                            "pos": {
+                                "x": 5.9182,
+                                "y": 1.778
+                            },
+                            "uuid": "8bbc8adb-c7a0-4b25-960b-2a7d21d45012"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U8 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 4.1148
+                            },
+                            "uuid": "82c779f7-7237-4cd1-bcbb-bc131f9e71e3"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U8 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 4.191
+                            },
+                            "uuid": "78a1db96-d276-4657-b31f-a52dd19a7895"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U22 引脚 7 [OSC, Passive, Line]",
+                            "pos": {
+                                "x": 6.2992,
+                                "y": 0.6096
+                            },
+                            "uuid": "d84e3a5f-9ab5-427d-92fe-bffd2b412fb0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U19 引脚 7 [OSC, Passive, Line]",
+                            "pos": {
+                                "x": 6.3246,
+                                "y": 1.0922
+                            },
+                            "uuid": "446993df-6fa9-46fb-8efc-d72b58604131"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U14 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 4.5466
+                            },
+                            "uuid": "fecfd78e-8d09-4ff0-ba25-627686252d7d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U14 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 4.6228
+                            },
+                            "uuid": "a84fec0c-89e6-4230-b7f6-99307a0e9635"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U20 引脚 7 [OSC, Passive, Line]",
+                            "pos": {
+                                "x": 6.4262,
+                                "y": 1.4732
+                            },
+                            "uuid": "08ae7a6c-5d33-4d4c-b9b6-3d48e86841cb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U21 引脚 7 [OSC, Passive, Line]",
+                            "pos": {
+                                "x": 6.4262,
+                                "y": 1.8034
+                            },
+                            "uuid": "23d69614-55d9-49a5-a337-4f815889f759"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "类型为 Output 和 Output 的引脚已连接",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 1 [OUT_2, Output, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.0988
+                            },
+                            "uuid": "4f6b7377-4c7c-4b99-8b01-cdc51818a351"
+                        },
+                        {
+                            "description": "Symbol U32 引脚 20 [OUT, Output, Line]",
+                            "pos": {
+                                "x": 6.477,
+                                "y": 3.1242
+                            },
+                            "uuid": "88a29469-8f40-4f41-b25c-9b842380c84b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 4 [PG, Output, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.175
+                            },
+                            "uuid": "bf9a47f0-2948-4503-90b4-748ead03db0f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 5 [50MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.2004
+                            },
+                            "uuid": "7dcb006b-b0f6-4e8d-8ae3-68a83094783d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 5 [50MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.2004
+                            },
+                            "uuid": "7dcb006b-b0f6-4e8d-8ae3-68a83094783d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U15 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 4.9784
+                            },
+                            "uuid": "39203d26-d9a2-42f7-93e0-b5bf4bd85bd8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 6 [100MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.2258
+                            },
+                            "uuid": "84c39cc7-4a7b-4d33-88f7-0e0dc8badd1d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 6 [100MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.2258
+                            },
+                            "uuid": "84c39cc7-4a7b-4d33-88f7-0e0dc8badd1d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 7 [200MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.2512
+                            },
+                            "uuid": "af082701-97a2-4e9e-b313-793afd3e8627"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 7 [200MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.2512
+                            },
+                            "uuid": "af082701-97a2-4e9e-b313-793afd3e8627"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 9 [400MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.302
+                            },
+                            "uuid": "2d0051b3-babb-4ec6-b11b-e316e074ab9b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 9 [400MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.302
+                            },
+                            "uuid": "2d0051b3-babb-4ec6-b11b-e316e074ab9b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 10 [800MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.3274
+                            },
+                            "uuid": "781dd1b5-4062-4cb8-91bf-998f7231163c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 10 [800MV, Input, Line]",
+                            "pos": {
+                                "x": 6.0198,
+                                "y": 3.3274
+                            },
+                            "uuid": "781dd1b5-4062-4cb8-91bf-998f7231163c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U15 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 5.0546
+                            },
+                            "uuid": "7728f72b-b3b3-41b9-8cec-91a16ad80bee"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U18 引脚 1 [FC, Passive, Line]",
+                            "pos": {
+                                "x": 5.8928,
+                                "y": 3.6576
+                            },
+                            "uuid": "cdaf5d5d-ed22-40af-b0c4-f9bb686d310c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U16 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 5.4102
+                            },
+                            "uuid": "d9d705bf-4fe3-4d29-8f0c-d0ec251d6290"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "类型为 Output 和 Output 的引脚已连接",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 19 [OUT_3, Output, Line]",
+                            "pos": {
+                                "x": 6.477,
+                                "y": 3.1496
+                            },
+                            "uuid": "3adc0b45-330f-42c2-bd68-743243ae2017"
+                        },
+                        {
+                            "description": "Symbol U32 引脚 20 [OUT, Output, Line]",
+                            "pos": {
+                                "x": 6.477,
+                                "y": 3.1242
+                            },
+                            "uuid": "88a29469-8f40-4f41-b25c-9b842380c84b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U16 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 5.4864
+                            },
+                            "uuid": "b6f61edc-40c7-4800-b751-f44a05611f06"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 11 [1.6V, Input, Line]",
+                            "pos": {
+                                "x": 6.477,
+                                "y": 3.3528
+                            },
+                            "uuid": "6dd90d1b-46f6-4073-a34c-eaf0ea0ece67"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U32 引脚 11 [1.6V, Input, Line]",
+                            "pos": {
+                                "x": 6.477,
+                                "y": 3.3528
+                            },
+                            "uuid": "6dd90d1b-46f6-4073-a34c-eaf0ea0ece67"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U18 引脚 7 [OSC, Passive, Line]",
+                            "pos": {
+                                "x": 6.4008,
+                                "y": 3.683
+                            },
+                            "uuid": "d02b980e-f2f2-4d1d-9153-a8c44d8e0769"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "类型为 Output 和 Output 的引脚已连接",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 19 [OUT_3, Output, Line]",
+                            "pos": {
+                                "x": 8.0264,
+                                "y": 2.1082
+                            },
+                            "uuid": "8b362b79-c0b9-430c-8320-4f44d926a926"
+                        },
+                        {
+                            "description": "Symbol U34 引脚 20 [OUT, Output, Line]",
+                            "pos": {
+                                "x": 8.001,
+                                "y": 2.1082
+                            },
+                            "uuid": "18eee2f8-f955-4d2c-99db-34e17a2e4e5f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "类型为 Output 和 Output 的引脚已连接",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 1 [OUT_2, Output, Line]",
+                            "pos": {
+                                "x": 7.9756,
+                                "y": 2.5654
+                            },
+                            "uuid": "85b410c4-d844-4023-9ce3-bdb584c5d05a"
+                        },
+                        {
+                            "description": "Symbol U34 引脚 20 [OUT, Output, Line]",
+                            "pos": {
+                                "x": 8.001,
+                                "y": 2.1082
+                            },
+                            "uuid": "18eee2f8-f955-4d2c-99db-34e17a2e4e5f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 4 [PG, Output, Line]",
+                            "pos": {
+                                "x": 8.0518,
+                                "y": 2.5654
+                            },
+                            "uuid": "4d43bf04-c49e-453b-b03a-cc8c84bc19cf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 5 [50MV, Input, Line]",
+                            "pos": {
+                                "x": 8.0772,
+                                "y": 2.5654
+                            },
+                            "uuid": "e76d807f-4083-462b-b0e6-cee0826f100e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 5 [50MV, Input, Line]",
+                            "pos": {
+                                "x": 8.0772,
+                                "y": 2.5654
+                            },
+                            "uuid": "e76d807f-4083-462b-b0e6-cee0826f100e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 11 [1.6V, Input, Line]",
+                            "pos": {
+                                "x": 8.2296,
+                                "y": 2.1082
+                            },
+                            "uuid": "67b86f97-9c28-4c3c-88c9-faf4f520930e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 11 [1.6V, Input, Line]",
+                            "pos": {
+                                "x": 8.2296,
+                                "y": 2.1082
+                            },
+                            "uuid": "67b86f97-9c28-4c3c-88c9-faf4f520930e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 6 [100MV, Input, Line]",
+                            "pos": {
+                                "x": 8.1026,
+                                "y": 2.5654
+                            },
+                            "uuid": "0cab4b52-ef81-4a39-bdaa-0179a23172bb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 6 [100MV, Input, Line]",
+                            "pos": {
+                                "x": 8.1026,
+                                "y": 2.5654
+                            },
+                            "uuid": "0cab4b52-ef81-4a39-bdaa-0179a23172bb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 7 [200MV, Input, Line]",
+                            "pos": {
+                                "x": 8.128,
+                                "y": 2.5654
+                            },
+                            "uuid": "c6186926-d9f5-455a-8062-990a8153cfb5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 7 [200MV, Input, Line]",
+                            "pos": {
+                                "x": 8.128,
+                                "y": 2.5654
+                            },
+                            "uuid": "c6186926-d9f5-455a-8062-990a8153cfb5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 9 [400MV, Input, Line]",
+                            "pos": {
+                                "x": 8.1788,
+                                "y": 2.5654
+                            },
+                            "uuid": "13685f02-fed9-4442-8cfc-0a80d3664aa1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 9 [400MV, Input, Line]",
+                            "pos": {
+                                "x": 8.1788,
+                                "y": 2.5654
+                            },
+                            "uuid": "13685f02-fed9-4442-8cfc-0a80d3664aa1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 10 [800MV, Input, Line]",
+                            "pos": {
+                                "x": 8.2042,
+                                "y": 2.5654
+                            },
+                            "uuid": "13dbcb6e-9b90-49ca-a99d-21406ee1aa20"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U34 引脚 10 [800MV, Input, Line]",
+                            "pos": {
+                                "x": 8.2042,
+                                "y": 2.5654
+                            },
+                            "uuid": "13dbcb6e-9b90-49ca-a99d-21406ee1aa20"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U33 引脚 2 [SW, Power input, Line]",
+                            "pos": {
+                                "x": 8.001,
+                                "y": 3.9116
+                            },
+                            "uuid": "0d0a65d3-a658-4178-9f38-5ca317974a6c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U33 引脚 6 [VBST, Power input, Line]",
+                            "pos": {
+                                "x": 8.0772,
+                                "y": 3.9116
+                            },
+                            "uuid": "2906b394-4da1-4c72-bd90-35830c1069dd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2032 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.016
+                            },
+                            "uuid": "8b6b1628-09b6-4fce-9af6-da6b6dd47f76"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2032 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.4478
+                            },
+                            "uuid": "26366375-8203-4ecc-8b19-c3d62eb4c0e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2032 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 2.0828
+                            },
+                            "uuid": "3def5cb2-f8e8-446a-8cf3-a2220f29bfc7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2286 mm",
+                            "pos": {
+                                "x": 4.2672,
+                                "y": 0.8382
+                            },
+                            "uuid": "c334f72e-8cb0-462b-b865-8d3ce3b50b9c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2032 mm",
+                            "pos": {
+                                "x": 4.2672,
+                                "y": 1.8796
+                            },
+                            "uuid": "e4f8c048-6d42-4cb6-be65-f43bcf76c559"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2032 mm",
+                            "pos": {
+                                "x": 4.2672,
+                                "y": 2.2098
+                            },
+                            "uuid": "f1149bab-38c7-450c-963d-a1719daab7f9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2032 mm",
+                            "pos": {
+                                "x": 4.2672,
+                                "y": 2.667
+                            },
+                            "uuid": "508c9e2d-439f-4353-81b4-58e94ba5c7c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2286 mm",
+                            "pos": {
+                                "x": 4.2672,
+                                "y": 3.937
+                            },
+                            "uuid": "7472f4d6-1569-47c5-aea5-e8d9904ea649"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.0254 mm",
+                            "pos": {
+                                "x": 5.2832,
+                                "y": 3.1242
+                            },
+                            "uuid": "1b09ec34-29f5-49ff-828f-2ce3ca1a06d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2032 mm",
+                            "pos": {
+                                "x": 4.2672,
+                                "y": 4.191
+                            },
+                            "uuid": "a9dbf737-88af-4d63-ab64-b67e8321410f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2286 mm",
+                            "pos": {
+                                "x": 4.2672,
+                                "y": 4.8514
+                            },
+                            "uuid": "b6779ce4-474a-4796-9f0b-d6615aa6546f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2032 mm",
+                            "pos": {
+                                "x": 4.2672,
+                                "y": 5.2578
+                            },
+                            "uuid": "4cb3bbe7-6ef7-403e-b141-50b5dd694318"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "垂直线, 长度 0.2032 mm",
+                            "pos": {
+                                "x": 4.2672,
+                                "y": 5.6896
+                            },
+                            "uuid": "74bb339f-5810-48d4-9fb3-990edc715ba3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "未连接的连线端点",
+                    "items": [
+                        {
+                            "description": "水平线, 长度 0.0254 mm",
+                            "pos": {
+                                "x": 8.001,
+                                "y": 3.302
+                            },
+                            "uuid": "4ebfde2a-3725-4700-aeb4-e48f159c3296"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                }
+            ]
+        }
+    ],
+    "source": "PowerBoard.kicad_sch"
+}

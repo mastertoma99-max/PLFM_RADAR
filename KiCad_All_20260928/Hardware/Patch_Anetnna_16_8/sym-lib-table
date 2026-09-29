@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Patch_Anetnna_16_8-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/Patch_Anetnna_16_8-eagle-import.kicad_sym") (options "") (descr ""))
+)

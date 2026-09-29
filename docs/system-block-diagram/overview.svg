@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 890" role="img" aria-label="整机框图" class="diagram-svg" data-graph="overview">
+<style>text{font-family:"Segoe UI","Microsoft YaHei",sans-serif}.block{cursor:pointer}.block:focus{outline:none}.block:focus rect,.block:hover rect{stroke-width:3}.node-title{font-weight:650}.wire-label{paint-order:stroke;stroke:white;stroke-width:7;stroke-linejoin:round}.selected rect{stroke-width:4}</style>
+<rect width="1800" height="890" fill="white"/>
+<defs>
+<marker id="overview-data" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#245dcc"/></marker>
+<marker id="overview-rf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087f8c"/></marker>
+<marker id="overview-ctrl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7254b3"/></marker>
+<marker id="overview-clock" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#aa710c"/></marker>
+<marker id="overview-power" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#bc414d"/></marker>
+<marker id="overview-neutral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#384858"/></marker>
+</defs>
+<path class="wire" d="M 287 315 L 403 315" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#overview-data)" marker-start="url(#overview-data)"/>
+<text class="wire-label" x="345" y="300" text-anchor="middle" fill="#245dcc" font-size="17">USB</text>
+<path class="wire" d="M 687 315 L 793 315" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#overview-data)" marker-start="url(#overview-data)"/>
+<text class="wire-label" x="740" y="300" text-anchor="middle" fill="#245dcc" font-size="17">ADC / DAC</text>
+<path class="wire" d="M 1077 315 L 1183 315" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#overview-rf)" marker-start="url(#overview-rf)"/>
+<text class="wire-label" x="1130" y="300" text-anchor="middle" fill="#087f8c" font-size="17">公共 RF</text>
+<path class="wire" d="M 1437 315 L 1543 315" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#overview-rf)" marker-start="url(#overview-rf)"/>
+<text class="wire-label" x="1490" y="300" text-anchor="middle" fill="#087f8c" font-size="17">16 通道</text>
+<path class="wire" d="M 545 613 L 545 407" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#overview-ctrl)" marker-start="url(#overview-ctrl)"/>
+<text class="wire-label" x="615" y="510" text-anchor="middle" fill="#7254b3" font-size="17">SPI / GPIO</text>
+<path class="wire" d="M 287 695 L 403 695" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#overview-ctrl)" marker-start="url(#overview-ctrl)"/>
+<text class="wire-label" x="345" y="680" text-anchor="middle" fill="#7254b3" font-size="17">I²C / UART</text>
+<path class="wire" d="M 687 695 L 793 695" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#overview-ctrl)" marker-start="url(#overview-ctrl)"/>
+<text class="wire-label" x="740" y="680" text-anchor="middle" fill="#7254b3" font-size="17">SPI</text>
+<path class="wire" d="M 935 620 L 935 407" fill="none" stroke="#aa710c" stroke-width="2.4" marker-end="url(#overview-clock)"/>
+<text class="wire-label" x="1000" y="515" text-anchor="middle" fill="#aa710c" font-size="17">时钟 / LO</text>
+<path class="wire" d="M 1310 620 L 1310 407" fill="none" stroke="#bc414d" stroke-width="2.4" marker-end="url(#overview-power)"/>
+<text class="wire-label" x="1375" y="515" text-anchor="middle" fill="#bc414d" font-size="17">多路供电</text>
+<path class="wire" d="M 1190 695 L 1077 695" fill="none" stroke="#bc414d" stroke-width="2.4" marker-end="url(#overview-power)"/>
+<text class="wire-label" x="1130" y="680" text-anchor="middle" fill="#bc414d" font-size="17">电源</text>
+<path class="wire" d="M 90 407 L 90 525 L 435 525 L 435 613" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#overview-ctrl)" marker-start="url(#overview-ctrl)"/>
+<text class="wire-label" x="267" y="509" text-anchor="middle" fill="#7254b3" font-size="17">STM32 USB CDC 管理连接</text>
+<g class="block" data-id="host" role="button" tabindex="0" aria-label="上位机，Python 雷达 GUI，查看模块详情"><title>上位机：接收距离像、多普勒数据与检测结果；下发处理参数。FPGA 数据口与 STM32 USB CDC 管理口是两条独立连接。GUI_V65_Tk 与 GUI_V7_PyQt 是 README 指出的活动版本。</title><rect x="40" y="230" width="240" height="170" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M40 234 H280" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="160.0" y="293.0" text-anchor="middle" fill="#183249" font-size="22" data-template="上位机">上位机</text>
+<text class="node-sub" x="160.0" y="325.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="Python 雷达 GUI">Python 雷达 GUI</text>
+<text class="node-meta" x="160.0" y="353.0" text-anchor="middle" fill="#536374" font-size="15" data-template="显示 · 参数设置 · 数据记录">显示 · 参数设置 · 数据记录</text>
+</g>
+<g class="block" data-id="digital" role="button" tabindex="0" aria-label="数字处理与 USB，XC7A50T · Artix-7，查看模块详情"><title>数字处理与 USB：FPGA 生成 Chirp、接收 ADC 数据并执行脉压、MTI、Doppler 与 CFAR。50T 主板 U42=XC7A50T-2FTG256I，U6=FT2232HQ；200T 开发目标为 XC7A200T-2FBG484I，使用 FT601。切换本页选项仅改变图的展示。</title><rect x="410" y="230" width="270" height="170" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M410 234 H680" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="545.0" y="293.0" text-anchor="middle" fill="#183249" font-size="22" data-template="数字处理与 USB">数字处理与 USB</text>
+<text class="node-sub" x="545.0" y="325.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="{fpgaShort}">XC7A50T · Artix-7</text>
+<text class="node-meta" x="545.0" y="353.0" text-anchor="middle" fill="#536374" font-size="15" data-template="{usbShort}">FT2232H · USB 2.0</text>
+</g>
+<g class="block" data-id="analog" role="button" tabindex="0" aria-label="模拟收发链路，AD9708 / AD9484，查看模块详情"><title>模拟收发链路：发射：8 位 DAC → 重建低通 → 上变频 → RF 带通。接收：RF 带通 → 下变频 → IF 滤波 / AD8352 驱动 → 8 位 ADC。两条链路经 RF 开关接入公共阵列端口。</title><rect x="800" y="230" width="270" height="170" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M800 234 H1070" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="935.0" y="293.0" text-anchor="middle" fill="#183249" font-size="22" data-template="模拟收发链路">模拟收发链路</text>
+<text class="node-sub" x="935.0" y="325.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="AD9708 / AD9484">AD9708 / AD9484</text>
+<text class="node-meta" x="935.0" y="353.0" text-anchor="middle" fill="#536374" font-size="15" data-template="LTC5552 ×2 · 滤波 / 驱动">LTC5552 ×2 · 滤波 / 驱动</text>
+</g>
+<g class="block" data-id="beam" role="button" tabindex="0" aria-label="阵列射频前端，ADAR1000 ×4，查看模块详情"><title>阵列射频前端：四片四通道 ADAR1000 实现 16 路相位与增益控制；每路连接一片 ADTR1107 收发前端。EP4RKU+ 在公共端口与四片 ADAR1000 之间完成分配 / 合成。属于模拟波束赋形，不是 16 组独立 ADC。</title><rect x="1190" y="230" width="240" height="170" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M1190 234 H1430" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1310.0" y="293.0" text-anchor="middle" fill="#183249" font-size="22" data-template="阵列射频前端">阵列射频前端</text>
+<text class="node-sub" x="1310.0" y="325.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="ADAR1000 ×4">ADAR1000 ×4</text>
+<text class="node-meta" x="1310.0" y="353.0" text-anchor="middle" fill="#536374" font-size="15" data-template="ADTR1107 ×16">ADTR1107 ×16</text>
+</g>
+<g class="block" data-id="antenna" role="button" tabindex="0" aria-label="阵列天线，8 × 16 贴片阵列，查看模块详情"><title>阵列天线：项目描述提供 8×16 贴片阵列与 32×16 波导阵列两类方案。16 路射频通道对应馈电子阵；不要将 16 路等同于 16 个贴片。增强方案在发射路径加入 16 路 QPA2962；接收信号绕过外置功放。</title><rect x="1550" y="230" width="210" height="170" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M1550 234 H1760" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1655.0" y="293.0" text-anchor="middle" fill="#183249" font-size="22" data-template="阵列天线">阵列天线</text>
+<text class="node-sub" x="1655.0" y="325.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="{antenna}">8 × 16 贴片阵列</text>
+<text class="node-meta" x="1655.0" y="353.0" text-anchor="middle" fill="#536374" font-size="15" data-template="{frontEnd}">基础阵列方案</text>
+</g>
+<g class="block" data-id="sensors" role="button" tabindex="0" aria-label="定位与姿态，UM982 · GY-85，查看模块详情"><title>定位与姿态：当前 MCU 主程序使用 UM982，旧框图中的 NEO-6M 已作为历史信息处理。GPS、IMU 与气压信息供位置标记、姿态修正与监控使用。</title><rect x="40" y="620" width="240" height="150" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M40 624 H280" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="160.0" y="673.0" text-anchor="middle" fill="#183249" font-size="22" data-template="定位与姿态">定位与姿态</text>
+<text class="node-sub" x="160.0" y="705.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="UM982 · GY-85">UM982 · GY-85</text>
+<text class="node-meta" x="160.0" y="733.0" text-anchor="middle" fill="#536374" font-size="15" data-template="BMP180 气压计">BMP180 气压计</text>
+</g>
+<g class="block" data-id="mcu" role="button" tabindex="0" aria-label="系统管理 MCU，STM32F746ZGT7，查看模块详情"><title>系统管理 MCU：配置 AD9523 / ADF4382A 与 ADAR1000，协调 FPGA 扫描时序，管理 PA 偏置与电源顺序，读取传感器、温度和电流，控制电机 / 散热。通过自身 USB FS CDC 与上位机通信。</title><rect x="410" y="620" width="270" height="150" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M410 624 H680" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="545.0" y="673.0" text-anchor="middle" fill="#183249" font-size="22" data-template="系统管理 MCU">系统管理 MCU</text>
+<text class="node-sub" x="545.0" y="705.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="STM32F746ZGT7">STM32F746ZGT7</text>
+<text class="node-meta" x="545.0" y="733.0" text-anchor="middle" fill="#536374" font-size="15" data-template="配置 · 扫描 · 监测 · 时序">配置 · 扫描 · 监测 · 时序</text>
+</g>
+<g class="block" data-id="clocks" role="button" tabindex="0" aria-label="时钟与本振板，AD9523 + ADF4382A ×2，查看模块详情"><title>时钟与本振板：参考振荡器经 AD9523 分配时钟，两片 ADF4382A 分别产生发射和接收本振。ADC 采样设计为 400 MHz，DAC 侧逻辑使用 120 MHz，FPGA 主处理域为 100 MHz。频率数值是文件中的设计 / 配置值，不代表上板测量。</title><rect x="800" y="620" width="270" height="150" rx="2" fill="white" stroke="#aa710c" stroke-width="1.6"/><path d="M800 624 H1070" stroke="#aa710c" stroke-width="5"/>
+<text class="node-title" x="935.0" y="673.0" text-anchor="middle" fill="#183249" font-size="22" data-template="时钟与本振板">时钟与本振板</text>
+<text class="node-sub" x="935.0" y="705.0" text-anchor="middle" fill="#aa710c" font-size="18" data-template="AD9523 + ADF4382A ×2">AD9523 + ADF4382A ×2</text>
+<text class="node-meta" x="935.0" y="733.0" text-anchor="middle" fill="#536374" font-size="15" data-template="ADC / DAC / FPGA 时钟 · TX/RX LO">ADC / DAC / FPGA 时钟 · TX/RX LO</text>
+</g>
+<g class="block" data-id="power" role="button" tabindex="0" aria-label="电源管理板，DC/DC · LDO · 负电源，查看模块详情"><title>电源管理板：原理图包含 TPS562208、TPS7A8300、LM2662。供电覆盖数字逻辑、射频、模拟和时钟等模块；总览仅画部分供电连接，完整关系见时钟与控制视图。外置 QPA2962 的漏极供电与继电器属于增强方案。</title><rect x="1190" y="620" width="240" height="150" rx="2" fill="white" stroke="#bc414d" stroke-width="1.6"/><path d="M1190 624 H1430" stroke="#bc414d" stroke-width="5"/>
+<text class="node-title" x="1310.0" y="673.0" text-anchor="middle" fill="#183249" font-size="22" data-template="电源管理板">电源管理板</text>
+<text class="node-sub" x="1310.0" y="705.0" text-anchor="middle" fill="#bc414d" font-size="18" data-template="DC/DC · LDO · 负电源">DC/DC · LDO · 负电源</text>
+<text class="node-meta" x="1310.0" y="733.0" text-anchor="middle" fill="#536374" font-size="15" data-template="MCU 控制上 / 下电顺序">MCU 控制上 / 下电顺序</text>
+</g>
+<text x="40" y="60" font-size="29" fill="#152e46">AERIS-10 / PLFM_RADAR 系统总览</text>
+<text x="40" y="104" font-size="19" fill="#59697b">10.5 GHz 项目目标 · 脉冲线性调频 · 16 路模拟波束赋形</text>
+<text x="40" y="840" font-size="18" fill="#59697b">点击任一模块查看型号、作用与本地资料依据。扩展功放和共享收发路径在“收发链路”中展开。</text>
+</svg>

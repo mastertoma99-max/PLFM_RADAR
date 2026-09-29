@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\2_Works\4_Procedures\PLFM_RADAR\KiCad_All_20260928\Simulations\Sim_BPF_Te_100um\Sim_BPF_Te_100um.kicad_sch</source>
+    <date>2026-09-28T15:33:02</date>
+    <tool>Eeschema 10.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Sim_BPF_Te_100um.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MS1">
+      <value>W=1.027mm L=4.3mm</value>
+      <fields>
+        <field name="Qucs_Type">MLIN</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">MLIN MS1 1 130 70 10 -25 1 "Sub1"0"1.027mm"1"4.3mm"1"26.85"0</field>
+        <field name="Qucs_Param_01">Sub1</field>
+        <field name="Qucs_Param_02">1.027mm</field>
+        <field name="Qucs_Param_03">4.3mm</field>
+        <field name="Qucs_Param_04">26.85</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="MLIN_1" description=""/>
+      <property name="Qucs_Type" value="MLIN"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="MLIN MS1 1 130 70 10 -25 1 &quot;Sub1&quot;0&quot;1.027mm&quot;1&quot;4.3mm&quot;1&quot;26.85&quot;0"/>
+      <property name="Qucs_Param_01" value="Sub1"/>
+      <property name="Qucs_Param_02" value="1.027mm"/>
+      <property name="Qucs_Param_03" value="4.3mm"/>
+      <property name="Qucs_Param_04" value="26.85"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c782c240-ee2f-4d15-8065-954e5861fdb1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="MS2">
+      <value>W=169.3µm L=4.582mm</value>
+      <fields>
+        <field name="Qucs_Type">MLIN</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">MLIN MS2 1 160 200 -26 15 0 "Sub1"0"169.3µm"1"4.582mm"1"26.85"0</field>
+        <field name="Qucs_Param_01">Sub1</field>
+        <field name="Qucs_Param_02">169.3µm</field>
+        <field name="Qucs_Param_03">4.582mm</field>
+        <field name="Qucs_Param_04">26.85</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="MLIN_0" description=""/>
+      <property name="Qucs_Type" value="MLIN"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="MLIN MS2 1 160 200 -26 15 0 &quot;Sub1&quot;0&quot;169.3µm&quot;1&quot;4.582mm&quot;1&quot;26.85&quot;0"/>
+      <property name="Qucs_Param_01" value="Sub1"/>
+      <property name="Qucs_Param_02" value="169.3µm"/>
+      <property name="Qucs_Param_03" value="4.582mm"/>
+      <property name="Qucs_Param_04" value="26.85"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9dd43fe-4489-48a5-8aca-7f6bd04cd9d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="MS3">
+      <value>W=2.312mm L=4.35mm</value>
+      <fields>
+        <field name="Qucs_Type">MLIN</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">MLIN MS3 1 310 60 10 -25 1 "Sub1"0"2.312mm"1"4.35mm"1"26.85"0</field>
+        <field name="Qucs_Param_01">Sub1</field>
+        <field name="Qucs_Param_02">2.312mm</field>
+        <field name="Qucs_Param_03">4.35mm</field>
+        <field name="Qucs_Param_04">26.85</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="MLIN_1" description=""/>
+      <property name="Qucs_Type" value="MLIN"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="MLIN MS3 1 310 60 10 -25 1 &quot;Sub1&quot;0&quot;2.312mm&quot;1&quot;4.35mm&quot;1&quot;26.85&quot;0"/>
+      <property name="Qucs_Param_01" value="Sub1"/>
+      <property name="Qucs_Param_02" value="2.312mm"/>
+      <property name="Qucs_Param_03" value="4.35mm"/>
+      <property name="Qucs_Param_04" value="26.85"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f517aef-2829-4eaf-a047-335f63b48a8a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="MS4">
+      <value>W=140.1µm L=4.627mm</value>
+      <fields>
+        <field name="Qucs_Type">MLIN</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">MLIN MS4 1 430 200 -26 15 0 "Sub1"0"140.1µm"1"4.627mm"1"26.85"0</field>
+        <field name="Qucs_Param_01">Sub1</field>
+        <field name="Qucs_Param_02">140.1µm</field>
+        <field name="Qucs_Param_03">4.627mm</field>
+        <field name="Qucs_Param_04">26.85</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="MLIN_0" description=""/>
+      <property name="Qucs_Type" value="MLIN"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="MLIN MS4 1 430 200 -26 15 0 &quot;Sub1&quot;0&quot;140.1µm&quot;1&quot;4.627mm&quot;1&quot;26.85&quot;0"/>
+      <property name="Qucs_Param_01" value="Sub1"/>
+      <property name="Qucs_Param_02" value="140.1µm"/>
+      <property name="Qucs_Param_03" value="4.627mm"/>
+      <property name="Qucs_Param_04" value="26.85"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e442f9ed-8c03-4e43-a0d6-fa23c79f3974</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="MS5">
+      <value>W=2.312mm L=4.35mm</value>
+      <fields>
+        <field name="Qucs_Type">MLIN</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">MLIN MS5 1 540 70 10 -25 1 "Sub1"0"2.312mm"1"4.35mm"1"26.85"0</field>
+        <field name="Qucs_Param_01">Sub1</field>
+        <field name="Qucs_Param_02">2.312mm</field>
+        <field name="Qucs_Param_03">4.35mm</field>
+        <field name="Qucs_Param_04">26.85</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="MLIN_1" description=""/>
+      <property name="Qucs_Type" value="MLIN"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="MLIN MS5 1 540 70 10 -25 1 &quot;Sub1&quot;0&quot;2.312mm&quot;1&quot;4.35mm&quot;1&quot;26.85&quot;0"/>
+      <property name="Qucs_Param_01" value="Sub1"/>
+      <property name="Qucs_Param_02" value="2.312mm"/>
+      <property name="Qucs_Param_03" value="4.35mm"/>
+      <property name="Qucs_Param_04" value="26.85"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62f79516-3e39-4927-b1b1-ae93f99e38ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="MS6">
+      <value>W=169.3µm L=4.582mm</value>
+      <fields>
+        <field name="Qucs_Type">MLIN</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">MLIN MS6 1 660 200 -26 15 0 "Sub1"0"169.3µm"1"4.582mm"1"26.85"0</field>
+        <field name="Qucs_Param_01">Sub1</field>
+        <field name="Qucs_Param_02">169.3µm</field>
+        <field name="Qucs_Param_03">4.582mm</field>
+        <field name="Qucs_Param_04">26.85</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="MLIN_0" description=""/>
+      <property name="Qucs_Type" value="MLIN"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="MLIN MS6 1 660 200 -26 15 0 &quot;Sub1&quot;0&quot;169.3µm&quot;1&quot;4.582mm&quot;1&quot;26.85&quot;0"/>
+      <property name="Qucs_Param_01" value="Sub1"/>
+      <property name="Qucs_Param_02" value="169.3µm"/>
+      <property name="Qucs_Param_03" value="4.582mm"/>
+      <property name="Qucs_Param_04" value="26.85"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d32f67b9-ae0d-4f6c-bfb6-22b165f155f2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="MS7">
+      <value>W=1.027mm L=4.3mm</value>
+      <fields>
+        <field name="Qucs_Type">MLIN</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">MLIN MS7 1 750 70 10 -25 1 "Sub1"0"1.027mm"1"4.3mm"1"26.85"0</field>
+        <field name="Qucs_Param_01">Sub1</field>
+        <field name="Qucs_Param_02">1.027mm</field>
+        <field name="Qucs_Param_03">4.3mm</field>
+        <field name="Qucs_Param_04">26.85</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="MLIN_1" description=""/>
+      <property name="Qucs_Type" value="MLIN"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="MLIN MS7 1 750 70 10 -25 1 &quot;Sub1&quot;0&quot;1.027mm&quot;1&quot;4.3mm&quot;1&quot;26.85&quot;0"/>
+      <property name="Qucs_Param_01" value="Sub1"/>
+      <property name="Qucs_Param_02" value="1.027mm"/>
+      <property name="Qucs_Param_03" value="4.3mm"/>
+      <property name="Qucs_Param_04" value="26.85"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32a93116-0058-4725-9421-6e96cd4256df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="MS8">
+      <value>MTEE</value>
+      <fields>
+        <field name="Qucs_Type">MTEE</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">MTEE MS8 1 310 200 -26 15 2 "Sub1"1"140.1µm"1"169.3µm"1"2.312mm"1"showNumbers"0</field>
+        <field name="Qucs_Param_01">Sub1</field>
+        <field name="Qucs_Param_02">140.1µm</field>
+        <field name="Qucs_Param_03">169.3µm</field>
+        <field name="Qucs_Param_04">2.312mm</field>
+        <field name="Qucs_Param_05">showNumbers</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="MTEE_2" description=""/>
+      <property name="Qucs_Type" value="MTEE"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="MTEE MS8 1 310 200 -26 15 2 &quot;Sub1&quot;1&quot;140.1µm&quot;1&quot;169.3µm&quot;1&quot;2.312mm&quot;1&quot;showNumbers&quot;0"/>
+      <property name="Qucs_Param_01" value="Sub1"/>
+      <property name="Qucs_Param_02" value="140.1µm"/>
+      <property name="Qucs_Param_03" value="169.3µm"/>
+      <property name="Qucs_Param_04" value="2.312mm"/>
+      <property name="Qucs_Param_05" value="showNumbers"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8de3f437-3427-481c-bef9-31ec80234ccc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="MS9">
+      <value>MTEE</value>
+      <fields>
+        <field name="Qucs_Type">MTEE</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">MTEE MS9 1 540 200 -26 15 2 "Sub1"1"169.3µm"1"140.1µm"1"2.312mm"1"showNumbers"0</field>
+        <field name="Qucs_Param_01">Sub1</field>
+        <field name="Qucs_Param_02">169.3µm</field>
+        <field name="Qucs_Param_03">140.1µm</field>
+        <field name="Qucs_Param_04">2.312mm</field>
+        <field name="Qucs_Param_05">showNumbers</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="MTEE_2" description=""/>
+      <property name="Qucs_Type" value="MTEE"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="MTEE MS9 1 540 200 -26 15 2 &quot;Sub1&quot;1&quot;169.3µm&quot;1&quot;140.1µm&quot;1&quot;2.312mm&quot;1&quot;showNumbers&quot;0"/>
+      <property name="Qucs_Param_01" value="Sub1"/>
+      <property name="Qucs_Param_02" value="169.3µm"/>
+      <property name="Qucs_Param_03" value="140.1µm"/>
+      <property name="Qucs_Param_04" value="2.312mm"/>
+      <property name="Qucs_Param_05" value="showNumbers"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d0ce8e5-2bfb-4382-813b-02677b45bd5a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P1">
+      <value>Z=50</value>
+      <fields>
+        <field name="Qucs_Type">Pac</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">Pac P1 1 80 320 18 -26 0 "1"1"50"1"0 dBm"0"1 GHz"0"26.85"0"SUBCLICK"0</field>
+        <field name="Qucs_Param_01">1</field>
+        <field name="Qucs_Param_02">50</field>
+        <field name="Qucs_Param_03">0 dBm</field>
+        <field name="Qucs_Param_04">1 GHz</field>
+        <field name="Qucs_Param_05">26.85</field>
+        <field name="Qucs_Param_06">SUBCLICK</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="Pac_0" description=""/>
+      <property name="Qucs_Type" value="Pac"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="Pac P1 1 80 320 18 -26 0 &quot;1&quot;1&quot;50&quot;1&quot;0 dBm&quot;0&quot;1 GHz&quot;0&quot;26.85&quot;0&quot;SUBCLICK&quot;0"/>
+      <property name="Qucs_Param_01" value="1"/>
+      <property name="Qucs_Param_02" value="50"/>
+      <property name="Qucs_Param_03" value="0 dBm"/>
+      <property name="Qucs_Param_04" value="1 GHz"/>
+      <property name="Qucs_Param_05" value="26.85"/>
+      <property name="Qucs_Param_06" value="SUBCLICK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9259e5ec-c6e8-4f4b-bef4-acfa069ab766</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="P2">
+      <value>Z=50</value>
+      <fields>
+        <field name="Qucs_Type">Pac</field>
+        <field name="Qucs_Active">1</field>
+        <field name="Qucs_SourceLine">Pac P2 1 770 310 18 -26 0 "2"1"50"1"0"0"1 GHz"0"26.85"0"SUBCLICK"0</field>
+        <field name="Qucs_Param_01">2</field>
+        <field name="Qucs_Param_02">50</field>
+        <field name="Qucs_Param_03">0</field>
+        <field name="Qucs_Param_04">1 GHz</field>
+        <field name="Qucs_Param_05">26.85</field>
+        <field name="Qucs_Param_06">SUBCLICK</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Qucs_Imported" part="Pac_0" description=""/>
+      <property name="Qucs_Type" value="Pac"/>
+      <property name="Qucs_Active" value="1"/>
+      <property name="Qucs_SourceLine" value="Pac P2 1 770 310 18 -26 0 &quot;2&quot;1&quot;50&quot;1&quot;0&quot;0&quot;1 GHz&quot;0&quot;26.85&quot;0&quot;SUBCLICK&quot;0"/>
+      <property name="Qucs_Param_01" value="2"/>
+      <property name="Qucs_Param_02" value="50"/>
+      <property name="Qucs_Param_03" value="0"/>
+      <property name="Qucs_Param_04" value="1 GHz"/>
+      <property name="Qucs_Param_05" value="26.85"/>
+      <property name="Qucs_Param_06" value="SUBCLICK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Sim_BPF_Te_100um.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3b33f8f-9cdc-4367-a52f-54f027c32f32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Qucs_Imported" part="MLIN_0">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MLIN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Qucs_Imported" part="MLIN_1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MLIN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Qucs_Imported" part="MTEE_2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MTEE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Qucs_Imported" part="Pac_0">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pac</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Qucs_Imported">
+      <uri>${KIPRJMOD}/Qucs_Imported.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/GND" class="Default">
+      <node ref="MS1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="MS3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="MS5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="MS7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="P1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="P2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(MS1-Pad2)" class="Default">
+      <node ref="MS1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="MS2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="P1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(MS2-Pad2)" class="Default">
+      <node ref="MS2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="MS8" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(MS3-Pad2)" class="Default">
+      <node ref="MS3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="MS8" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(MS4-Pad1)" class="Default">
+      <node ref="MS4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="MS8" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(MS4-Pad2)" class="Default">
+      <node ref="MS4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="MS9" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(MS5-Pad2)" class="Default">
+      <node ref="MS5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="MS9" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(MS6-Pad1)" class="Default">
+      <node ref="MS6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="MS9" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(MS6-Pad2)" class="Default">
+      <node ref="MS6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="MS7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="P2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2150 1000" role="img" aria-label="收发链路" class="diagram-svg" data-graph="rf">
+<style>text{font-family:"Segoe UI","Microsoft YaHei",sans-serif}.block{cursor:pointer}.block:focus{outline:none}.block:focus rect,.block:hover rect{stroke-width:3}.node-title{font-weight:650}.wire-label{paint-order:stroke;stroke:white;stroke-width:7;stroke-linejoin:round}.selected rect{stroke-width:4}</style>
+<rect width="2150" height="1000" fill="white"/>
+<defs>
+<marker id="rf-data" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#245dcc"/></marker>
+<marker id="rf-rf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087f8c"/></marker>
+<marker id="rf-ctrl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7254b3"/></marker>
+<marker id="rf-clock" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#aa710c"/></marker>
+<marker id="rf-power" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#bc414d"/></marker>
+<marker id="rf-neutral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#384858"/></marker>
+</defs>
+<path class="wire" d="M 240 220 L 323 220" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#rf-data)"/>
+<path class="wire" d="M 530 220 L 613 220" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)"/>
+<path class="wire" d="M 820 220 L 903 220" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)"/>
+<path class="wire" d="M 1110 220 L 1193 220" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)"/>
+<path class="wire" d="M 1400 220 L 1460 220 L 1460 350 L 1503 350" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)"/>
+<path class="wire" d="M 1510 425 L 1460 425 L 1460 540 L 1407 540" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)"/>
+<path class="wire" d="M 1200 540 L 1117 540" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)"/>
+<path class="wire" d="M 910 540 L 827 540" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)"/>
+<path class="wire" d="M 620 540 L 537 540" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)"/>
+<path class="wire" d="M 330 540 L 247 540" fill="none" stroke="#245dcc" stroke-width="2.4" marker-end="url(#rf-data)"/>
+<path class="wire" d="M 1717 390 L 1833 390" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)" marker-start="url(#rf-rf)"/>
+<text class="wire-label" x="1775" y="375" text-anchor="middle" fill="#087f8c" font-size="17">共用 RF</text>
+<path class="wire" d="M 1960 467 L 1960 733" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)" marker-start="url(#rf-rf)"/>
+<text class="wire-label" x="2010" y="612" text-anchor="middle" fill="#087f8c" font-size="17">4 路</text>
+<path class="wire" d="M 1833 805 L 1757 805" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)" marker-start="url(#rf-rf)"/>
+<path class="wire" d="M 1503 805 L 1427 805" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)" marker-start="url(#rf-rf)"/>
+<path class="wire" d="M 1173 805 L 1087 805" fill="none" stroke="#087f8c" stroke-width="2.4" marker-end="url(#rf-rf)" marker-start="url(#rf-rf)"/>
+<g class="block" data-id="rf_fpga" role="button" tabindex="0" aria-label="FPGA，XC7A50T · Artix-7，查看模块详情"><title>FPGA：同一 FPGA 的上方端口输出 DAC 波形，下方端口输入 ADC 数据；本框为一个物理器件。</title><rect x="40" y="170" width="200" height="420" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M40 174 H240" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="140.0" y="358.0" text-anchor="middle" fill="#183249" font-size="22" data-template="FPGA">FPGA</text>
+<text class="node-sub" x="140.0" y="390.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="{fpgaShort}">XC7A50T · Artix-7</text>
+<text class="node-meta" x="140.0" y="418.0" text-anchor="middle" fill="#536374" font-size="15" data-template="TX / RX">TX / RX</text>
+</g>
+<g class="block" data-id="dac" role="button" tabindex="0" aria-label="AD9708，8 位 DAC，查看模块详情"><title>AD9708：由 FPGA 并行输出 8 位 Chirp 数据，经 AD9708 形成模拟波形。120 MHz 为项目时钟规划 / RTL 域，未做实板验证。</title><rect x="330" y="170" width="200" height="100" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M330 174 H530" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="430.0" y="198.0" text-anchor="middle" fill="#183249" font-size="22" data-template="AD9708">AD9708</text>
+<text class="node-sub" x="430.0" y="230.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="8 位 DAC">8 位 DAC</text>
+<text class="node-meta" x="430.0" y="258.0" text-anchor="middle" fill="#536374" font-size="15" data-template="U3 · 120 MHz 设计时钟">U3 · 120 MHz 设计时钟</text>
+</g>
+<g class="block" data-id="tx_lpf" role="button" tabindex="0" aria-label="重建低通，DAC LPF，查看模块详情"><title>重建低通：DAC 输出进入模拟重建滤波器，然后接入上变频混频器。这里只表达功能与连接，不对滤波器性能做仿真结论。</title><rect x="620" y="170" width="200" height="100" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M620 174 H820" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="720.0" y="198.0" text-anchor="middle" fill="#183249" font-size="22" data-template="重建低通">重建低通</text>
+<text class="node-sub" x="720.0" y="230.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="DAC LPF">DAC LPF</text>
+<text class="node-meta" x="720.0" y="258.0" text-anchor="middle" fill="#536374" font-size="15" data-template="抑制采样镜像">抑制采样镜像</text>
+</g>
+<g class="block" data-id="tx_mix" role="button" tabindex="0" aria-label="TX 上变频，LTC5552，查看模块详情"><title>TX 上变频：发射混频器接收 DAC 滤波后的信号与 ADF4382A TX 本振；上变频输出再经过 RF 带通滤波。</title><rect x="910" y="170" width="200" height="100" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M910 174 H1110" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1010.0" y="198.0" text-anchor="middle" fill="#183249" font-size="22" data-template="TX 上变频">TX 上变频</text>
+<text class="node-sub" x="1010.0" y="230.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="LTC5552">LTC5552</text>
+<text class="node-meta" x="1010.0" y="258.0" text-anchor="middle" fill="#536374" font-size="15" data-template="独立 TX 本振输入">独立 TX 本振输入</text>
+</g>
+<g class="block" data-id="tx_bpf" role="button" tabindex="0" aria-label="RF 带通，TX BPF，查看模块详情"><title>RF 带通：连接 TX 混频器输出与共用收发开关。项目射频目标约为 10.5 GHz，具体 LO / Chirp 设置需与固件一致。</title><rect x="1200" y="170" width="200" height="100" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M1200 174 H1400" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1300.0" y="198.0" text-anchor="middle" fill="#183249" font-size="22" data-template="RF 带通">RF 带通</text>
+<text class="node-sub" x="1300.0" y="230.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="TX BPF">TX BPF</text>
+<text class="node-meta" x="1300.0" y="258.0" text-anchor="middle" fill="#536374" font-size="15" data-template="选取发射频段">选取发射频段</text>
+</g>
+<g class="block" data-id="switch" role="button" tabindex="0" aria-label="收发开关，M3SWA2-34DR+，查看模块详情"><title>收发开关：发射带通和接收带通分别接开关两侧，共用端连接 EP4RKU+。两条模拟链路分时共享阵列。</title><rect x="1510" y="320" width="200" height="140" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M1510 324 H1710" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1610.0" y="368.0" text-anchor="middle" fill="#183249" font-size="22" data-template="收发开关">收发开关</text>
+<text class="node-sub" x="1610.0" y="400.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="M3SWA2-34DR+">M3SWA2-34DR+</text>
+<text class="node-meta" x="1610.0" y="428.0" text-anchor="middle" fill="#536374" font-size="15" data-template="TX / RX 分时切换">TX / RX 分时切换</text>
+</g>
+<g class="block" data-id="splitter" role="button" tabindex="0" aria-label="功分 / 合成，EP4RKU+，查看模块详情"><title>功分 / 合成：发射时将公共 RF 信号分配到四个 ADAR1000；接收时反向合成四个 ADAR1000 输出。</title><rect x="1840" y="320" width="240" height="140" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M1840 324 H2080" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1960.0" y="368.0" text-anchor="middle" fill="#183249" font-size="22" data-template="功分 / 合成">功分 / 合成</text>
+<text class="node-sub" x="1960.0" y="400.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="EP4RKU+">EP4RKU+</text>
+<text class="node-meta" x="1960.0" y="428.0" text-anchor="middle" fill="#536374" font-size="15" data-template="1 ↔ 4 公共支路">1 ↔ 4 公共支路</text>
+</g>
+<g class="block" data-id="adc" role="button" tabindex="0" aria-label="AD9484，8 位 ADC，查看模块详情"><title>AD9484：原理图器件为 AD9484BCPZ-500；该项目 RTL 按 400 MHz ADC 采样 / DCO 域处理，8 位 LVDS 数据送入 FPGA。器件后缀 -500 不等于项目运行在 500 MS/s。</title><rect x="330" y="490" width="200" height="100" rx="2" fill="white" stroke="#245dcc" stroke-width="1.6"/><path d="M330 494 H530" stroke="#245dcc" stroke-width="5"/>
+<text class="node-title" x="430.0" y="518.0" text-anchor="middle" fill="#183249" font-size="22" data-template="AD9484">AD9484</text>
+<text class="node-sub" x="430.0" y="550.0" text-anchor="middle" fill="#245dcc" font-size="18" data-template="8 位 ADC">8 位 ADC</text>
+<text class="node-meta" x="430.0" y="578.0" text-anchor="middle" fill="#536374" font-size="15" data-template="U1 · 400 MS/s 设计值">U1 · 400 MS/s 设计值</text>
+</g>
+<g class="block" data-id="rx_driver" role="button" tabindex="0" aria-label="IF 差分驱动，AD8352 + 输出滤波，查看模块详情"><title>IF 差分驱动：接收中频经 AD8352 差分放大 / 驱动及滤波网络进入 AD9484；本图将 IF 调理级合并展示。</title><rect x="620" y="490" width="200" height="100" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M620 494 H820" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="720.0" y="518.0" text-anchor="middle" fill="#183249" font-size="22" data-template="IF 差分驱动">IF 差分驱动</text>
+<text class="node-sub" x="720.0" y="550.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="AD8352 + 输出滤波">AD8352 + 输出滤波</text>
+<text class="node-meta" x="720.0" y="578.0" text-anchor="middle" fill="#536374" font-size="15" data-template="原理图含 U4 / U8">原理图含 U4 / U8</text>
+</g>
+<g class="block" data-id="rx_if" role="button" tabindex="0" aria-label="IF 滤波，模拟滤波网络，查看模块详情"><title>IF 滤波：对下变频后的中频信号进行模拟滤波。DDC RTL 默认 IF_FREQ=120 MHz，该数字默认值不证明模拟链路已按相同参数完成板上验证。</title><rect x="910" y="490" width="200" height="100" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M910 494 H1110" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1010.0" y="518.0" text-anchor="middle" fill="#183249" font-size="22" data-template="IF 滤波">IF 滤波</text>
+<text class="node-sub" x="1010.0" y="550.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="模拟滤波网络">模拟滤波网络</text>
+<text class="node-meta" x="1010.0" y="578.0" text-anchor="middle" fill="#536374" font-size="15" data-template="连接混频器与驱动级">连接混频器与驱动级</text>
+</g>
+<g class="block" data-id="rx_mix" role="button" tabindex="0" aria-label="RX 下变频，RF BPF + LTC5552，查看模块详情"><title>RX 下变频：接收信号从共用开关进入 RF 带通，再进入 LTC5552 下变频器；本块合并了这两个功能。</title><rect x="1200" y="490" width="200" height="100" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M1200 494 H1400" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1300.0" y="518.0" text-anchor="middle" fill="#183249" font-size="22" data-template="RX 下变频">RX 下变频</text>
+<text class="node-sub" x="1300.0" y="550.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="RF BPF + LTC5552">RF BPF + LTC5552</text>
+<text class="node-meta" x="1300.0" y="578.0" text-anchor="middle" fill="#536374" font-size="15" data-template="独立 RX 本振输入">独立 RX 本振输入</text>
+</g>
+<g class="block" data-id="adar" role="button" tabindex="0" aria-label="ADAR1000 ×4，相位 / 增益控制，查看模块详情"><title>ADAR1000 ×4：四个独立 RF 公共支路分别接四片 ADAR1000，每片展开四路收发，连接共 16 片 ADTR1107。</title><rect x="1840" y="740" width="240" height="130" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M1840 744 H2080" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1960.0" y="783.0" text-anchor="middle" fill="#183249" font-size="22" data-template="ADAR1000 ×4">ADAR1000 ×4</text>
+<text class="node-sub" x="1960.0" y="815.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="相位 / 增益控制">相位 / 增益控制</text>
+<text class="node-meta" x="1960.0" y="843.0" text-anchor="middle" fill="#536374" font-size="15" data-template="4 × 4 = 16 路">4 × 4 = 16 路</text>
+</g>
+<g class="block" data-id="adtr" role="button" tabindex="0" aria-label="ADTR1107 ×16，每通道收发前端，查看模块详情"><title>ADTR1107 ×16：阵列每通道一片 ADTR1107。模拟波束赋形后的多通道信号在 RF 域合成，然后由公共 ADC 接收链采样。</title><rect x="1510" y="740" width="240" height="130" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M1510 744 H1750" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1630.0" y="783.0" text-anchor="middle" fill="#183249" font-size="22" data-template="ADTR1107 ×16">ADTR1107 ×16</text>
+<text class="node-sub" x="1630.0" y="815.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="每通道收发前端">每通道收发前端</text>
+<text class="node-meta" x="1630.0" y="843.0" text-anchor="middle" fill="#536374" font-size="15" data-template="TX 放大 / RX 低噪放大">TX 放大 / RX 低噪放大</text>
+</g>
+<g class="block" data-id="pa_route" role="button" tabindex="0" aria-label="基础直连路径，ADTR1107 ↔ 贴片阵列，查看模块详情"><title>基础直连路径：基础方案：前端连接贴片阵列，无外置 QPA2962。增强方案：外部 RF 开关 → QPA2962 功放 → 环行器 → 天线；接收回波从环行器经旁路返回 ADTR1107，不经过外置 GaN 功放。功放及路由按原始系统图表达，实际装配选项仍需与板级连接确认。</title><rect x="1180" y="740" width="240" height="130" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M1180 744 H1420" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="1300.0" y="783.0" text-anchor="middle" fill="#183249" font-size="22" data-template="{routeTitle}">基础直连路径</text>
+<text class="node-sub" x="1300.0" y="815.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="{routeSub}">ADTR1107 ↔ 贴片阵列</text>
+<text class="node-meta" x="1300.0" y="843.0" text-anchor="middle" fill="#536374" font-size="15" data-template="{routeMeta}">不配置外置 QPA2962</text>
+</g>
+<g class="block" data-id="rf_ant" role="button" tabindex="0" aria-label="阵列天线，8 × 16 贴片阵列，查看模块详情"><title>阵列天线：8×16 贴片与 32×16 波导为项目所述不同整机方案。尺寸和制造验证不由本系统图推导。</title><rect x="840" y="740" width="240" height="130" rx="2" fill="white" stroke="#087f8c" stroke-width="1.6"/><path d="M840 744 H1080" stroke="#087f8c" stroke-width="5"/>
+<text class="node-title" x="960.0" y="783.0" text-anchor="middle" fill="#183249" font-size="22" data-template="阵列天线">阵列天线</text>
+<text class="node-sub" x="960.0" y="815.0" text-anchor="middle" fill="#087f8c" font-size="18" data-template="{antenna}">8 × 16 贴片阵列</text>
+<text class="node-meta" x="960.0" y="843.0" text-anchor="middle" fill="#536374" font-size="15" data-template="16 路子阵馈电">16 路子阵馈电</text>
+</g>
+<text x="40" y="56" font-size="29" fill="#152e46">收发链路与 16 通道阵列</text>
+<text x="40" y="95" font-size="19" fill="#59697b">TX 沿上行向右 →；RX 沿下行向左 ←；右侧为共用波束赋形链路。</text>
+<text x="840" y="929" font-size="19" fill="#59697b">增强方案接收路径绕过 QPA2962；双向连接表示整个收发路由组合，不表示 PA 双向放大。</text>
+<text x="40" y="940" font-size="18" fill="#59697b">本振与时钟连接见“时钟与控制”；射频性能及最终频率配置尚需整机确认。</text>
+</svg>

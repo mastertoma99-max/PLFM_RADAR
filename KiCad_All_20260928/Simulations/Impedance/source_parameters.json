@@ -1,0 +1,283 @@
+{
+  "source": "5_Simulations/RF switch/Impedance.sch",
+  "sha256": "8a247b645f4f642b6efc777f714b2217c1047d675179dd218184a580c11d0168",
+  "components": [
+    {
+      "type": "SPfile",
+      "ref": "X1",
+      "active": true,
+      "x": 260,
+      "y": 180,
+      "dx": -26,
+      "dy": -70,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "Sparameters/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p",
+          "visible": false
+        },
+        {
+          "value": "3",
+          "visible": false
+        },
+        {
+          "value": "polar",
+          "visible": false
+        },
+        {
+          "value": "linear",
+          "visible": false
+        },
+        {
+          "value": "short",
+          "visible": false
+        },
+        {
+          "value": "none",
+          "visible": false
+        },
+        {
+          "value": "block",
+          "visible": false
+        },
+        {
+          "value": "SOT23",
+          "visible": false
+        }
+      ],
+      "source_line": "SPfile X1 1 260 180 -26 -70 0 \"Sparameters/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p\"0\"3\"0\"polar\"0\"linear\"0\"short\"0\"none\"0\"block\"0\"SOT23\"0",
+      "local_model": "models/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p"
+    },
+    {
+      "type": "Pac",
+      "ref": "P1",
+      "active": true,
+      "x": 120,
+      "y": 180,
+      "dx": 18,
+      "dy": -26,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "1",
+          "visible": true
+        },
+        {
+          "value": "50 Ω",
+          "visible": true
+        },
+        {
+          "value": "0 dBm",
+          "visible": false
+        },
+        {
+          "value": "1 GHz",
+          "visible": false
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "con_2",
+          "visible": false
+        }
+      ],
+      "source_line": "Pac P1 1 120 180 18 -26 0 \"1\"1\"50 Ω\"1\"0 dBm\"0\"1 GHz\"0\"26.85\"0\"con_2\"0"
+    },
+    {
+      "type": "Pac",
+      "ref": "P3",
+      "active": true,
+      "x": 180,
+      "y": 260,
+      "dx": 18,
+      "dy": -26,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "3",
+          "visible": true
+        },
+        {
+          "value": "50 Ω",
+          "visible": true
+        },
+        {
+          "value": "0 dBm",
+          "visible": false
+        },
+        {
+          "value": "1 GHz",
+          "visible": false
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "con_2",
+          "visible": false
+        }
+      ],
+      "source_line": "Pac P3 1 180 260 18 -26 0 \"3\"1\"50 Ω\"1\"0 dBm\"0\"1 GHz\"0\"26.85\"0\"con_2\"0"
+    },
+    {
+      "type": "Pac",
+      "ref": "P2",
+      "active": true,
+      "x": 340,
+      "y": 180,
+      "dx": 18,
+      "dy": -26,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "2",
+          "visible": true
+        },
+        {
+          "value": "50 Ω",
+          "visible": true
+        },
+        {
+          "value": "0 dBm",
+          "visible": false
+        },
+        {
+          "value": "1 GHz",
+          "visible": false
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "con_2",
+          "visible": false
+        }
+      ],
+      "source_line": "Pac P2 1 340 180 18 -26 0 \"2\"1\"50 Ω\"1\"0 dBm\"0\"1 GHz\"0\"26.85\"0\"con_2\"0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 180,
+      "y": 290,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 180 290 0 0 0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 260,
+      "y": 240,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 260 240 0 0 0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 340,
+      "y": 210,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 340 210 0 0 0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 120,
+      "y": 210,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 120 210 0 0 0"
+    },
+    {
+      "type": ".SP",
+      "ref": "SP1",
+      "active": true,
+      "x": 160,
+      "y": 410,
+      "dx": 0,
+      "dy": 9,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "lin",
+          "visible": true
+        },
+        {
+          "value": "2 GHz",
+          "visible": true
+        },
+        {
+          "value": "12 GHz",
+          "visible": true
+        },
+        {
+          "value": "100",
+          "visible": true
+        },
+        {
+          "value": "no",
+          "visible": false
+        },
+        {
+          "value": "1",
+          "visible": false
+        },
+        {
+          "value": "2",
+          "visible": false
+        },
+        {
+          "value": "none",
+          "visible": false
+        }
+      ],
+      "source_line": ".SP SP1 1 160 410 0 9 0 \"lin\"1\"2 GHz\"1\"12 GHz\"1\"100\"1\"no\"0\"1\"0\"2\"0\"none\"0"
+    }
+  ],
+  "wires": [
+    "290 150 340 150",
+    "120 150 230 150",
+    "180 210 230 210",
+    "180 210 180 230"
+  ],
+  "paintings": [],
+  "properties": [
+    "View=0,0,800,800,1,0,0",
+    "Grid=10,10,1",
+    "DataSet=*.dat",
+    "DataDisplay=*.dpl",
+    "OpenDisplay=1",
+    "showFrame=0",
+    "FrameText0=Title \\n @PATH@@FILE@",
+    "FrameText1=Drawn By:",
+    "FrameText2=Date: @DATE@",
+    "FrameText3=Revision:"
+  ],
+  "dependencies": [
+    {
+      "ref": "X1",
+      "original": "Sparameters/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p",
+      "local": "models/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p",
+      "sha256": "6aaac854e3bcc8f0d08d1ec080298c6df0b0d3daf4b0393d27e3b075e616852a"
+    }
+  ]
+}

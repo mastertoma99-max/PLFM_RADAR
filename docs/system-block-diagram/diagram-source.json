@@ -1,0 +1,2111 @@
+{
+  "graphs": [
+    {
+      "id": "overview",
+      "title": "整机框图",
+      "caption": "从主机、数字处理、模拟收发到阵列天线；下方展开系统控制、时钟与供电。",
+      "w": 1800,
+      "h": 890,
+      "nodes": [
+        {
+          "id": "host",
+          "x": 40,
+          "y": 230,
+          "w": 240,
+          "h": 170,
+          "title": "上位机",
+          "sub": "Python 雷达 GUI",
+          "meta": "显示 · 参数设置 · 数据记录",
+          "kind": "data",
+          "detail": "接收距离像、多普勒数据与检测结果；下发处理参数。FPGA 数据口与 STM32 USB CDC 管理口是两条独立连接。GUI_V65_Tk 与 GUI_V7_PyQt 是 README 指出的活动版本。",
+          "sources": [
+            "readme",
+            "top",
+            "mcu"
+          ]
+        },
+        {
+          "id": "digital",
+          "x": 410,
+          "y": 230,
+          "w": 270,
+          "h": 170,
+          "title": "数字处理与 USB",
+          "sub": "{fpgaShort}",
+          "meta": "{usbShort}",
+          "kind": "data",
+          "detail": "FPGA 生成 Chirp、接收 ADC 数据并执行脉压、MTI、Doppler 与 CFAR。50T 主板 U42=XC7A50T-2FTG256I，U6=FT2232HQ；200T 开发目标为 XC7A200T-2FBG484I，使用 FT601。切换本页选项仅改变图的展示。",
+          "sources": [
+            "main",
+            "top",
+            "targets",
+            "build200"
+          ]
+        },
+        {
+          "id": "analog",
+          "x": 800,
+          "y": 230,
+          "w": 270,
+          "h": 170,
+          "title": "模拟收发链路",
+          "sub": "AD9708 / AD9484",
+          "meta": "LTC5552 ×2 · 滤波 / 驱动",
+          "kind": "rf",
+          "detail": "发射：8 位 DAC → 重建低通 → 上变频 → RF 带通。接收：RF 带通 → 下变频 → IF 滤波 / AD8352 驱动 → 8 位 ADC。两条链路经 RF 开关接入公共阵列端口。",
+          "sources": [
+            "main",
+            "ref",
+            "rx"
+          ]
+        },
+        {
+          "id": "beam",
+          "x": 1190,
+          "y": 230,
+          "w": 240,
+          "h": 170,
+          "title": "阵列射频前端",
+          "sub": "ADAR1000 ×4",
+          "meta": "ADTR1107 ×16",
+          "kind": "rf",
+          "detail": "四片四通道 ADAR1000 实现 16 路相位与增益控制；每路连接一片 ADTR1107 收发前端。EP4RKU+ 在公共端口与四片 ADAR1000 之间完成分配 / 合成。属于模拟波束赋形，不是 16 组独立 ADC。",
+          "sources": [
+            "main",
+            "readme"
+          ]
+        },
+        {
+          "id": "antenna",
+          "x": 1550,
+          "y": 230,
+          "w": 210,
+          "h": 170,
+          "title": "阵列天线",
+          "sub": "{antenna}",
+          "meta": "{frontEnd}",
+          "kind": "rf",
+          "detail": "项目描述提供 8×16 贴片阵列与 32×16 波导阵列两类方案。16 路射频通道对应馈电子阵；不要将 16 路等同于 16 个贴片。增强方案在发射路径加入 16 路 QPA2962；接收信号绕过外置功放。",
+          "sources": [
+            "readme",
+            "ref",
+            "pa"
+          ]
+        },
+        {
+          "id": "sensors",
+          "x": 40,
+          "y": 620,
+          "w": 240,
+          "h": 150,
+          "title": "定位与姿态",
+          "sub": "UM982 · GY-85",
+          "meta": "BMP180 气压计",
+          "kind": "ctrl",
+          "detail": "当前 MCU 主程序使用 UM982，旧框图中的 NEO-6M 已作为历史信息处理。GPS、IMU 与气压信息供位置标记、姿态修正与监控使用。",
+          "sources": [
+            "mcu",
+            "readme",
+            "ref"
+          ]
+        },
+        {
+          "id": "mcu",
+          "x": 410,
+          "y": 620,
+          "w": 270,
+          "h": 150,
+          "title": "系统管理 MCU",
+          "sub": "STM32F746ZGT7",
+          "meta": "配置 · 扫描 · 监测 · 时序",
+          "kind": "ctrl",
+          "detail": "配置 AD9523 / ADF4382A 与 ADAR1000，协调 FPGA 扫描时序，管理 PA 偏置与电源顺序，读取传感器、温度和电流，控制电机 / 散热。通过自身 USB FS CDC 与上位机通信。",
+          "sources": [
+            "main",
+            "mcu",
+            "readme"
+          ]
+        },
+        {
+          "id": "clocks",
+          "x": 800,
+          "y": 620,
+          "w": 270,
+          "h": 150,
+          "title": "时钟与本振板",
+          "sub": "AD9523 + ADF4382A ×2",
+          "meta": "ADC / DAC / FPGA 时钟 · TX/RX LO",
+          "kind": "clock",
+          "detail": "参考振荡器经 AD9523 分配时钟，两片 ADF4382A 分别产生发射和接收本振。ADC 采样设计为 400 MHz，DAC 侧逻辑使用 120 MHz，FPGA 主处理域为 100 MHz。频率数值是文件中的设计 / 配置值，不代表上板测量。",
+          "sources": [
+            "clock",
+            "top",
+            "ddc",
+            "ref"
+          ]
+        },
+        {
+          "id": "power",
+          "x": 1190,
+          "y": 620,
+          "w": 240,
+          "h": 150,
+          "title": "电源管理板",
+          "sub": "DC/DC · LDO · 负电源",
+          "meta": "MCU 控制上 / 下电顺序",
+          "kind": "power",
+          "detail": "原理图包含 TPS562208、TPS7A8300、LM2662。供电覆盖数字逻辑、射频、模拟和时钟等模块；总览仅画部分供电连接，完整关系见时钟与控制视图。外置 QPA2962 的漏极供电与继电器属于增强方案。",
+          "sources": [
+            "power",
+            "mcu",
+            "readme"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "points": [
+            [
+              280,
+              315
+            ],
+            [
+              410,
+              315
+            ]
+          ],
+          "kind": "data",
+          "label": "USB",
+          "lx": 345,
+          "ly": 300,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              680,
+              315
+            ],
+            [
+              800,
+              315
+            ]
+          ],
+          "kind": "data",
+          "label": "ADC / DAC",
+          "lx": 740,
+          "ly": 300,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1070,
+              315
+            ],
+            [
+              1190,
+              315
+            ]
+          ],
+          "kind": "rf",
+          "label": "公共 RF",
+          "lx": 1130,
+          "ly": 300,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1430,
+              315
+            ],
+            [
+              1550,
+              315
+            ]
+          ],
+          "kind": "rf",
+          "label": "16 通道",
+          "lx": 1490,
+          "ly": 300,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              545,
+              620
+            ],
+            [
+              545,
+              400
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "SPI / GPIO",
+          "lx": 615,
+          "ly": 510,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              280,
+              695
+            ],
+            [
+              410,
+              695
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "I²C / UART",
+          "lx": 345,
+          "ly": 680,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              680,
+              695
+            ],
+            [
+              800,
+              695
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "SPI",
+          "lx": 740,
+          "ly": 680,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              935,
+              620
+            ],
+            [
+              935,
+              400
+            ]
+          ],
+          "kind": "clock",
+          "label": "时钟 / LO",
+          "lx": 1000,
+          "ly": 515,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1310,
+              620
+            ],
+            [
+              1310,
+              400
+            ]
+          ],
+          "kind": "power",
+          "label": "多路供电",
+          "lx": 1375,
+          "ly": 515,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1190,
+              695
+            ],
+            [
+              1070,
+              695
+            ]
+          ],
+          "kind": "power",
+          "label": "电源",
+          "lx": 1130,
+          "ly": 680,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              90,
+              400
+            ],
+            [
+              90,
+              525
+            ],
+            [
+              435,
+              525
+            ],
+            [
+              435,
+              620
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "STM32 USB CDC 管理连接",
+          "lx": 267,
+          "ly": 509,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        }
+      ],
+      "labels": [
+        {
+          "x": 40,
+          "y": 60,
+          "text": "AERIS-10 / PLFM_RADAR 系统总览",
+          "size": 29,
+          "color": "#152e46"
+        },
+        {
+          "x": 40,
+          "y": 104,
+          "text": "10.5 GHz 项目目标 · 脉冲线性调频 · 16 路模拟波束赋形",
+          "size": 19,
+          "color": "#59697b"
+        },
+        {
+          "x": 40,
+          "y": 840,
+          "text": "点击任一模块查看型号、作用与本地资料依据。扩展功放和共享收发路径在“收发链路”中展开。",
+          "size": 18,
+          "color": "#59697b"
+        }
+      ],
+      "dots": []
+    },
+    {
+      "id": "rf",
+      "title": "收发链路",
+      "caption": "蓝色为数字采样接口，青色为模拟 / 射频通道；共用路径的双箭头表示分时收发。",
+      "w": 2150,
+      "h": 1000,
+      "nodes": [
+        {
+          "id": "rf_fpga",
+          "x": 40,
+          "y": 170,
+          "w": 200,
+          "h": 420,
+          "title": "FPGA",
+          "sub": "{fpgaShort}",
+          "meta": "TX / RX",
+          "kind": "data",
+          "detail": "同一 FPGA 的上方端口输出 DAC 波形，下方端口输入 ADC 数据；本框为一个物理器件。",
+          "sources": [
+            "main",
+            "tx",
+            "rx"
+          ]
+        },
+        {
+          "id": "dac",
+          "x": 330,
+          "y": 170,
+          "w": 200,
+          "h": 100,
+          "title": "AD9708",
+          "sub": "8 位 DAC",
+          "meta": "U3 · 120 MHz 设计时钟",
+          "kind": "data",
+          "detail": "由 FPGA 并行输出 8 位 Chirp 数据，经 AD9708 形成模拟波形。120 MHz 为项目时钟规划 / RTL 域，未做实板验证。",
+          "sources": [
+            "main",
+            "tx",
+            "ref"
+          ]
+        },
+        {
+          "id": "tx_lpf",
+          "x": 620,
+          "y": 170,
+          "w": 200,
+          "h": 100,
+          "title": "重建低通",
+          "sub": "DAC LPF",
+          "meta": "抑制采样镜像",
+          "kind": "rf",
+          "detail": "DAC 输出进入模拟重建滤波器，然后接入上变频混频器。这里只表达功能与连接，不对滤波器性能做仿真结论。",
+          "sources": [
+            "main",
+            "ref"
+          ]
+        },
+        {
+          "id": "tx_mix",
+          "x": 910,
+          "y": 170,
+          "w": 200,
+          "h": 100,
+          "title": "TX 上变频",
+          "sub": "LTC5552",
+          "meta": "独立 TX 本振输入",
+          "kind": "rf",
+          "detail": "发射混频器接收 DAC 滤波后的信号与 ADF4382A TX 本振；上变频输出再经过 RF 带通滤波。",
+          "sources": [
+            "main",
+            "clock",
+            "ref"
+          ]
+        },
+        {
+          "id": "tx_bpf",
+          "x": 1200,
+          "y": 170,
+          "w": 200,
+          "h": 100,
+          "title": "RF 带通",
+          "sub": "TX BPF",
+          "meta": "选取发射频段",
+          "kind": "rf",
+          "detail": "连接 TX 混频器输出与共用收发开关。项目射频目标约为 10.5 GHz，具体 LO / Chirp 设置需与固件一致。",
+          "sources": [
+            "main",
+            "ref",
+            "settings"
+          ]
+        },
+        {
+          "id": "switch",
+          "x": 1510,
+          "y": 320,
+          "w": 200,
+          "h": 140,
+          "title": "收发开关",
+          "sub": "M3SWA2-34DR+",
+          "meta": "TX / RX 分时切换",
+          "kind": "rf",
+          "detail": "发射带通和接收带通分别接开关两侧，共用端连接 EP4RKU+。两条模拟链路分时共享阵列。",
+          "sources": [
+            "main",
+            "ref"
+          ]
+        },
+        {
+          "id": "splitter",
+          "x": 1840,
+          "y": 320,
+          "w": 240,
+          "h": 140,
+          "title": "功分 / 合成",
+          "sub": "EP4RKU+",
+          "meta": "1 ↔ 4 公共支路",
+          "kind": "rf",
+          "detail": "发射时将公共 RF 信号分配到四个 ADAR1000；接收时反向合成四个 ADAR1000 输出。",
+          "sources": [
+            "main",
+            "ref"
+          ]
+        },
+        {
+          "id": "adc",
+          "x": 330,
+          "y": 490,
+          "w": 200,
+          "h": 100,
+          "title": "AD9484",
+          "sub": "8 位 ADC",
+          "meta": "U1 · 400 MS/s 设计值",
+          "kind": "data",
+          "detail": "原理图器件为 AD9484BCPZ-500；该项目 RTL 按 400 MHz ADC 采样 / DCO 域处理，8 位 LVDS 数据送入 FPGA。器件后缀 -500 不等于项目运行在 500 MS/s。",
+          "sources": [
+            "main",
+            "rx",
+            "ddc"
+          ]
+        },
+        {
+          "id": "rx_driver",
+          "x": 620,
+          "y": 490,
+          "w": 200,
+          "h": 100,
+          "title": "IF 差分驱动",
+          "sub": "AD8352 + 输出滤波",
+          "meta": "原理图含 U4 / U8",
+          "kind": "rf",
+          "detail": "接收中频经 AD8352 差分放大 / 驱动及滤波网络进入 AD9484；本图将 IF 调理级合并展示。",
+          "sources": [
+            "main",
+            "ref"
+          ]
+        },
+        {
+          "id": "rx_if",
+          "x": 910,
+          "y": 490,
+          "w": 200,
+          "h": 100,
+          "title": "IF 滤波",
+          "sub": "模拟滤波网络",
+          "meta": "连接混频器与驱动级",
+          "kind": "rf",
+          "detail": "对下变频后的中频信号进行模拟滤波。DDC RTL 默认 IF_FREQ=120 MHz，该数字默认值不证明模拟链路已按相同参数完成板上验证。",
+          "sources": [
+            "main",
+            "ref",
+            "ddc"
+          ]
+        },
+        {
+          "id": "rx_mix",
+          "x": 1200,
+          "y": 490,
+          "w": 200,
+          "h": 100,
+          "title": "RX 下变频",
+          "sub": "RF BPF + LTC5552",
+          "meta": "独立 RX 本振输入",
+          "kind": "rf",
+          "detail": "接收信号从共用开关进入 RF 带通，再进入 LTC5552 下变频器；本块合并了这两个功能。",
+          "sources": [
+            "main",
+            "clock",
+            "ref"
+          ]
+        },
+        {
+          "id": "adar",
+          "x": 1840,
+          "y": 740,
+          "w": 240,
+          "h": 130,
+          "title": "ADAR1000 ×4",
+          "sub": "相位 / 增益控制",
+          "meta": "4 × 4 = 16 路",
+          "kind": "rf",
+          "detail": "四个独立 RF 公共支路分别接四片 ADAR1000，每片展开四路收发，连接共 16 片 ADTR1107。",
+          "sources": [
+            "main",
+            "readme"
+          ]
+        },
+        {
+          "id": "adtr",
+          "x": 1510,
+          "y": 740,
+          "w": 240,
+          "h": 130,
+          "title": "ADTR1107 ×16",
+          "sub": "每通道收发前端",
+          "meta": "TX 放大 / RX 低噪放大",
+          "kind": "rf",
+          "detail": "阵列每通道一片 ADTR1107。模拟波束赋形后的多通道信号在 RF 域合成，然后由公共 ADC 接收链采样。",
+          "sources": [
+            "main",
+            "readme"
+          ]
+        },
+        {
+          "id": "pa_route",
+          "x": 1180,
+          "y": 740,
+          "w": 240,
+          "h": 130,
+          "title": "{routeTitle}",
+          "sub": "{routeSub}",
+          "meta": "{routeMeta}",
+          "kind": "rf",
+          "detail": "基础方案：前端连接贴片阵列，无外置 QPA2962。增强方案：外部 RF 开关 → QPA2962 功放 → 环行器 → 天线；接收回波从环行器经旁路返回 ADTR1107，不经过外置 GaN 功放。功放及路由按原始系统图表达，实际装配选项仍需与板级连接确认。",
+          "sources": [
+            "pa",
+            "ref",
+            "readme"
+          ]
+        },
+        {
+          "id": "rf_ant",
+          "x": 840,
+          "y": 740,
+          "w": 240,
+          "h": 130,
+          "title": "阵列天线",
+          "sub": "{antenna}",
+          "meta": "16 路子阵馈电",
+          "kind": "rf",
+          "detail": "8×16 贴片与 32×16 波导为项目所述不同整机方案。尺寸和制造验证不由本系统图推导。",
+          "sources": [
+            "readme",
+            "ref"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "points": [
+            [
+              240,
+              220
+            ],
+            [
+              330,
+              220
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              530,
+              220
+            ],
+            [
+              620,
+              220
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              820,
+              220
+            ],
+            [
+              910,
+              220
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1110,
+              220
+            ],
+            [
+              1200,
+              220
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1400,
+              220
+            ],
+            [
+              1460,
+              220
+            ],
+            [
+              1460,
+              350
+            ],
+            [
+              1510,
+              350
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1510,
+              425
+            ],
+            [
+              1460,
+              425
+            ],
+            [
+              1460,
+              540
+            ],
+            [
+              1400,
+              540
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1200,
+              540
+            ],
+            [
+              1110,
+              540
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              910,
+              540
+            ],
+            [
+              820,
+              540
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              620,
+              540
+            ],
+            [
+              530,
+              540
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              330,
+              540
+            ],
+            [
+              240,
+              540
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1710,
+              390
+            ],
+            [
+              1840,
+              390
+            ]
+          ],
+          "kind": "rf",
+          "label": "共用 RF",
+          "lx": 1775,
+          "ly": 375,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1960,
+              460
+            ],
+            [
+              1960,
+              740
+            ]
+          ],
+          "kind": "rf",
+          "label": "4 路",
+          "lx": 2010,
+          "ly": 612,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1840,
+              805
+            ],
+            [
+              1750,
+              805
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1510,
+              805
+            ],
+            [
+              1420,
+              805
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1180,
+              805
+            ],
+            [
+              1080,
+              805
+            ]
+          ],
+          "kind": "rf",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        }
+      ],
+      "labels": [
+        {
+          "x": 40,
+          "y": 56,
+          "text": "收发链路与 16 通道阵列",
+          "size": 29,
+          "color": "#152e46"
+        },
+        {
+          "x": 40,
+          "y": 95,
+          "text": "TX 沿上行向右 →；RX 沿下行向左 ←；右侧为共用波束赋形链路。",
+          "size": 19,
+          "color": "#59697b"
+        },
+        {
+          "x": 840,
+          "y": 929,
+          "text": "增强方案接收路径绕过 QPA2962；双向连接表示整个收发路由组合，不表示 PA 双向放大。",
+          "size": 19,
+          "color": "#59697b"
+        },
+        {
+          "x": 40,
+          "y": 940,
+          "text": "本振与时钟连接见“时钟与控制”；射频性能及最终频率配置尚需整机确认。",
+          "size": 18,
+          "color": "#59697b"
+        }
+      ],
+      "dots": []
+    },
+    {
+      "id": "dsp",
+      "title": "FPGA 处理",
+      "caption": "按当前 RTL 实例连接顺序整理。选择 50T / 200T 改变目标器件和 USB 接口，不代表对应构建已经实板验收。",
+      "w": 1830,
+      "h": 1040,
+      "nodes": [
+        {
+          "id": "capture",
+          "x": 40,
+          "y": 170,
+          "w": 230,
+          "h": 110,
+          "title": "ADC 接口",
+          "sub": "LVDS → 8 位采样",
+          "meta": "400 MHz / DCO",
+          "kind": "data",
+          "detail": "ADC LVDS 采样经 ad9484_interface_400m 进入 DDC；DCO 经 MMCM / 缓冲建立采样域。",
+          "sources": [
+            "rx"
+          ]
+        },
+        {
+          "id": "ddc",
+          "x": 340,
+          "y": 170,
+          "w": 230,
+          "h": 110,
+          "title": "数字下变频",
+          "sub": "NCO × I / Q",
+          "meta": "默认 IF = 120 MHz",
+          "kind": "data",
+          "detail": "ddc_400m 的 IF_FREQ=120000000、FS=400000000；NCO 与乘法器产生 I/Q。",
+          "sources": [
+            "ddc"
+          ]
+        },
+        {
+          "id": "cic",
+          "x": 640,
+          "y": 170,
+          "w": 230,
+          "h": 110,
+          "title": "CIC 抽取",
+          "sub": "4 倍抽取",
+          "meta": "400 → 100 MS/s",
+          "kind": "data",
+          "detail": "两路 I/Q 使用 CIC 抽取，后续跨域连接到 100 MHz 处理域。",
+          "sources": [
+            "ddc"
+          ]
+        },
+        {
+          "id": "cdc",
+          "x": 940,
+          "y": 170,
+          "w": 230,
+          "h": 110,
+          "title": "跨时钟域",
+          "sub": "I / Q 数据同步",
+          "meta": "400 MHz → 100 MHz",
+          "kind": "data",
+          "detail": "真实采样域到处理域跨越在 DDC 内部的 CIC 与 FIR 之间处理。",
+          "sources": [
+            "ddc",
+            "rx"
+          ]
+        },
+        {
+          "id": "fir",
+          "x": 1240,
+          "y": 170,
+          "w": 230,
+          "h": 110,
+          "title": "FIR 低通",
+          "sub": "I/Q 滤波与缩放",
+          "meta": "100 MHz 处理域",
+          "kind": "data",
+          "detail": "FIR 低通后经 ddc_input_interface 转为接收处理链使用的数据格式。",
+          "sources": [
+            "ddc",
+            "rx"
+          ]
+        },
+        {
+          "id": "gain",
+          "x": 1540,
+          "y": 170,
+          "w": 230,
+          "h": 110,
+          "title": "数字增益 / AGC",
+          "sub": "峰值与饱和监测",
+          "meta": "主机可配置",
+          "kind": "data",
+          "detail": "rx_gain_control 位于 DDC 输出与匹配滤波之间；可自动调节数字移位增益。",
+          "sources": [
+            "rx"
+          ]
+        },
+        {
+          "id": "cfar",
+          "x": 40,
+          "y": 480,
+          "w": 230,
+          "h": 110,
+          "title": "CFAR 检测",
+          "sub": "CA / GO / SO 模式",
+          "meta": "门限 / 保护单元可配置",
+          "kind": "data",
+          "detail": "cfar_ca 接收经过 DC notch 的 Doppler 数据，输出检测标记、距离 / Doppler 索引与幅度；禁用时支持简单幅度门限。",
+          "sources": [
+            "top"
+          ]
+        },
+        {
+          "id": "notch",
+          "x": 340,
+          "y": 480,
+          "w": 230,
+          "h": 110,
+          "title": "DC notch",
+          "sub": "抑制零多普勒附近",
+          "meta": "可配置宽度 / 可旁路",
+          "kind": "data",
+          "detail": "在两段 16 点 Doppler FFT 的输出上分别处理 DC 区域，然后进入 CFAR。原始 Doppler 上传支路在该滤波之前取数。",
+          "sources": [
+            "top"
+          ]
+        },
+        {
+          "id": "doppler",
+          "x": 640,
+          "y": 480,
+          "w": 230,
+          "h": 110,
+          "title": "Doppler FFT",
+          "sub": "32 Chirps / 帧",
+          "meta": "2 个 16 点子帧 FFT",
+          "kind": "data",
+          "detail": "当前实例设置 DOPPLER_FFT_SIZE=16、CHIRPS_PER_FRAME=32、CHIRPS_PER_SUBFRAME=16；不是单次 32 点 Doppler FFT。",
+          "sources": [
+            "rx"
+          ]
+        },
+        {
+          "id": "mti",
+          "x": 940,
+          "y": 480,
+          "w": 230,
+          "h": 110,
+          "title": "MTI 杂波抑制",
+          "sub": "两脉冲相消",
+          "meta": "64 个距离单元",
+          "kind": "data",
+          "detail": "MTI 位于距离单元抽取后、Doppler 处理前，关闭时透明传递。",
+          "sources": [
+            "rx"
+          ]
+        },
+        {
+          "id": "range",
+          "x": 1240,
+          "y": 480,
+          "w": 230,
+          "h": 110,
+          "title": "距离单元抽取",
+          "sub": "1024 → 64",
+          "meta": "峰值模式 / 16 倍",
+          "kind": "data",
+          "detail": "range_bin_decimator 输出 64 个距离单元供 MTI / Doppler。完整距离像仍通过单独 USB 支路提供。",
+          "sources": [
+            "rx",
+            "top"
+          ]
+        },
+        {
+          "id": "mf",
+          "x": 1540,
+          "y": 480,
+          "w": 230,
+          "h": 110,
+          "title": "匹配滤波 / 脉压",
+          "sub": "FFT → 频域相乘 → IFFT",
+          "meta": "长 / 短 Chirp 参考",
+          "kind": "data",
+          "detail": "matched_filter_multi_segment 使用长 / 短脉冲参考数据执行匹配滤波，输出复数距离像。",
+          "sources": [
+            "rx"
+          ]
+        },
+        {
+          "id": "usb",
+          "x": 40,
+          "y": 800,
+          "w": 370,
+          "h": 130,
+          "title": "USB 数据与命令",
+          "sub": "{usbLong}",
+          "meta": "距离像 · Doppler · 检测结果",
+          "kind": "data",
+          "detail": "USB 数据接口汇集三类数据流，支持主机下行配置命令。图中 CFAR 箭头仅表示检测流；距离像取自匹配滤波输出，Doppler 流取自 DC notch 之前。50T 使用 8 位 / 60 MHz FT2232H，200T 使用 32 位 / 100 MHz FT601。",
+          "sources": [
+            "top",
+            "targets",
+            "build200"
+          ]
+        },
+        {
+          "id": "sequencer",
+          "x": 670,
+          "y": 800,
+          "w": 300,
+          "h": 130,
+          "title": "脉冲 / 扫描时序",
+          "sub": "Chirp 控制器",
+          "meta": "保护间隔 · TX/RX · 帧同步",
+          "kind": "ctrl",
+          "detail": "FPGA 时序控制逻辑协调 DAC 发射、混频器使能、波束加载和接收帧同步；MCU 负责配置与系统管理。",
+          "sources": [
+            "tx",
+            "top",
+            "rx"
+          ]
+        },
+        {
+          "id": "txlut",
+          "x": 1110,
+          "y": 800,
+          "w": 300,
+          "h": 130,
+          "title": "波形 LUT → DAC 接口",
+          "sub": "长 / 短 Chirp 数据",
+          "meta": "8 位并行 → AD9708",
+          "kind": "data",
+          "detail": "radar_transmitter 使用波形数据与 DAC 接口生成发射波形；120 MHz DAC 逻辑域与 100 MHz DSP 域分开。",
+          "sources": [
+            "tx",
+            "top"
+          ]
+        },
+        {
+          "id": "reference",
+          "x": 1540,
+          "y": 800,
+          "w": 230,
+          "h": 130,
+          "title": "匹配参考存储",
+          "sub": "Chirp 参考 + 延时对齐",
+          "meta": "供脉压模块使用",
+          "kind": "data",
+          "detail": "参考数据存储与延时对齐位于匹配滤波参考路径，不是把发射 LUT 的数据线直接接入接收输入。",
+          "sources": [
+            "rx"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "points": [
+            [
+              270,
+              225
+            ],
+            [
+              340,
+              225
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              570,
+              225
+            ],
+            [
+              640,
+              225
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              870,
+              225
+            ],
+            [
+              940,
+              225
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1170,
+              225
+            ],
+            [
+              1240,
+              225
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1470,
+              225
+            ],
+            [
+              1540,
+              225
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1655,
+              280
+            ],
+            [
+              1655,
+              480
+            ]
+          ],
+          "kind": "data",
+          "label": "I/Q",
+          "lx": 1700,
+          "ly": 385,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              340,
+              535
+            ],
+            [
+              270,
+              535
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              640,
+              535
+            ],
+            [
+              570,
+              535
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              940,
+              535
+            ],
+            [
+              870,
+              535
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1240,
+              535
+            ],
+            [
+              1170,
+              535
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1540,
+              535
+            ],
+            [
+              1470,
+              535
+            ]
+          ],
+          "kind": "data",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              155,
+              590
+            ],
+            [
+              155,
+              800
+            ]
+          ],
+          "kind": "data",
+          "label": "检测流",
+          "lx": 217,
+          "ly": 706,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              970,
+              865
+            ],
+            [
+              1110,
+              865
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "使能 / 时序",
+          "lx": 1040,
+          "ly": 850,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1655,
+              800
+            ],
+            [
+              1655,
+              590
+            ]
+          ],
+          "kind": "data",
+          "label": "参考 I/Q",
+          "lx": 1720,
+          "ly": 706,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        }
+      ],
+      "labels": [
+        {
+          "x": 40,
+          "y": 56,
+          "text": "FPGA 数据处理与脉冲时序",
+          "size": 29,
+          "color": "#152e46"
+        },
+        {
+          "x": 40,
+          "y": 100,
+          "text": "ADC → 数字下变频 → 脉压 → MTI → Doppler → DC notch → CFAR → USB",
+          "size": 19,
+          "color": "#59697b"
+        },
+        {
+          "x": 40,
+          "y": 995,
+          "text": "USB 还接收完整距离像与原始 Doppler 支路；为保持主链清晰，这两条上传线未在图中展开。",
+          "size": 18,
+          "color": "#59697b"
+        }
+      ],
+      "dots": []
+    },
+    {
+      "id": "control",
+      "title": "时钟与控制",
+      "caption": "控制关系按接口分组展示；左侧共用竖线是逻辑关系汇总，不是将 SPI、I²C、UART 接到同一物理总线。",
+      "w": 1810,
+      "h": 1220,
+      "nodes": [
+        {
+          "id": "manager",
+          "x": 45,
+          "y": 510,
+          "w": 275,
+          "h": 170,
+          "title": "STM32F746ZGT7",
+          "sub": "系统配置与运行管理",
+          "meta": "USB CDC ↔ 上位机",
+          "kind": "ctrl",
+          "detail": "同一 MCU 使用不同的 SPI、I²C、UART 与 GPIO 接口完成右侧各组功能；实时 Chirp / 收发控制还需要与 FPGA 协同。",
+          "sources": [
+            "main",
+            "mcu"
+          ]
+        },
+        {
+          "id": "clockcfg",
+          "x": 600,
+          "y": 130,
+          "w": 410,
+          "h": 120,
+          "title": "时钟与本振配置",
+          "sub": "AD9523 · ADF4382A ×2",
+          "meta": "SPI / 状态 / 同步 GPIO",
+          "kind": "clock",
+          "detail": "配置低抖动时钟分配及 TX / RX 本振，读取锁定状态。参考振荡器来源为频率合成板；旧图与原理图参考频率标注有差异，未将旧振荡器频率照搬。",
+          "sources": [
+            "clock",
+            "mcu"
+          ]
+        },
+        {
+          "id": "clockout",
+          "x": 1260,
+          "y": 130,
+          "w": 480,
+          "h": 120,
+          "title": "参考源 → 分配 / 合成 → 输出",
+          "sub": "ADC 400M · DAC 120M · FPGA 100M",
+          "meta": "独立 TX LO / RX LO",
+          "kind": "clock",
+          "detail": "时钟输出频率按项目框图及 RTL 域标注；具体 AD9523 通道分配、LO 频点与实际采样应在整机调试时统一。",
+          "sources": [
+            "clock",
+            "ref",
+            "top",
+            "ddc"
+          ]
+        },
+        {
+          "id": "beamcfg",
+          "x": 600,
+          "y": 350,
+          "w": 410,
+          "h": 120,
+          "title": "波束与收发控制",
+          "sub": "ADAR1000 ×4",
+          "meta": "SPI 配置 + FPGA TR / LOAD",
+          "kind": "ctrl",
+          "detail": "MCU 配置相位与增益表；FPGA 与 MCU 的脉冲 / 扫描逻辑协同控制 ADAR 的 TR、RX_LOAD、TX_LOAD。",
+          "sources": [
+            "main",
+            "mcu",
+            "top"
+          ]
+        },
+        {
+          "id": "beamout",
+          "x": 1260,
+          "y": 350,
+          "w": 480,
+          "h": 120,
+          "title": "ADTR1107 ×16 / RF 开关",
+          "sub": "模拟波束赋形与分时收发",
+          "meta": "16 路前端",
+          "kind": "ctrl",
+          "detail": "ADAR1000 与 ADTR1107 组成模拟阵列收发前端；公共 RF 经开关选择发射或接收链。",
+          "sources": [
+            "main",
+            "ref"
+          ]
+        },
+        {
+          "id": "biascfg",
+          "x": 600,
+          "y": 570,
+          "w": 410,
+          "h": 120,
+          "title": "扩展 PA 偏置与监测",
+          "sub": "DAC5578 ×2 · OPA4703 ×4",
+          "meta": "INA241A3 ×16 · ADS7830 ×2",
+          "kind": "ctrl",
+          "detail": "两片八通道 DAC5578 控制 16 路栅压，经四片四通道 OPA4703 调理；16 路 INA241A3 配合两片 ADS7830 回读电流。旧图将偏置 DAC 写为 AD9708，按主板原理图更正。",
+          "sources": [
+            "main",
+            "readme",
+            "mcu"
+          ]
+        },
+        {
+          "id": "biasout",
+          "x": 1260,
+          "y": 570,
+          "w": 480,
+          "h": 120,
+          "title": "QPA2962 ×16（增强方案）",
+          "sub": "Vg 设置 / Idq 回读 / Vd 继电器",
+          "meta": "基础方案不装外置 PA",
+          "kind": "ctrl",
+          "detail": "功放板使用 QPA2962。MCU 执行偏置校准与漏极电源控制；外置 PA 是整机增强配置，不由 50T / 200T FPGA 选择决定。",
+          "sources": [
+            "pa",
+            "readme",
+            "mcu"
+          ]
+        },
+        {
+          "id": "sensorcfg",
+          "x": 600,
+          "y": 790,
+          "w": 410,
+          "h": 120,
+          "title": "定位 / 姿态 / 温度采集",
+          "sub": "UM982 · GY-85 · BMP180",
+          "meta": "热敏电阻 ×8 → ADS7830 ×1",
+          "kind": "ctrl",
+          "detail": "GPS 经 UART，惯性 / 气压与外部 ADC 通过相应接口接入 MCU；温度监控使用 U10 ADS7830，因此全板 ADS7830 共三片。",
+          "sources": [
+            "main",
+            "mcu",
+            "readme"
+          ]
+        },
+        {
+          "id": "sensorout",
+          "x": 1260,
+          "y": 790,
+          "w": 480,
+          "h": 120,
+          "title": "状态与位置数据",
+          "sub": "地图定位 · 姿态修正 · 过温判断",
+          "meta": "由 MCU 汇总至主机 / 控制逻辑",
+          "kind": "ctrl",
+          "detail": "这些是传感器数据的用途；模块间箭头表示逻辑处理关系，不代表传感器直接连接 USB 数据桥。",
+          "sources": [
+            "readme",
+            "mcu"
+          ]
+        },
+        {
+          "id": "powercfg",
+          "x": 600,
+          "y": 1010,
+          "w": 410,
+          "h": 120,
+          "title": "电源 / 电机 / 冷却管理",
+          "sub": "PowerBoard · 步进驱动 · 风扇",
+          "meta": "GPIO / 电源使能 / 脉冲",
+          "kind": "power",
+          "detail": "MCU 执行电源时序、步进电机控制和散热开关。电源板中的负电源与分组使能不能按普通单路 3.3 V 系统简化。",
+          "sources": [
+            "power",
+            "mcu",
+            "readme"
+          ]
+        },
+        {
+          "id": "powerout",
+          "x": 1260,
+          "y": 1010,
+          "w": 480,
+          "h": 120,
+          "title": "数字 / 模拟 / RF / 时钟供电",
+          "sub": "1.0V · 1.8V · 3.3V · 5V 等",
+          "meta": "另含负电源 / 偏置电源",
+          "kind": "power",
+          "detail": "电源网络包括 +1V0_FPGA、+1V8_FPGA、+1V8_CLOCK、多组 +3V3 / +5V0、-5V0_ADAR、-3V3_SW 及 ±5V5_PA 等。此列表不是上电顺序表，精确顺序以固件和电源管理资料为准。",
+          "sources": [
+            "power",
+            "mcu"
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "points": [
+            [
+              320,
+              595
+            ],
+            [
+              440,
+              595
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": false,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              440,
+              190
+            ],
+            [
+              440,
+              1070
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": false,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              440,
+              190
+            ],
+            [
+              600,
+              190
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1010,
+              190
+            ],
+            [
+              1260,
+              190
+            ]
+          ],
+          "kind": "clock",
+          "label": "配置 / 状态",
+          "lx": 1135,
+          "ly": 174,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              440,
+              410
+            ],
+            [
+              600,
+              410
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1010,
+              410
+            ],
+            [
+              1260,
+              410
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "配置 / 状态",
+          "lx": 1135,
+          "ly": 394,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              440,
+              630
+            ],
+            [
+              600,
+              630
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1010,
+              630
+            ],
+            [
+              1260,
+              630
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "控制 / 数据",
+          "lx": 1135,
+          "ly": 614,
+          "both": true,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              440,
+              850
+            ],
+            [
+              600,
+              850
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1010,
+              850
+            ],
+            [
+              1260,
+              850
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "控制 / 数据",
+          "lx": 1135,
+          "ly": 834,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              440,
+              1070
+            ],
+            [
+              600,
+              1070
+            ]
+          ],
+          "kind": "ctrl",
+          "label": "",
+          "lx": 0,
+          "ly": 0,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        },
+        {
+          "points": [
+            [
+              1010,
+              1070
+            ],
+            [
+              1260,
+              1070
+            ]
+          ],
+          "kind": "power",
+          "label": "控制 / 数据",
+          "lx": 1135,
+          "ly": 1054,
+          "both": false,
+          "arrow": true,
+          "dash": false
+        }
+      ],
+      "labels": [
+        {
+          "x": 40,
+          "y": 50,
+          "text": "系统时钟、控制与辅助模块",
+          "size": 29,
+          "color": "#152e46"
+        },
+        {
+          "x": 40,
+          "y": 1182,
+          "text": "原理图确认：4×ADAR1000、16×ADTR1107、2×DAC5578、4×OPA4703、16×INA241A3、3×ADS7830。",
+          "size": 18,
+          "color": "#59697b"
+        }
+      ],
+      "dots": [
+        [
+          440,
+          190
+        ],
+        [
+          440,
+          410
+        ],
+        [
+          440,
+          630
+        ],
+        [
+          440,
+          850
+        ],
+        [
+          440,
+          1070
+        ]
+      ]
+    }
+  ],
+  "sources": {
+    "main": {
+      "id": "main",
+      "title": "主板原理图",
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/MainBoard/RADAR_Main_Board.sch",
+      "use": "器件型号、数量、USB 与主板网络",
+      "sha256": "6ed4bc6b11a9e878967a10957a32be5fc7d84ad5f366261e21db5ede99e1c510"
+    },
+    "clock": {
+      "id": "clock",
+      "title": "频率合成板原理图",
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/FrequencySynthesizerBoard/Clocks_Freq_Synth_board.sch",
+      "use": "AD9523、两路 ADF4382A 与时钟连接",
+      "sha256": "6e4e52f35e1c3c40bb0f0430996482d173112e7a2d9f4d6bcd3578654e859cee"
+    },
+    "power": {
+      "id": "power",
+      "title": "电源板原理图",
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerBoard/PowerBoard.sch",
+      "use": "DC/DC、LDO、负电源及电源网络",
+      "sha256": "7c4840c6620098c098c54ef82d7137896e3d17a06ad3f4f9ecd63a7eb6eb449a"
+    },
+    "pa": {
+      "id": "pa",
+      "title": "扩展功放原理图",
+      "path": "4_Schematics and Boards Layout/4_6_Schematics/PowerAmplifierBoard/RF_PA.sch",
+      "use": "QPA2962、栅压与电流采样接口",
+      "sha256": "49792cb6fbd2258410a6d972f0abb4cd3905e2f5c49609ab1d65e8404f900ba9"
+    },
+    "ref": {
+      "id": "ref",
+      "title": "原始系统框图",
+      "path": "2_Functional Diagram & Interconnection Matrices/RADAR_V6_V2.png",
+      "use": "白底工程风格、共用射频通道和扩展功放收发路径",
+      "sha256": "b0a6cb6ff0d50a08f27e81db662ba4a6da5bebe29d532a3096300b2433e3bf04"
+    },
+    "readme": {
+      "id": "readme",
+      "title": "项目说明",
+      "path": "README.md",
+      "use": "系统目标、天线选型及模块功能",
+      "sha256": "45c45112259394976597d647083e7c9ec0dd5208746c6884660a7d55188458a8"
+    },
+    "top": {
+      "id": "top",
+      "title": "FPGA 顶层 RTL",
+      "path": "9_Firmware/9_2_FPGA/radar_system_top.v",
+      "use": "USB_MODE=1 默认值、DC notch、CFAR 和数据上传",
+      "sha256": "6f7d4af64f149acbf2652021a2d8d659476b326562f172bcdee3c74a3fc75327"
+    },
+    "rx": {
+      "id": "rx",
+      "title": "FPGA 接收 RTL",
+      "path": "9_Firmware/9_2_FPGA/radar_receiver_final.v",
+      "use": "AGC、脉压、距离单元、MTI、Doppler 连接顺序",
+      "sha256": "771dab1ddd66fdc5cec730f5e7940cfd73ddf1fae0cb56c6f6847af869988f36"
+    },
+    "ddc": {
+      "id": "ddc",
+      "title": "数字下变频 RTL",
+      "path": "9_Firmware/9_2_FPGA/ddc_400m.v",
+      "use": "400 MHz 采样域、120 MHz NCO 默认值、CIC / CDC / FIR",
+      "sha256": "90650495d7eafba476c0129c8a9783ce6f9366106e0a4b958ea1a8d199c9339a"
+    },
+    "tx": {
+      "id": "tx",
+      "title": "FPGA 发射 RTL",
+      "path": "9_Firmware/9_2_FPGA/radar_transmitter.v",
+      "use": "Chirp 与 DAC 接口",
+      "sha256": "15cc182de2d7de8c29c8767ff7bf50d20984706f54da07204d36018f39b35464"
+    },
+    "targets": {
+      "id": "targets",
+      "title": "FPGA 目标与接口说明",
+      "path": "9_Firmware/9_2_FPGA/constraints/README.md",
+      "use": "50T / 200T 型号与 USB 接口分工",
+      "sha256": "99daa294d3f2db668d8576211be63573e9acf691af22352d2d095d0b46fbddb1"
+    },
+    "build200": {
+      "id": "build200",
+      "title": "200T 构建脚本",
+      "path": "9_Firmware/9_2_FPGA/scripts/200t/build_200t.tcl",
+      "use": "显式设置 USB_MODE=0",
+      "sha256": "62fdf6563d3d22e731eed8469071c83fc739cef7dbb15a43cb8203f540589771"
+    },
+    "mcu": {
+      "id": "mcu",
+      "title": "STM32 主程序",
+      "path": "9_Firmware/9_1_Microcontroller/9_1_3_C_Cpp_Code/main.cpp",
+      "use": "UM982、USB CDC、PA 偏置与系统管理",
+      "sha256": "a223dec1a01fb5b5f32ec59d16581d142b8996698e4bfb628937a5cb0540a671"
+    },
+    "settings": {
+      "id": "settings",
+      "title": "MCU 默认设置",
+      "path": "9_Firmware/9_1_Microcontroller/9_1_1_C_Cpp_Libraries/RadarSettings.cpp",
+      "use": "默认频率与项目概述存在差异，待整机配置确认",
+      "sha256": "2975ea36fab85acb2651173159017b0ff157eb8ea4ac06923e58367b527cc4ae"
+    }
+  },
+  "reviewDate": "2026-09-28"
+}

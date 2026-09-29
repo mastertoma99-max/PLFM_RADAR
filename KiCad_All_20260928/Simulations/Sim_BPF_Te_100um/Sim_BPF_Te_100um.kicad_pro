@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "filename": "Sim_BPF_Te_100um.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "top_level_sheets": [
+      {
+        "filename": "Sim_BPF_Te_100um.kicad_sch",
+        "name": "",
+        "uuid": "c70a0909-857c-40cb-a64c-7ce2316e3ef1"
+      }
+    ]
+  }
+}

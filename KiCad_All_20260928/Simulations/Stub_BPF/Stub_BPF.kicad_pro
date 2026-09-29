@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "filename": "Stub_BPF.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "top_level_sheets": [
+      {
+        "filename": "Stub_BPF.kicad_sch",
+        "name": "",
+        "uuid": "07912e41-7284-439a-b9c8-ebc6fbd54199"
+      }
+    ]
+  }
+}

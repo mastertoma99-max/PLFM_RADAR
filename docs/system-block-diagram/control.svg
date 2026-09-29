@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1810 1220" role="img" aria-label="时钟与控制" class="diagram-svg" data-graph="control">
+<style>text{font-family:"Segoe UI","Microsoft YaHei",sans-serif}.block{cursor:pointer}.block:focus{outline:none}.block:focus rect,.block:hover rect{stroke-width:3}.node-title{font-weight:650}.wire-label{paint-order:stroke;stroke:white;stroke-width:7;stroke-linejoin:round}.selected rect{stroke-width:4}</style>
+<rect width="1810" height="1220" fill="white"/>
+<defs>
+<marker id="control-data" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#245dcc"/></marker>
+<marker id="control-rf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#087f8c"/></marker>
+<marker id="control-ctrl" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#7254b3"/></marker>
+<marker id="control-clock" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#aa710c"/></marker>
+<marker id="control-power" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#bc414d"/></marker>
+<marker id="control-neutral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#384858"/></marker>
+</defs>
+<path class="wire" d="M 320 595 L 440 595" fill="none" stroke="#7254b3" stroke-width="2.4"/>
+<path class="wire" d="M 440 190 L 440 1070" fill="none" stroke="#7254b3" stroke-width="2.4"/>
+<path class="wire" d="M 440 190 L 593 190" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#control-ctrl)"/>
+<path class="wire" d="M 1010 190 L 1253 190" fill="none" stroke="#aa710c" stroke-width="2.4" marker-end="url(#control-clock)"/>
+<text class="wire-label" x="1135" y="174" text-anchor="middle" fill="#aa710c" font-size="17">配置 / 状态</text>
+<path class="wire" d="M 440 410 L 593 410" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#control-ctrl)"/>
+<path class="wire" d="M 1010 410 L 1253 410" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#control-ctrl)"/>
+<text class="wire-label" x="1135" y="394" text-anchor="middle" fill="#7254b3" font-size="17">配置 / 状态</text>
+<path class="wire" d="M 440 630 L 593 630" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#control-ctrl)"/>
+<path class="wire" d="M 1017 630 L 1253 630" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#control-ctrl)" marker-start="url(#control-ctrl)"/>
+<text class="wire-label" x="1135" y="614" text-anchor="middle" fill="#7254b3" font-size="17">控制 / 数据</text>
+<path class="wire" d="M 440 850 L 593 850" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#control-ctrl)"/>
+<path class="wire" d="M 1010 850 L 1253 850" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#control-ctrl)"/>
+<text class="wire-label" x="1135" y="834" text-anchor="middle" fill="#7254b3" font-size="17">控制 / 数据</text>
+<path class="wire" d="M 440 1070 L 593 1070" fill="none" stroke="#7254b3" stroke-width="2.4" marker-end="url(#control-ctrl)"/>
+<path class="wire" d="M 1010 1070 L 1253 1070" fill="none" stroke="#bc414d" stroke-width="2.4" marker-end="url(#control-power)"/>
+<text class="wire-label" x="1135" y="1054" text-anchor="middle" fill="#bc414d" font-size="17">控制 / 数据</text>
+<circle cx="440" cy="190" r="4.5" fill="#7254b3"/>
+<circle cx="440" cy="410" r="4.5" fill="#7254b3"/>
+<circle cx="440" cy="630" r="4.5" fill="#7254b3"/>
+<circle cx="440" cy="850" r="4.5" fill="#7254b3"/>
+<circle cx="440" cy="1070" r="4.5" fill="#7254b3"/>
+<g class="block" data-id="manager" role="button" tabindex="0" aria-label="STM32F746ZGT7，系统配置与运行管理，查看模块详情"><title>STM32F746ZGT7：同一 MCU 使用不同的 SPI、I²C、UART 与 GPIO 接口完成右侧各组功能；实时 Chirp / 收发控制还需要与 FPGA 协同。</title><rect x="45" y="510" width="275" height="170" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M45 514 H320" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="182.5" y="573.0" text-anchor="middle" fill="#183249" font-size="22" data-template="STM32F746ZGT7">STM32F746ZGT7</text>
+<text class="node-sub" x="182.5" y="605.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="系统配置与运行管理">系统配置与运行管理</text>
+<text class="node-meta" x="182.5" y="633.0" text-anchor="middle" fill="#536374" font-size="15" data-template="USB CDC ↔ 上位机">USB CDC ↔ 上位机</text>
+</g>
+<g class="block" data-id="clockcfg" role="button" tabindex="0" aria-label="时钟与本振配置，AD9523 · ADF4382A ×2，查看模块详情"><title>时钟与本振配置：配置低抖动时钟分配及 TX / RX 本振，读取锁定状态。参考振荡器来源为频率合成板；旧图与原理图参考频率标注有差异，未将旧振荡器频率照搬。</title><rect x="600" y="130" width="410" height="120" rx="2" fill="white" stroke="#aa710c" stroke-width="1.6"/><path d="M600 134 H1010" stroke="#aa710c" stroke-width="5"/>
+<text class="node-title" x="805.0" y="168.0" text-anchor="middle" fill="#183249" font-size="22" data-template="时钟与本振配置">时钟与本振配置</text>
+<text class="node-sub" x="805.0" y="200.0" text-anchor="middle" fill="#aa710c" font-size="18" data-template="AD9523 · ADF4382A ×2">AD9523 · ADF4382A ×2</text>
+<text class="node-meta" x="805.0" y="228.0" text-anchor="middle" fill="#536374" font-size="15" data-template="SPI / 状态 / 同步 GPIO">SPI / 状态 / 同步 GPIO</text>
+</g>
+<g class="block" data-id="clockout" role="button" tabindex="0" aria-label="参考源 → 分配 / 合成 → 输出，ADC 400M · DAC 120M · FPGA 100M，查看模块详情"><title>参考源 → 分配 / 合成 → 输出：时钟输出频率按项目框图及 RTL 域标注；具体 AD9523 通道分配、LO 频点与实际采样应在整机调试时统一。</title><rect x="1260" y="130" width="480" height="120" rx="2" fill="white" stroke="#aa710c" stroke-width="1.6"/><path d="M1260 134 H1740" stroke="#aa710c" stroke-width="5"/>
+<text class="node-title" x="1500.0" y="168.0" text-anchor="middle" fill="#183249" font-size="22" data-template="参考源 → 分配 / 合成 → 输出">参考源 → 分配 / 合成 → 输出</text>
+<text class="node-sub" x="1500.0" y="200.0" text-anchor="middle" fill="#aa710c" font-size="18" data-template="ADC 400M · DAC 120M · FPGA 100M">ADC 400M · DAC 120M · FPGA 100M</text>
+<text class="node-meta" x="1500.0" y="228.0" text-anchor="middle" fill="#536374" font-size="15" data-template="独立 TX LO / RX LO">独立 TX LO / RX LO</text>
+</g>
+<g class="block" data-id="beamcfg" role="button" tabindex="0" aria-label="波束与收发控制，ADAR1000 ×4，查看模块详情"><title>波束与收发控制：MCU 配置相位与增益表；FPGA 与 MCU 的脉冲 / 扫描逻辑协同控制 ADAR 的 TR、RX_LOAD、TX_LOAD。</title><rect x="600" y="350" width="410" height="120" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M600 354 H1010" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="805.0" y="388.0" text-anchor="middle" fill="#183249" font-size="22" data-template="波束与收发控制">波束与收发控制</text>
+<text class="node-sub" x="805.0" y="420.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="ADAR1000 ×4">ADAR1000 ×4</text>
+<text class="node-meta" x="805.0" y="448.0" text-anchor="middle" fill="#536374" font-size="15" data-template="SPI 配置 + FPGA TR / LOAD">SPI 配置 + FPGA TR / LOAD</text>
+</g>
+<g class="block" data-id="beamout" role="button" tabindex="0" aria-label="ADTR1107 ×16 / RF 开关，模拟波束赋形与分时收发，查看模块详情"><title>ADTR1107 ×16 / RF 开关：ADAR1000 与 ADTR1107 组成模拟阵列收发前端；公共 RF 经开关选择发射或接收链。</title><rect x="1260" y="350" width="480" height="120" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M1260 354 H1740" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="1500.0" y="388.0" text-anchor="middle" fill="#183249" font-size="22" data-template="ADTR1107 ×16 / RF 开关">ADTR1107 ×16 / RF 开关</text>
+<text class="node-sub" x="1500.0" y="420.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="模拟波束赋形与分时收发">模拟波束赋形与分时收发</text>
+<text class="node-meta" x="1500.0" y="448.0" text-anchor="middle" fill="#536374" font-size="15" data-template="16 路前端">16 路前端</text>
+</g>
+<g class="block" data-id="biascfg" role="button" tabindex="0" aria-label="扩展 PA 偏置与监测，DAC5578 ×2 · OPA4703 ×4，查看模块详情"><title>扩展 PA 偏置与监测：两片八通道 DAC5578 控制 16 路栅压，经四片四通道 OPA4703 调理；16 路 INA241A3 配合两片 ADS7830 回读电流。旧图将偏置 DAC 写为 AD9708，按主板原理图更正。</title><rect x="600" y="570" width="410" height="120" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M600 574 H1010" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="805.0" y="608.0" text-anchor="middle" fill="#183249" font-size="22" data-template="扩展 PA 偏置与监测">扩展 PA 偏置与监测</text>
+<text class="node-sub" x="805.0" y="640.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="DAC5578 ×2 · OPA4703 ×4">DAC5578 ×2 · OPA4703 ×4</text>
+<text class="node-meta" x="805.0" y="668.0" text-anchor="middle" fill="#536374" font-size="15" data-template="INA241A3 ×16 · ADS7830 ×2">INA241A3 ×16 · ADS7830 ×2</text>
+</g>
+<g class="block" data-id="biasout" role="button" tabindex="0" aria-label="QPA2962 ×16（增强方案），Vg 设置 / Idq 回读 / Vd 继电器，查看模块详情"><title>QPA2962 ×16（增强方案）：功放板使用 QPA2962。MCU 执行偏置校准与漏极电源控制；外置 PA 是整机增强配置，不由 50T / 200T FPGA 选择决定。</title><rect x="1260" y="570" width="480" height="120" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M1260 574 H1740" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="1500.0" y="608.0" text-anchor="middle" fill="#183249" font-size="22" data-template="QPA2962 ×16（增强方案）">QPA2962 ×16（增强方案）</text>
+<text class="node-sub" x="1500.0" y="640.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="Vg 设置 / Idq 回读 / Vd 继电器">Vg 设置 / Idq 回读 / Vd 继电器</text>
+<text class="node-meta" x="1500.0" y="668.0" text-anchor="middle" fill="#536374" font-size="15" data-template="基础方案不装外置 PA">基础方案不装外置 PA</text>
+</g>
+<g class="block" data-id="sensorcfg" role="button" tabindex="0" aria-label="定位 / 姿态 / 温度采集，UM982 · GY-85 · BMP180，查看模块详情"><title>定位 / 姿态 / 温度采集：GPS 经 UART，惯性 / 气压与外部 ADC 通过相应接口接入 MCU；温度监控使用 U10 ADS7830，因此全板 ADS7830 共三片。</title><rect x="600" y="790" width="410" height="120" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M600 794 H1010" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="805.0" y="828.0" text-anchor="middle" fill="#183249" font-size="22" data-template="定位 / 姿态 / 温度采集">定位 / 姿态 / 温度采集</text>
+<text class="node-sub" x="805.0" y="860.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="UM982 · GY-85 · BMP180">UM982 · GY-85 · BMP180</text>
+<text class="node-meta" x="805.0" y="888.0" text-anchor="middle" fill="#536374" font-size="15" data-template="热敏电阻 ×8 → ADS7830 ×1">热敏电阻 ×8 → ADS7830 ×1</text>
+</g>
+<g class="block" data-id="sensorout" role="button" tabindex="0" aria-label="状态与位置数据，地图定位 · 姿态修正 · 过温判断，查看模块详情"><title>状态与位置数据：这些是传感器数据的用途；模块间箭头表示逻辑处理关系，不代表传感器直接连接 USB 数据桥。</title><rect x="1260" y="790" width="480" height="120" rx="2" fill="white" stroke="#7254b3" stroke-width="1.6"/><path d="M1260 794 H1740" stroke="#7254b3" stroke-width="5"/>
+<text class="node-title" x="1500.0" y="828.0" text-anchor="middle" fill="#183249" font-size="22" data-template="状态与位置数据">状态与位置数据</text>
+<text class="node-sub" x="1500.0" y="860.0" text-anchor="middle" fill="#7254b3" font-size="18" data-template="地图定位 · 姿态修正 · 过温判断">地图定位 · 姿态修正 · 过温判断</text>
+<text class="node-meta" x="1500.0" y="888.0" text-anchor="middle" fill="#536374" font-size="15" data-template="由 MCU 汇总至主机 / 控制逻辑">由 MCU 汇总至主机 / 控制逻辑</text>
+</g>
+<g class="block" data-id="powercfg" role="button" tabindex="0" aria-label="电源 / 电机 / 冷却管理，PowerBoard · 步进驱动 · 风扇，查看模块详情"><title>电源 / 电机 / 冷却管理：MCU 执行电源时序、步进电机控制和散热开关。电源板中的负电源与分组使能不能按普通单路 3.3 V 系统简化。</title><rect x="600" y="1010" width="410" height="120" rx="2" fill="white" stroke="#bc414d" stroke-width="1.6"/><path d="M600 1014 H1010" stroke="#bc414d" stroke-width="5"/>
+<text class="node-title" x="805.0" y="1048.0" text-anchor="middle" fill="#183249" font-size="22" data-template="电源 / 电机 / 冷却管理">电源 / 电机 / 冷却管理</text>
+<text class="node-sub" x="805.0" y="1080.0" text-anchor="middle" fill="#bc414d" font-size="18" data-template="PowerBoard · 步进驱动 · 风扇">PowerBoard · 步进驱动 · 风扇</text>
+<text class="node-meta" x="805.0" y="1108.0" text-anchor="middle" fill="#536374" font-size="15" data-template="GPIO / 电源使能 / 脉冲">GPIO / 电源使能 / 脉冲</text>
+</g>
+<g class="block" data-id="powerout" role="button" tabindex="0" aria-label="数字 / 模拟 / RF / 时钟供电，1.0V · 1.8V · 3.3V · 5V 等，查看模块详情"><title>数字 / 模拟 / RF / 时钟供电：电源网络包括 +1V0_FPGA、+1V8_FPGA、+1V8_CLOCK、多组 +3V3 / +5V0、-5V0_ADAR、-3V3_SW 及 ±5V5_PA 等。此列表不是上电顺序表，精确顺序以固件和电源管理资料为准。</title><rect x="1260" y="1010" width="480" height="120" rx="2" fill="white" stroke="#bc414d" stroke-width="1.6"/><path d="M1260 1014 H1740" stroke="#bc414d" stroke-width="5"/>
+<text class="node-title" x="1500.0" y="1048.0" text-anchor="middle" fill="#183249" font-size="22" data-template="数字 / 模拟 / RF / 时钟供电">数字 / 模拟 / RF / 时钟供电</text>
+<text class="node-sub" x="1500.0" y="1080.0" text-anchor="middle" fill="#bc414d" font-size="18" data-template="1.0V · 1.8V · 3.3V · 5V 等">1.0V · 1.8V · 3.3V · 5V 等</text>
+<text class="node-meta" x="1500.0" y="1108.0" text-anchor="middle" fill="#536374" font-size="15" data-template="另含负电源 / 偏置电源">另含负电源 / 偏置电源</text>
+</g>
+<text x="40" y="50" font-size="29" fill="#152e46">系统时钟、控制与辅助模块</text>
+<text x="40" y="1182" font-size="18" fill="#59697b">原理图确认：4×ADAR1000、16×ADTR1107、2×DAC5578、4×OPA4703、16×INA241A3、3×ADS7830。</text>
+</svg>

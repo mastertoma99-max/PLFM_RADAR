@@ -1,0 +1,478 @@
+{
+  "source": "5_Simulations/Stub_BPF_V5.sch",
+  "sha256": "85500b45644bef3d644408ecbfc8b236efaafd5caf8ffcb5d74e940b31a1e240",
+  "components": [
+    {
+      "type": "Pac",
+      "ref": "P1",
+      "active": true,
+      "x": 200,
+      "y": 330,
+      "dx": 18,
+      "dy": -26,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "1",
+          "visible": true
+        },
+        {
+          "value": "50",
+          "visible": true
+        },
+        {
+          "value": "0 dBm",
+          "visible": false
+        },
+        {
+          "value": "1 GHz",
+          "visible": false
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "con_2",
+          "visible": false
+        }
+      ],
+      "source_line": "Pac P1 1 200 330 18 -26 0 \"1\"1\"50\"1\"0 dBm\"0\"1 GHz\"0\"26.85\"0\"con_2\"0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 200,
+      "y": 360,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 200 360 0 0 0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 240,
+      "y": 100,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 4,
+      "parameters": [],
+      "source_line": "GND * 1 240 100 0 0 4"
+    },
+    {
+      "type": "MLIN",
+      "ref": "MS1",
+      "active": true,
+      "x": 240,
+      "y": 130,
+      "dx": 10,
+      "dy": -25,
+      "orientation": 1,
+      "parameters": [
+        {
+          "value": "Sub1",
+          "visible": false
+        },
+        {
+          "value": "1.048mm",
+          "visible": true
+        },
+        {
+          "value": "4.177mm",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        }
+      ],
+      "source_line": "MLIN MS1 1 240 130 10 -25 1 \"Sub1\"0\"1.048mm\"1\"4.177mm\"1\"26.85\"0"
+    },
+    {
+      "type": "MLIN",
+      "ref": "MS2",
+      "active": true,
+      "x": 270,
+      "y": 200,
+      "dx": -26,
+      "dy": 15,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "Sub1",
+          "visible": false
+        },
+        {
+          "value": "173µm",
+          "visible": true
+        },
+        {
+          "value": "4.579mm",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        }
+      ],
+      "source_line": "MLIN MS2 1 270 200 -26 15 0 \"Sub1\"0\"173µm\"1\"4.579mm\"1\"26.85\"0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 340,
+      "y": 100,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 4,
+      "parameters": [],
+      "source_line": "GND * 1 340 100 0 0 4"
+    },
+    {
+      "type": "MLIN",
+      "ref": "MS3",
+      "active": true,
+      "x": 340,
+      "y": 130,
+      "dx": 10,
+      "dy": -25,
+      "orientation": 1,
+      "parameters": [
+        {
+          "value": "Sub1",
+          "visible": false
+        },
+        {
+          "value": "2.358mm",
+          "visible": true
+        },
+        {
+          "value": "4.061mm",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        }
+      ],
+      "source_line": "MLIN MS3 1 340 130 10 -25 1 \"Sub1\"0\"2.358mm\"1\"4.061mm\"1\"26.85\"0"
+    },
+    {
+      "type": "MLIN",
+      "ref": "MS4",
+      "active": true,
+      "x": 370,
+      "y": 200,
+      "dx": -26,
+      "dy": 15,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "Sub1",
+          "visible": false
+        },
+        {
+          "value": "143.3µm",
+          "visible": true
+        },
+        {
+          "value": "4.625mm",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        }
+      ],
+      "source_line": "MLIN MS4 1 370 200 -26 15 0 \"Sub1\"0\"143.3µm\"1\"4.625mm\"1\"26.85\"0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 440,
+      "y": 100,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 4,
+      "parameters": [],
+      "source_line": "GND * 1 440 100 0 0 4"
+    },
+    {
+      "type": "MLIN",
+      "ref": "MS5",
+      "active": true,
+      "x": 440,
+      "y": 130,
+      "dx": 10,
+      "dy": -25,
+      "orientation": 1,
+      "parameters": [
+        {
+          "value": "Sub1",
+          "visible": false
+        },
+        {
+          "value": "2.358mm",
+          "visible": true
+        },
+        {
+          "value": "4.061mm",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        }
+      ],
+      "source_line": "MLIN MS5 1 440 130 10 -25 1 \"Sub1\"0\"2.358mm\"1\"4.061mm\"1\"26.85\"0"
+    },
+    {
+      "type": "MLIN",
+      "ref": "MS6",
+      "active": true,
+      "x": 470,
+      "y": 200,
+      "dx": -26,
+      "dy": 15,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "Sub1",
+          "visible": false
+        },
+        {
+          "value": "173µm",
+          "visible": true
+        },
+        {
+          "value": "4.579mm",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        }
+      ],
+      "source_line": "MLIN MS6 1 470 200 -26 15 0 \"Sub1\"0\"173µm\"1\"4.579mm\"1\"26.85\"0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 540,
+      "y": 100,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 4,
+      "parameters": [],
+      "source_line": "GND * 1 540 100 0 0 4"
+    },
+    {
+      "type": "MLIN",
+      "ref": "MS7",
+      "active": true,
+      "x": 540,
+      "y": 130,
+      "dx": 10,
+      "dy": -25,
+      "orientation": 1,
+      "parameters": [
+        {
+          "value": "Sub1",
+          "visible": false
+        },
+        {
+          "value": "1.048mm",
+          "visible": true
+        },
+        {
+          "value": "4.177mm",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        }
+      ],
+      "source_line": "MLIN MS7 1 540 130 10 -25 1 \"Sub1\"0\"1.048mm\"1\"4.177mm\"1\"26.85\"0"
+    },
+    {
+      "type": "Pac",
+      "ref": "P2",
+      "active": true,
+      "x": 580,
+      "y": 330,
+      "dx": 18,
+      "dy": -26,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "2",
+          "visible": true
+        },
+        {
+          "value": "50",
+          "visible": true
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "1 GHz",
+          "visible": false
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "con_2",
+          "visible": false
+        }
+      ],
+      "source_line": "Pac P2 1 580 330 18 -26 0 \"2\"1\"50\"1\"0\"0\"1 GHz\"0\"26.85\"0\"con_2\"0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 580,
+      "y": 360,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 580 360 0 0 0"
+    },
+    {
+      "type": ".SP",
+      "ref": "SP1",
+      "active": true,
+      "x": 210,
+      "y": 460,
+      "dx": 0,
+      "dy": 9,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "lin",
+          "visible": true
+        },
+        {
+          "value": "450MHz",
+          "visible": true
+        },
+        {
+          "value": "45GHz",
+          "visible": true
+        },
+        {
+          "value": "496",
+          "visible": true
+        },
+        {
+          "value": "no",
+          "visible": false
+        },
+        {
+          "value": "1",
+          "visible": false
+        },
+        {
+          "value": "2",
+          "visible": false
+        },
+        {
+          "value": "none",
+          "visible": false
+        }
+      ],
+      "source_line": ".SP SP1 1 210 460 0 9 0 \"lin\"1\"450MHz\"1\"45GHz\"1\"496\"1\"no\"0\"1\"0\"2\"0\"none\"0"
+    },
+    {
+      "type": "SUBST",
+      "ref": "Sub1",
+      "active": true,
+      "x": 390,
+      "y": 450,
+      "dx": -30,
+      "dy": 24,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "3.48",
+          "visible": true
+        },
+        {
+          "value": "102µm",
+          "visible": true
+        },
+        {
+          "value": "35µm",
+          "visible": true
+        },
+        {
+          "value": "0.001",
+          "visible": true
+        },
+        {
+          "value": "2.4e-08",
+          "visible": true
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "Metal",
+          "visible": false
+        },
+        {
+          "value": "Hammerstad",
+          "visible": false
+        },
+        {
+          "value": "Kirschning",
+          "visible": false
+        }
+      ],
+      "source_line": "SUBST Sub1 1 390 450 -30 24 0 \"3.48\"1\"102µm\"1\"35µm\"1\"0.001\"1\"2.4e-08\"1\"0\"0\"Metal\"0\"Hammerstad\"0\"Kirschning\"0"
+    }
+  ],
+  "wires": [
+    "200 200 200 300",
+    "580 200 580 300",
+    "200 200 240 200",
+    "240 160 240 200",
+    "300 200 340 200",
+    "340 160 340 200",
+    "400 200 440 200",
+    "440 160 440 200",
+    "500 200 540 200",
+    "540 200 580 200",
+    "540 160 540 200"
+  ],
+  "paintings": [
+    "Text 490 400 16 #000000 0 band-pass filter, 9GHz...11.5GHz \\n 4^{th} order Butterworth  \\n impedance 50 \\\\Omega"
+  ],
+  "properties": [
+    "View=0,0,800,800,1,0,0",
+    "Grid=10,10,1",
+    "DataSet=*.dat",
+    "DataDisplay=*.dpl",
+    "OpenDisplay=1",
+    "showFrame=0",
+    "FrameText0=Title \\n @PATH@@FILE@",
+    "FrameText1=Drawn By:",
+    "FrameText2=Date: @DATE@",
+    "FrameText3=Revision:"
+  ],
+  "dependencies": []
+}

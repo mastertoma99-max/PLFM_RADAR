@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\2_Works\4_Procedures\PLFM_RADAR\KiCad_All_20260928\Hardware\Phased_Array_Ant\Phased_Array_Ant.kicad_sch</source>
+    <date>2026-09-28T15:33:25</date>
+    <tool>Eeschema 10.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Phased_Array_Ant.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>4_1</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cf63ec99-6aff-4589-95ff-9f33c6d6aca9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>4_2</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e4e3c4c-dcb7-4acc-8174-df36da84f05a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>4_3</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9fcfa62-c117-459b-9092-0b66c8f499b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>4_4</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>daa70c82-9a25-4e18-929f-11f90bdfdcea</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>3_1</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8560d604-0292-4b25-9df1-80c7bab449e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>3_2</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3824241-70d5-4f9d-a136-6c52db835647</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>3_3</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f544a8c7-c5a7-46c1-98f2-57b18b03195f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>3_4</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db9c80f5-6d6b-4394-ac41-536f9d68c03c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>2_1</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3e995fb6-50af-4b1a-bdb3-5116934db501</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>2_2</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f85ffac7-c667-497e-8c17-bc5902549c67</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J11">
+      <value>2_3</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15eca681-ee2d-42d3-ae65-f84243e2a9c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>2_4</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30ecf690-76d6-4414-b1df-6e0f35eca4cd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>1_1</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>779aa778-10ab-4e85-8379-20c3c26fa090</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J14">
+      <value>1_2</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff4d3181-0f8a-4ac2-ba46-9713610c3776</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J15">
+      <value>1_3</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fbdcf779-37f0-4546-9fa7-d8e7ef9d987b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J16">
+      <value>1_4</value>
+      <footprint>Phased_Array_Ant:60124102122403</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="60124102122403" description="WR-SMP Straight&#xA;&#xA;MATERIAL PROPERTIES&#xA;&#xA;Insulator Material LCP&#xA;Center Contact Material Brass&#xA;Center Contact Plating Gold, min. 0.127 μm over Nickel&#xA;Body Material Brass&#xA;Body Plating Gold, min. 0.127 μm over Nickel&#xA;&#xA;KIND PROPERTIES&#xA;&#xA;Interface MIL-STD-348&#xA;Connector Type SMP&#xA;Gender Plug&#xA;Orientation Type Straight&#xA;&#xA;GENERAL INFORMATION&#xA;&#xA;Operating Temperature -65 up to +165 °C&#xA;&#xA;ELECTRICAL PROPERTIES&#xA;&#xA;f DC~12 GHz&#xA;&#xA;MECHANICAL PROPERTIES&#xA;&#xA;Mating Cycle 500 Cycles; 1000 Cycles&#xA;&#xA;PACKAGING PROPERTIES&#xA;&#xA;Packaging Tray&#xA;&#xA;https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg&#xA;&#xA;Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/&#xA;&#xA;Updated by Ella Wu 2020-05-29&#xA;2020(C) Würth Elektronik"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9d32dce-328b-434a-b69f-de64b8b0d783</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$1">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>952013fa-ea1e-4666-9aa5-241066b8d6ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$2">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccf59010-cb44-4333-95a7-40ba102782e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$3">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cd8f498-28dc-4a60-8270-3a3d1e85cf0d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$4">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7397957-99e9-42d0-82fa-85aafa2ea3ec</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$5">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a21177fa-4b5f-4a94-85df-c431c676880f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$6">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b585e91-0ea0-4caf-a054-5224b72df5c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$7">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92c2a3bd-ac9d-4340-b660-8bb1667902e3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$8">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>207de738-8d2b-4a5a-b4b5-472bb101b997</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$9">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0783833-55e1-4dfa-925d-6d5c608d63af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$10">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>68318d75-4b2e-4287-9f5d-ac56a467e69a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$11">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d776bb36-30e1-4e89-9008-4f242efe7015</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$12">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2308d591-f6b8-46b7-8a11-289173b97c0e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$13">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a4a5e790-2f19-4a00-b62a-da471d12e8a2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$14">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbcba697-a1c4-4ca4-989e-a71e65b7ee7a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$15">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceb7aff0-d6d8-4223-a6ad-a91befacc6ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$16">
+      <value>10.5GHZ_ANT</value>
+      <footprint>Phased_Array_Ant:10.5GHZ_ANT</footprint>
+      <fields>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Phased_Array_Ant.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>736f4174-89a7-461d-a6ea-aae1b8306d73</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="P$1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Phased_Array_Ant-eagle-import" part="10.5GHZ_ANT">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint">Phased_Array_Ant:10.5GHZ_ANT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="P$1" name="P$1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Phased_Array_Ant-eagle-import" part="60124102122403">
+      <description>WR-SMP Straight
+
+MATERIAL PROPERTIES
+
+Insulator Material LCP
+Center Contact Material Brass
+Center Contact Plating Gold, min. 0.127 μm over Nickel
+Body Material Brass
+Body Plating Gold, min. 0.127 μm over Nickel
+
+KIND PROPERTIES
+
+Interface MIL-STD-348
+Connector Type SMP
+Gender Plug
+Orientation Type Straight
+
+GENERAL INFORMATION
+
+Operating Temperature -65 up to +165 °C
+
+ELECTRICAL PROPERTIES
+
+f DC~12 GHz
+
+MECHANICAL PROPERTIES
+
+Mating Cycle 500 Cycles; 1000 Cycles
+
+PACKAGING PROPERTIES
+
+Packaging Tray
+
+https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg
+
+Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/
+
+Updated by Ella Wu 2020-05-29
+2020(C) Würth Elektronik</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">Phased_Array_Ant:60124102122403</field>
+        <field name="Datasheet"/>
+        <field name="Description">WR-SMP Straight
+
+MATERIAL PROPERTIES
+
+Insulator Material LCP
+Center Contact Material Brass
+Center Contact Plating Gold, min. 0.127 μm over Nickel
+Body Material Brass
+Body Plating Gold, min. 0.127 μm over Nickel
+
+KIND PROPERTIES
+
+Interface MIL-STD-348
+Connector Type SMP
+Gender Plug
+Orientation Type Straight
+
+GENERAL INFORMATION
+
+Operating Temperature -65 up to +165 °C
+
+ELECTRICAL PROPERTIES
+
+f DC~12 GHz
+
+MECHANICAL PROPERTIES
+
+Mating Cycle 500 Cycles; 1000 Cycles
+
+PACKAGING PROPERTIES
+
+Packaging Tray
+
+https://www.we-online.com/catalog/media/o176648v209%20Family_WR-SMP_60114102122403.jpg
+
+Details see: https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/ https://www.we-online.com/catalog/en/SMP_SMT_STRAIGHT/
+
+Updated by Ella Wu 2020-05-29
+2020(C) Würth Elektronik</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="2" type="passive"/>
+        <pin num="4" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Phased_Array_Ant-eagle-import">
+      <uri>${KIPRJMOD}/Phased_Array_Ant-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND" class="Default">
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J12" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J12" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J14" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J14" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J15" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J15" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J16" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J16" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="2_4" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="2_3" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="2_4" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$1" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="Net-(J2-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$2" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="Net-(J3-Pad1)" class="Default">
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$3" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="Net-(J4-Pad1)" class="Default">
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$4" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="Net-(J5-Pad1)" class="Default">
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$5" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(J6-Pad1)" class="Default">
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$6" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="Net-(J7-Pad1)" class="Default">
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$7" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="Net-(J8-Pad1)" class="Default">
+      <node ref="J8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$8" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="Net-(J9-Pad1)" class="Default">
+      <node ref="J9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$9" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="Net-(J10-Pad1)" class="Default">
+      <node ref="J10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$10" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Net-(J11-Pad1)" class="Default">
+      <node ref="J11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$11" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Net-(J12-Pad1)" class="Default">
+      <node ref="J12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$12" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="Net-(J13-Pad1)" class="Default">
+      <node ref="J13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$13" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(J14-Pad1)" class="Default">
+      <node ref="J14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$14" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(J15-Pad1)" class="Default">
+      <node ref="J15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$15" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(J16-Pad1)" class="Default">
+      <node ref="J16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$16" pin="P$1" pinfunction="P$1_P$1" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

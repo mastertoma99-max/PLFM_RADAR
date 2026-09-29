@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\2_Works\4_Procedures\PLFM_RADAR\KiCad_All_20260928\Hardware\RF_PA\RF_PA.kicad_sch</source>
+    <date>2026-09-28T15:33:23</date>
+    <tool>Eeschema 10.0.0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RF_PA.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10µF</value>
+      <footprint>RF_PA:C1206</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:C1206</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="C-EUC1206" description="CAPACITOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc25377b-6077-4f08-ba84-871f3c74df7c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>0.1µF</value>
+      <footprint>RF_PA:C0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="C-EUC0402" description="CAPACITOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>542526dc-492a-4f3f-9260-542b6773737a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>0.1µF</value>
+      <footprint>RF_PA:C0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="C-EUC0402" description="CAPACITOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a0408bb-28c2-4f04-8060-b7f73d23bf18</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10µF</value>
+      <footprint>RF_PA:C1206</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:C1206</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="C-EUC1206" description="CAPACITOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>505475b9-679b-4d3b-9e86-b4a8bca14922</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>10µF</value>
+      <footprint>RF_PA:C1206</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:C1206</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="C-EUC1206" description="CAPACITOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>703991c1-97c7-42bf-85fa-6ad00669cb37</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>0.1µF</value>
+      <footprint>RF_PA:C0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="C-EUC0402" description="CAPACITOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2884827-5d27-4f44-a4b6-747c1d2ef851</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>0.1µF</value>
+      <footprint>RF_PA:C0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="C-EUC0402" description="CAPACITOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0193f66a-c400-4f99-99d2-15c562736fa7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>0.1µF</value>
+      <footprint>RF_PA:C0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="C-EUC0402" description="CAPACITOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b89c7d65-3470-450d-bee5-2f60e455d1d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>0.1µF</value>
+      <footprint>RF_PA:C0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="C-EUC0402" description="CAPACITOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3cc827ec-19a5-4b14-be05-3e9135b071d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>142-0731-211</value>
+      <footprint>RF_PA:1420731211</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c8fcff4-9d5e-4350-9cb7-6fef880a0aca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>142-0731-211</value>
+      <footprint>RF_PA:1420731211</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="142-0731-211" description="SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder&#xA;&#xA;Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a61ed8a4-b1cb-4808-9d76-44511513685f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10R</value>
+      <footprint>RF_PA:R0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="R-EU_R0402" description="RESISTOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86024740-cc66-4faf-8277-30f2a0b98756</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>0R</value>
+      <footprint>RF_PA:R0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="R-EU_R0402" description="RESISTOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86bc6a95-506e-4ebb-ab96-45797d4d8d97</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>RF_PA:R0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="R-EU_R0402" description="RESISTOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c21a53e2-945f-404e-9570-98a71f5d7bf7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10R</value>
+      <footprint>RF_PA:R0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="R-EU_R0402" description="RESISTOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11c9d260-ac40-48b4-b990-7b1a58333be8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>RF_PA:R0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="R-EU_R0402" description="RESISTOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da02462d-fc76-447f-858a-69587e8f56d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>0R</value>
+      <footprint>RF_PA:R0603</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="R-EU_R0603" description="RESISTOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97adaac2-adf4-4c6c-9c40-395540fa599f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>0R</value>
+      <footprint>RF_PA:R0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="R-EU_R0402" description="RESISTOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee661b34-e5be-4f23-b923-8ad91ee586be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>0R</value>
+      <footprint>RF_PA:R0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="R-EU_R0402" description="RESISTOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76bb3b07-10a1-4156-8108-c32e93b9f4d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>0R</value>
+      <footprint>RF_PA:R0402</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="R-EU_R0402" description="RESISTOR, European symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70429567-2143-4bbb-938e-9e062743f3a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>5mR</value>
+      <footprint>RF_PA:WSL2816_VIS</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:WSL2816_VIS</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="WSL2816R1000FEH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e0551a1-ebbc-47b4-8d5f-e654bc2178d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U$1">
+      <value>QPA2962_B</value>
+      <footprint>RF_PA:QPA2962_B</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:QPA2962_B</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="QPA2962_B" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c961125c-9e96-4b3a-9c4a-359616d1e076</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="RFIN"/>
+            <pin num="VG"/>
+            <pin num="VD1"/>
+            <pin num="GND"/>
+            <pin num="VD2"/>
+            <pin num="RFOUT"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="UNK22V0">
+      <value>AK300/2</value>
+      <footprint>RF_PA:AK300_2</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:AK300_2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="AK300/2" description="CONNECTOR"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7878328a-e7a8-4a45-b67d-11929339f343 36369d83-1bd0-4c9c-b489-11afdcc40879</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X2">
+      <value>22-23-2021</value>
+      <footprint>RF_PA:22-23-2021</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:22-23-2021</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="22-23-2021" description=".100&quot; (2.54mm) Center Header - 2 Pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bb4b8acf-4e79-454d-beb5-f12b1705b243 38012c13-4122-4788-ad59-8ec6eddb3cb5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="X3">
+      <value>22-23-2031</value>
+      <footprint>RF_PA:22-23-2031</footprint>
+      <fields>
+        <field name="Footprint">RF_PA:22-23-2031</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RF_PA-eagle-import" part="22-23-2031" description=".100&quot; (2.54mm) Center Header - 3 Pin"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="RF_PA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1ff15fd-a626-4d65-ad90-e04f223a6329 5bf7fc60-f357-44fe-a12a-b6b1dcd6e147 2e2dd278-32aa-4c21-b164-8b9a68907774</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="2"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="RF_PA-eagle-import" part="142-0731-211">
+      <description>SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder
+
+Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:1420731211</field>
+        <field name="Datasheet"/>
+        <field name="Description">SMA Connector Jack, Female Socket 50 Ohms Through Hole Solder
+
+Source: https://www.cinch.com/media/drawings/products/rf-microwave/connectors/dr-CCS-JOHNS-142-0731-211.pdf  Datasheet</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="bidirectional"/>
+        <pin num="2" name="2" type="bidirectional"/>
+        <pin num="3" name="3" type="bidirectional"/>
+        <pin num="4" name="4" type="bidirectional"/>
+        <pin num="5" name="5" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_PA-eagle-import" part="22-23-2021">
+      <description>.100" (2.54mm) Center Header - 2 Pin</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:22-23-2021</field>
+        <field name="Datasheet"/>
+        <field name="Description">.100" (2.54mm) Center Header - 2 Pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_PA-eagle-import" part="22-23-2031">
+      <description>.100" (2.54mm) Center Header - 3 Pin</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:22-23-2031</field>
+        <field name="Datasheet"/>
+        <field name="Description">.100" (2.54mm) Center Header - 3 Pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_PA-eagle-import" part="AK300/2">
+      <description>CONNECTOR</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:AK300_2</field>
+        <field name="Datasheet"/>
+        <field name="Description">CONNECTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="KL" type="passive"/>
+        <pin num="2" name="KL" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_PA-eagle-import" part="C-EUC0402">
+      <description>CAPACITOR, European symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:C0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">CAPACITOR, European symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_PA-eagle-import" part="C-EUC1206">
+      <description>CAPACITOR, European symbol</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:C1206</field>
+        <field name="Datasheet"/>
+        <field name="Description">CAPACITOR, European symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_PA-eagle-import" part="QPA2962_B">
+      <fields>
+        <field name="Reference"/>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:QPA2962_B</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="bidirectional"/>
+        <pin num="RFIN" name="RFIN" type="bidirectional"/>
+        <pin num="RFOUT" name="RFOUT" type="bidirectional"/>
+        <pin num="VD1" name="VD1" type="bidirectional"/>
+        <pin num="VD2" name="VD2" type="bidirectional"/>
+        <pin num="VG" name="VG" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_PA-eagle-import" part="R-EU_R0402">
+      <description>RESISTOR, European symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:R0402</field>
+        <field name="Datasheet"/>
+        <field name="Description">RESISTOR, European symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_PA-eagle-import" part="R-EU_R0603">
+      <description>RESISTOR, European symbol</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description">RESISTOR, European symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_PA-eagle-import" part="WSL2816R1000FEH">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value"/>
+        <field name="Footprint">RF_PA:WSL2816_VIS</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="RF_PA-eagle-import">
+      <uri>${KIPRJMOD}/RF_PA-eagle-import.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VD" class="Default">
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="UNK22V0" pin="1" pinfunction="KL_1" pintype="passive"/>
+      <node ref="X3" pin="1" pinfunction="S_1" pintype="passive"/>
+    </net>
+    <net code="2" name="/VG" class="Default">
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U$1" pin="VG" pinfunction="VG_VG" pintype="bidirectional"/>
+      <node ref="X2" pin="1" pinfunction="S_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/VIN_M" class="Default">
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U$1" pin="VD1" pinfunction="VD1_VD1" pintype="bidirectional"/>
+      <node ref="U$1" pin="VD2" pinfunction="VD2_VD2" pintype="bidirectional"/>
+      <node ref="X3" pin="2" pinfunction="S_2" pintype="passive"/>
+    </net>
+    <net code="4" name="GND" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="bidirectional"/>
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="bidirectional"/>
+      <node ref="J2" pin="4" pinfunction="4_4" pintype="bidirectional"/>
+      <node ref="J2" pin="5" pinfunction="5_5" pintype="bidirectional"/>
+      <node ref="U$1" pin="GND" pinfunction="GND_GND" pintype="bidirectional"/>
+      <node ref="UNK22V0" pin="2" pinfunction="KL_2" pintype="passive"/>
+      <node ref="X2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="X3" pin="3" pinfunction="S_3" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad2)" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad2)" class="Default">
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C3-Pad2)" class="Default">
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C4-Pad2)" class="Default">
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C5-Pad1)" class="Default">
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C6-Pad2)" class="Default">
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C7-Pad2)" class="Default">
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C8-Pad1)" class="Default">
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(C9-Pad1)" class="Default">
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+      <node ref="U$1" pin="RFIN" pinfunction="RFIN_RFIN" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad1)" class="Default">
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="bidirectional"/>
+      <node ref="U$1" pin="RFOUT" pinfunction="RFOUT_RFOUT" pintype="bidirectional"/>
+    </net>
+  </nets>
+</export>

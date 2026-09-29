@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "filename": "IF_BPF.kicad_pro",
+    "version": 3
+  },
+  "schematic": {
+    "top_level_sheets": [
+      {
+        "filename": "IF_BPF.kicad_sch",
+        "name": "",
+        "uuid": "523439ec-85f0-4cbd-80bd-20d18dca343c"
+      }
+    ]
+  }
+}

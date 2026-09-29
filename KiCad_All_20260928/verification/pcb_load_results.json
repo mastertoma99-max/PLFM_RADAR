@@ -1,0 +1,44 @@
+[
+  {
+    "project": "Clocks_Freq_Synth_board",
+    "footprints": 188,
+    "tracks_including_vias": 2143,
+    "zones": 6,
+    "copper_layers": 6
+  },
+  {
+    "project": "RADAR_Main_Board",
+    "footprints": 797,
+    "tracks_including_vias": 15241,
+    "zones": 4441,
+    "copper_layers": 10
+  },
+  {
+    "project": "RF_PA",
+    "footprints": 32,
+    "tracks_including_vias": 444,
+    "zones": 2317,
+    "copper_layers": 4
+  },
+  {
+    "project": "PowerBoard",
+    "footprints": 319,
+    "tracks_including_vias": 2229,
+    "zones": 101,
+    "copper_layers": 2
+  },
+  {
+    "project": "Phased_Array_Ant",
+    "footprints": 36,
+    "tracks_including_vias": 129,
+    "zones": 2,
+    "copper_layers": 6
+  },
+  {
+    "project": "Patch_Anetnna_16_8",
+    "footprints": 20,
+    "tracks_including_vias": 127,
+    "zones": 130,
+    "copper_layers": 4
+  }
+]

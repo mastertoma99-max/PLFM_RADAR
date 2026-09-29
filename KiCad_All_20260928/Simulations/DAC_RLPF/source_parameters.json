@@ -1,0 +1,512 @@
+{
+  "source": "5_Simulations/DAC_ReconstructionFilter/DAC_RLPF.sch",
+  "sha256": "9b9bceeecdc43175694e8db1f66bc54f92c3fef87193867a071364276f6fe495",
+  "components": [
+    {
+      "type": ".TR",
+      "ref": "TR1",
+      "active": true,
+      "x": 830,
+      "y": 400,
+      "dx": 0,
+      "dy": 9,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "lin",
+          "visible": false
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "10 µs",
+          "visible": true
+        },
+        {
+          "value": "5020",
+          "visible": true
+        },
+        {
+          "value": "Trapezoidal",
+          "visible": false
+        },
+        {
+          "value": "1e-16",
+          "visible": false
+        },
+        {
+          "value": "500",
+          "visible": false
+        },
+        {
+          "value": "0.001",
+          "visible": false
+        },
+        {
+          "value": "1 µA",
+          "visible": false
+        },
+        {
+          "value": "yes",
+          "visible": false
+        },
+        {
+          "value": "none",
+          "visible": false
+        }
+      ],
+      "source_line": ".TR TR1 1 830 400 0 9 0 \"lin\"0\"0\"0\"10 µs\"1\"5020\"1\"Trapezoidal\"0\"1e-16\"0\"500\"0\"0.001\"0\"1 µA\"0\"yes\"0\"none\"0"
+    },
+    {
+      "type": "C",
+      "ref": "C4",
+      "active": true,
+      "x": 500,
+      "y": 250,
+      "dx": 17,
+      "dy": -26,
+      "orientation": 1,
+      "parameters": [
+        {
+          "value": "32.79pF",
+          "visible": true
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "",
+          "visible": false
+        },
+        {
+          "value": "neutral",
+          "visible": false
+        },
+        {
+          "value": "SMD0603",
+          "visible": false
+        }
+      ],
+      "source_line": "C C4 1 500 250 17 -26 1 \"32.79pF\"1\"0\"0\"\"0\"neutral\"0\"SMD0603\"0"
+    },
+    {
+      "type": "C",
+      "ref": "C5",
+      "active": true,
+      "x": 640,
+      "y": 250,
+      "dx": 17,
+      "dy": -26,
+      "orientation": 1,
+      "parameters": [
+        {
+          "value": "106.1pF",
+          "visible": true
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "",
+          "visible": false
+        },
+        {
+          "value": "neutral",
+          "visible": false
+        },
+        {
+          "value": "SMD0603",
+          "visible": false
+        }
+      ],
+      "source_line": "C C5 1 640 250 17 -26 1 \"106.1pF\"1\"0\"0\"\"0\"neutral\"0\"SMD0603\"0"
+    },
+    {
+      "type": "C",
+      "ref": "C6",
+      "active": true,
+      "x": 780,
+      "y": 250,
+      "dx": 17,
+      "dy": -26,
+      "orientation": 1,
+      "parameters": [
+        {
+          "value": "32.79pF",
+          "visible": true
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "",
+          "visible": false
+        },
+        {
+          "value": "neutral",
+          "visible": false
+        },
+        {
+          "value": "SMD0603",
+          "visible": false
+        }
+      ],
+      "source_line": "C C6 1 780 250 17 -26 1 \"32.79pF\"1\"0\"0\"\"0\"neutral\"0\"SMD0603\"0"
+    },
+    {
+      "type": "L",
+      "ref": "L3",
+      "active": true,
+      "x": 570,
+      "y": 170,
+      "dx": -26,
+      "dy": 10,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "107.3nH",
+          "visible": true
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "",
+          "visible": false
+        },
+        {
+          "value": "inductor_1mH",
+          "visible": false
+        }
+      ],
+      "source_line": "L L3 1 570 170 -26 10 0 \"107.3nH\"1\"0\"0\"\"0\"inductor_1mH\"0"
+    },
+    {
+      "type": "L",
+      "ref": "L4",
+      "active": true,
+      "x": 710,
+      "y": 170,
+      "dx": -26,
+      "dy": 10,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "107.3nH",
+          "visible": true
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "",
+          "visible": false
+        },
+        {
+          "value": "inductor_1mH",
+          "visible": false
+        }
+      ],
+      "source_line": "L L4 1 710 170 -26 10 0 \"107.3nH\"1\"0\"0\"\"0\"inductor_1mH\"0"
+    },
+    {
+      "type": "R",
+      "ref": "R2",
+      "active": true,
+      "x": 440,
+      "y": 170,
+      "dx": -26,
+      "dy": 15,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "25 Ω",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "european",
+          "visible": false
+        },
+        {
+          "value": "SMD0603",
+          "visible": false
+        }
+      ],
+      "source_line": "R R2 1 440 170 -26 15 0 \"25 Ω\"1\"26.85\"0\"european\"0\"SMD0603\"0"
+    },
+    {
+      "type": "R",
+      "ref": "R3",
+      "active": true,
+      "x": 440,
+      "y": 300,
+      "dx": -26,
+      "dy": 15,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "25 Ω",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "european",
+          "visible": false
+        },
+        {
+          "value": "SMD0603",
+          "visible": false
+        }
+      ],
+      "source_line": "R R3 1 440 300 -26 15 0 \"25 Ω\"1\"26.85\"0\"european\"0\"SMD0603\"0"
+    },
+    {
+      "type": "L",
+      "ref": "L5",
+      "active": true,
+      "x": 570,
+      "y": 300,
+      "dx": -26,
+      "dy": 10,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "107.3nH",
+          "visible": true
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "",
+          "visible": false
+        },
+        {
+          "value": "inductor_1mH",
+          "visible": false
+        }
+      ],
+      "source_line": "L L5 1 570 300 -26 10 0 \"107.3nH\"1\"0\"0\"\"0\"inductor_1mH\"0"
+    },
+    {
+      "type": "L",
+      "ref": "L6",
+      "active": true,
+      "x": 710,
+      "y": 300,
+      "dx": -26,
+      "dy": 10,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "107.3nH",
+          "visible": true
+        },
+        {
+          "value": "0",
+          "visible": false
+        },
+        {
+          "value": "",
+          "visible": false
+        },
+        {
+          "value": "inductor_1mH",
+          "visible": false
+        }
+      ],
+      "source_line": "L L6 1 710 300 -26 10 0 \"107.3nH\"1\"0\"0\"\"0\"inductor_1mH\"0"
+    },
+    {
+      "type": "GND",
+      "ref": "*",
+      "active": true,
+      "x": 290,
+      "y": 240,
+      "dx": 0,
+      "dy": 0,
+      "orientation": 0,
+      "parameters": [],
+      "source_line": "GND * 1 290 240 0 0 0"
+    },
+    {
+      "type": "R",
+      "ref": "R1",
+      "active": true,
+      "x": 900,
+      "y": 240,
+      "dx": 15,
+      "dy": -26,
+      "orientation": 1,
+      "parameters": [
+        {
+          "value": "50 Ω",
+          "visible": true
+        },
+        {
+          "value": "26.85",
+          "visible": false
+        },
+        {
+          "value": "european",
+          "visible": false
+        },
+        {
+          "value": "SMD0603",
+          "visible": false
+        }
+      ],
+      "source_line": "R R1 1 900 240 15 -26 1 \"50 Ω\"1\"26.85\"0\"european\"0\"SMD0603\"0"
+    },
+    {
+      "type": "Vfile",
+      "ref": "V1",
+      "active": true,
+      "x": 370,
+      "y": 210,
+      "dx": 18,
+      "dy": -26,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "multi_ramp_stairs.csv",
+          "visible": false
+        },
+        {
+          "value": "out.Vt",
+          "visible": false
+        },
+        {
+          "value": "hold",
+          "visible": false
+        },
+        {
+          "value": "yes",
+          "visible": false
+        },
+        {
+          "value": "1",
+          "visible": false
+        },
+        {
+          "value": "0",
+          "visible": false
+        }
+      ],
+      "source_line": "Vfile V1 1 370 210 18 -26 0 \"multi_ramp_stairs.csv\"0\"out.Vt\"0\"hold\"0\"yes\"0\"1\"0\"0\"0",
+      "local_model": "models/multi_ramp_stairs.csv"
+    },
+    {
+      "type": "Vfile",
+      "ref": "V2",
+      "active": true,
+      "x": 370,
+      "y": 270,
+      "dx": 18,
+      "dy": -26,
+      "orientation": 0,
+      "parameters": [
+        {
+          "value": "multi_ramp_stairs.csv",
+          "visible": false
+        },
+        {
+          "value": "out.Vt",
+          "visible": false
+        },
+        {
+          "value": "hold",
+          "visible": false
+        },
+        {
+          "value": "yes",
+          "visible": false
+        },
+        {
+          "value": "1",
+          "visible": false
+        },
+        {
+          "value": "0",
+          "visible": false
+        }
+      ],
+      "source_line": "Vfile V2 1 370 270 18 -26 0 \"multi_ramp_stairs.csv\"0\"out.Vt\"0\"hold\"0\"yes\"0\"1\"0\"0\"0",
+      "local_model": "models/multi_ramp_stairs.csv"
+    }
+  ],
+  "wires": [
+    "470 170 500 170",
+    "370 170 410 170",
+    "370 170 370 180",
+    "500 170 500 220",
+    "640 170 640 220",
+    "780 170 780 220",
+    "500 170 540 170",
+    "600 170 640 170",
+    "640 170 680 170",
+    "740 170 780 170",
+    "900 170 900 210",
+    "780 170 900 170",
+    "370 300 410 300",
+    "470 300 500 300",
+    "600 300 640 300",
+    "740 300 780 300",
+    "900 270 900 300",
+    "780 300 900 300",
+    "780 280 780 300",
+    "640 300 680 300",
+    "640 280 640 300",
+    "500 300 540 300",
+    "500 280 500 300",
+    "290 240 370 240",
+    "370 300 370 300 \"Vin_N\" 300 330 0 \"\"",
+    "370 170 370 170 \"Vin_P\" 400 120 0 \"\"",
+    "900 170 900 170 \"Vout_P\" 930 120 0 \"\"",
+    "900 300 900 300 \"Vout_N\" 930 300 0 \"\""
+  ],
+  "paintings": [
+    "Text 430 350 16 #000000 0 low-pass filter, 60MHz cutoff \\n 5^{th} order Butterworth , PI-type, \\n impedance 50 \\\\Omega"
+  ],
+  "properties": [
+    "View=46.9285,-48.9912,1171.72,565.529,1.16667,175,86",
+    "Grid=10,10,1",
+    "DataSet=*.dat",
+    "DataDisplay=*.dpl",
+    "OpenDisplay=1",
+    "showFrame=0",
+    "FrameText0=Title \\n @PATH@@FILE@",
+    "FrameText1=Drawn By:",
+    "FrameText2=Date: @DATE@",
+    "FrameText3=Revision:"
+  ],
+  "dependencies": [
+    {
+      "ref": "V1",
+      "original": "multi_ramp_stairs.csv",
+      "local": "models/multi_ramp_stairs.csv",
+      "sha256": "6edce1de450a60f11a168bfedecce0ac16015813d7b69d45060bcf4fa4a29588"
+    },
+    {
+      "ref": "V2",
+      "original": "multi_ramp_stairs.csv",
+      "local": "models/multi_ramp_stairs.csv",
+      "sha256": "6edce1de450a60f11a168bfedecce0ac16015813d7b69d45060bcf4fa4a29588"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "project": "QPA2962",
+    "source_components_including_ground_and_settings": 7,
+    "circuit_components": 3,
+    "kicad_components": 3,
+    "inactive_circuit_components": 0,
+    "ground_markers": 3,
+    "configuration_blocks": 1,
+    "wires_source": 2,
+    "wires_after_splitting": 2,
+    "missing_pins": [],
+    "split_nets": [],
+    "merged_nets": [],
+    "dependencies": [
+      {
+        "ref": "X1",
+        "original": "C:/Users/ASUS/Desktop/RADAR_V5/Components_New/QPA2962/QPA2962_22V1680mA_s2p/QPA2962_SN63_22v1680ma_85C.s2p",
+        "local": "models/QPA2962_SN63_22v1680ma_85C.s2p",
+        "sha256": "63099ea6b15e28117f91f1dd6f59fe0e63ff2061bba38bbe97f54e701935111b"
+      }
+    ],
+    "source_sha256": "5780694efebe4f5a762459b097de1e0269aef854e3db7e454602ff68281cdf3f",
+    "validation_scope": "Coordinate and terminal connectivity reconstruction; simulation behavior not validated"
+  },
+  {
+    "project": "Stub_BPF_V5",
+    "source_components_including_ground_and_settings": 17,
+    "circuit_components": 9,
+    "kicad_components": 9,
+    "inactive_circuit_components": 0,
+    "ground_markers": 6,
+    "configuration_blocks": 2,
+    "wires_source": 11,
+    "wires_after_splitting": 11,
+    "missing_pins": [],
+    "split_nets": [],
+    "merged_nets": [],
+    "dependencies": [],
+    "source_sha256": "85500b45644bef3d644408ecbfc8b236efaafd5caf8ffcb5d74e940b31a1e240",
+    "validation_scope": "Coordinate and terminal connectivity reconstruction; simulation behavior not validated"
+  },
+  {
+    "project": "DAC_RLPF",
+    "source_components_including_ground_and_settings": 14,
+    "circuit_components": 12,
+    "kicad_components": 12,
+    "inactive_circuit_components": 0,
+    "ground_markers": 1,
+    "configuration_blocks": 1,
+    "wires_source": 24,
+    "wires_after_splitting": 24,
+    "missing_pins": [],
+    "split_nets": [],
+    "merged_nets": [],
+    "dependencies": [
+      {
+        "ref": "V1",
+        "original": "multi_ramp_stairs.csv",
+        "local": "models/multi_ramp_stairs.csv",
+        "sha256": "6edce1de450a60f11a168bfedecce0ac16015813d7b69d45060bcf4fa4a29588"
+      },
+      {
+        "ref": "V2",
+        "original": "multi_ramp_stairs.csv",
+        "local": "models/multi_ramp_stairs.csv",
+        "sha256": "6edce1de450a60f11a168bfedecce0ac16015813d7b69d45060bcf4fa4a29588"
+      }
+    ],
+    "source_sha256": "9b9bceeecdc43175694e8db1f66bc54f92c3fef87193867a071364276f6fe495",
+    "validation_scope": "Coordinate and terminal connectivity reconstruction; simulation behavior not validated"
+  },
+  {
+    "project": "IF_BPF",
+    "source_components_including_ground_and_settings": 15,
+    "circuit_components": 10,
+    "kicad_components": 10,
+    "inactive_circuit_components": 0,
+    "ground_markers": 4,
+    "configuration_blocks": 1,
+    "wires_source": 11,
+    "wires_after_splitting": 11,
+    "missing_pins": [],
+    "split_nets": [],
+    "merged_nets": [],
+    "dependencies": [],
+    "source_sha256": "243a5f6394fee82e8d502eb0545986ec8f4556975e15e6634be5357a5d460a74",
+    "validation_scope": "Coordinate and terminal connectivity reconstruction; simulation behavior not validated"
+  },
+  {
+    "project": "IF_BPF_Balanced",
+    "source_components_including_ground_and_settings": 69,
+    "circuit_components": 57,
+    "kicad_components": 57,
+    "inactive_circuit_components": 33,
+    "ground_markers": 10,
+    "configuration_blocks": 2,
+    "wires_source": 77,
+    "wires_after_splitting": 77,
+    "missing_pins": [],
+    "split_nets": [],
+    "merged_nets": [],
+    "dependencies": [
+      {
+        "ref": "V2",
+        "original": "multiband_signal.csv",
+        "local": "models/multiband_signal.csv",
+        "sha256": "dfaf86a69976105899bcb52e03b5f6af52bb39d4c27c9915e4e4de5b843f1991"
+      },
+      {
+        "ref": "V1",
+        "original": "multiband_signal.csv",
+        "local": "models/multiband_signal.csv",
+        "sha256": "dfaf86a69976105899bcb52e03b5f6af52bb39d4c27c9915e4e4de5b843f1991"
+      }
+    ],
+    "source_sha256": "cbaabacb990062823cc1cb976b6aa10eb6c5778cd10139d8c3f9a4ada8640611",
+    "validation_scope": "Coordinate and terminal connectivity reconstruction; simulation behavior not validated"
+  },
+  {
+    "project": "Impedance",
+    "source_components_including_ground_and_settings": 9,
+    "circuit_components": 4,
+    "kicad_components": 4,
+    "inactive_circuit_components": 0,
+    "ground_markers": 4,
+    "configuration_blocks": 1,
+    "wires_source": 4,
+    "wires_after_splitting": 4,
+    "missing_pins": [],
+    "split_nets": [],
+    "merged_nets": [],
+    "dependencies": [
+      {
+        "ref": "X1",
+        "original": "Sparameters/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p",
+        "local": "models/M3SWA2-34DR+_3.5V_RF1 ON_40GHz_Plus25DegC_UNIT1.s3p",
+        "sha256": "6aaac854e3bcc8f0d08d1ec080298c6df0b0d3daf4b0393d27e3b075e616852a"
+      }
+    ],
+    "source_sha256": "8a247b645f4f642b6efc777f714b2217c1047d675179dd218184a580c11d0168",
+    "validation_scope": "Coordinate and terminal connectivity reconstruction; simulation behavior not validated"
+  },
+  {
+    "project": "Sim_BPF_Te_100um",
+    "source_components_including_ground_and_settings": 19,
+    "circuit_components": 11,
+    "kicad_components": 11,
+    "inactive_circuit_components": 0,
+    "ground_markers": 6,
+    "configuration_blocks": 2,
+    "wires_source": 14,
+    "wires_after_splitting": 14,
+    "missing_pins": [],
+    "split_nets": [],
+    "merged_nets": [],
+    "dependencies": [],
+    "source_sha256": "cb9c39b95fe82cd16e6b7344f28757f7d7c27bd2e76c36851b2c82a9ca64e0a2",
+    "validation_scope": "Coordinate and terminal connectivity reconstruction; simulation behavior not validated"
+  },
+  {
+    "project": "Stub_BPF",
+    "source_components_including_ground_and_settings": 17,
+    "circuit_components": 9,
+    "kicad_components": 9,
+    "inactive_circuit_components": 0,
+    "ground_markers": 6,
+    "configuration_blocks": 2,
+    "wires_source": 11,
+    "wires_after_splitting": 11,
+    "missing_pins": [],
+    "split_nets": [],
+    "merged_nets": [],
+    "dependencies": [],
+    "source_sha256": "646c240c709f313284179deea8f2f663b487bd26bd39d3931492ff8c25909ccf",
+    "validation_scope": "Coordinate and terminal connectivity reconstruction; simulation behavior not validated"
+  }
+]
