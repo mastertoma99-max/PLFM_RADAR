@@ -133,6 +133,10 @@ The AERIS-10 main sub-systems are:
 
 ## 🚀 Getting Started
 
+### 射频前端替代方案
+
+[ADAR1000 与 ADTR1107 分立替代方案](docs/rf-front-end-replacement/README.md) 汇总了 10～11 GHz、16 路、10 W 级前端的候选拓扑、QPA2612 与 QPA2962 比较、器件采购快照、偏置和保护要求及验证步骤，并附工程选型与采购表。当前为样机选型方案，QPA2612 按脉冲条件评估，原理图和 PCB 尚未实施替换，采购仍有缺项。
+
 ### 🧹 Repository File Placement Policy
 
 To keep the repository root clean and make artifacts easy to find, place generated files in the following locations:

@@ -1,0 +1,523 @@
+{
+  "date": "2026-10-10",
+  "rf": [
+    [
+      "末级PA：优先候选",
+      "QPA2612",
+      16,
+      "Qorvo商城/RFMW",
+      "66",
+      "USD 295.31",
+      "1–24只；25只档241.86",
+      "A 详情页",
+      "8–12 GHz；24 V。12 W级为脉冲条件，先做单路验证；非P2P。",
+      "https://store.qorvo.com/products/detail/qpa2612-qorvo/658743/"
+    ],
+    [
+      "末级PA：原方案",
+      "QPA2962",
+      16,
+      "Qorvo商城/RFMW",
+      "55",
+      "USD 612.95",
+      "1–24只",
+      "A 详情页",
+      "保留作比较；成本高，需约+27 dBm驱动。",
+      "https://store.qorvo.com/products/detail/qpa2962-qorvo/682240/"
+    ],
+    [
+      "末级PA：降功率备选",
+      "PMA6-123-10W+",
+      16,
+      "Mini-Circuits商城",
+      ">100（索引）",
+      "USD 107.04",
+      "20只档；采购20只；非单只报价",
+      "B 网页索引",
+      "10–11.7 GHz；典型Psat39.1 dBm≈8.13 W，不满足严格10 W。详情页本次未读出实时库存。",
+      "https://www.minicircuits.com/WebStore/dashboard.html?model=PMA6-123-10W%2B"
+    ],
+    [
+      "原方案驱动PA",
+      "PMA5-123-3W+",
+      16,
+      "Mouser新加坡",
+      "307（2个月快照）",
+      "SGD 75.38",
+      "1只；20只档67.85",
+      "B 较旧详情页",
+      "仅作为QPA2962链路原配置。QPA2612输入绝对最大21 dBm，禁止沿用原27 dBm驱动。",
+      "https://www.mouser.sg/en/ProductDetail/Mini-Circuits/PMA5-123-3W%2B?qs=sqEgtWRSLJ2vtugGWqj06A%3D%3D"
+    ],
+    [
+      "TX前放/RX LNA",
+      "PMA2-123LNW+",
+      32,
+      "Mouser欧洲",
+      "846",
+      "EUR 24.00",
+      "1只起；50只档21.61",
+      "A 详情页",
+      "原方案每路TX/RX各1只；末级变化后TX驱动数量待链路预算。",
+      "https://eu.mouser.com/en/ProductDetail/Mini-Circuits/PMA2-123LNW%2B?qs=4dK74SdgGtwEBDo2%2FF2buA%3D%3D"
+    ],
+    [
+      "移相：有货候选",
+      "MAPS-010166-TR0500",
+      16,
+      "DigiKey",
+      "390",
+      "USD 120.525",
+      "10只档；1只136.70；可剪带",
+      "A 详情页",
+      "6位8–12 GHz；±5 V；插损典型6.5/最大9 dB。封装版反向指标未明确，TDD双向使用需确认/实测。",
+      "https://www.digikey.com/en/products/detail/macom-technology-solutions/MAPS-010166-TR0500/4429765"
+    ],
+    [
+      "移相：原方案",
+      "TGP2109-SM",
+      16,
+      "Qorvo商城/Mouser",
+      "0",
+      "—",
+      "缺货报价不作为现货成本",
+      "C 缺货",
+      "不列入现货首选；搜索分类页与详情页不一致时采用详情页。",
+      "https://store.qorvo.com/products/detail/tgp2109sm-qorvo/578492/"
+    ],
+    [
+      "衰减：降本候选",
+      "PE43610A-X",
+      16,
+      "DigiKey",
+      "1704",
+      "USD 22.754",
+      "剪带10只档；1只26.08",
+      "A 详情页",
+      "9 kHz–13 GHz；6位0.5 dB/31.5 dB；8–13 GHz插损2.5典型/3最大。3.3 V正常模式；需重做控制与幅相标定。",
+      "https://www.digikey.com/en/products/detail/psemi/PE43610A-X/22251085"
+    ],
+    [
+      "衰减：原方案",
+      "ADRF5730BCCZN / ADRF5730BCCZN-R7",
+      16,
+      "立创 C1525897/C659636",
+      "少量，待刷新",
+      "—",
+      "未形成16只同批报价",
+      "C 数量未确认",
+      "40 GHz能力超出本次需求；建议优先评估PE43610，不能把两种封装订货库存当同一条库存。",
+      "https://www.lcsc.com/product-detail/C1525897.html"
+    ],
+    [
+      "小信号T/R及消隐",
+      "M3SWA2-34DR+",
+      33,
+      "Mouser马来西亚",
+      "3083",
+      "MYR 156.49",
+      "20只档；1只173.87",
+      "A 详情页",
+      "32支路+1公共；只放小信号侧，不能切换10 W天线功率。",
+      "https://my.mouser.com/en/ProductDetail/Mini-Circuits/M3SWA2-34DR%2B?qs=ZcfC38r4PotB%2FZgogI%252BGuw%3D%3D"
+    ],
+    [
+      "接收限幅",
+      "TGL2209-SM",
+      16,
+      "Qorvo商城/RFMW",
+      "334",
+      "USD 72.08",
+      "1–24只；25只档48.88",
+      "A 详情页",
+      "50 W是指定脉冲条件；天线失配/反射及持续功率必须单独验证。",
+      "https://store.qorvo.com/products/detail/tgl2209sm-qorvo/578487/"
+    ],
+    [
+      "功分/合路",
+      "EP4RKU+",
+      5,
+      "DigiKey",
+      "4936",
+      "USD 74.68",
+      "1只起；原1只可复用时净增4只",
+      "A 详情页",
+      "两级1→16，按实际插损预算；装配总量不是净采购量。",
+      "https://www.digikey.com/en/products/detail/mini-circuits/EP4RKU/13927329"
+    ],
+    [
+      "公共放大/新驱动候选",
+      "AVA-183MP+",
+      1,
+      "DigiKey",
+      "210（1个月快照）",
+      "USD 74.09",
+      "1只起",
+      "B 较旧详情页",
+      "原方案公共TX1只。可评估为QPA2612每路驱动，但尚未冻结数量或确认全频最差增益。",
+      "https://www.digikey.com/en/products/detail/mini-circuits/AVA-183MP/19186453"
+    ],
+    [
+      "RF检波：成本偏高",
+      "ADL6010ACPZN-R7",
+      16,
+      "DigiKey",
+      "2161",
+      "USD 207.958",
+      "10只档；1只241.92",
+      "A 详情页",
+      "有货但不利于降本；首样可用外部仪器测功率。取消逐路检波会改变在线监测功能，未默认取消。",
+      "https://www.digikey.com/en/products/detail/analog-devices-inc/ADL6010ACPZN-R7/5403657"
+    ],
+    [
+      "原驱动衰减垫",
+      "XAT-3+",
+      16,
+      "Mini-Circuits商城",
+      ">1000（索引）",
+      "USD 19.09",
+      "20只档",
+      "B 网页索引",
+      "原QPA2962链路值；换PA必须重选衰减量，不能作为输入限幅器。",
+      "https://www.minicircuits.com/WebStore/dashboard.html?model=XAT-3%2B"
+    ],
+    [
+      "检波支路衰减垫",
+      "XAT-10+",
+      16,
+      "Mini-Circuits商城",
+      ">1000（索引）",
+      "USD 19.09",
+      "20只档",
+      "B 网页索引",
+      "配20 dB耦合器；若改30 dB耦合器则重选。",
+      "https://www.minicircuits.com/WebStore/dashboard.html?model=XAT-10%2B"
+    ],
+    [
+      "天线端环行器",
+      "UIYBDC815A8T12",
+      16,
+      "UIY原厂资料；需询价",
+      "未核实",
+      "—",
+      "没有确认零售现货链接",
+      "C 未闭合",
+      "8–12 GHz/30 W规格可作候选；不能写成已可采购。未找到已核实淘宝商品。",
+      "https://www.uiyinc.com/Datasheet/UIYBDC815A.pdf"
+    ],
+    [
+      "调试耦合器",
+      "ZCDC20-263+",
+      1,
+      "Mini-Circuits商城",
+      "本次未核实",
+      "—",
+      "调试共用1只",
+      "C 未闭合",
+      "原方案保留候选，不以官网产品页代替现货确认。",
+      "https://www.minicircuits.com/WebStore/dashboard.html?model=ZCDC20-263%2B"
+    ]
+  ],
+  "control": [
+    [
+      "偏置控制",
+      "AD7293BCPZ",
+      8,
+      "DigiKey",
+      "475",
+      "USD 77.85",
+      "1只起",
+      "A 详情页",
+      "数量8来自QPA2962+PMA5原链路；若新驱动无需负栅偏，可重新减量。",
+      "https://www.digikey.com/en/products/detail/analog-devices-inc/AD7293BCPZ/6163949"
+    ],
+    [
+      "栅压缓冲",
+      "OPA4197IPWR",
+      8,
+      "立创/DigiKey",
+      "0",
+      "—",
+      "缺货，不下单",
+      "C 缺货",
+      "需另选有货封装或双运放方案；不得买同名其他品牌就默认等效。",
+      "https://www.digikey.com/en/products/detail/texas-instruments/OPA4197IPWR/6553891"
+    ],
+    [
+      "栅压切换",
+      "TMUX6219DGKR",
+      32,
+      "立创 C2876423",
+      "2400",
+      "USD 2.4681",
+      "30只档；1只3.2383",
+      "A 详情页",
+      "原两级受控PA每路2只；换驱动后数量待定。",
+      "https://www.lcsc.com/product-detail/C2876423.html"
+    ],
+    [
+      "5 V移相控制",
+      "SN74AHCT595PWR",
+      16,
+      "立创 C202237",
+      "5545",
+      "USD 0.3563",
+      "5只起/5倍数，16装配需购20",
+      "A 详情页",
+      "MAPS在VCC5 V时VIH≥3.5 V，保留电平转换。",
+      "https://www.lcsc.com/product-detail/C202237.html"
+    ],
+    [
+      "3.3 V衰减控制",
+      "SN74LVC595APWR",
+      16,
+      "立创 C52287685",
+      "2310（1个月快照）",
+      "USD 0.2508",
+      "5只起/5倍数，16装配需购20",
+      "B 较旧详情页",
+      "PE43610若采用原生串行可重评是否保留；先按原并行结构。",
+      "https://www.lcsc.com/product-detail/C52287685.html"
+    ],
+    [
+      "时序缓冲",
+      "SN74LVC244APWR",
+      4,
+      "立创 C7668",
+      "92825",
+      "USD 0.3026",
+      "5只起/5倍数",
+      "A 详情页",
+      "实际数量按FPGA负载/布线复核。",
+      "https://www.lcsc.com/product-detail/C7668.html"
+    ],
+    [
+      "硬件保护逻辑",
+      "SN74LVC08APWR",
+      4,
+      "立创 C465737",
+      "55",
+      "USD 0.3777",
+      "5只起/5倍数",
+      "A 详情页",
+      "按硬件许可逻辑复核。",
+      "https://www.lcsc.com/product-detail/Logic-Gates_Texas-Instruments-SN74LVC08APWR_C465737.html"
+    ],
+    [
+      "电源监控",
+      "TPS3700DDCR",
+      4,
+      "立创 C33002",
+      "13948",
+      "USD 1.4216",
+      "1只起",
+      "A 详情页",
+      "负压监控需电平平移网络。",
+      "https://www.lcsc.com/product-detail/C33002.html"
+    ],
+    [
+      "电流采样电阻",
+      "WSL2512R0100FEA",
+      32,
+      "立创 C844901",
+      "9620",
+      "USD 0.3615",
+      "5只起/5倍数，32装配需购35",
+      "A 详情页",
+      "10mΩ/1%；原两级功放数量；Kelvin布线。",
+      "https://www.lcsc.com/product-detail/C844901.html"
+    ],
+    [
+      "温度采样晶体管",
+      "MMBT3904LT1G",
+      16,
+      "立创 C81464",
+      "1486500",
+      "USD 0.0167",
+      "50只起/50倍数",
+      "A 详情页",
+      "保留onsemi品牌；贴近PA热区，不等同结温。",
+      "https://www.lcsc.com/product-detail/C81464.html"
+    ],
+    [
+      "主PA电源控制器",
+      "LM5146RGYR",
+      4,
+      "立创 C3188679",
+      "3450",
+      "USD 2.1062",
+      "1只起",
+      "A 详情页",
+      "QPA2612改24 V；MOS/电感/补偿未冻结，不是买4只控制器即可完成电源。",
+      "https://www.lcsc.com/product-detail/C3188679.html"
+    ],
+    [
+      "驱动电源模块",
+      "TPSM63610RDFR",
+      4,
+      "立创 C7125816",
+      "13",
+      "USD 19.0193",
+      "1只起",
+      "A 详情页",
+      "原7 V驱动用；换AVA或PMA6需改电压和功率预算。",
+      "https://www.lcsc.com/product-detail/C7125816.html"
+    ],
+    [
+      "5 V低噪声LDO",
+      "TPS7A4701RGWR",
+      8,
+      "立创/DigiKey",
+      "0",
+      "—",
+      "缺货，不下单",
+      "C 缺货",
+      "需换有货低噪声1 A级LDO并重核稳定性/热耗；不冻结该型号。",
+      "https://www.digikey.com/en/products/detail/texas-instruments/TPS7A4701RGWR/4579594"
+    ],
+    [
+      "3.3 V LDO",
+      "TPS7A2033PDBVR",
+      4,
+      "立创 C2862740",
+      "189320",
+      "USD 0.2175",
+      "5只起/5倍数",
+      "A 详情页",
+      "300mA；负载需按新幅相芯片重算。",
+      "https://www.lcsc.com/product-detail/C2862740.html"
+    ],
+    [
+      "负电源产生",
+      "TPS63700DRCR",
+      4,
+      "立创 C54792",
+      "2416",
+      "USD 1.5406",
+      "1只起",
+      "A 详情页",
+      "负压负载/关断余量重新计算。",
+      "https://www.lcsc.com/product-detail/C54792.html"
+    ],
+    [
+      "负LDO：卷带订货",
+      "TPS7A3001DGNR",
+      12,
+      "立创 C33835",
+      "11327",
+      "USD 1.8273",
+      "10只档；1只2.0292",
+      "A 详情页",
+      "原TPS7A3001DGN增加卷带R后缀；三负压轨数量仍为原方案参考。",
+      "https://www.lcsc.com/product-detail/C33835.html"
+    ],
+    [
+      "公共8 V Buck",
+      "LM5164DDAR",
+      1,
+      "立创 C477928",
+      "4541",
+      "USD 1.9959",
+      "1只起",
+      "A 详情页",
+      "若AVA扩为16路，不能用1 A公共供电直接带所有驱动。",
+      "https://www.lcsc.com/product-detail/C477928.html"
+    ],
+    [
+      "漏极eFuse",
+      "TPS26630RGER",
+      32,
+      "立创/DigiKey",
+      "0",
+      "—",
+      "缺货，不下单",
+      "C 缺货",
+      "RGET在所查Mouser页面也无确认现货；需重选限流/故障响应合适的供电保护。",
+      "https://www.digikey.com/en/products/detail/texas-instruments/TPS26630RGER/10820326"
+    ],
+    [
+      "原主控",
+      "STM32F746ZGT7",
+      1,
+      "原项目沿用",
+      "复用",
+      "—",
+      "本轮不新增采购",
+      "D 复用",
+      "未重新核验MCU库存；不在本次射频替换采购范围。",
+      "项目原BOM"
+    ]
+  ],
+  "notes": [
+    [
+      "功率口径",
+      "QPA2612数据手册Rev.B电气表及大信号曲线为100 µs、10%占空比条件。CW有绝对最大/热参数，不代表保证全频全温10 W连续输出。严格天线口10 W还应加回环行器、耦合器和走线损耗。",
+      "https://www.mouser.com/datasheet/2/412/QPA2612_Data_Sheet-1771779.pdf"
+    ],
+    [
+      "驱动重配",
+      "QPA2612推荐测试Pin=18 dBm，绝对最大CW输入21 dBm；不能套用QPA2962约27 dBm输入链路。24 V/250 mA为静态6 W，RF驱动时漏极电流显著增加，不能以6 W设计供电或散热。",
+      "https://www.qorvo.com/products/p/QPA2612"
+    ],
+    [
+      "PA低价备选",
+      "PMA6-123-10W+典型Psat39.1 dBm、P1dB约38.6 dBm。型号中的10W不能作为性能保证；此型号只能在降低输出目标后使用。",
+      "https://www.minicircuits.com/pdfs/PMA6-123-10W%2B.pdf"
+    ],
+    [
+      "移相采购变化",
+      "TGP2109主要详情页缺货；MAPS-010166-TR0500有390只剪带库存。它是6位8–12 GHz、±5 V器件，插损典型6.5/最大9 dB。共用双向路径需确认封装版反向指标并做TX/RX标定。",
+      "https://cdn.macom.com/datasheets/MAPS-010166.pdf"
+    ],
+    [
+      "衰减降本",
+      "PE43610A-X覆盖到13 GHz，0.5 dB步进。正常模式内置负压发生器，射频稳定约500 ns，切换频率上限400 kHz；低杂散旁路模式需外加负压。电源/控制/校准必须重新设计。",
+      "https://www.psemi.com/pdf/datasheets/pe43610ds.pdf"
+    ],
+    [
+      "不能保证整套更便宜",
+      "ADL6010网页10只档约USD207.958/只；移相、LNA、开关、环行器、偏置、PCB与散热都另计。PA单项便宜不能推出完整分立前端比ADTR+ADAR便宜。",
+      "射频渠道工作表"
+    ],
+    [
+      "采购仍缺项",
+      "环行器UIYBDC815A8T12未确认零售现货；OPA4197IPWR、TPS7A4701RGWR、TPS26630RGER所查渠道缺货。需完成替代设计/采购确认后才能冻结全部物料。",
+      "控制电源渠道工作表"
+    ],
+    [
+      "设计类物料",
+      "PCB耦合器、微波50Ω端接、隔直/匹配/偏置无源件、滤波、SMA/SMP、散热和主电源外围仍为设计项；没有型号/数量时不伪造可采购行。",
+      "对应v1序号15、17、38–40"
+    ],
+    [
+      "渠道范围",
+      "优先核查立创，射频主要采用Qorvo商城、DigiKey、Mouser、Mini-Circuits。未查到可核实SKU和库存的淘宝低价商品，因此本表没有虚构淘宝直购链接。",
+      "本次检索"
+    ],
+    [
+      "先做单路",
+      "建议先购单路PA/幅相样品，确认增益、功率、偏置和收发恢复；B级价格需刷新、C级项未闭合前，不按16路清单整套下单。",
+      "工程建议"
+    ]
+  ],
+  "counts": {
+    "rf": 18,
+    "control": 19
+  },
+  "paAmounts": [
+    [
+      9807.2
+    ],
+    [
+      4724.96
+    ],
+    [
+      2140.8
+    ]
+  ],
+  "savings": [
+    [
+      5082.240000000001
+    ]
+  ]
+}
